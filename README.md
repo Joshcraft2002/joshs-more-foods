@@ -1,10 +1,12 @@
 # Josh's More Foods
 I noticed a lack of newer food datapacks that add a large amount of extra foods, so I went about making my own with the help of some friends.
 
+There are currently a bit over 20 recipes added by this pack, with a lot more coming in the future.
+
 ## Disclaimer
 This datapack is incompatible with other packs or mods that unlock all recipes, as the crafting system relies on learning new recipes.
 
-Some items in this datapack don't stack, so I recommend the use of plugins or mods that allow for beetroot stew and rabbit stew to stack (ideally to 16) if you want your food stash to be a bit more compact.
+Some items in this datapack don't stack (despite crafting yielding more than 1 sometimes). I recommend the use of plugins or mods that allow for beetroot stew and rabbit stew to stack (ideally to 16) if you want your food stash to be a bit more compact.
 
 Make sure to properly uninstall versions of the datapack before v3.0 in order to clear old traces.
 
@@ -16,7 +18,7 @@ You can also refer to the [wiki](https://github.com/Joshcraft2002/joshs-more-foo
 You may need to craft a new book depending on updates (refer to the changelog for more information)
 
 ## Uninstalling
-To uninstall the datapack, run this command: /function joshmats:morefoods/uninstall
+To uninstall the datapack, run this command: `/function joshmats:morefoods/uninstall`
 
 Afterwards, you can safely remove the file from your datapack folder.
 
