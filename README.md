@@ -10,6 +10,9 @@ Some items in this datapack don't stack (despite crafting yielding more than 1 s
 
 Make sure to properly uninstall versions of the datapack before v3.0 in order to clear old traces.
 
+## Installing
+Open the latest version in the releases tab on the right. Download the resource pack and place it in your `resourcepacks` folder, then download the datapack and place it in the `datapacks` folder of your world or server.
+
 ## Recipes and Information
 To view this datapack's recipes and other information in-game, you can craft a recipe book using bread and a book and quill.
 
