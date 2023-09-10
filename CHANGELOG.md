@@ -36,6 +36,8 @@ Additionally a lot of new foods were added, more than doubling the existing coll
 - Fried Egg
 - Pie Crust (for Pies)
 - Rotten Stew
+### Removed
+- Sushi (will return)
 ## Other Changes
 - Language Support! Right now it's only US English
 - [Smithed](https://smithed.dev/) Support - moving off from CTC and hopes to still allow good compatibility with other packs
