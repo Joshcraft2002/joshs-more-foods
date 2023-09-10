@@ -24,7 +24,9 @@ It should be fine to update directly from v3 to v4, with just the following to n
 - The Cookbook will have to be recrafted for the update, but for likely the final time (a feature is being worked on to just craft it into an updated version)
 
 ## Links
+[Modrinth](https://modrinth.com/datapack/joshs-more-foods)
 [Planet Minecraft](https://www.planetminecraft.com/data-pack/josh-s-more-foods-20-new-recipes/)
+[Smithed](https://smithed.dev/packs/Ll8QwDr1ZYTuvnV8DEjJ)
 
 ## Credits
 Sprites are made by me, Bonii [@Chalkdev](https://twitter.com/ChalkDev), RenTheMan, Sirenity, VidiTerraNovum
