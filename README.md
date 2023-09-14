@@ -33,6 +33,6 @@ It should be fine to update directly from v3 to v4, with just the following to n
 ## Credits
 Sprites are made by me, Bonii [@Chalkdev](https://twitter.com/ChalkDev), RenTheMan, Sirenity, VidiTerraNovum
 
-Chinese (zh_cn) translation by Rain_G and their team
+Chinese translation by [Rain_G](https://www.planetminecraft.com/member/rain_g/) & their team
 
 This datapack uses the Smithed Custom Block library and an adaptation of the Custom Crafter library, both under the MIT License. [License](LICENSE-smithed)
