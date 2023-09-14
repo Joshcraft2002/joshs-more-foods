@@ -25,10 +25,14 @@ It should be fine to update directly from v3 to v4, with just the following to n
 
 ## Links
 [Modrinth](https://modrinth.com/datapack/joshs-more-foods)
+
 [Planet Minecraft](https://www.planetminecraft.com/data-pack/josh-s-more-foods-20-new-recipes/)
+
 [Smithed](https://smithed.dev/packs/Ll8QwDr1ZYTuvnV8DEjJ)
 
 ## Credits
 Sprites are made by me, Bonii [@Chalkdev](https://twitter.com/ChalkDev), RenTheMan, Sirenity, VidiTerraNovum
+
+Chinese (zh_cn) translation by Rain_G and their team
 
 This datapack uses the Smithed Custom Block library and an adaptation of the Custom Crafter library, both under the MIT License. [License](LICENSE-smithed)
