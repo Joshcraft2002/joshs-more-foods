@@ -25,7 +25,9 @@ It should be fine to update directly from v3 to v4, with just the following to n
 
 ## Links
 [Modrinth](https://modrinth.com/datapack/joshs-more-foods)
+
 [Planet Minecraft](https://www.planetminecraft.com/data-pack/josh-s-more-foods-20-new-recipes/)
+
 [Smithed](https://smithed.dev/packs/Ll8QwDr1ZYTuvnV8DEjJ)
 
 ## Credits
