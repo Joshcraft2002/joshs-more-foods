@@ -1,3 +1,7 @@
+# v4.0.3
+## Fixes
+- Removed Sushi recipe (it was supposed to be removed in v4 but I forgot about it)
+
 # v4.0.2
 ## Fixes
 - Fried & Boiled egg not giving extra saturation
