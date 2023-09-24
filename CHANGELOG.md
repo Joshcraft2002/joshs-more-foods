@@ -1,3 +1,11 @@
+# v4.1.0
+## Added
+Gilded Tea is an item obtainable only through commands that, when consumed, fixes bugs not easily patched through updates. Currently, drinking it fixes the doughnut crafting bug from v4.0.3 and below for any player that crafted them in those versions
+ > to obtain, run the command "/loot give @s loot jmmf:gilded tea" (@s can be substituted for any player name)
+## Fixes
+- Doughnuts only being craftable once
+- Spruce Tea Typo in the Chinese translation
+
 # v4.0.3
 ## Fixes
 - Removed Sushi recipe (it was supposed to be removed in v4 but I forgot about it)
