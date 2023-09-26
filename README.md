@@ -37,8 +37,10 @@ Gilded Tea can be obtained through the following command (@s can also be substit
 [Smithed](https://smithed.dev/packs/Ll8QwDr1ZYTuvnV8DEjJ)
 
 ## Credits
-Sprites are made by me, Bonii [@Chalkdev](https://twitter.com/ChalkDev), RenTheMan, Sirenity, VidiTerraNovum
+Sprites are made by me, [Bonii](https://twitter.com/ChalkDev), RenTheMan, Sirenity, VidiTerraNovum
 
-Chinese translation by [Rain_G](https://www.planetminecraft.com/member/rain_g/) & their team
+Language Contributions:
+- Chinese (zh_cn) by [Rain_G](https://www.planetminecraft.com/member/rain_g/) & their team
+- Portuguese (pt_br) by [MeiaQuatru](https://www.planetminecraft.com/member/meiaquatru/)
 
 This datapack uses the Smithed Custom Block library and an adaptation of the Custom Crafter library, both under the MIT License. [License](LICENSE-smithed)
