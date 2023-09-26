@@ -1,3 +1,8 @@
+# v4.1.1
+## Added
+- Brazilian Portuguese (pt_br) language support
+ > Note: This is only a resourcepack change, you don't need to update the datapack itself
+
 # v4.1.0
 ## Added
 Gilded Tea is an item obtainable only through commands that, when consumed, fixes bugs not easily patched through updates. Currently, drinking it fixes the doughnut crafting bug from v4.0.3 and below for any player that crafted them in those versions
