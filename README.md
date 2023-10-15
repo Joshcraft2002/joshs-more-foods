@@ -1,3 +1,6 @@
+If you want to easily merge datapacks and resourcepacks together, you can use [weld](https://weld.smithed.dev/) 
+(some packs may not be compatible with others, but Josh's More Foods follows smithed's conventions for better compatibility with other packs)
+
 # Josh's More Foods
 There are currently a bit over 50 recipes added by this pack, with a lot more coming in the future.
 
@@ -42,5 +45,11 @@ Sprites are made by me, [Bonii](https://twitter.com/ChalkDev), RenTheMan, Sireni
 Language Contributions:
 - Chinese (zh_cn) by [Rain_G](https://www.planetminecraft.com/member/rain_g/) & their team
 - Portuguese (pt_br) by [MeiaQuatru](https://www.planetminecraft.com/member/meiaquatru/)
+- Russian (ru_ru) by [Ll66dar](https://www.planetminecraft.com/member/ll66dar/)
 
 This datapack uses the Smithed Custom Block library and an adaptation of the Custom Crafter library, both under the MIT License. [License](LICENSE-smithed)
+
+## Contributing
+If you want to submit translations, hit me up on discord: joshmats
+- If you don't want to open up the datapack file, you can find a sample of the language file [here](sample_language_file.json)
+- For the cookbook, tweak your phrasing and use of newlines (\n) to better fit the text, though I can handle the newline part. Either way, it would be good to coordinate via discord in case of any issues.

@@ -1,3 +1,13 @@
+# v4.1.2
+## Added
+- Russian (ru_ru) language support
+## Changed
+Reworked a bit of the formatting behind the cookbook's text
+- Some images were resized, text spacing altered, and "spacer" texts between crafting recipes were added to accomodate certain languages taking up more space per word
+> this *does* mean the cookbook has to be recrafted if you get this update. Sorry!
+## Fixes
+- Pumpkin Ice Cream name not showing in cookbook
+
 # v4.1.1
 ## Added
 - Brazilian Portuguese (pt_br) language support
