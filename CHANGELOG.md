@@ -1,3 +1,10 @@
+# v4.1.3
+## Fixes
+- Fixed some loot table files in an attempt to fix realms compatibility
+    - split up knife functions to now also use `set_attributes` and `set_lore`
+    - merged cookbook `set_nbt` tag to a single line
+> Note: no resourcepack change was made; there is no need to update the resourcepack
+
 # v4.1.2
 ## Added
 - Russian (ru_ru) language support
