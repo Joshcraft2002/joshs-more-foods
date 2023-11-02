@@ -44,8 +44,9 @@ Sprites are made by me, [Bonii](https://twitter.com/ChalkDev), RenTheMan, Sireni
 
 Language Contributions:
 - Chinese (zh_cn) by [Rain_G](https://www.planetminecraft.com/member/rain_g/) & their team
-- Portuguese (pt_br) by [MeiaQuatru](https://www.planetminecraft.com/member/meiaquatru/)
+- Brazilian Portuguese (pt_br) by [MeiaQuatru](https://www.planetminecraft.com/member/meiaquatru/)
 - Russian (ru_ru) by [Ll66dar](https://www.planetminecraft.com/member/ll66dar/)
+- Ukrainian (uk_ua) by [MrBaget](https://modrinth.com/user/MrBaget)
 
 This datapack uses the Smithed Custom Block library and an adaptation of the Custom Crafter library, both under the MIT License. [License](LICENSE-smithed)
 
