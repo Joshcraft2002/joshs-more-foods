@@ -1,3 +1,12 @@
+# v4.1.4
+## Added
+- Ukrainian (uk_ua) language support
+## Fixes
+- Cookbook Fixes
+    - Datapack Credits linking to Nutrition Book Page
+    - Ice Cream Page icon showing Sweet Berry Pie instead of Apple Ice Cream
+> Note: cookbook fixes only apply to newly crafted books, don't bother if the issues don't bother you
+
 # v4.1.3
 ## Fixes
 - Fixed some loot table files in an attempt to fix realms compatibility
