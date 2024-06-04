@@ -1,3 +1,8 @@
+# v4.1.5
+## Fixes
+- Cookbook & Nutrition book now properly display on 1.20.3+
+> credits to carloshgv for the quick fix
+
 # v4.1.4
 ## Added
 - Ukrainian (uk_ua) language support
