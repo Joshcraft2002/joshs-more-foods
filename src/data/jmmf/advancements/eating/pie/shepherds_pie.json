@@ -1,0 +1,16 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "nbt": "{smithed:{id:'jmmf:shepherds_pie'}}"
+          }
+        }
+      }
+    },
+    "rewards": {
+        "function": "jmmf:eating/pie/shepherds_pie"
+      }
+  }
+  

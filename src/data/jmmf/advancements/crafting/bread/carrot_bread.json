@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "requirements": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "jmmf:bread/carrot_bread"
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "jmmf:crafting/bread/carrot_bread"
+        ],
+	    "function": "jmmf:crafting/bread/carrot_bread"
+    }
+}

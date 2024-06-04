@@ -1,0 +1,51 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    [
+      {
+        "item": "minecraft:apple"
+      },
+      {
+        "item": "minecraft:sweet_berries"
+      },
+      {
+        "item": "minecraft:melon_slice"
+      },
+      {
+        "item": "minecraft:glow_berries"
+      },
+      {
+        "item": "minecraft:chorus_fruit"
+      },
+      {
+        "item": "minecraft:golden_apple"
+      }
+    ],
+    [
+      {
+        "item": "minecraft:apple"
+      },
+      {
+        "item": "minecraft:sweet_berries"
+      },
+      {
+        "item": "minecraft:melon_slice"
+      },
+      {
+        "item": "minecraft:glow_berries"
+      },
+      {
+        "item": "minecraft:chorus_fruit"
+      },
+      {
+        "item": "minecraft:golden_apple"
+      }
+    ],
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "item": "minecraft:knowledge_book"
+  }
+}

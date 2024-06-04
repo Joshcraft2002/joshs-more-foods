@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "requirements": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "jmmf:bread/potato_bread"
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "jmmf:crafting/bread/potato_bread"
+        ],
+	    "function": "jmmf:crafting/bread/potato_bread"
+    }
+}

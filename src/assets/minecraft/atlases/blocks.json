@@ -1,0 +1,19 @@
+{
+    "sources": [
+        {
+            "type": "directory",
+            "source": "gui",
+			"prefix": "gui/"
+        },
+        {
+            "type": "directory",
+            "source": "cookbook",
+			"prefix": "cookbook/"
+        },
+        {
+            "type": "directory",
+            "source": "nutritionbook",
+			"prefix": "nutritionbook/"
+        }
+    ]
+}

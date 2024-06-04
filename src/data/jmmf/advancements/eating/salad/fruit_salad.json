@@ -1,0 +1,19 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "nbt": "{smithed:{id:'jmmf:fruit_salad'}}"
+          }
+        }
+      }
+    },
+    "rewards": {
+        "function": "jmmf:eating/salad/fruit_salad",
+        "loot": [
+          "jmmf:eating/bowl"
+        ]
+      }
+  }
+  

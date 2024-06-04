@@ -1,0 +1,40 @@
+{
+    "providers": [
+        {
+            "type": "space",
+            "advances": {
+                " ": 4,
+                "\uF902": -1
+            }
+        },
+
+        {
+            "type": "bitmap",
+            "file": "jmmf:nutritionbook/full_hunger.png",
+            "ascent": 7,
+            "height": 9,
+            "chars": ["\uF001"]
+        },
+        {
+            "type": "bitmap",
+            "file": "jmmf:nutritionbook/half_hunger.png",
+            "ascent": 7,
+            "height": 9,
+            "chars": ["\uF002"]
+        },
+        {
+            "type": "bitmap",
+            "file": "jmmf:nutritionbook/full_saturation.png",
+            "ascent": 6,
+            "height": 7,
+            "chars": ["\uF003"]
+        },
+        {
+            "type": "bitmap",
+            "file": "jmmf:nutritionbook/half_saturation.png",
+            "ascent": 6,
+            "height": 7,
+            "chars": ["\uF004"]
+        }
+    ]
+}

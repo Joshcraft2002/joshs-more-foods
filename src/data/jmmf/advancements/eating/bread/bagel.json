@@ -1,0 +1,16 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "nbt": "{smithed:{id:'jmmf:bagel'}}"
+          }
+        }
+      }
+    },
+    "rewards": {
+        "function": "jmmf:eating/bread/bagel"
+      }
+  }
+  

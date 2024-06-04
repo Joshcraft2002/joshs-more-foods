@@ -1,0 +1,28 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    " P ",
+    "EMC",
+    " L "
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:baked_potato"
+    },
+    "E": {
+      "item": "minecraft:egg"
+    },
+    "M": {
+      "item": "minecraft:milk_bucket"
+    },
+    "C": {
+      "item": "minecraft:carrot"
+    },
+    "L": {
+      "item": "minecraft:cooked_mutton"
+    }
+  },
+  "result": {
+    "item": "minecraft:knowledge_book"
+  }
+}

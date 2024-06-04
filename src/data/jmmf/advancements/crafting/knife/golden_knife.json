@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "requirements": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "jmmf:knife/golden_knife"
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "jmmf:crafting/knife/golden_knife"
+        ],
+	    "function": "jmmf:crafting/knife/golden_knife"
+    }
+}

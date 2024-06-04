@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/stone_sword"
+  },
+  "overrides": [
+    { "predicate": { "custom_model_data": 481051 }, "model": "jmmf:item/knife/stone_knife" }
+]
+}

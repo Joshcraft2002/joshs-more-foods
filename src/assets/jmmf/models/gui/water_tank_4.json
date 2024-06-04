@@ -1,0 +1,14 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "jmmf:gui/water",
+        "layer1": "jmmf:gui/tank_4"
+    },
+	"display": {
+		"gui": {
+			"rotation": [ 0, 0, 0 ],
+			"translation": [ 0, 0, 0 ],
+			"scale": [ 4, 4, 4 ]
+		}
+	}
+}

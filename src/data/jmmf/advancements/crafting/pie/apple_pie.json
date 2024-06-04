@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "requirements": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "jmmf:pie/apple_pie"
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "jmmf:crafting/pie/apple_pie"
+        ],
+	    "function": "jmmf:crafting/pie/apple_pie"
+    }
+}

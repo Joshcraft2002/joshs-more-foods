@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "requirements": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "jmmf:knife/iron_knife"
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "jmmf:crafting/knife/iron_knife"
+        ],
+	    "function": "jmmf:crafting/knife/iron_knife"
+    }
+}

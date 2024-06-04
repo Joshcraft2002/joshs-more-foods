@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:cookie",
+                    "functions": [
+                        { "function": "set_count", "count": 1 },
+                        { "function": "set_nbt", "tag": "{jmmf:{ice_cream:1b}, smithed:{id:'jmmf:pumpkin_ice_cream', dict:{food:{ice_cream:1b}}, ignore: {functionality: 1b, crafting:1b}}, CustomModelData:481223}" },
+                        { "function": "set_name", "name": [{ "translate": "item.jmmf.pumpkin_ice_cream", "italic": false }] }
+                    ]
+                }
+            ]
+        }
+    ]
+}

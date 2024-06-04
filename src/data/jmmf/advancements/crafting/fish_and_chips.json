@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "requirements": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "jmmf:fish_and_chips"
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "jmmf:crafting/fish_and_chips"
+        ],
+	    "function": "jmmf:crafting/fish_and_chips"
+    }
+}

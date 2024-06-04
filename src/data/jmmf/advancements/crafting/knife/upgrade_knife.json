@@ -1,0 +1,24 @@
+{   
+    "criteria": {
+        "requirements": {
+          "trigger": "minecraft:inventory_changed",
+          "conditions": {
+            "items": [
+              {
+                "items": [
+                  "minecraft:netherite_sword"
+                ],
+                "nbt": "{smithed:{id:'jmmf:diamond_knife'}}"
+              }
+            ]
+          }
+        }
+      },
+    "rewards": {
+        "loot": [
+            "jmmf:crafting/knife/netherite_knife"
+        ],
+	    "function": "jmmf:crafting/knife/upgrade_knife"
+    }
+    
+}

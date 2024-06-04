@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "requirements": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "jmmf:cookie/sweet_berry_cookie"
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "jmmf:crafting/cookie/sweet_berry_cookie"
+        ],
+	    "function": "jmmf:crafting/cookie/sweet_berry_cookie"
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+      "WEW",
+      " W "
+    ],
+    "key": {
+      "W": {
+        "item": "minecraft:wheat"
+      },
+      "E": {
+        "item": "minecraft:egg"
+      }
+    },
+    "result": {
+      "item": "minecraft:knowledge_book"
+    }
+  }

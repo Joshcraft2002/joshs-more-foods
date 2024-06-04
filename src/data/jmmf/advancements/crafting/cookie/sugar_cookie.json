@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "requirements": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "jmmf:cookie/sugar_cookie"
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "jmmf:crafting/cookie/sugar_cookie"
+        ],
+	    "function": "jmmf:crafting/cookie/sugar_cookie"
+    }
+}

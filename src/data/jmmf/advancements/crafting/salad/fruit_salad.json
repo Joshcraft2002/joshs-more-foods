@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "requirements": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "jmmf:salad/fruit_salad"
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "jmmf:crafting/salad/fruit_salad"
+        ],
+	    "function": "jmmf:crafting/salad/fruit_salad"
+    }
+}

@@ -1,0 +1,309 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "item",
+            "name": "minecraft:written_book",
+            "functions": [
+              {"function": "set_nbt", "tag": "{pages:
+                [
+                  '[\"\",
+                    {\"translate\":\"item.jmmf.cookbook.contents\",\"underlined\":\"true\",\"font\":\"minecraft:default\"},
+                    {\"text\":\"\\\\n\",\"font\":\"jmmf:cookbook\",\"color\":\"white\"},
+                    {\"text\":\"\\\\n\uF003 \",\"font\":\"jmmf:cookbook\",\"color\":\"white\"},
+                    {\"translate\":\"item.jmmf.cookbook.ingredients\",\"color\":\"reset\",\"clickEvent\":{\"action\":\"change_page\",\"value\":2},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[{\"translate\":\"item.jmmf.cookbook.ingredients.skip\"}]}},
+                    {\"text\":\"\\\\n\uF070 \",\"font\":\"jmmf:cookbook\",\"color\":\"white\"},
+                    {\"translate\":\"item.jmmf.cookbook.bread\",\"font\":\"minecraft:default\",\"color\":\"reset\",\"clickEvent\":{\"action\":\"change_page\",\"value\":4},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[{\"translate\":\"item.jmmf.cookbook.bread.skip\"}]}},
+                    {\"text\":\"\\\\n\uF100 \",\"font\":\"jmmf:cookbook\",\"color\":\"white\"},
+                    {\"translate\":\"item.jmmf.cookbook.cookies\",\"font\":\"minecraft:default\",\"color\":\"reset\",\"clickEvent\":{\"action\":\"change_page\",\"value\":6},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[{\"translate\":\"item.jmmf.cookbook.cookies.skip\"}]}},
+                    {\"text\":\"\\\\n\uF330 \",\"font\":\"jmmf:cookbook\",\"color\":\"white\"},
+                    {\"translate\":\"item.jmmf.cookbook.doughnuts\",\"font\":\"minecraft:default\",\"color\":\"reset\",\"clickEvent\":{\"action\":\"change_page\",\"value\":7},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[{\"translate\":\"item.jmmf.cookbook.doughnuts.skip\"}]}},
+                    {\"text\":\"\\\\n\uF220 \",\"font\":\"jmmf:cookbook\",\"color\":\"white\"},
+                    {\"translate\":\"item.jmmf.cookbook.ice_cream\",\"font\":\"minecraft:default\",\"color\":\"reset\",\"clickEvent\":{\"action\":\"change_page\",\"value\":9},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[{\"translate\":\"item.jmmf.cookbook.ice_cream.skip\"}]}},
+                    {\"text\":\"\\\\n\uF132 \",\"font\":\"jmmf:cookbook\",\"color\":\"white\"},
+                    {\"translate\":\"item.jmmf.cookbook.pies\",\"font\":\"minecraft:default\",\"color\":\"reset\",\"clickEvent\":{\"action\":\"change_page\",\"value\":11},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[{\"translate\":\"item.jmmf.cookbook.pies.skip\"}]}},
+                    {\"text\":\"\\\\n\uF300 \",\"font\":\"jmmf:cookbook\",\"color\":\"white\"},
+                    {\"translate\":\"item.jmmf.cookbook.rice_meals\",\"font\":\"minecraft:default\",\"color\":\"reset\",\"clickEvent\":{\"action\":\"change_page\",\"value\":13},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[{\"translate\":\"item.jmmf.cookbook.rice_meals.skip\"}]}},
+                    {\"text\":\"\\\\n\uF162 \",\"font\":\"jmmf:cookbook\",\"color\":\"white\"},
+                    {\"translate\":\"item.jmmf.cookbook.salad\",\"font\":\"minecraft:default\",\"color\":\"reset\",\"clickEvent\":{\"action\":\"change_page\",\"value\":14},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[{\"translate\":\"item.jmmf.cookbook.salad.skip\"}]}},
+                    {\"text\":\"\\\\n\uF363 \",\"font\":\"jmmf:cookbook\",\"color\":\"white\"},
+                    {\"translate\":\"item.jmmf.cookbook.tea\",\"font\":\"minecraft:default\",\"color\":\"reset\",\"clickEvent\":{\"action\":\"change_page\",\"value\":16},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[{\"translate\":\"item.jmmf.cookbook.tea.skip\"}]}},
+                    {\"text\":\"\\\\n\uF250 \",\"font\":\"jmmf:cookbook\",\"color\":\"white\"},
+                    {\"translate\":\"item.jmmf.cookbook.other\",\"font\":\"minecraft:default\",\"color\":\"reset\",\"clickEvent\":{\"action\":\"change_page\",\"value\":17},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[{\"translate\":\"item.jmmf.cookbook.other.skip\"}]}}
+                  ]',
+
+
+                  '[\"\",
+                    {\"translate\":\"item.jmmf.cookbook.ingredients\",\"underlined\":\"true\",\"color\":\"black\"}, {\"text\":\"\\\\n\\\\n\"},
+
+                    {\"text\":\"\uF006\",\"font\":\"jmmf:cookbook\",\"color\":\"white\"}, {\"text\":\" | \"},
+                    {\"translate\":\"item.jmmf.boiled_egg\"}, {\"text\":\"\\\\n\"},
+                    {\"text\":\"\uF002\uF001\",\"font\":\"jmmf:nutritionbook\",\"color\":\"white\"}, {\"text\":\"(1.5)\\\\n\",\"color\":\"dark_gray\"},
+                    {\"text\":\"\uF004\uF003\",\"font\":\"jmmf:nutritionbook\",\"color\":\"white\"}, {\"text\":\"(1.5)\\\\n\\\\n\",\"color\":\"dark_gray\"},
+
+                    {\"text\":\"\uF007\",\"font\":\"jmmf:cookbook\",\"color\":\"white\"}, {\"text\":\" | \"},
+                    {\"translate\":\"item.jmmf.fried_egg\"}, {\"text\":\"\\\\n\"},
+                    {\"text\":\"\uF002\uF001\",\"font\":\"jmmf:nutritionbook\",\"color\":\"white\"}, {\"text\":\"(1.5)\\\\n\",\"color\":\"dark_gray\"},
+                    {\"text\":\"\uF004\uF003\",\"font\":\"jmmf:nutritionbook\",\"color\":\"white\"}, {\"text\":\"(1.5)\\\\n\\\\n\",\"color\":\"dark_gray\"},
+
+                    {\"text\":\"\uF003\",\"font\":\"jmmf:cookbook\",\"color\":\"white\"}, {\"text\":\" | \"},
+                    {\"translate\":\"item.jmmf.pie_crust\"}, {\"text\":\"\\\\n\"},
+                    {\"text\":\"\uF002\uF001\",\"font\":\"jmmf:nutritionbook\",\"color\":\"white\"}, {\"text\":\"(1.5)\\\\n\",\"color\":\"dark_gray\"},
+                    {\"text\":\"\uF004\uF003\",\"font\":\"jmmf:nutritionbook\",\"color\":\"white\"}, {\"text\":\"(1.5)\\\\n\\\\n\",\"color\":\"dark_gray\"} 
+                  ]',
+
+
+                  '[\"\",
+                    {\"translate\":\"item.jmmf.cookbook.ingredients\",\"underlined\":\"true\",\"color\":\"black\"}, {\"text\":\"\\\\n\\\\n\"},
+
+                    {\"text\":\"\uF002\",\"font\":\"jmmf:cookbook\",\"color\":\"white\"}, {\"text\":\" | \"},
+                    {\"translate\":\"item.jmmf.rice_bowl\"}, {\"text\":\"\\\\n\"},
+                    {\"text\":\"\uF002\uF001\uF001\",\"font\":\"jmmf:nutritionbook\",\"color\":\"white\"}, {\"text\":\"(2.5)\\\\n\",\"color\":\"dark_gray\"},
+                    {\"text\":\"\uF004\uF003\uF003\uF003\",\"font\":\"jmmf:nutritionbook\",\"color\":\"white\"}, {\"text\":\"(3.5)\\\\n\\\\n\",\"color\":\"dark_gray\"}  
+                  ]',
+                    
+
+                  '[\"\",
+                    {\"translate\":\"item.jmmf.cookbook.bread\",\"underlined\":\"true\",\"color\":\"black\"}, {\"text\":\"\\\\n\\\\n\"},
+
+                    {\"text\":\"\uF074\",\"font\":\"jmmf:cookbook\",\"color\":\"white\"}, {\"text\":\" | \"},
+                    {\"translate\":\"item.jmmf.bagel\"}, {\"text\":\"\\\\n\"},
+                    {\"text\":\"\uF002\uF001\uF001\uF001\",\"font\":\"jmmf:nutritionbook\",\"color\":\"white\"}, {\"text\":\"(3.5)\\\\n\",\"color\":\"dark_gray\"},
+                    {\"text\":\"\uF003\uF003\uF003\uF003\uF003\",\"font\":\"jmmf:nutritionbook\",\"color\":\"white\"}, {\"text\":\"(5)\\\\n\\\\n\",\"color\":\"dark_gray\"},
+
+                    {\"text\":\"\uF071\",\"font\":\"jmmf:cookbook\",\"color\":\"white\"}, {\"text\":\" | \"},
+                    {\"translate\":\"item.jmmf.beetroot_bread\"}, {\"text\":\"\\\\n\"},
+                    {\"text\":\"\uF002\uF001\uF001\",\"font\":\"jmmf:nutritionbook\",\"color\":\"white\"}, {\"text\":\"(2.5)\\\\n\",\"color\":\"dark_gray\"},
+                    {\"text\":\"\uF003\uF003\uF003\",\"font\":\"jmmf:nutritionbook\",\"color\":\"white\"}, {\"text\":\"(3)\\\\n\\\\n\",\"color\":\"dark_gray\"},
+
+                    {\"text\":\"\uF070\",\"font\":\"jmmf:cookbook\",\"color\":\"white\"}, {\"text\":\" | \"},
+                    {\"translate\":\"item.jmmf.carrot_bread\"}, {\"text\":\"\\\\n\"},
+                    {\"text\":\"\uF002\uF001\uF001\",\"font\":\"jmmf:nutritionbook\",\"color\":\"white\"}, {\"text\":\"(2.5)\\\\n\",\"color\":\"dark_gray\"},
+                    {\"text\":\"\uF003\uF003\uF003\",\"font\":\"jmmf:nutritionbook\",\"color\":\"white\"}, {\"text\":\"(3)\\\\n\\\\n\",\"color\":\"dark_gray\"}
+                  ]',
+
+                  '[\"\",
+                    {\"translate\":\"item.jmmf.cookbook.bread\",\"underlined\":\"true\",\"color\":\"black\"}, {\"text\":\"\\\\n\\\\n\"},
+
+                    {\"text\":\"\uF072\",\"font\":\"jmmf:cookbook\",\"color\":\"white\"}, {\"text\":\" | \"},
+                    {\"translate\":\"item.jmmf.potato_bread\"}, {\"text\":\"\\\\n\"},
+                    {\"text\":\"\uF002\uF001\uF001\",\"font\":\"jmmf:nutritionbook\",\"color\":\"white\"}, {\"text\":\"(2.5)\\\\n\",\"color\":\"dark_gray\"},
+                    {\"text\":\"\uF003\uF003\uF003\",\"font\":\"jmmf:nutritionbook\",\"color\":\"white\"}, {\"text\":\"(3)\\\\n\\\\n\",\"color\":\"dark_gray\"},
+
+                    {\"text\":\"\uF073\",\"font\":\"jmmf:cookbook\",\"color\":\"white\"}, {\"text\":\" | \"},
+                    {\"translate\":\"item.jmmf.sweet_roll\"}, {\"text\":\"\\\\n\"},
+                    {\"text\":\"\uF002\uF001\uF001\uF001\",\"font\":\"jmmf:nutritionbook\",\"color\":\"white\"}, {\"text\":\"(3.5)\\\\n\",\"color\":\"dark_gray\"},
+                    {\"text\":\"\uF003\uF003\uF003\uF003\uF003\",\"font\":\"jmmf:nutritionbook\",\"color\":\"white\"}, {\"text\":\"(5)\\\\n\\\\n\",\"color\":\"dark_gray\"}
+                  ]',
+
+
+                  '[\"\",
+                    {\"translate\":\"item.jmmf.cookbook.cookies\",\"underlined\":\"true\",\"color\":\"black\"}, {\"text\":\"\\\\n\\\\n\"},
+
+                    {\"text\":\"\uF100\",\"font\":\"jmmf:cookbook\",\"color\":\"white\"}, {\"text\":\" | \"},
+                    {\"translate\":\"item.jmmf.honey_cookie\"}, {\"text\":\"\\\\n\"},
+                    {\"text\":\"\uF001\",\"font\":\"jmmf:nutritionbook\",\"color\":\"white\"}, {\"text\":\"(1)\\\\n\",\"color\":\"dark_gray\"},
+                    {\"text\":\"\uF004\",\"font\":\"jmmf:nutritionbook\",\"color\":\"white\"}, {\"text\":\"(0.5)\\\\n\\\\n\",\"color\":\"dark_gray\"},
+
+                    {\"text\":\"\uF101\",\"font\":\"jmmf:cookbook\",\"color\":\"white\"}, {\"text\":\" | \"},
+                    {\"translate\":\"item.jmmf.sugar_cookie\"}, {\"text\":\"\\\\n\"},
+                    {\"text\":\"\uF001\",\"font\":\"jmmf:nutritionbook\",\"color\":\"white\"}, {\"text\":\"(1)\\\\n\",\"color\":\"dark_gray\"},
+                    {\"text\":\"\uF004\",\"font\":\"jmmf:nutritionbook\",\"color\":\"white\"}, {\"text\":\"(0.5)\\\\n\\\\n\",\"color\":\"dark_gray\"},
+
+                    {\"text\":\"\uF102\",\"font\":\"jmmf:cookbook\",\"color\":\"white\"}, {\"text\":\" | \"},
+                    {\"translate\":\"item.jmmf.sweet_berry_cookie\"}, {\"text\":\"\\\\n\"},
+                    {\"text\":\"\uF001\",\"font\":\"jmmf:nutritionbook\",\"color\":\"white\"}, {\"text\":\"(1)\\\\n\",\"color\":\"dark_gray\"},
+                    {\"text\":\"\uF004\",\"font\":\"jmmf:nutritionbook\",\"color\":\"white\"}, {\"text\":\"(0.5)\\\\n\\\\n\",\"color\":\"dark_gray\"}
+                  ]',
+
+
+                  '[\"\",
+                    {\"translate\":\"item.jmmf.cookbook.doughnuts\",\"underlined\":\"true\",\"color\":\"black\"}, {\"text\":\"\\\\n\\\\n\"},
+
+                    {\"text\":\"\uF330\",\"font\":\"jmmf:cookbook\",\"color\":\"white\"}, {\"text\":\" | \"},
+                    {\"translate\":\"item.jmmf.black_forest_doughnut\"}, {\"text\":\"\\\\n\"},
+                    {\"text\":\"\uF002\uF001\",\"font\":\"jmmf:nutritionbook\",\"color\":\"white\"}, {\"text\":\"(1.5)\\\\n\",\"color\":\"dark_gray\"},
+                    {\"text\":\"\uF004\uF003\",\"font\":\"jmmf:nutritionbook\",\"color\":\"white\"}, {\"text\":\"(1.5)\\\\n\\\\n\",\"color\":\"dark_gray\"},
+
+                    {\"text\":\"\uF331\",\"font\":\"jmmf:cookbook\",\"color\":\"white\"}, {\"text\":\" | \"},
+                    {\"translate\":\"item.jmmf.chocolate_doughnut\"}, {\"text\":\"\\\\n\"},
+                    {\"text\":\"\uF002\uF001\",\"font\":\"jmmf:nutritionbook\",\"color\":\"white\"}, {\"text\":\"(1.5)\\\\n\",\"color\":\"dark_gray\"},
+                    {\"text\":\"\uF004\uF003\",\"font\":\"jmmf:nutritionbook\",\"color\":\"white\"}, {\"text\":\"(1.5)\\\\n\\\\n\",\"color\":\"dark_gray\"}                    
+                  ]',
+
+
+                  '[\"\",
+                    {\"translate\":\"item.jmmf.cookbook.doughnuts\",\"underlined\":\"true\",\"color\":\"black\"}, {\"text\":\"\\\\n\\\\n\"},
+
+                    {\"text\":\"\uF332\",\"font\":\"jmmf:cookbook\",\"color\":\"white\"}, {\"text\":\" | \"},
+                    {\"translate\":\"item.jmmf.sugar_doughnut\"}, {\"text\":\"\\\\n\"},
+                    {\"text\":\"\uF002\uF001\",\"font\":\"jmmf:nutritionbook\",\"color\":\"white\"}, {\"text\":\"(1.5)\\\\n\",\"color\":\"dark_gray\"},
+                    {\"text\":\"\uF004\uF003\",\"font\":\"jmmf:nutritionbook\",\"color\":\"white\"}, {\"text\":\"(1.5)\\\\n\\\\n\",\"color\":\"dark_gray\"}
+                  ]',
+
+
+                  '[\"\",
+                    {\"translate\":\"item.jmmf.cookbook.ice_cream\",\"underlined\":\"true\",\"color\":\"black\"}, {\"text\":\"\\\\n\\\\n\"},
+                    {\"translate\":\"item.jmmf.cookbook.ice_cream.desc_2\",\"color\":\"#5C6E83\"},{\"text\":\"\\\\n\"},
+                    {\"translate\":\"item.jmmf.cookbook.ice_cream.desc_3\",\"color\":\"#494E49\"}, {\"text\":\"\\\\n\"},
+
+                    {\"text\":\"\uF220\",\"font\":\"jmmf:cookbook\",\"color\":\"white\"}, {\"text\":\" | \"},
+                    {\"translate\":\"item.jmmf.apple_ice_cream\"}, {\"text\":\"\\\\n\"},
+                    {\"text\":\"\uF001\uF001\uF001\",\"font\":\"jmmf:nutritionbook\",\"color\":\"white\"}, {\"text\":\"(3)\\\\n\",\"color\":\"dark_gray\"},
+                    {\"text\":\"\uF004\uF003\uF003\uF003\uF003\",\"font\":\"jmmf:nutritionbook\",\"color\":\"white\"}, {\"text\":\"(4.5)\\\\n\\\\n\",\"color\":\"dark_gray\"},
+
+                    {\"text\":\"\uF221\",\"font\":\"jmmf:cookbook\",\"color\":\"white\"}, {\"text\":\" | \"},
+                    {\"translate\":\"item.jmmf.chocolate_ice_cream\"}, {\"text\":\"\\\\n\"},
+                    {\"text\":\"\uF001\uF001\uF001\",\"font\":\"jmmf:nutritionbook\",\"color\":\"white\"}, {\"text\":\"(3)\\\\n\",\"color\":\"dark_gray\"},
+                    {\"text\":\"\uF004\uF003\uF003\uF003\uF003\",\"font\":\"jmmf:nutritionbook\",\"color\":\"white\"}, {\"text\":\"(4.5)\\\\n\\\\n\",\"color\":\"dark_gray\"}
+                  ]',
+
+
+                  '[\"\",
+                    {\"translate\":\"item.jmmf.cookbook.ice_cream\",\"underlined\":\"true\",\"color\":\"black\"}, {\"text\":\"\\\\n\\\\n\"},
+                    {\"translate\":\"item.jmmf.cookbook.ice_cream.desc_2\",\"color\":\"#5C6E83\"},{\"text\":\"\\\\n\"},
+                    {\"translate\":\"item.jmmf.cookbook.ice_cream.desc_3\",\"color\":\"#494E49\"}, {\"text\":\"\\\\n\"},
+
+                    {\"text\":\"\uF222\",\"font\":\"jmmf:cookbook\",\"color\":\"white\"}, {\"text\":\" | \"},
+                    {\"translate\":\"item.jmmf.melon_ice_cream\"}, {\"text\":\"\\\\n\"},
+                    {\"text\":\"\uF001\uF001\uF001\",\"font\":\"jmmf:nutritionbook\",\"color\":\"white\"}, {\"text\":\"(3)\\\\n\",\"color\":\"dark_gray\"},
+                    {\"text\":\"\uF004\uF003\uF003\uF003\uF003\",\"font\":\"jmmf:nutritionbook\",\"color\":\"white\"}, {\"text\":\"(4.5)\\\\n\\\\n\",\"color\":\"dark_gray\"},
+
+                    {\"text\":\"\uF223\",\"font\":\"jmmf:cookbook\",\"color\":\"white\"}, {\"text\":\" | \"},
+                    {\"translate\":\"item.jmmf.pumpkin_ice_cream\"}, {\"text\":\"\\\\n\"},
+                    {\"text\":\"\uF001\uF001\uF001\",\"font\":\"jmmf:nutritionbook\",\"color\":\"white\"}, {\"text\":\"(3)\\\\n\",\"color\":\"dark_gray\"},
+                    {\"text\":\"\uF004\uF003\uF003\uF003\uF003\",\"font\":\"jmmf:nutritionbook\",\"color\":\"white\"}, {\"text\":\"(4.5)\\\\n\\\\n\",\"color\":\"dark_gray\"}
+                  ]',
+
+
+                  '[\"\",
+                    {\"translate\":\"item.jmmf.cookbook.pies\",\"underlined\":\"true\",\"color\":\"black\"}, {\"text\":\"\\\\n\\\\n\"},
+
+                    {\"text\":\"\uF130\",\"font\":\"jmmf:cookbook\",\"color\":\"white\"}, {\"text\":\" | \"},
+                    {\"translate\":\"item.jmmf.apple_pie\"}, {\"text\":\"\\\\n\"},
+                    {\"text\":\"\uF001\uF001\uF001\uF001\",\"font\":\"jmmf:nutritionbook\",\"color\":\"white\"}, {\"text\":\"(4)\\\\n\",\"color\":\"dark_gray\"},
+                    {\"text\":\"\uF004\uF003\uF003\",\"font\":\"jmmf:nutritionbook\",\"color\":\"white\"}, {\"text\":\"(2.5)\\\\n\\\\n\",\"color\":\"dark_gray\"},
+
+                    {\"text\":\"\uF131\",\"font\":\"jmmf:cookbook\",\"color\":\"white\"}, {\"text\":\" | \"},
+                    {\"translate\":\"item.jmmf.carrot_pie\"}, {\"text\":\"\\\\n\"},
+                    {\"text\":\"\uF001\uF001\uF001\uF001\",\"font\":\"jmmf:nutritionbook\",\"color\":\"white\"}, {\"text\":\"(4)\\\\n\",\"color\":\"dark_gray\"},
+                    {\"text\":\"\uF004\uF003\uF003\",\"font\":\"jmmf:nutritionbook\",\"color\":\"white\"}, {\"text\":\"(2.5)\\\\n\\\\n\",\"color\":\"dark_gray\"},
+
+                    {\"text\":\"\uF133\",\"font\":\"jmmf:cookbook\",\"color\":\"white\"}, {\"text\":\" | \"},
+                    {\"translate\":\"item.jmmf.chicken_pot_pie\"}, {\"text\":\"\\\\n\"},
+                    {\"text\":\"\uF002\uF001\uF001\uF001\uF001\uF001\",\"font\":\"jmmf:nutritionbook\",\"color\":\"white\"}, {\"text\":\"(5.5)\\\\n\",\"color\":\"dark_gray\"},
+                    {\"text\":\"\uF004\uF003\uF003\uF003\uF003\uF003\",\"font\":\"jmmf:nutritionbook\",\"color\":\"white\"}, {\"text\":\"(5.5)\\\\n\\\\n\",\"color\":\"dark_gray\"}
+                  ]',
+
+
+                  '[\"\",
+                    {\"translate\":\"item.jmmf.cookbook.pies\",\"underlined\":\"true\",\"color\":\"black\"}, {\"text\":\"\\\\n\\\\n\"},
+
+                    {\"text\":\"\uF134\",\"font\":\"jmmf:cookbook\",\"color\":\"white\"}, {\"text\":\" | \"},
+                    {\"translate\":\"item.jmmf.shepherds_pie\"}, {\"text\":\"\\\\n\"},
+                    {\"text\":\"\uF001\uF001\uF001\uF001\uF001\uF001\uF001\",\"font\":\"jmmf:nutritionbook\",\"color\":\"white\"}, {\"text\":\"(7)\\\\n\",\"color\":\"dark_gray\"},
+                    {\"text\":\"\uF004\uF003\uF003\uF003\uF003\uF003\uF003\uF003\uF003\",\"font\":\"jmmf:nutritionbook\",\"color\":\"white\"}, {\"text\":\"(8.5)\\\\n\\\\n\",\"color\":\"dark_gray\"},
+
+                    {\"text\":\"\uF132\",\"font\":\"jmmf:cookbook\",\"color\":\"white\"}, {\"text\":\" | \"},
+                    {\"translate\":\"item.jmmf.sweet_berry_pie\"}, {\"text\":\"\\\\n\"},
+                    {\"text\":\"\uF001\uF001\uF001\uF001\",\"font\":\"jmmf:nutritionbook\",\"color\":\"white\"}, {\"text\":\"(4)\\\\n\",\"color\":\"dark_gray\"},
+                    {\"text\":\"\uF004\uF003\uF003\",\"font\":\"jmmf:nutritionbook\",\"color\":\"white\"}, {\"text\":\"(2.5)\\\\n\\\\n\",\"color\":\"dark_gray\"}
+                  ]',
+
+
+                  '[\"\",
+                    {\"translate\":\"item.jmmf.cookbook.rice_meals\",\"underlined\":\"true\",\"color\":\"black\"}, {\"text\":\"\\\\n\\\\n\"},
+
+                    {\"text\":\"\uF301\",\"font\":\"jmmf:cookbook\",\"color\":\"white\"}, {\"text\":\" | \"},
+                    {\"translate\":\"item.jmmf.champorado\"}, {\"text\":\"\\\\n\"},
+                    {\"text\":\"\uF001\uF001\",\"font\":\"jmmf:nutritionbook\",\"color\":\"white\"}, {\"text\":\"(2)\\\\n\",\"color\":\"dark_gray\"},
+                    {\"text\":\"\uF004\uF003\uF003\",\"font\":\"jmmf:nutritionbook\",\"color\":\"white\"}, {\"text\":\"(2.5)\\\\n\\\\n\",\"color\":\"dark_gray\"},
+
+                    {\"text\":\"\uF300\",\"font\":\"jmmf:cookbook\",\"color\":\"white\"}, {\"text\":\" | \"},
+                    {\"translate\":\"item.jmmf.fried_rice\"}, {\"text\":\"\\\\n\"},
+                    {\"text\":\"\uF001\uF001\uF001\uF001\uF001\",\"font\":\"jmmf:nutritionbook\",\"color\":\"white\"}, {\"text\":\"(5)\\\\n\",\"color\":\"dark_gray\"},
+                    {\"text\":\"\uF004\uF003\uF003\uF003\uF003\uF003\uF003\uF003\uF003\",\"font\":\"jmmf:nutritionbook\",\"color\":\"white\"}, {\"text\":\"(8.5)\\\\n\\\\n\",\"color\":\"dark_gray\"}
+                  ]',
+
+                  '[\"\",
+                    {\"translate\":\"item.jmmf.cookbook.salad\",\"underlined\":\"true\",\"color\":\"black\"}, {\"text\":\"\\\\n\\\\n\"},
+
+                    {\"text\":\"\uF160\",\"font\":\"jmmf:cookbook\",\"color\":\"white\"}, {\"text\":\" | \"},
+                    {\"translate\":\"item.jmmf.coleslaw\"}, {\"text\":\"\\\\n\"},
+                    {\"text\":\"\uF001\uF001\uF001\",\"font\":\"jmmf:nutritionbook\",\"color\":\"white\"}, {\"text\":\"(3)\\\\n\",\"color\":\"dark_gray\"},
+                    {\"text\":\"\uF004\uF003\uF003\uF003\uF003\",\"font\":\"jmmf:nutritionbook\",\"color\":\"white\"}, {\"text\":\"(4.5)\\\\n\\\\n\",\"color\":\"dark_gray\"},
+
+                    {\"text\":\"\uF163\",\"font\":\"jmmf:cookbook\",\"color\":\"white\"}, {\"text\":\" | \"},
+                    {\"translate\":\"item.jmmf.fleshy_salad\"}, {\"text\":\"\\\\n\"},
+                    {\"text\":\"\uF001\uF001\uF001\",\"font\":\"jmmf:nutritionbook\",\"color\":\"white\"}, {\"text\":\"(3)\\\\n\",\"color\":\"dark_gray\"},
+                    {\"text\":\"\uF004\uF003\uF003\uF003\uF003\",\"font\":\"jmmf:nutritionbook\",\"color\":\"white\"}, {\"text\":\"(4.5)\\\\n\",\"color\":\"dark_gray\"},  
+                    {\"translate\":\"item.jmmf.nutritionbook.fleshy_salad.effect_1\",\"color\":\"#587653\"},{\"text\":\"\\\\n\"},
+                    {\"translate\":\"item.jmmf.nutritionbook.fleshy_salad.effect_2\",\"color\":\"#4F9632\"}, {\"text\":\"\\\\n\"}
+                  ]',
+
+
+                  '[\"\",
+                    {\"translate\":\"item.jmmf.cookbook.salad\",\"underlined\":\"true\",\"color\":\"black\"}, {\"text\":\"\\\\n\\\\n\"},
+
+                    {\"text\":\"\uF164\",\"font\":\"jmmf:cookbook\",\"color\":\"white\"}, {\"text\":\" | \"},
+                    {\"translate\":\"item.jmmf.fruit_salad\"}, {\"text\":\"\\\\n\"},
+                    {\"text\":\"\uF002\uF001\uF001\uF001\",\"font\":\"jmmf:nutritionbook\",\"color\":\"white\"}, {\"text\":\"(3.5)\\\\n\",\"color\":\"dark_gray\"},
+                    {\"text\":\"\uF004\uF003\uF003\uF003\uF003\uF003\",\"font\":\"jmmf:nutritionbook\",\"color\":\"white\"}, {\"text\":\"(5.5)\\\\n\\\\n\",\"color\":\"dark_gray\"},
+
+                    {\"text\":\"\uF161\",\"font\":\"jmmf:cookbook\",\"color\":\"white\"}, {\"text\":\" | \"},
+                    {\"translate\":\"item.jmmf.potato_salad\"}, {\"text\":\"\\\\n\"},
+                    {\"text\":\"\uF001\uF001\uF001\",\"font\":\"jmmf:nutritionbook\",\"color\":\"white\"}, {\"text\":\"(3)\\\\n\",\"color\":\"dark_gray\"},
+                    {\"text\":\"\uF004\uF003\uF003\uF003\uF003\",\"font\":\"jmmf:nutritionbook\",\"color\":\"white\"}, {\"text\":\"(4.5)\\\\n\\\\n\",\"color\":\"dark_gray\"},
+
+                    {\"text\":\"\uF162\",\"font\":\"jmmf:cookbook\",\"color\":\"white\"}, {\"text\":\" | \"},
+                    {\"translate\":\"item.jmmf.vegetable_salad\"}, {\"text\":\"\\\\n\"},
+                    {\"text\":\"\uF002\uF001\uF001\uF001\",\"font\":\"jmmf:nutritionbook\",\"color\":\"white\"}, {\"text\":\"(3.5)\\\\n\",\"color\":\"dark_gray\"},
+                    {\"text\":\"\uF004\uF003\uF003\uF003\uF003\uF003\",\"font\":\"jmmf:nutritionbook\",\"color\":\"white\"}, {\"text\":\"(5.5)\\\\n\\\\n\",\"color\":\"dark_gray\"}          
+                  ]',
+
+
+                  '[\"\",
+                    {\"translate\":\"item.jmmf.cookbook.tea\",\"underlined\":\"true\",\"color\":\"black\"}, {\"text\":\"\\\\n\\\\n\"},
+
+                    {\"text\":\"\uF363\",\"font\":\"jmmf:cookbook\",\"color\":\"white\"}, {\"text\":\" | \"},
+                    {\"translate\":\"item.jmmf.nutritionbook.allteas\"}, {\"text\":\"\\\\n\"},
+                    {\"text\":\"\uF001\",\"font\":\"jmmf:nutritionbook\",\"color\":\"white\"}, {\"text\":\"(1)\\\\n\",\"color\":\"dark_gray\"},
+                    {\"text\":\"\uF004\",\"font\":\"jmmf:nutritionbook\",\"color\":\"white\"}, {\"text\":\"(0.5)\\\\n\",\"color\":\"dark_gray\"},  
+                    {\"translate\":\"item.jmmf.cookbook.tea.desc_2\",\"font\":\"minecraft:default\",\"color\":\"#D15EAE\"}
+                  ]',
+
+
+                  '[\"\",
+                    {\"translate\":\"item.jmmf.cookbook.other\",\"underlined\":\"true\",\"color\":\"black\"}, {\"text\":\"\\\\n\\\\n\"},
+
+                    {\"text\":\"\uF250\",\"font\":\"jmmf:cookbook\",\"color\":\"white\"}, {\"text\":\" | \"},
+                    {\"translate\":\"item.jmmf.fish_and_chips\"}, {\"text\":\"\\\\n\"},
+                    {\"text\":\"\uF002\uF001\uF001\uF001\",\"font\":\"jmmf:nutritionbook\",\"color\":\"white\"}, {\"text\":\"(3.5)\\\\n\",\"color\":\"dark_gray\"},
+                    {\"text\":\"\uF004\uF003\uF003\uF003\uF003\uF003\",\"font\":\"jmmf:nutritionbook\",\"color\":\"white\"}, {\"text\":\"(5.5)\\\\n\\\\n\",\"color\":\"dark_gray\"},
+
+                    {\"text\":\"\uF251\",\"font\":\"jmmf:cookbook\",\"color\":\"white\"}, {\"text\":\" | \"},
+                    {\"translate\":\"item.jmmf.leche_flan\"}, {\"text\":\"\\\\n\"},
+                    {\"text\":\"\uF001\uF001\uF001\",\"font\":\"jmmf:nutritionbook\",\"color\":\"white\"}, {\"text\":\"(3)\\\\n\",\"color\":\"dark_gray\"},
+                    {\"text\":\"\uF004\uF003\uF003\uF003\uF003\",\"font\":\"jmmf:nutritionbook\",\"color\":\"white\"}, {\"text\":\"(4.5)\\\\n\\\\n\",\"color\":\"dark_gray\"},
+
+                    {\"text\":\"\uF190\",\"font\":\"jmmf:cookbook\",\"color\":\"white\"}, {\"text\":\" | \"},
+                    {\"translate\":\"item.jmmf.rotten_stew\"}, {\"text\":\"\\\\n\"},
+                    {\"text\":\"\uF001\uF001\",\"font\":\"jmmf:nutritionbook\",\"color\":\"white\"}, {\"text\":\"(2)\\\\n\",\"color\":\"dark_gray\"},
+                    {\"text\":\"\uF004\",\"font\":\"jmmf:nutritionbook\",\"color\":\"white\"}, {\"text\":\"(0.5)\\\\n\",\"color\":\"dark_gray\"},
+                    {\"translate\":\"item.jmmf.nutritionbook.rotten_stew.effect_1\",\"color\":\"#587653\"}
+
+                  ]',
+
+
+                ], title:\"Josh's Book of Nutrition\", author:\"Joshcraft2002\"}"
+              },
+              { "function": "set_nbt", "tag": "{smithed:{id:'jmmf:nutritionbook'}, CustomModelData:480923}" },
+              { "function": "set_name", "name": [{ "translate": "item.jmmf.nutritionbook", "italic": false }] }
+            ]
+          }
+        ]
+      }
+    ]
+}

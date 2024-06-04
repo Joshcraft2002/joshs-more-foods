@@ -1,0 +1,17 @@
+{
+    "id": "joshs-more-foods",
+    "name": "Josh's More Foods",
+    "version": "v4.1.4",
+    "data_pack": {
+        "pack_format": 15,
+        "supported_formats": {"min_inclusive": 15, "max_inclusive": 18},
+        "description": "Datapack for Josh's More Foods",            
+        "load": ["."]
+    },
+    "resource_pack": {
+        "pack_format": 22,
+        "supported_formats": {"min_inclusive": 22, "max_inclusive": 22},
+        "description":"Resource Pack for Josh's More Foods. v4.1.4",
+        "load": ["."]
+    }
+}

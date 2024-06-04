@@ -1,0 +1,19 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "nbt": "{smithed:{id:'jmmf:fried_rice'}}"
+          }
+        }
+      }
+    },
+    "rewards": {
+        "function": "jmmf:eating/rice_meal/fried_rice",
+        "loot": [
+          "jmmf:eating/bowl"
+        ]
+      }
+  }
+  

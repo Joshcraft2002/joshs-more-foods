@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "requirements": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "jmmf:pie/sweet_berry_pie"
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "jmmf:crafting/pie/sweet_berry_pie"
+        ],
+	    "function": "jmmf:crafting/pie/sweet_berry_pie"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:netherite_sword",
+                    "functions": [
+                        {"function": "set_attributes", "modifiers": [
+                            {"name": "generic.attack_damage", "attribute": "minecraft:generic.attack_damage", "operation": "addition", "amount": 4.5, "slot": "mainhand"},
+                            {"name": "generic.attack_speed", "attribute": "minecraft:generic.attack_speed", "operation": "addition", "amount": -2, "slot": "mainhand"}
+                        ]},
+                        {"function": "set_nbt", "tag": "{CustomModelData:481055, jmmf:{knife:1b}, smithed:{id:'jmmf:netherite_knife', dict:{tool:{knife:1b}}}, HideFlags:2}" },
+                        {"function": "set_name", "name": [{ "translate": "item.jmmf.netherite_knife", "italic": false }] },
+                        {"function": "set_lore", "lore": [
+                            { "text": ""}, 
+                            {"translate": "item.modifiers.mainhand", "color": "gray", "italic": false}, 
+                            {"translate": "item.jmmf.netherite_knife.lore.attack_damage", "color": "dark_green", "italic": false}, 
+                            {"translate": "item.jmmf.netherite_knife.lore.attack_speed", "color": "dark_green",  "italic": false}
+                        ]}
+                    ]
+                }
+            ]
+        }
+    ]
+}

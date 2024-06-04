@@ -1,0 +1,17 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "WBW"
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:wheat"
+    },
+    "B": {
+      "item": "minecraft:beetroot"
+    }
+  },
+  "result": {
+    "item": "minecraft:knowledge_book"
+  }
+}

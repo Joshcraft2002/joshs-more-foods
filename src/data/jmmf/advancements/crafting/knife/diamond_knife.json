@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "requirements": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "jmmf:knife/diamond_knife"
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "jmmf:crafting/knife/diamond_knife"
+        ],
+	    "function": "jmmf:crafting/knife/diamond_knife"
+    }
+}

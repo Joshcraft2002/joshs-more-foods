@@ -1,0 +1,16 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "nbt": "{jmmf:{doughnut:1b}}"
+          }
+        }
+      }
+    },
+    "rewards": {
+        "function": "jmmf:eating/doughnut"
+      }
+  }
+  

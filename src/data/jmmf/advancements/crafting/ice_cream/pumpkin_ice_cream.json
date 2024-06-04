@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "requirements": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "jmmf:ice_cream/pumpkin_ice_cream"
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "jmmf:crafting/ice_cream/pumpkin_ice_cream"
+        ],
+	    "function": "jmmf:crafting/ice_cream/pumpkin_ice_cream"
+    }
+}
