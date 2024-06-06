@@ -12,6 +12,15 @@
     }
   },
   "result": {
-    "item": "minecraft:knowledge_book"
+    "id": "minecraft:bread",
+    "components": {
+      "custom_name": "{ 'translate': 'item.jmmf.carrot_bread', 'italic': false }",
+      "custom_model_data": 481070,
+      "custom_data": {
+        "jmmf": {
+          "id": "carrot_bread"
+        }
+      }
+    }
   }
 }

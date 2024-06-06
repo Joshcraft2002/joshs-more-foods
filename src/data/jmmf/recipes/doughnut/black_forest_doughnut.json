@@ -20,6 +20,20 @@
     }
   },
   "result": {
-    "item": "minecraft:knowledge_book"
+    "id": "minecraft:cookie",
+    "components": {
+      "custom_name": "{ 'translate': 'item.jmmf.black_forest_doughnut', 'italic': false }",
+      "custom_model_data": 481330,
+      "custom_data": {
+        "jmmf": {
+          "id": "black_forest_doughnut"
+        }
+      }
+    },
+    "minecraft:food": {
+      "nutrition": 3,
+      "saturation": 3
+    },
+    "count": 16
   }
 }

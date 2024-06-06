@@ -12,6 +12,16 @@
     }
   },
   "result": {
-    "item": "minecraft:knowledge_book"
+    "id": "minecraft:cookie",
+    "components": {
+      "custom_name": "{ 'translate': 'item.jmmf.honey_cookie', 'italic': false }",
+      "custom_model_data": 481100,
+      "custom_data": {
+        "jmmf": {
+          "id": "honey_cookie"
+        }
+      }
+    },
+    "count": 8
   }
 }

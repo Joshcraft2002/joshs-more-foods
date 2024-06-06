@@ -12,6 +12,19 @@
     }
   ],
   "result": {
-    "item": "minecraft:knowledge_book"
+    "id": "minecraft:bread",
+    "components": {
+      "custom_name": "{ 'translate': 'item.jmmf.sweet_roll', 'italic': false }",
+      "custom_model_data": 481073,
+      "custom_data": {
+        "jmmf": {
+          "id": "sweet_roll"
+        }
+      },
+      "minecraft:food": {
+        "nutrition": 7,
+        "saturation": 8
+      }
+    }
   }
 }

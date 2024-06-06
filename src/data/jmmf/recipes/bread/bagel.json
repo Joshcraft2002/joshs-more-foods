@@ -1,5 +1,5 @@
 {
-  "type": "crafting_shaped",
+  "type": "minecraft:crafting_shaped",
   "pattern": [
     "WWW",
     "W W",
@@ -11,6 +11,20 @@
     }
   },
   "result": {
-    "item": "minecraft:knowledge_book"
+    "id": "minecraft:bread",
+    "components": {
+      "minecraft:custom_name": "{ 'translate': 'item.jmmf.bagel', 'italic': false }",
+      "minecraft:custom_model_data": 481074,
+      "minecraft:custom_data": {
+        "jmmf": {
+          "id": "bagel"
+        }
+      },
+      "minecraft:food": {
+        "nutrition": 7,
+        "saturation": 8
+      }
+    },
+    "count": 2
   }
 }
