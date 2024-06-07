@@ -18,6 +18,33 @@
     }
   ],
   "result": {
-    "item": "minecraft:knowledge_book"
+    "id": "minecraft:cookie",
+    "components": {
+      "custom_name": "{ 'translate': 'item.jmmf.pumpkin_ice_cream', 'italic': false }",
+      "custom_model_data": 481223,
+      "custom_data": {
+        "jmmf": {
+          "id": "pumpkin_ice_cream"
+        }
+      },
+      "food": {
+        "nutrition": 6,
+        "saturation": 6,
+        "effects": [
+          {
+            "effect": {
+              "id": "minecraft:slowness",
+              "duration": 60
+            }
+          },
+          {
+            "effect": {
+              "id": "minecraft:weakness",
+              "duration": 60
+            }
+          }
+        ]
+      }
+    }
   }
 }

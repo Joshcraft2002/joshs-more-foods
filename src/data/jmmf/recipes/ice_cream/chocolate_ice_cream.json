@@ -21,6 +21,33 @@
     }
   ],
   "result": {
-    "item": "minecraft:knowledge_book"
+    "id": "minecraft:cookie",
+    "components": {
+      "custom_name": "{ 'translate': 'item.jmmf.chocolate_ice_cream', 'italic': false }",
+      "custom_model_data": 481221,
+      "custom_data": {
+        "jmmf": {
+          "id": "chocolate_ice_cream"
+        }
+      },
+      "minecraft:food": {
+        "nutrition": 6,
+        "saturation": 6,
+        "effects": [
+          {
+            "effect": {
+              "id": "minecraft:slowness",
+              "duration": 60
+            }
+          },
+          {
+            "effect": {
+              "id": "minecraft:weakness",
+              "duration": 60
+            }
+          }
+        ]
+      }
+    }
   }
 }
