@@ -1,5 +1,5 @@
 {
-  "type": "crafting_shaped",
+  "type": "minecraft:crafting_shaped",
   "pattern": [
     "BWB",
     "WMW",
@@ -22,9 +22,9 @@
   "result": {
     "id": "minecraft:cookie",
     "components": {
-      "custom_name": "{ 'translate': 'item.jmmf.black_forest_doughnut', 'italic': false }",
-      "custom_model_data": 481330,
-      "custom_data": {
+      "minecraft:item_name": "{ 'translate': 'item.jmmf.black_forest_doughnut', 'italic': false }",
+      "minecraft:custom_model_data": 481330,
+      "minecraft:custom_data": {
         "jmmf": {
           "id": "black_forest_doughnut"
         }

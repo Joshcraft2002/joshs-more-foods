@@ -15,6 +15,36 @@
     }
   ],
   "result": {
-    "item": "minecraft:knowledge_book"
+    "id": "minecraft:cookie",
+    "components": {
+      "minecraft:item_name": "{ 'translate': 'item.jmmf.fleshy_salad', 'italic': false }",
+      "minecraft:custom_model_data": 481163,
+      "minecraft:custom_data": {
+        "jmmf": {
+          "id": "fleshy_salad"
+        }
+      },
+      "minecraft:food": {
+        "nutrition": 6,
+        "saturation": 9,
+        "effects": [
+          {
+            "effect": {
+              "id": "minecraft:hunger",
+              "duration": 200
+            },
+            "probability": 0.5
+          },
+          {
+            "effect": {
+              "id": "minecraft:poison",
+              "duration": 40
+            }
+            ,
+            "probability": 0.1
+          }
+        ]
+      }
+    }
   }
 }

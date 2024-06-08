@@ -13,7 +13,7 @@
   "result": {
     "id": "minecraft:bread",
     "components": {
-      "minecraft:custom_name": "{ 'translate': 'item.jmmf.bagel', 'italic': false }",
+      "minecraft:item_name": "{ 'translate': 'item.jmmf.bagel', 'italic': false }",
       "minecraft:custom_model_data": 481074,
       "minecraft:custom_data": {
         "jmmf": {

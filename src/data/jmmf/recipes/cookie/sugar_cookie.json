@@ -1,5 +1,5 @@
 {
-  "type": "crafting_shaped",
+  "type": "minecraft:crafting_shaped",
   "pattern": [
     "WS"
   ],
@@ -14,9 +14,9 @@
   "result": {
     "id": "minecraft:cookie",
     "components": {
-      "custom_name": "{ 'translate': 'item.jmmf.sugar_cookie', 'italic': false }",
-      "custom_model_data": 481101,
-      "custom_data": {
+      "minecraft:item_name": "{ 'translate': 'item.jmmf.sugar_cookie', 'italic': false }",
+      "minecraft:custom_model_data": 481101,
+      "minecraft:custom_data": {
         "jmmf": {
           "id": "sugar_cookie"
         }

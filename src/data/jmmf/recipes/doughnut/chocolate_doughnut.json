@@ -1,5 +1,5 @@
 {
-  "type": "crafting_shaped",
+  "type": "minecraft:crafting_shaped",
   "pattern": [
     " W ",
     "WCW",
@@ -16,9 +16,9 @@
   "result": {
     "id": "minecraft:cookie",
     "components": {
-      "custom_name": "{ 'translate': 'item.jmmf.chocolate_doughnut', 'italic': false }",
-      "custom_model_data": 481331,
-      "custom_data": {
+      "minecraft:item_name": "{ 'translate': 'item.jmmf.chocolate_doughnut', 'italic': false }",
+      "minecraft:custom_model_data": 481331,
+      "minecraft:custom_data": {
         "jmmf": {
           "id": "chocolate_doughnut"
         }

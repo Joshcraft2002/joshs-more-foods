@@ -46,6 +46,19 @@
     }
   ],
   "result": {
-    "item": "minecraft:knowledge_book"
+    "id": "minecraft:cookie",
+    "components": {
+      "minecraft:item_name": "{ 'translate': 'item.jmmf.fruit_salad', 'italic': false }",
+      "minecraft:custom_model_data": 481164,
+      "minecraft:custom_data": {
+        "jmmf": {
+          "id": "fruit_salad"
+        }
+      },
+      "minecraft:food": {
+        "nutrition": 7,
+        "saturation": 10
+      }
+    }
   }
 }

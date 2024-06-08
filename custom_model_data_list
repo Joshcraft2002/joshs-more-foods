@@ -53,8 +53,8 @@ Netherite Knife         481055 Netherite Sword
 Carrot Bread            481070 Bread
 Beetroot Bread          481071 Bread 
 Potato Bread            481072 Bread
-Sweet Roll              481073 Bread              Sat 2   3.5/5
-Bagel                   481074 Bread              Sat 2   3.5/5
+Sweet Roll              481073 Bread              Sat 2   3.5/4
+Bagel                   481074 Bread              Sat 2   3.5/4
 
 --Cookie-- [1100 - 1129]
 Honey Cookie            481100 Cookie
@@ -71,9 +71,9 @@ Shepherd's Pie          481134 Pumpkin Pie        Sat 6   7/8.5
 --Salad-- [1160 - 1189]
 Coleslaw                481160 Cookie             Sat 4   3/4.5
 Potato Salad            481161 Cookie             Sat 4   3/4.5
-Vegetable Salad         481162 Cookie             Sat 5   3.5/5.5
+Vegetable Salad         481162 Cookie             Sat 5   3.5/5
 Fleshy Salad            481163 Cookie             Sat 4   3/4.5
-Fruit Salad             481164 Cookie             Sat 5   3.5/5.5
+Fruit Salad             481164 Cookie             Sat 5   3.5/5
 
 --Soup-- [1190 - 1219]
 Rotten Stew             481190 Rotten Flesh
@@ -86,7 +86,7 @@ Pumpkin Ice Cream       481223 Cookie             Sat 4   3/4.5
 
 --Other Foods-- [1250 - 1299]
 Fish and Chips          481250 Cookie             Sat 5   3.5/5.5
-Leche Flan              481251 Pumpkin Pie        Sat 4   3/4.5
+Leche Flan              481251 Pumpkin Pie        Sat 4   3/3.5
 
 --Rice Meals-- [1300 - 1329]
 Fried Rice              481300 Cookie             Sat 8   5/8.5

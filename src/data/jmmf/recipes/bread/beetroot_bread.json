@@ -1,5 +1,5 @@
 {
-  "type": "crafting_shaped",
+  "type": "minecraft:crafting_shaped",
   "pattern": [
     "WBW"
   ],
@@ -14,9 +14,9 @@
   "result": {
     "id": "minecraft:bread",
     "components": {
-      "custom_name": "{ 'translate': 'item.jmmf.beetroot_bread', 'italic': false }",
-      "custom_model_data": 481071,
-      "custom_data": {
+      "minecraft:item_name": "{ 'translate': 'item.jmmf.beetroot_bread', 'italic': false }",
+      "minecraft:custom_model_data": 481071,
+      "minecraft:custom_data": {
         "jmmf": {
           "id": "beetroot_bread"
         }

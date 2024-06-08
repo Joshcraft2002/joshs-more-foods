@@ -23,6 +23,19 @@
     }
   },
   "result": {
-    "item": "minecraft:knowledge_book"
+    "id": "minecraft:pumpkin_pie",
+    "components": {
+      "minecraft:item_name": "{ 'translate': 'item.jmmf.shepherds_pie', 'italic': false }",
+      "minecraft:custom_model_data": 481134,
+      "minecraft:custom_data": {
+        "jmmf": {
+          "id": "shepherds_pie"
+        }
+      },
+      "minecraft:food": {
+        "nutrition": 14,
+        "saturation": 17
+      }
+    }
   }
 }

@@ -15,6 +15,20 @@
     }
   ],
   "result": {
-    "item": "minecraft:knowledge_book"
+    "id": "minecraft:cookie",
+    "components": {
+      "minecraft:item_name": "{ 'translate': 'item.jmmf.fish_and_chips', 'italic': false }",
+      "minecraft:custom_model_data": 481250,
+      "minecraft:custom_data": {
+        "jmmf": {
+          "id": "fish_and_chips"
+        }
+      },
+      "minecraft:food": {
+        "nutrition": 7,
+        "saturation": 11
+      }
+    },
+    "count": 2
   }
 }

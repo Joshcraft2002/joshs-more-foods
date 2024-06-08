@@ -1,5 +1,5 @@
 {
-  "type": "crafting_shapeless",
+  "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
       "item": "minecraft:sugar"
@@ -14,9 +14,9 @@
   "result": {
     "id": "minecraft:bread",
     "components": {
-      "custom_name": "{ 'translate': 'item.jmmf.sweet_roll', 'italic': false }",
-      "custom_model_data": 481073,
-      "custom_data": {
+      "minecraft:item_name": "{ 'translate': 'item.jmmf.sweet_roll', 'italic': false }",
+      "minecraft:custom_model_data": 481073,
+      "minecraft:custom_data": {
         "jmmf": {
           "id": "sweet_roll"
         }

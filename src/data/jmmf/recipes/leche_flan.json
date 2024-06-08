@@ -12,6 +12,19 @@
     }
   ],
   "result": {
-    "item": "minecraft:knowledge_book"
+    "id": "minecraft:pumpkin_pie",
+    "components": {
+      "minecraft:item_name": "{ 'translate': 'item.jmmf.leche_flan', 'italic': false }",
+      "minecraft:custom_model_data": 481251,
+      "minecraft:custom_data": {
+        "jmmf": {
+          "id": "leche_flan"
+        }
+      },
+      "minecraft:food": {
+        "nutrition": 6,
+        "saturation": 7
+      }
+    }
   }
 }

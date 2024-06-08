@@ -1,5 +1,5 @@
 {
-  "type": "crafting_shapeless",
+  "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
       "item": "minecraft:bowl"
@@ -20,9 +20,9 @@
   "result": {
     "id": "minecraft:cookie",
     "components": {
-      "custom_name": "{ 'translate': 'item.jmmf.apple_ice_cream', 'italic': false }",
-      "custom_model_data": 481220,
-      "custom_data": {
+      "minecraft:item_name": "{ 'translate': 'item.jmmf.apple_ice_cream', 'italic': false }",
+      "minecraft:custom_model_data": 481220,
+      "minecraft:custom_data": {
         "jmmf": {
           "id": "apple_ice_cream"
         }
@@ -34,13 +34,13 @@
           {
             "effect": {
               "id": "minecraft:slowness",
-              "duration": 60
+              "duration": 1200
             }
           },
           {
             "effect": {
               "id": "minecraft:weakness",
-              "duration": 60
+              "duration": 1200
             }
           }
         ]

@@ -20,14 +20,14 @@
   "result": {
     "id": "minecraft:cookie",
     "components": {
-      "custom_name": "{ 'translate': 'item.jmmf.pumpkin_ice_cream', 'italic': false }",
-      "custom_model_data": 481223,
-      "custom_data": {
+      "minecraft:item_name": "{ 'translate': 'item.jmmf.pumpkin_ice_cream', 'italic': false }",
+      "minecraft:custom_model_data": 481223,
+      "minecraft:custom_data": {
         "jmmf": {
           "id": "pumpkin_ice_cream"
         }
       },
-      "food": {
+      "minecraft:food": {
         "nutrition": 6,
         "saturation": 6,
         "effects": [

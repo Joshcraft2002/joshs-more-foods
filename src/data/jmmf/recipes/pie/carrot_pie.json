@@ -12,6 +12,15 @@
     }
   ],
   "result": {
-    "item": "minecraft:knowledge_book"
+    "id": "minecraft:pumpkin_pie",
+    "components": {
+      "minecraft:item_name": "{ 'translate': 'item.jmmf.carrot_pie', 'italic': false }",
+      "minecraft:custom_model_data": 481131,
+      "minecraft:custom_data": {
+        "jmmf": {
+          "id": "carrot_pie"
+        }
+      }
+    }
   }
 }

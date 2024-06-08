@@ -13,6 +13,20 @@
       }
     },
     "result": {
-      "item": "minecraft:knowledge_book"
+      "id": "minecraft:cookie",
+      "components": {
+        "minecraft:item_name": "{ 'translate': 'item.jmmf.pie_crust', 'italic': false }",
+        "minecraft:custom_model_data": 481003,
+        "minecraft:custom_data": {
+          "jmmf": {
+            "id": "pie_crust"
+          }
+        },
+        "minecraft:food": {
+          "nutrition": 3,
+          "saturation": 3
+        }
+      },
+      "count": 2
     }
   }
