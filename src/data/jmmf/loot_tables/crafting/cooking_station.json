@@ -8,9 +8,26 @@
                     "weight": 1,
                     "name": "minecraft:furnace",
                     "functions": [
-                        { "function": "set_count", "count": 1 },
-                        { "function": "set_nbt", "tag": "{smithed:{id:'jmmf:cooking_station', ignore: {functionality: 1b, crafting:1b}}, CustomModelData:480900,BlockEntityTag:{Items:[{id:\"minecraft:stone\",Count:1b,Slot:0b,tag:{smithed:{block:{id:\"jmmf:cooking_station\"}}}}]}}"},               
-                        { "function": "set_name", "name": [{ "translate": "block.jmmf.cooking_station", "italic": false }] }
+                        { "function": "minecraft:set_count", "count": 1 },
+                        { 
+                            "function": "minecraft:set_components", 
+                            "components": {
+                                "minecraft:item_name": "{ 'translate': 'block.jmmf.cooking_station', 'italic': false }",
+                                "minecraft:container": [
+                                    {
+                                        "slot": 0,
+                                        "item": {
+                                            "id": "minecraft:stone",
+                                            "components": {
+                                                "minecraft:custom_data": { "joshmats": { "block": { "id": "jmmf:cooking_station" }}}
+                                            }       
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        { "function": "minecraft:set_custom_model_data", "value": 480900 },
+                        { "function": "minecraft:set_custom_data", "tag": "{'joshmats':{'id':'jmmf:cooking_station'}}" }
                     ]
                 }
             ]

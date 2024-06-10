@@ -1,6 +1,5 @@
 {
   "values": [
-    "#load:_private/load",
-    "jmmf:load"
+    "#load:_private/load"
   ]
 }

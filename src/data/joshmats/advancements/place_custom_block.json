@@ -4,14 +4,34 @@
       "trigger": "minecraft:placed_block",
       "conditions": {
         "item": {
-          "nbt": "{components:{'minecraft:container':[{item:{components:'minecraft:custom_data':{jmmf:'custom_block'}}}]}}"
+          "nbt": "{components:{'minecraft:container':[{item:{components:'minecraft:custom_data':{joshmats:{block:{}}}}}]}}"
         },
         "location": [
           {
-            "condition": "minecraft:location_check",
-            "predicate": {
-              "block": {
+            "condition": "minecraft:location_check" , 
+            "predicate": 
+            {
+              "block": 
+              {
                 "blocks": "#joshmats:custom_block_base"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool", 
+            "predicate": {
+              "predicates": {
+                "minecraft:container": {
+                  "items": {
+                    "contains": [
+                      {
+                        "predicates": {
+                          "minecraft:custom_data": {"joshmats":{"block":{}}}
+                        }
+                      }
+                    ]
+                  }
+                }
               }
             }
           }
@@ -19,7 +39,5 @@
       }
     }
   },
-  "rewards": {
-    "function": "joshmats:custom_block/place"
-  }
+  "rewards": {"function": "joshmats:custom_block/place"}
 }

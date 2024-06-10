@@ -36,3 +36,5 @@ scoreboard objectives remove jm.mf.6Count
 scoreboard objectives remove jm.mf.7Count 
 scoreboard objectives remove jm.mf.8Count 
 scoreboard objectives remove jm.mf.valid 
+
+#say jmmf loaded
