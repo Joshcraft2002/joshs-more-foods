@@ -20,6 +20,32 @@
       }
     },
     "result": {
-      "item": "minecraft:knowledge_book"
+      "id": "minecraft:furnace",
+      "components": {
+        "minecraft:item_name": "{ 'translate': 'block.jmmf.cooking_station', 'italic': false }",
+        "minecraft:custom_model_data": 480900,
+        "minecraft:custom_data": {
+          "joshmats": {
+            "id": "jmmf:cooking_station"
+          }
+        },
+        "minecraft:container": [
+        {
+          "slot": 0,
+          "item": {
+            "id": "minecraft:stone",
+            "components": {
+              "minecraft:custom_data": {
+                "joshmats": {
+                  "block": {
+                    "id": "jmmf:cooking_station"
+                  }
+                }
+              }
+            }
+          }
+        }
+      ]
+      }
     }
   }
