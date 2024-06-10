@@ -1,0 +1,25 @@
+{
+  "criteria": {
+    "block_placed": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "item": {
+          "nbt": "{components:{'minecraft:container':[{item:{components:'minecraft:custom_data':{jmmf:'custom_block'}}}]}}"
+        },
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:furnace"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "smithed.custom_block:v0.2.0/place"
+  }
+}
