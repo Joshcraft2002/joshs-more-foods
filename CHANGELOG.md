@@ -1,3 +1,8 @@
+# v4.1.6
+## Fixes
+- Fixed issues from Nutrition book not having a proper json file (weld, possibly realms?)
+- Updated max inclusive version of resource pack (should no longer say outdated on versions up to 1.20.4)
+
 # v4.1.5
 ## Fixes
 - Cookbook & Nutrition book now properly display on 1.20.3+
