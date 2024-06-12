@@ -1,5 +1,5 @@
 #if there are any items in improper slots, manage them
-execute if entity @s[predicate=jmmf:block/cooking_station/invalid_items] run function jmmf:block/cooking_station/cooking/manage_invalids/move
+execute if entity @s[predicate=jmmf:block/cooking_station/invalid_items] run function jmmf:block/cooking_station/manage_invalids/move
 
 #update ui if told to
 execute if score @s jmmf.update_ui matches 1 run function jmmf:block/cooking_station/update_ui

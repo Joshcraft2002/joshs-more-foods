@@ -11,4 +11,4 @@ execute store result score @s jmmf.data if entity @s[scores={jmmf.data=0}] unles
 execute store result score @s jmmf.data if entity @s[scores={jmmf.data=0}] unless block ~ ~ ~ barrel{Items: [{Slot: 22b}]} run data modify block ~ ~ ~ Items[{Slot: 0b}].Slot set value 22b
 
 # If things are still invalid, just throw them out instead
-execute if entity @s[predicate=jmmf:block/cooking_station/invalid_items] run function jmmf:block/cooking_station/cooking/manage_invalids/spit_items
+execute if entity @s[predicate=jmmf:block/cooking_station/invalid_items] run function jmmf:block/cooking_station/manage_invalids/spit_items
