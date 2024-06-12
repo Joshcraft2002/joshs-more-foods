@@ -1,3 +1,4 @@
+#check if output either empty or the item we're making anyway
 execute store success score jmmf:temp1 jmmf.data if data storage jmmf:cooking_station {output:{tag:{smithed:{id:"jmmf:boiled_egg"}}}}
 execute if score jmmf:temp1 jmmf.data matches 0 store success score jmmf:temp1 jmmf.data unless data storage jmmf:cooking_station {output:{}}
 

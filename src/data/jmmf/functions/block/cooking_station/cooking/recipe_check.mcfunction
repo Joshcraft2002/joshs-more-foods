@@ -1,10 +1,11 @@
 #reset flags(?)
 scoreboard players set @s jmmf.active 1
+#flag for if read inputs/output are valid
 scoreboard players set @s jmmf.data 0
 scoreboard players set @s jmmf.recipeid 0
 
 #check if output slot is full, if not then read input
-execute store result score @s jmmf.count.7 run data get block ~ ~ ~ Items[{Slot:16b}].Count
+execute store result score @s jmmf.count.7 run data get block ~ ~ ~ Items[{Slot:16b}].count
 execute if score @s jmmf.count.7 matches 64.. run scoreboard players set @s jmmf.data 1
 execute unless score @s jmmf.data matches 1 run function jmmf:block/cooking_station/cooking/input/read_block
 
