@@ -18,7 +18,7 @@
         "predicate": {
           "block": {
             "blocks": ["minecraft:barrel"],
-            "nbt": "{Items:[{Slot:3b, components:{'minecraft:custom_data':{joshmats:{gui:'jmmf:cooking_station_cook_time'}}}}]}"
+            "nbt": "{Items:[{Slot:3b, components:{'minecraft:custom_data':{joshmats:{gui:{id:'jmmf:cooking_station_cook_time'}}}}}]}"
           }
        }
      }
@@ -76,7 +76,7 @@
         "predicate": {
           "block": {
             "blocks": ["minecraft:barrel"],
-            "nbt": "{Items:[{Slot:12b, components:{'minecraft:custom_data':{joshmats:{gui:'jmmf:cooking_station_water_level'}}}}]}"
+            "nbt": "{Items:[{Slot:12b, components:{'minecraft:custom_data':{joshmats:{gui:{id:'jmmf:cooking_station_water_level'}}}}}]}"
           }
        }
      }
@@ -134,7 +134,7 @@
         "predicate": {
           "block": {
             "blocks": ["minecraft:barrel"],
-            "nbt": "{Items:[{Slot:21b, components:{'minecraft:custom_data':{joshmats:{gui:'joshmats:generic'}}}}]}"
+            "nbt": "{Items:[{Slot:21b, components:{'minecraft:custom_data':{joshmats:{gui:{id:'joshmats:generic'}}}}}]}"
           }
        }
      }

@@ -240,7 +240,7 @@
               "enchantment": "minecraft:fortune"
             }
           ],
-          "name": "jmmf:tea_leaves"
+          "value": "jmmf:tea_leaves"
         }
       ],
       "rolls": 1.0
