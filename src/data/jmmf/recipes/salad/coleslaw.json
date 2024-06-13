@@ -20,7 +20,7 @@
       "minecraft:item_name": "{ 'translate': 'item.jmmf.coleslaw', 'italic': false }",
       "minecraft:custom_model_data": 481160,
       "minecraft:custom_data": {
-        "joshmats": {
+        "smithed": {
           "id": "jmmf:coleslaw"
         }
       },

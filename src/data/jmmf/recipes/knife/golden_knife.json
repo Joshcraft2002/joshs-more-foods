@@ -18,8 +18,10 @@
       "minecraft:item_name": "{ 'translate': 'item.jmmf.golden_knife', 'italic': false }",
       "minecraft:custom_model_data": 481052,
       "minecraft:custom_data": {
+        "smithed": {
+          "id": "jmmf:golden_knife"
+        },
         "joshmats": {
-          "id": "jmmf:golden_knife",
           "tag": "knife"
         }
       },

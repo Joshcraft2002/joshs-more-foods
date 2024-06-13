@@ -17,7 +17,7 @@
       "minecraft:item_name": "{ 'translate': 'item.jmmf.leche_flan', 'italic': false }",
       "minecraft:custom_model_data": 481251,
       "minecraft:custom_data": {
-        "joshmats": {
+        "smithed": {
           "id": "jmmf:leche_flan"
         }
       },

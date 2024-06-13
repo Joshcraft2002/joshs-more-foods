@@ -13,7 +13,7 @@
                   "minecraft:item_name": "{ 'translate': 'item.jmmf.nutritionbook', 'italic': false }",
                   "minecraft:custom_model_data": 480923,
                   "minecraft:custom_data": {
-                    "joshmats": {
+                    "smithed": {
                       "id": "jmmf:nutritionbook"
                     }
                   },

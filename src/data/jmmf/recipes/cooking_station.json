@@ -25,7 +25,7 @@
         "minecraft:item_name": "{ 'translate': 'block.jmmf.cooking_station', 'italic': false }",
         "minecraft:custom_model_data": 480900,
         "minecraft:custom_data": {
-          "joshmats": {
+          "smithed": {
             "id": "jmmf:cooking_station"
           }
         },

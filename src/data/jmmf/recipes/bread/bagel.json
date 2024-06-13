@@ -16,7 +16,7 @@
       "minecraft:item_name": "{ 'translate': 'item.jmmf.bagel', 'italic': false }",
       "minecraft:custom_model_data": 481074,
       "minecraft:custom_data": {
-        "joshmats": {
+        "smithed": {
           "id": "jmmf:bagel"
         }
       },

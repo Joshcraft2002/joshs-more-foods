@@ -19,7 +19,7 @@
       "minecraft:item_name": "{ 'translate': 'item.jmmf.chocolate_doughnut', 'italic': false }",
       "minecraft:custom_model_data": 481331,
       "minecraft:custom_data": {
-        "joshmats": {
+        "smithed": {
           "id": "jmmf:chocolate_doughnut"
         }
       }

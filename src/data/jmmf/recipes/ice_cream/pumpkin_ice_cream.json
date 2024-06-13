@@ -23,7 +23,7 @@
       "minecraft:item_name": "{ 'translate': 'item.jmmf.pumpkin_ice_cream', 'italic': false }",
       "minecraft:custom_model_data": 481223,
       "minecraft:custom_data": {
-        "joshmats": {
+        "smithed": {
           "id": "jmmf:pumpkin_ice_cream"
         }
       },

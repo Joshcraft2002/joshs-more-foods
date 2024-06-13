@@ -20,7 +20,7 @@
       "minecraft:item_name": "{ 'translate': 'item.jmmf.fish_and_chips', 'italic': false }",
       "minecraft:custom_model_data": 481250,
       "minecraft:custom_data": {
-        "joshmats": {
+        "smithed": {
           "id": "jmmf:fish_and_chips"
         }
       },

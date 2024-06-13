@@ -17,7 +17,7 @@
                             }
                         },
                         { "function": "set_custom_model_data", "value": 481005 },
-                        { "function": "set_custom_data", "tag": "{'joshmats':{'id':'jmmf:tea_leaves'}}" }
+                        { "function": "set_custom_data", "tag": "{'smithed':{'id':'jmmf:tea_leaves'}}" }
                     ]
                 }
             ]

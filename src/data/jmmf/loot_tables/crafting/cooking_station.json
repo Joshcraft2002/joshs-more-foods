@@ -27,7 +27,7 @@
                             }
                         },
                         { "function": "minecraft:set_custom_model_data", "value": 480900 },
-                        { "function": "minecraft:set_custom_data", "tag": "{'joshmats':{'id':'jmmf:cooking_station'}}" }
+                        { "function": "minecraft:set_custom_data", "tag": "{'smithed':{'id':'jmmf:cooking_station'}}" }
                     ]
                 }
             ]

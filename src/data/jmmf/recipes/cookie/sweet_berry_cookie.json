@@ -17,7 +17,7 @@
       "minecraft:item_name": "{ 'translate': 'item.jmmf.sweet_berry_cookie', 'italic': false }",
       "minecraft:custom_model_data": 481102,
       "minecraft:custom_data": {
-        "joshmats": {
+        "smithed": {
           "id": "jmmf:sweet_berry_cookie"
         }
       }

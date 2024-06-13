@@ -51,7 +51,7 @@
       "minecraft:item_name": "{ 'translate': 'item.jmmf.fruit_salad', 'italic': false }",
       "minecraft:custom_model_data": 481164,
       "minecraft:custom_data": {
-        "joshmats": {
+        "smithed": {
           "id": "jmmf:fruit_salad"
         }
       },

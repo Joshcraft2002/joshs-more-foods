@@ -18,8 +18,10 @@
       "minecraft:item_name": "{ 'translate': 'item.jmmf.wooden_knife', 'italic': false }",
       "minecraft:custom_model_data": 481050,
       "minecraft:custom_data": {
+        "smithed": {
+          "id": "jmmf:wooden_knife"
+        },
         "joshmats": {
-          "id": "jmmf:wooden_knife",
           "tag": "knife"
         }
       },

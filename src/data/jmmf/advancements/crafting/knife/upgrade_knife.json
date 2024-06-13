@@ -8,7 +8,7 @@
             "items": "minecraft:netherite_sword",
             "predicates": {
               "minecraft:custom_data": {
-                "joshmats": {
+                "smithed": {
                   "id": "jmmf:diamond_knife"
                 }
               }

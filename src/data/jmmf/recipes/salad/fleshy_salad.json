@@ -20,7 +20,7 @@
       "minecraft:item_name": "{ 'translate': 'item.jmmf.fleshy_salad', 'italic': false }",
       "minecraft:custom_model_data": 481163,
       "minecraft:custom_data": {
-        "joshmats": {
+        "smithed": {
           "id": "jmmf:fleshy_salad"
         }
       },

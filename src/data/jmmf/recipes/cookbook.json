@@ -14,7 +14,7 @@
       "minecraft:item_name": "{ 'translate': 'item.jmmf.cookbook', 'italic': false }",
       "minecraft:custom_model_data": 480901,
       "minecraft:custom_data": {
-        "joshmats": {
+        "smithed": {
           "id": "jmmf:cookbook"
         }
       },

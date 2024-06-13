@@ -28,7 +28,7 @@
       "minecraft:item_name": "{ 'translate': 'item.jmmf.shepherds_pie', 'italic': false }",
       "minecraft:custom_model_data": 481134,
       "minecraft:custom_data": {
-        "joshmats": {
+        "smithed": {
           "id": "jmmf:shepherds_pie"
         }
       },
