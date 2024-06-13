@@ -2,8 +2,8 @@
     "parent": "jmmf:story/letsgetcooking",
     "display": {
         "icon":{
-            "item": "minecraft:wheat",
-            "nbt": "{CustomModelData:481001}"
+            "id": "minecraft:wheat",
+            "components": {"custom_model_data":481001}
         },
         "title": {
           "translate": "advancements.jmmf.ricemaking.title"
@@ -18,9 +18,7 @@
           "trigger": "minecraft:inventory_changed",
           "conditions": {
             "items": [
-              {
-                "nbt": "{smithed:{id:'jmmf:rice'}}"
-              }
+              {"predicates":{"minecraft:custom_data":{"smithed":{"id": "jmmf:rice"}}}}
             ]
           }
         }

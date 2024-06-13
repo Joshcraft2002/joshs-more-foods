@@ -2,8 +2,8 @@
     "parent": "jmmf:story/letsgetcooking",
     "display": {
         "icon":{
-            "item": "minecraft:cookie",
-            "nbt": "{CustomModelData:481363}"
+            "id": "minecraft:cookie",
+            "components": {"minecraft:custom_model_data":481363}
         },
         "title": {
           "translate": "advancements.jmmf.teatime.title"
@@ -18,9 +18,7 @@
           "trigger": "minecraft:inventory_changed",
           "conditions": {
             "items": [
-              {
-                "nbt": "{jmmf:{tea:1b}}"
-              }
+              {"predicates":{"minecraft:custom_data":{"joshmats":{"tag":["tea"]}}}}
             ]
           }
         }

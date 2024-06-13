@@ -2,8 +2,8 @@
     "parent": "jmmf:story/cookbook",
     "display": {
         "icon":{
-            "item": "minecraft:furnace",
-            "nbt": "{CustomModelData:480900}"
+            "id": "minecraft:furnace",
+            "components": {"custom_model_data":480900}
         },
         "title": {
           "translate": "advancements.jmmf.letsgetcooking.title"
@@ -18,9 +18,7 @@
           "trigger": "minecraft:inventory_changed",
           "conditions": {
             "items": [
-              {
-                "nbt": "{smithed:{id:'jmmf:cooking_station'}}"
-              }
+              {"predicates":{"minecraft:custom_data":{"smithed":{"id": "jmmf:cooking_station"}}}}
             ]
           }
         }

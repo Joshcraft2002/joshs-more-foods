@@ -2,8 +2,8 @@
     "parent": "jmmf:story/start",
     "display": {
         "icon":{
-            "item": "minecraft:written_book",
-            "nbt": "{CustomModelData:480901}"
+            "id": "minecraft:written_book",
+            "components": {"custom_model_data":480901}
         },
         "title":
         {
@@ -18,15 +18,20 @@
     },
     "criteria": {
       "get_cookbook": {
-          "trigger": "minecraft:inventory_changed",
-          "conditions": {
-            "items": [
-              {
-                "nbt": "{smithed:{id:'jmmf:cookbook'}}"
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "predicates": {
+                "minecraft:custom_data": {
+                  "smithed": {
+                    "id": "jmmf:cookbook"
+                  }
+                }
               }
-            ]
-          }
+            }
+          ]
         }
       }
-    
+    }
 }

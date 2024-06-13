@@ -2,8 +2,8 @@
     "parent": "jmmf:story/cookbook",
     "display": {
         "icon":{
-            "item": "minecraft:written_book",
-            "nbt": "{CustomModelData:480923}"
+            "id": "minecraft:written_book",
+            "components": {"custom_model_data":480923}
         },
         "title":
         {
@@ -21,9 +21,7 @@
           "trigger": "minecraft:inventory_changed",
           "conditions": {
             "items": [
-              {
-                "nbt": "{smithed:{id:'jmmf:nutritionbook'}}"
-              }
+              {"predicates":{"minecraft:custom_data":{"smithed":{"id": "jmmf:nutritionbook"}}}}
             ]
           }
         }

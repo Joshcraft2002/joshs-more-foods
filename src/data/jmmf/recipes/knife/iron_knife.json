@@ -22,7 +22,7 @@
           "id": "jmmf:iron_knife"
         },
         "joshmats": {
-          "tag": "knife"
+          "tag": ["knife"]
         }
       },
       "minecraft:lore": [

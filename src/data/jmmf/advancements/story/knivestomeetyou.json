@@ -2,8 +2,8 @@
     "parent": "jmmf:story/slicendice",
     "display": {
         "icon":{
-            "item": "minecraft:netherite_sword",
-            "nbt": "{CustomModelData:481055}"
+            "id": "minecraft:netherite_sword",
+            "components": {"custom_model_data":481055}
         },
         "title": {
           "translate": "advancements.jmmf.knivestomeetyou.title"
@@ -18,24 +18,12 @@
           "trigger": "minecraft:inventory_changed",
           "conditions": {
             "items": [
-              {
-                "nbt": "{smithed:{id:'jmmf:wooden_knife'}}"
-              },
-              {
-                "nbt": "{smithed:{id:'jmmf:stone_knife'}}"
-              },
-              {
-                "nbt": "{smithed:{id:'jmmf:golden_knife'}}"
-              },
-              {
-                "nbt": "{smithed:{id:'jmmf:iron_knife'}}"
-              },
-              {
-                "nbt": "{smithed:{id:'jmmf:diamond_knife'}}"
-              },
-              {
-                "nbt": "{smithed:{id:'jmmf:netherite_knife'}}"
-              }
+              {"predicates":{"minecraft:custom_data":{"smithed":{"id": "jmmf:wooden_knife"}}}},
+              {"predicates":{"minecraft:custom_data":{"smithed":{"id": "jmmf:stone_knife"}}}},
+              {"predicates":{"minecraft:custom_data":{"smithed":{"id": "jmmf:golden_knife"}}}},
+              {"predicates":{"minecraft:custom_data":{"smithed":{"id": "jmmf:iron_knife"}}}},
+              {"predicates":{"minecraft:custom_data":{"smithed":{"id": "jmmf:diamond_knife"}}}},
+              {"predicates":{"minecraft:custom_data":{"smithed":{"id": "jmmf:netherite_knife"}}}}
             ]
           }
         }

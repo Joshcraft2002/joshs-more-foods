@@ -2,8 +2,8 @@
     "parent": "jmmf:story/start",
     "display": {
         "icon":{
-            "item": "minecraft:iron_sword",
-            "nbt": "{CustomModelData:481053}"
+            "id": "minecraft:iron_sword",
+            "components": {"minecraft:custom_model_data":481053}
         },
         "title": {
           "translate": "advancements.jmmf.slicendice.title"
@@ -15,15 +15,21 @@
     },
     "criteria": {
       "get_knife": {
-          "trigger": "minecraft:inventory_changed",
-          "conditions": {
-            "items": [
-              {
-                "nbt": "{jmmf:{knife:1b}}"
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "predicates": {
+                "minecraft:custom_data": {
+                  "joshmats": {
+                    "tag": ["knife"]
+                  }
+                }
               }
-            ]
-          }
+            }
+          ]
         }
       }
+    }
     
 }
