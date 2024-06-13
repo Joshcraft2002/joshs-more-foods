@@ -17,8 +17,8 @@
       "minecraft:item_name": "{ 'translate': 'item.jmmf.carrot_pie', 'italic': false }",
       "minecraft:custom_model_data": 481131,
       "minecraft:custom_data": {
-        "jmmf": {
-          "id": "carrot_pie"
+        "joshmats": {
+          "id": "jmmf:carrot_pie"
         }
       }
     }

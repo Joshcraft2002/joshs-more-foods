@@ -17,8 +17,8 @@
       "minecraft:item_name": "{ 'translate': 'item.jmmf.sugar_cookie', 'italic': false }",
       "minecraft:custom_model_data": 481101,
       "minecraft:custom_data": {
-        "jmmf": {
-          "id": "sugar_cookie"
+        "joshmats": {
+          "id": "jmmf:sugar_cookie"
         }
       }
     },

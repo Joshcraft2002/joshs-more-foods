@@ -17,8 +17,8 @@
       "minecraft:item_name": "{ 'translate': 'item.jmmf.potato_bread', 'italic': false }",
       "minecraft:custom_model_data": 481072,
       "minecraft:custom_data": {
-        "jmmf": {
-          "id": "potato_bread"
+        "joshmats": {
+          "id": "jmmf:potato_bread"
         }
       }
     }

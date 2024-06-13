@@ -20,8 +20,8 @@
       "minecraft:item_name": "{ 'translate': 'item.jmmf.sweet_berry_pie', 'italic': false }",
       "minecraft:custom_model_data": 481132,
       "minecraft:custom_data": {
-        "jmmf": {
-          "id": "sweet_berry_pie"
+        "joshmats": {
+          "id": "jmmf:sweet_berry_pie"
         }
       }
     }

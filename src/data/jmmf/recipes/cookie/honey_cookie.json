@@ -17,8 +17,8 @@
       "minecraft:item_name": "{ 'translate': 'item.jmmf.honey_cookie', 'italic': false }",
       "minecraft:custom_model_data": 481100,
       "minecraft:custom_data": {
-        "jmmf": {
-          "id": "honey_cookie"
+        "joshmats": {
+          "id": "jmmf:honey_cookie"
         }
       }
     },

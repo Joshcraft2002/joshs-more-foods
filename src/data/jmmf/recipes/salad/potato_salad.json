@@ -20,8 +20,8 @@
       "minecraft:item_name": "{ 'translate': 'item.jmmf.potato_salad', 'italic': false }",
       "minecraft:custom_model_data": 481161,
       "minecraft:custom_data": {
-        "jmmf": {
-          "id": "potato_salad"
+        "joshmats": {
+          "id": "jmmf:potato_salad"
         }
       },
       "minecraft:food": {

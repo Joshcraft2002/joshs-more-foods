@@ -23,8 +23,8 @@
       "minecraft:item_name": "{ 'translate': 'item.jmmf.apple_ice_cream', 'italic': false }",
       "minecraft:custom_model_data": 481220,
       "minecraft:custom_data": {
-        "jmmf": {
-          "id": "apple_ice_cream"
+        "joshmats": {
+          "id": "jmmf:apple_ice_cream"
         }
       },
       "minecraft:food": {

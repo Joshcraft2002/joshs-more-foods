@@ -18,8 +18,8 @@
       "minecraft:item_name": "{ 'translate': 'item.jmmf.diamond_knife', 'italic': false }",
       "minecraft:custom_model_data": 481054,
       "minecraft:custom_data": {
-        "jmmf": {
-          "id": "diamond_knife",
+        "joshmats": {
+          "id": "jmmf:diamond_knife",
           "tag": "knife"
         }
       },

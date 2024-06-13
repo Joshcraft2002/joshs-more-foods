@@ -18,8 +18,8 @@
         "minecraft:item_name": "{ 'translate': 'item.jmmf.pie_crust', 'italic': false }",
         "minecraft:custom_model_data": 481003,
         "minecraft:custom_data": {
-          "jmmf": {
-            "id": "pie_crust"
+          "joshmats": {
+            "id": "jmmf:pie_crust"
           }
         },
         "minecraft:food": {

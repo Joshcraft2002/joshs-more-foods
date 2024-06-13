@@ -16,8 +16,8 @@
       "minecraft:rarity": "common",
       "minecraft:custom_model_data": 481004,
       "minecraft:custom_data": {
-        "jmmf": {
-          "id": "teacup"
+        "joshmats": {
+          "id": "jmmf:teacup"
         }
       }
     }, 

@@ -25,8 +25,8 @@
       "minecraft:item_name": "{ 'translate': 'item.jmmf.black_forest_doughnut', 'italic': false }",
       "minecraft:custom_model_data": 481330,
       "minecraft:custom_data": {
-        "jmmf": {
-          "id": "black_forest_doughnut"
+        "joshmats": {
+          "id": "jmmf:black_forest_doughnut"
         }
       }
     },
