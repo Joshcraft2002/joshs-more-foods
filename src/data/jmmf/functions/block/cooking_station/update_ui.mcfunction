@@ -1,8 +1,8 @@
 execute if score @s jmmf.cook_time matches 4 run item replace block ~ ~ ~ container.3 with structure_block[custom_model_data=480000,custom_data={joshmats:{gui:"jmmf:cooking_station_cook_time"}}]
-execute if score @s jmmf.cook_time matches 3 run item replace block ~ ~ ~ container.3 with structure_block[custom_model_data=480002,custom_data={joshmats:{gui:"jmmf:cooking_station_cook_time"}}]
-execute if score @s jmmf.cook_time matches 2 run item replace block ~ ~ ~ container.3 with structure_block[custom_model_data=480003,custom_data={joshmats:{gui:"jmmf:cooking_station_cook_time"}}]
-execute if score @s jmmf.cook_time matches 1 run item replace block ~ ~ ~ container.3 with structure_block[custom_model_data=480004,custom_data={joshmats:{gui:"jmmf:cooking_station_cook_time"}}]
-execute if score @s jmmf.cook_time matches 0 run item replace block ~ ~ ~ container.3 with structure_block[custom_model_data=480005,custom_data={joshmats:{gui:"jmmf:cooking_station_cook_time"}}]
+execute if score @s jmmf.cook_time matches 3 run item replace block ~ ~ ~ container.3 with structure_block[custom_model_data=480902,custom_data={joshmats:{gui:"jmmf:cooking_station_cook_time"}}]
+execute if score @s jmmf.cook_time matches 2 run item replace block ~ ~ ~ container.3 with structure_block[custom_model_data=480903,custom_data={joshmats:{gui:"jmmf:cooking_station_cook_time"}}]
+execute if score @s jmmf.cook_time matches 1 run item replace block ~ ~ ~ container.3 with structure_block[custom_model_data=480904,custom_data={joshmats:{gui:"jmmf:cooking_station_cook_time"}}]
+execute if score @s jmmf.cook_time matches 0 run item replace block ~ ~ ~ container.3 with structure_block[custom_model_data=480905,custom_data={joshmats:{gui:"jmmf:cooking_station_cook_time"}}]
 
 execute if score @s jmmf.water_level matches 0 run item replace block ~ ~ ~ container.12 with leather_helmet[attribute_modifiers={modifiers:[{type:"generic.armor",name:"",amount:0,operation:"add_value",uuid:[I;0,0,0,0]}],show_in_tooltip:false},custom_model_data=480906,dyed_color={rgb:4159204,show_in_tooltip:false},hide_additional_tooltip={},custom_data={joshmats:{gui:"jmmf:cooking_station_water_level"}}]
 execute if score @s jmmf.water_level matches 1 run item replace block ~ ~ ~ container.12 with leather_helmet[attribute_modifiers={modifiers:[{type:"generic.armor",name:"",amount:0,operation:"add_value",uuid:[I;0,0,0,0]}],show_in_tooltip:false},custom_model_data=480907,dyed_color={rgb:4159204,show_in_tooltip:false},hide_additional_tooltip={},custom_data={joshmats:{gui:"jmmf:cooking_station_water_level"}}]
@@ -27,3 +27,5 @@ item replace block ~ ~ ~ container.21 with structure_block[custom_model_data=480
 item modify block ~ ~ ~ container.3 jmmf:water_level
 item modify block ~ ~ ~ container.12 jmmf:water_level
 item modify block ~ ~ ~ container.21 jmmf:water_level
+
+scoreboard players set @s jmmf.update_ui 0

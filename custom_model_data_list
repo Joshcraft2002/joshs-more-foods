@@ -38,8 +38,8 @@ Rice Bowl               481002 Cookie              Sat 3   2.5/3.5
 Pie Crust               481003 Cookie              Sat 1   1.5/1.5
 Teacup                  481004 Structure Block
 Tea Leaves              481005 Structure Block
-Boiled Egg              481006 Cookie              Sat 1   1/1.5
-Fried Egg               481007 Cookie              Sat 1   1/1.5
+Boiled Egg              481006 Cookie                 1.5/1.5
+Fried Egg               481007 Cookie                 1.5/1.5
 
 --Tools-- [1050 - 1069]
 Wooden Knife            481050 Wooden Sword
