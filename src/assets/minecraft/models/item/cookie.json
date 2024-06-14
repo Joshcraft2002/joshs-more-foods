@@ -6,7 +6,6 @@
     "overrides": [
         { "predicate": { "custom_model_data": 480924 }, "model": "jmmf:item/gilded_tea" },
         
-        { "predicate": { "custom_model_data": 481002 }, "model": "jmmf:item/rice_bowl" },
         { "predicate": { "custom_model_data": 481003 }, "model": "jmmf:item/pie_crust" },
         { "predicate": { "custom_model_data": 481006 }, "model": "jmmf:item/boiled_egg" },
         { "predicate": { "custom_model_data": 481007 }, "model": "jmmf:item/fried_egg" },
@@ -19,8 +18,6 @@
         { "predicate": { "custom_model_data": 481221 }, "model": "jmmf:item/ice_cream/chocolate_ice_cream" },
         { "predicate": { "custom_model_data": 481222 }, "model": "jmmf:item/ice_cream/melon_ice_cream" },
         { "predicate": { "custom_model_data": 481223 }, "model": "jmmf:item/ice_cream/pumpkin_ice_cream" },
-
-        { "predicate": { "custom_model_data": 481250 }, "model": "jmmf:item/fish_and_chips" },
 
         { "predicate": { "custom_model_data": 481300 }, "model": "jmmf:item/rice_meal/fried_rice" },
         { "predicate": { "custom_model_data": 481301 }, "model": "jmmf:item/rice_meal/champorado" },

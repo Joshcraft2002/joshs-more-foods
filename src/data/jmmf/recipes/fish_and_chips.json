@@ -15,7 +15,7 @@
     }
   ],
   "result": {
-    "id": "minecraft:cookie",
+    "id": "minecraft:rabbit_stew",
     "components": {
       "minecraft:item_name": "{ 'translate': 'item.jmmf.fish_and_chips', 'italic': false }",
       "minecraft:custom_model_data": 481250,
@@ -26,8 +26,9 @@
       },
       "minecraft:food": {
         "nutrition": 7,
-        "saturation": 11
-      }
+        "saturation": 10
+      },
+      "minecraft:max_stack_size": 16
     },
     "count": 2
   }
