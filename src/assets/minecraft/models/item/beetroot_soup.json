@@ -1,0 +1,13 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/beetroot_soup"
+    },
+    "overrides": [
+        { "predicate": { "custom_model_data": 481160 }, "model": "jmmf:item/salad/coleslaw" },
+        { "predicate": { "custom_model_data": 481161 }, "model": "jmmf:item/salad/potato_salad" },
+        { "predicate": { "custom_model_data": 481162 }, "model": "jmmf:item/salad/vegetable_salad" },
+        { "predicate": { "custom_model_data": 481163 }, "model": "jmmf:item/salad/fleshy_salad" },
+        { "predicate": { "custom_model_data": 481164 }, "model": "jmmf:item/salad/fruit_salad" }
+    ]
+}

@@ -1,0 +1,49 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:beetroot_soup",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_name": "{ 'translate': 'item.jmmf.fleshy_salad', 'italic': false }",
+                                "minecraft:custom_model_data": 481163,
+                                "minecraft:custom_data": {
+                                    "smithed": {
+                                        "id": "jmmf:fleshy_salad"
+                                    }
+                                },
+                                "minecraft:food": {
+                                    "nutrition": 6,
+                                    "saturation": 5,
+                                    "effects": [
+                                    {
+                                        "effect": {
+                                        "id": "minecraft:hunger",
+                                        "duration": 200
+                                        },
+                                        "probability": 0.5
+                                    },
+                                    {
+                                        "effect": {
+                                        "id": "minecraft:poison",
+                                        "duration": 40
+                                        }
+                                        ,
+                                        "probability": 0.1
+                                    }
+                                    ]
+                                },
+                                "minecraft:max_stack_size": 16
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

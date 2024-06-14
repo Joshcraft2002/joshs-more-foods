@@ -5,14 +5,14 @@ Recipe ID's take the last 3 numbers.
                                                     (Food Only)
 Item                    CMD      Base               Effect  Hunger/Sat
 
---stuf-- [0900 - 0999]
+--stuf-- [0900 - 0999]                                      
 Cooking Station         480900 Furnace
 Josh's Cookbook         480901 Written Book
 Cooking Station Arrow 0 480902 Structure Block
 Cooking Station Arrow 1 480903 Structure Block
 Cooking Station Arrow 2 480904 Structure Block
 Cooking Station Arrow 3 480905 Structure Block
-Water Tank 0            480906 Leather Helmet
+Water Tank 0            480906 Leather Helmet               
 Water Tank 1            480907 Leather Helmet
 Water Tank 2            480908 Leather Helmet
 Water Tank 3            480909 Leather Helmet
@@ -30,16 +30,16 @@ Water Tank 14           480920 Leather Helmet
 Water Tank 15           480921 Leather Helmet
 Water Tank 16           480922 Leather Helmet
 Josh's Book of Nutrition480923 Written Book
-Gilded Tea              480924 Cookie
+Gilded Tea              480924 Cookie                       
 
 --Ingredients-- [1000 - 1049]
 Rice                    481001 Wheat
-Rice Bowl               481002 Cookie              Sat 3   2.5/3.5
-Pie Crust               481003 Cookie              Sat 1   1.5/1.5
+Rice Bowl               481002 Cookie                       2.5/3.5
+Pie Crust               481003 Cookie                       1.5/1.5
 Teacup                  481004 Structure Block
 Tea Leaves              481005 Structure Block
-Boiled Egg              481006 Cookie                 1.5/1.5
-Fried Egg               481007 Cookie                 1.5/1.5
+Boiled Egg              481006 Cookie                       1.5/1.5
+Fried Egg               481007 Cookie                       1.5/1.5
 
 --Tools-- [1050 - 1069]
 Wooden Knife            481050 Wooden Sword
@@ -50,42 +50,42 @@ Diamond Knife           481054 Diamond Sword
 Netherite Knife         481055 Netherite Sword
 
 --Bread-- [1070 - 1099]
-Carrot Bread            481070 Bread
-Beetroot Bread          481071 Bread 
-Potato Bread            481072 Bread
-Sweet Roll              481073 Bread              Sat 2   3.5/4
-Bagel                   481074 Bread              Sat 2   3.5/4
+Carrot Bread            481070 Bread                        5/6
+Beetroot Bread          481071 Bread                        5/6
+Potato Bread            481072 Bread                        5/6
+Sweet Roll              481073 Bread                        7/8
+Bagel                   481074 Bread                        7/8
 
 --Cookie-- [1100 - 1129]
-Honey Cookie            481100 Cookie
-Sugar Cookie            481101 Cookie
-Sweet Berry Cookie      481102 Cookie
+Honey Cookie            481100 Cookie                       2/1
+Sugar Cookie            481101 Cookie                       2/1
+Sweet Berry Cookie      481102 Cookie                       2/1
 
 --Pie-- [1130 - 1159]
-Apple Pie               481130 Pumpkin Pie
-Carrot Pie              481131 Pumpkin Pie
-Sweet Berry Pie         481132 Pumpkin Pie
-Chicken Pot Pie         481133 Pumpkin Pie        Sat 3   5.5/5.5
-Shepherd's Pie          481134 Pumpkin Pie        Sat 6   7/8.5
+Apple Pie               481130 Pumpkin Pie                  8/5
+Carrot Pie              481131 Pumpkin Pie                  8/5
+Sweet Berry Pie         481132 Pumpkin Pie                  8/5
+Chicken Pot Pie         481133 Pumpkin Pie                  10/11
+Shepherd's Pie          481134 Pumpkin Pie                  14/17
 
 --Salad-- [1160 - 1189]
-Coleslaw                481160 Cookie             Sat 4   3/4.5
-Potato Salad            481161 Cookie             Sat 4   3/4.5
-Vegetable Salad         481162 Cookie             Sat 5   3.5/5
-Fleshy Salad            481163 Cookie             Sat 4   3/4.5
-Fruit Salad             481164 Cookie             Sat 5   3.5/5
+Coleslaw                481160 Beetroot Soup                6/7
+Potato Salad            481161 Cookie                       3/4.5
+Vegetable Salad         481162 Cookie                       3.5/5
+Fleshy Salad            481163 Beetroot Soup                6/5
+Fruit Salad             481164 Beetroot Soup                6/7
 
 --Soup-- [1190 - 1219]
 Rotten Stew             481190 Rotten Flesh
 
 --Ice Cream-- [1220 - 1249]
-Apple Ice Cream         481220 Cookie             Sat 4   3/4.5
-Chocolate Ice Cream     481221 Cookie             Sat 4   3/4.5
-Melon Ice Cream         481222 Cookie             Sat 4   3/4.5
-Pumpkin Ice Cream       481223 Cookie             Sat 4   3/4.5
+Apple Ice Cream         481220 Cookie                     3/4.5
+Chocolate Ice Cream     481221 Cookie                     3/4.5
+Melon Ice Cream         481222 Cookie                     3/4.5
+Pumpkin Ice Cream       481223 Cookie                     3/4.5
 
 --Other Foods-- [1250 - 1299]
-Fish and Chips          481250 Cookie             Sat 5   3.5/5.5
+Fish and Chips          481250 Cookie                     3.5/5
 Leche Flan              481251 Pumpkin Pie        Sat 4   3/3.5
 
 --Rice Meals-- [1300 - 1329]
@@ -93,9 +93,9 @@ Fried Rice              481300 Cookie             Sat 8   5/8.5
 Champorado              481301 Cookie             Sat 2   2/2.5
 
 --Doughnut-- [1330 - 1359]
-Black Forest Doughnut   481330 Cookie             Sat 1   1.5/1.5
-Chocolate Doughnut      481331 Cookie             Sat 1   1.5/1.5
-Sugar Doughnut          481332 Cookie             Sat 1   1.5/1.5
+Black Forest Doughnut   481330 Cookie                     1.5/1.5
+Chocolate Doughnut      481331 Cookie                     1.5/1.5
+Sugar Doughnut          481332 Cookie                     1.5/1.5
 
 --Tea-- [1360 - 1399]
 Sweet Berry Tea         481360 Cookie             Regen 1 1/0.5

@@ -15,12 +15,6 @@
         { "predicate": { "custom_model_data": 481101 }, "model": "jmmf:item/cookie/sugar_cookie" },
         { "predicate": { "custom_model_data": 481102 }, "model": "jmmf:item/cookie/sweet_berry_cookie" },
 
-        { "predicate": { "custom_model_data": 481160 }, "model": "jmmf:item/salad/coleslaw" },
-        { "predicate": { "custom_model_data": 481161 }, "model": "jmmf:item/salad/potato_salad" },
-        { "predicate": { "custom_model_data": 481162 }, "model": "jmmf:item/salad/vegetable_salad" },
-        { "predicate": { "custom_model_data": 481163 }, "model": "jmmf:item/salad/fleshy_salad" },
-        { "predicate": { "custom_model_data": 481164 }, "model": "jmmf:item/salad/fruit_salad" },
-
         { "predicate": { "custom_model_data": 481220 }, "model": "jmmf:item/ice_cream/apple_ice_cream" },
         { "predicate": { "custom_model_data": 481221 }, "model": "jmmf:item/ice_cream/chocolate_ice_cream" },
         { "predicate": { "custom_model_data": 481222 }, "model": "jmmf:item/ice_cream/melon_ice_cream" },
