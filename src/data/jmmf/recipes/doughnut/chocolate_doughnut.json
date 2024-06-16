@@ -21,6 +21,9 @@
       "minecraft:custom_data": {
         "smithed": {
           "id": "jmmf:chocolate_doughnut"
+        },
+        "joshmats": {
+          "tag": ["doughnut"]
         }
       }
     },

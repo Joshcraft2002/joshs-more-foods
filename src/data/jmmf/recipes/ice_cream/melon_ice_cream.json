@@ -28,6 +28,9 @@
       "minecraft:custom_data": {
         "smithed": {
           "id": "jmmf:melon_ice_cream"
+        },
+        "joshmats": {
+          "tag": ["ice_cream"]
         }
       },
       "minecraft:food": {
