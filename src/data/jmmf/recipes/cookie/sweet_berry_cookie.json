@@ -19,6 +19,9 @@
       "minecraft:custom_data": {
         "smithed": {
           "id": "jmmf:sweet_berry_cookie"
+        },
+        "joshmats": {
+          "tag": ["cookie"]
         }
       }
     },

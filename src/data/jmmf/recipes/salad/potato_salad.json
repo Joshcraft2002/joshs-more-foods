@@ -15,7 +15,7 @@
     }
   ],
   "result": {
-    "id": "minecraft:cookie",
+    "id": "minecraft:beetroot_soup",
     "components": {
       "minecraft:item_name": "{ 'translate': 'item.jmmf.potato_salad', 'italic': false }",
       "minecraft:custom_model_data": 481161,
@@ -26,8 +26,9 @@
       },
       "minecraft:food": {
         "nutrition": 6,
-        "saturation": 9
-      }
+        "saturation": 8
+      },
+      "minecraft:max_stack_size": 16
     }
   }
 }

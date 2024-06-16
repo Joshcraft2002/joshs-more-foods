@@ -28,6 +28,9 @@
       "minecraft:custom_data": {
         "smithed": {
           "id": "jmmf:chocolate_ice_cream"
+        },
+        "joshmats": {
+          "tag": ["ice_cream"]
         }
       },
       "minecraft:food": {
@@ -47,7 +50,8 @@
             }
           }
         ]
-      }
+      },
+      "minecraft:max_stack_size": 16
     }
   }
 }
