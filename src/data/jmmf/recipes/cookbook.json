@@ -64,9 +64,8 @@
           "['', {'text':'\uF923','font':'jmmf:cookbook','color':'white'}, {'text':' | '}, {'translate':'item.jmmf.cookbook.nutritionbook','underlined':true}, {'text':'\n\n\uE923\n\n\n\n\n\n','font':'jmmf:cookbook','color':'white'}, {'translate':'item.jmmf.cookbook.nutritionbook.desc','color':'dark_gray'} ]",
           "['', {'translate':'item.jmmf.cookbook.credits.thanks','underlined':true}, {'translate':'item.jmmf.cookbook.credits.desc_1','color':'dark_gray'}, {'translate':'item.jmmf.cookbook.credits.credits','underlined':true}, {'text':'Bonii','color':'blue','clickEvent':{'action':'open_url','value':'https://twitter.com/ChalkDev'},'hoverEvent':{'action':'show_text','contents':[{'translate':'item.jmmf.cookbook.credits.follow_twitter'}]}}, {'text':', VidiTerraNovum, RenTheMan, Sirenity - ','color':'dark_gray'}, {'translate':'item.jmmf.cookbook.credits.sprites', 'color':'dark_gray'} ]"
         ],
-        "generation": 3
-      },
-      "minecraft:hide_additional_tooltip": {}
+        "generation": 0
+      }
     }
   }
 }

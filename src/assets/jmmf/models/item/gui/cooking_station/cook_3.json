@@ -1,0 +1,6 @@
+{
+    "parent": "jmmf:item/gui/cooking_station/cook_0",
+    "textures": {
+        "0": "jmmf:item/gui/cooking_station/cook_3"
+    }
+}   

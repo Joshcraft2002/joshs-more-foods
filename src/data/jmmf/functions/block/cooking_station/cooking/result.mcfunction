@@ -22,3 +22,5 @@ execute if score @s jmmf.recipeid matches 365 run function jmmf:block/cooking_st
 execute if score @s jmmf.recipeid matches 366 run function jmmf:block/cooking_station/cooking/recipes/sakura_tea/output
 
 execute if score @s jmmf.recipeid matches 1000 run function jmmf:block/cooking_station/cooking/recipes/empty_liquid/output
+execute if score @s jmmf.recipeid matches 1001 run function jmmf:block/cooking_station/cooking/recipes/update_cookbook/output
+execute if score @s jmmf.recipeid matches 1002 run function jmmf:block/cooking_station/cooking/recipes/update_nutritionbook/output
