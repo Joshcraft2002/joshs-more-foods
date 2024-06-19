@@ -8,9 +8,9 @@
         },
         {
             "type": "bitmap",
-            "file": "jmmf:gui/cooking_station/base.png",
+            "file": "jmmf:item/gui/cooking_station/base.png",
             "ascent": 13,
-            "height": 71,
+            "height": 256,
             "chars": ["\uF001"]
         }
     ]
