@@ -349,36 +349,36 @@
         {
             "type": "bitmap",
             "file": "jmmf:cookbook/nutritionbook.png",
-            "ascent": 10,
-            "height": 52,
+            "ascent": 16,
+            "height": 62,
             "chars": ["\uE923"]
         },
 
         {
             "type": "bitmap",
             "file": "jmmf:cookbook/cooking_station.png",
-            "ascent": 12,
-            "height": 56,
+            "ascent": 16,
+            "height": 62,
             "chars": ["\uE900"]
         },
         {
             "type": "bitmap",
             "file": "jmmf:cookbook/cooking_station_ui_1.png",
-            "ascent": 8,
+            "ascent": 7,
             "height": 45,
             "chars": ["\uE901"]
         },
         {
             "type": "bitmap",
             "file": "jmmf:cookbook/cooking_station_ui_2.png",
-            "ascent": 8,
+            "ascent": 7,
             "height": 45,
             "chars": ["\uE902"]
         },
         {
             "type": "bitmap",
             "file": "jmmf:cookbook/cooking_station_ui_3.png",
-            "ascent": 8,
+            "ascent": 7,
             "height": 45,
             "chars": ["\uE903"]
         },
@@ -400,29 +400,29 @@
         {
             "type": "bitmap",
             "file": "jmmf:cookbook/rice.png",
-            "ascent": 8,
+            "ascent": 7,
             "height": 45,
             "chars": ["\uE001"]
         },
         {
             "type": "bitmap",
             "file": "jmmf:cookbook/rice_bowl.png",
-            "ascent": 8,
+            "ascent": 7,
             "height": 45,
             "chars": ["\uE002"]
         },
         {
             "type": "bitmap",
             "file": "jmmf:cookbook/pie_crust.png",
-            "ascent": 8,
+            "ascent": 7,
             "height": 45,
             "chars": ["\uE003"]
         },
         {
             "type": "bitmap",
             "file": "jmmf:cookbook/teacup.png",
-            "ascent": 10,
-            "height": 52,
+            "ascent": 16,
+            "height": 62,
             "chars": ["\uE004"]
         },
         {
@@ -435,280 +435,280 @@
         {
             "type": "bitmap",
             "file": "jmmf:cookbook/boiled_egg.png",
-            "ascent": 8,
+            "ascent": 7,
             "height": 45,
             "chars": ["\uE006"]
         },
         {
             "type": "bitmap",
             "file": "jmmf:cookbook/fried_egg.png",
-            "ascent": 8,
+            "ascent": 7,
             "height": 45,
             "chars": ["\uE007"]
         },
         {
             "type": "bitmap",
             "file": "jmmf:cookbook/iron_knife.png",
-            "ascent": 13,
-            "height": 56,
+            "ascent": 16,
+            "height": 62,
             "chars": ["\uE053"]
         },
         {
             "type": "bitmap",
             "file": "jmmf:cookbook/carrot_bread.png",
-            "ascent": 8,
+            "ascent": 7,
             "height": 45,
             "chars": ["\uE070"]
         },
         {
             "type": "bitmap",
             "file": "jmmf:cookbook/beetroot_bread.png",
-            "ascent": 8,
+            "ascent": 7,
             "height": 45,
             "chars": ["\uE071"]
         },
         {
             "type": "bitmap",
             "file": "jmmf:cookbook/potato_bread.png",
-            "ascent": 8,
+            "ascent": 7,
             "height": 45,
             "chars": ["\uE072"]
         },
         {
             "type": "bitmap",
             "file": "jmmf:cookbook/sweet_roll.png",
-            "ascent": 8,
+            "ascent": 7,
             "height": 45,
             "chars": ["\uE073"]
         },
         {
             "type": "bitmap",
             "file": "jmmf:cookbook/bagel.png",
-            "ascent": 8,
+            "ascent": 7,
             "height": 45,
             "chars": ["\uE074"]
         },
         {
             "type": "bitmap",
             "file": "jmmf:cookbook/honey_cookie.png",
-            "ascent": 8,
+            "ascent": 7,
             "height": 45,
             "chars": ["\uE100"]
         },
         {
             "type": "bitmap",
             "file": "jmmf:cookbook/sugar_cookie.png",
-            "ascent": 8,
+            "ascent": 7,
             "height": 45,
             "chars": ["\uE101"]
         },
         {
             "type": "bitmap",
             "file": "jmmf:cookbook/sweet_berry_cookie.png",
-            "ascent": 8,
+            "ascent": 7,
             "height": 45,
             "chars": ["\uE102"]
         },
         {
             "type": "bitmap",
             "file": "jmmf:cookbook/apple_pie.png",
-            "ascent": 8,
+            "ascent": 7,
             "height": 45,
             "chars": ["\uE130"]
         },
         {
             "type": "bitmap",
             "file": "jmmf:cookbook/carrot_pie.png",
-            "ascent": 8,
+            "ascent": 7,
             "height": 45,
             "chars": ["\uE131"]
         },
         {
             "type": "bitmap",
             "file": "jmmf:cookbook/sweet_berry_pie.png",
-            "ascent": 8,
+            "ascent": 7,
             "height": 45,
             "chars": ["\uE132"]
         },
         {
             "type": "bitmap",
             "file": "jmmf:cookbook/chicken_pot_pie.png",
-            "ascent": 8,
+            "ascent": 7,
             "height": 45,
             "chars": ["\uE133"]
         },
         {
             "type": "bitmap",
             "file": "jmmf:cookbook/shepherds_pie.png",
-            "ascent": 8,
+            "ascent": 7,
             "height": 45,
             "chars": ["\uE134"]
         },
         {
             "type": "bitmap",
             "file": "jmmf:cookbook/coleslaw.png",
-            "ascent": 8,
+            "ascent": 7,
             "height": 45,
             "chars": ["\uE160"]
         },
         {
             "type": "bitmap",
             "file": "jmmf:cookbook/potato_salad.png",
-            "ascent": 8,
+            "ascent": 7,
             "height": 45,
             "chars": ["\uE161"]
         },
         {
             "type": "bitmap",
             "file": "jmmf:cookbook/vegetable_salad.png",
-            "ascent": 8,
+            "ascent": 7,
             "height": 45,
             "chars": ["\uE162"]
         },
         {
             "type": "bitmap",
             "file": "jmmf:cookbook/fleshy_salad.png",
-            "ascent": 8,
+            "ascent": 7,
             "height": 45,
             "chars": ["\uE163"]
         },
         {
             "type": "bitmap",
             "file": "jmmf:cookbook/fruit_salad.png",
-            "ascent": 8,
+            "ascent": 7,
             "height": 45,
             "chars": ["\uE164"]
         },
         {
             "type": "bitmap",
             "file": "jmmf:cookbook/rotten_stew.png",
-            "ascent": 8,
+            "ascent": 7,
             "height": 45,
             "chars": ["\uE190"]
         },
         {
             "type": "bitmap",
             "file": "jmmf:cookbook/apple_ice_cream.png",
-            "ascent": 8,
+            "ascent": 7,
             "height": 45,
             "chars": ["\uE220"]
         },
         {
             "type": "bitmap",
             "file": "jmmf:cookbook/chocolate_ice_cream.png",
-            "ascent": 8,
+            "ascent": 7,
             "height": 45,
             "chars": ["\uE221"]
         },
         {
             "type": "bitmap",
             "file": "jmmf:cookbook/melon_ice_cream.png",
-            "ascent": 8,
+            "ascent": 7,
             "height": 45,
             "chars": ["\uE222"]
         },
         {
             "type": "bitmap",
             "file": "jmmf:cookbook/pumpkin_ice_cream.png",
-            "ascent": 8,
+            "ascent": 7,
             "height": 45,
             "chars": ["\uE223"]
         },
         {
             "type": "bitmap",
             "file": "jmmf:cookbook/fish_and_chips.png",
-            "ascent": 8,
+            "ascent": 7,
             "height": 45,
             "chars": ["\uE250"]
         },
         {
             "type": "bitmap",
             "file": "jmmf:cookbook/leche_flan.png",
-            "ascent": 8,
+            "ascent": 7,
             "height": 45,
             "chars": ["\uE251"]
         },
         {
             "type": "bitmap",
             "file": "jmmf:cookbook/fried_rice.png",
-            "ascent": 8,
+            "ascent": 7,
             "height": 45,
             "chars": ["\uE300"]
         },
         {
             "type": "bitmap",
             "file": "jmmf:cookbook/champorado.png",
-            "ascent": 8,
+            "ascent": 7,
             "height": 45,
             "chars": ["\uE301"]
         },
         {
             "type": "bitmap",
             "file": "jmmf:cookbook/black_forest_doughnut.png",
-            "ascent": 8,
+            "ascent": 7,
             "height": 45,
             "chars": ["\uE330"]
         },
         {
             "type": "bitmap",
             "file": "jmmf:cookbook/chocolate_doughnut.png",
-            "ascent": 8,
+            "ascent": 7,
             "height": 45,
             "chars": ["\uE331"]
         },
         {
             "type": "bitmap",
             "file": "jmmf:cookbook/sugar_doughnut.png",
-            "ascent": 8,
+            "ascent": 7,
             "height": 45,
             "chars": ["\uE332"]
         },
         {
             "type": "bitmap",
             "file": "jmmf:cookbook/sweet_berry_tea.png",
-            "ascent": 8,
+            "ascent": 7,
             "height": 45,
             "chars": ["\uE360"]
         },
         {
             "type": "bitmap",
             "file": "jmmf:cookbook/cornflower_tea.png",
-            "ascent": 8,
+            "ascent": 7,
             "height": 45,
             "chars": ["\uE361"]
         },
         {
             "type": "bitmap",
             "file": "jmmf:cookbook/dandelion_tea.png",
-            "ascent": 8,
+            "ascent": 7,
             "height": 45,
             "chars": ["\uE362"]
         },
         {
             "type": "bitmap",
             "file": "jmmf:cookbook/green_tea.png",
-            "ascent": 8,
+            "ascent": 7,
             "height": 45,
             "chars": ["\uE363"]
         },
         {
             "type": "bitmap",
             "file": "jmmf:cookbook/rose_tea.png",
-            "ascent": 8,
+            "ascent": 7,
             "height": 45,
             "chars": ["\uE364"]
         },
         {
             "type": "bitmap",
             "file": "jmmf:cookbook/spruce_tea.png",
-            "ascent": 8,
+            "ascent": 7,
             "height": 45,
             "chars": ["\uE365\uE965"]
         },
         {
             "type": "bitmap",
             "file": "jmmf:cookbook/sakura_tea.png",
-            "ascent": 8,
+            "ascent": 7,
             "height": 45,
             "chars": ["\uE366"]
         }
