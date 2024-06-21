@@ -6,7 +6,7 @@ scoreboard players set @s jmmf.recipeid 0
 
 #read input
 execute store result score @s jmmf.count.7 run data get block ~ ~ ~ Items[{Slot:16b}].count
-execute unless score @s jmmf.data matches 1 run function jmmf:block/cooking_station/cooking/input/read_block
+function jmmf:block/cooking_station/cooking/input/read_block
 
 #update nutrition book
 execute unless score @s jmmf.data matches 1 store success score @s jmmf.data if score @s jmmf.count matches 1 if data storage jmmf:cooking_station {input:{ingredients:[{components:{"minecraft:custom_data":{smithed:{id:"jmmf:nutritionbook"}}}, count:1}]}} run function jmmf:block/cooking_station/cooking/recipes/update_nutritionbook/check
@@ -14,9 +14,11 @@ execute unless score @s jmmf.data matches 1 store success score @s jmmf.data if 
 execute unless score @s jmmf.data matches 1 store success score @s jmmf.data if score @s jmmf.count matches 1 if data storage jmmf:cooking_station {input:{ingredients:[{components:{"minecraft:custom_data":{smithed:{id:"jmmf:cookbook"}}}, count:1}]}} run function jmmf:block/cooking_station/cooking/recipes/update_cookbook/check
 
 #fill water
-execute if data storage jmmf:cooking_station {input:{liquid:{id:"minecraft:water_bucket"}}} unless score @s jmmf.water_level matches 1.. run function jmmf:block/cooking_station/cooking/recipes/fill
+execute if data storage jmmf:cooking_station {liquid:{input:{id:"minecraft:water_bucket"}}} unless score @s jmmf.water_level matches 1.. run function jmmf:block/cooking_station/cooking/recipes/fill_water/check
 #empty water
-execute unless score @s jmmf.data matches 1 store success score @s jmmf.data if score @s jmmf.count matches 1 if data storage jmmf:cooking_station {input:{ingredients:[{id:"minecraft:bucket"}]}} run function jmmf:block/cooking_station/cooking/recipes/empty_liquid/check
+execute if data storage jmmf:cooking_station {liquid:{input:{id:"minecraft:bucket"}}} if score @s jmmf.water_level matches 1.. run function jmmf:block/cooking_station/cooking/recipes/empty_water/check
+#empty water
+#execute unless score @s jmmf.data matches 1 store success score @s jmmf.data if score @s jmmf.count matches 1 if data storage jmmf:cooking_station {input:{ingredients:[{id:"minecraft:bucket"}]}} run function jmmf:block/cooking_station/cooking/recipes/empty_liquid/check
 
 #rice
 execute unless score @s jmmf.data matches 1 store success score @s jmmf.data if score @s jmmf.count matches 1 if data storage jmmf:cooking_station {input:{ingredients:[{id:"minecraft:wheat_seeds", count:6}]}} if score @s jmmf.water_level matches 1.. run function jmmf:block/cooking_station/cooking/recipes/rice/check

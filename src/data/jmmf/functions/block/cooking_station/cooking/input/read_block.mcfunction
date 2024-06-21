@@ -1,4 +1,5 @@
 data remove storage jmmf:cooking_station input
+data remove storage jmmf:cooking_station liquid
 data remove storage jmmf:cooking_station output
 
 #read inputs then store to temp input
@@ -16,7 +17,8 @@ data remove storage jmmf:cooking_station temp
 execute store result score @s jmmf.count if data storage jmmf:cooking_station input.ingredients[]
 
 #other slots
-execute if data storage jmmf:cooking_station Items[{Slot: 4b}] run data modify storage jmmf:cooking_station input.liquid set from storage jmmf:cooking_station Items[{Slot: 4b}]
+execute if data storage jmmf:cooking_station Items[{Slot: 4b}] run data modify storage jmmf:cooking_station liquid.input set from storage jmmf:cooking_station Items[{Slot: 4b}]
+execute if data storage jmmf:cooking_station Items[{Slot: 5b}] run data modify storage jmmf:cooking_station liquid.output set from storage jmmf:cooking_station Items[{Slot: 5b}]
 execute if data storage jmmf:cooking_station Items[{Slot: 22b}] run data modify storage jmmf:cooking_station input.container set from storage jmmf:cooking_station Items[{Slot: 22b}]
 execute if data storage jmmf:cooking_station Items[{Slot: 16b}] run data modify storage jmmf:cooking_station output set from storage jmmf:cooking_station Items[{Slot: 16b}]
 
