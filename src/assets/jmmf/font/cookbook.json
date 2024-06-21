@@ -384,9 +384,9 @@
         },
         {
             "type": "bitmap",
-            "file": "jmmf:cookbook/cooking_station_empty_liquid.png",
-            "ascent": 16,
-            "height": 73,
+            "file": "jmmf:cookbook/cooking_station_ui_4.png",
+            "ascent": 7,
+            "height": 45,
             "chars": ["\uE904"]
         },
         {

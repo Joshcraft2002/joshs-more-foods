@@ -3,7 +3,7 @@
     {'text':'   \uF901\n','font':'jmmf:cookbook','color':'white'}, 
     {'translate':'item.jmmf.cookbook.title'}, 
     {'text':'\n          v4.2.0\n'}, 
-    {'translate':'item.jmmf.cookbook.datapackcredits','color':'blue','clickEvent':{'action':'change_page','value':'41'},'hoverEvent':{'action':'show_text','contents':[{'translate':'item.jmmf.cookbook.datapackcredits.hover'}]}} 
+    {'translate':'item.jmmf.cookbook.datapackcredits','color':'blue','clickEvent':{'action':'change_page','value':'42'},'hoverEvent':{'action':'show_text','contents':[{'translate':'item.jmmf.cookbook.datapackcredits.hover'}]}} 
 ]",
 
 "[
@@ -11,27 +11,27 @@
     {'text':'\n\uF900 ','font':'jmmf:cookbook','color':'white'}, 
     {'translate':'block.jmmf.cooking_station','clickEvent':{'action':'change_page','value':'3'},'hoverEvent':{'action':'show_text','contents':[{'translate':'item.jmmf.cookbook.cooking.skip'}]}}, 
     {'text':'\n\uF053 ','font':'jmmf:cookbook','color':'white'}, 
-    {'translate':'item.jmmf.cookbook.knives','clickEvent':{'action':'change_page','value':'8'},'hoverEvent':{'action':'show_text','contents':[{'translate':'item.jmmf.cookbook.knives.skip'}]}}, 
+    {'translate':'item.jmmf.cookbook.knives','clickEvent':{'action':'change_page','value':'9'},'hoverEvent':{'action':'show_text','contents':[{'translate':'item.jmmf.cookbook.knives.skip'}]}}, 
     {'text':'\n\uF001 ','font':'jmmf:cookbook','color':'white'}, 
-    {'translate':'item.jmmf.rice','clickEvent':{'action':'change_page','value':'9'},'hoverEvent':{'action':'show_text','contents':[{'translate':'item.jmmf.cookbook.rice.skip'}]}}, 
+    {'translate':'item.jmmf.rice','clickEvent':{'action':'change_page','value':'10'},'hoverEvent':{'action':'show_text','contents':[{'translate':'item.jmmf.cookbook.rice.skip'}]}}, 
     {'text':'\n\uF363 ','font':'jmmf:cookbook','color':'white'}, 
-    {'translate':'item.jmmf.cookbook.tea','clickEvent':{'action':'change_page','value':'12'},'hoverEvent':{'action':'show_text','contents':[{'translate':'item.jmmf.cookbook.tea.skip'}]}}, 
+    {'translate':'item.jmmf.cookbook.tea','clickEvent':{'action':'change_page','value':'13'},'hoverEvent':{'action':'show_text','contents':[{'translate':'item.jmmf.cookbook.tea.skip'}]}}, 
     {'text':'\n\uF070 ','font':'jmmf:cookbook','color':'white'}, 
-    {'translate':'item.jmmf.cookbook.bread','clickEvent':{'action':'change_page','value':'19'},'hoverEvent':{'action':'show_text','contents':[{'translate':'item.jmmf.cookbook.bread.skip'}]}}, 
+    {'translate':'item.jmmf.cookbook.bread','clickEvent':{'action':'change_page','value':'20'},'hoverEvent':{'action':'show_text','contents':[{'translate':'item.jmmf.cookbook.bread.skip'}]}}, 
     {'text':'\n\uF100 ','font':'jmmf:cookbook','color':'white'}, 
-    {'translate':'item.jmmf.cookbook.cookies','clickEvent':{'action':'change_page','value':'22'},'hoverEvent':{'action':'show_text','contents':[{'translate':'item.jmmf.cookbook.cookies.skip'}]}}, 
+    {'translate':'item.jmmf.cookbook.cookies','clickEvent':{'action':'change_page','value':'23'},'hoverEvent':{'action':'show_text','contents':[{'translate':'item.jmmf.cookbook.cookies.skip'}]}}, 
     {'text':'\n\uF132 ','font':'jmmf:cookbook','color':'white'}, 
-    {'translate':'item.jmmf.cookbook.pies','clickEvent':{'action':'change_page','value':'24'},'hoverEvent':{'action':'show_text','contents':[{'translate':'item.jmmf.cookbook.pies.skip'}]}}, 
+    {'translate':'item.jmmf.cookbook.pies','clickEvent':{'action':'change_page','value':'25'},'hoverEvent':{'action':'show_text','contents':[{'translate':'item.jmmf.cookbook.pies.skip'}]}}, 
     {'text':'\n\uF330 ','font':'jmmf:cookbook','color':'white'}, 
-    {'translate':'item.jmmf.cookbook.doughnuts','clickEvent':{'action':'change_page','value':'28'},'hoverEvent':{'action':'show_text','contents':[{'translate':'item.jmmf.cookbook.doughnuts.skip'}]}}, 
+    {'translate':'item.jmmf.cookbook.doughnuts','clickEvent':{'action':'change_page','value':'29'},'hoverEvent':{'action':'show_text','contents':[{'translate':'item.jmmf.cookbook.doughnuts.skip'}]}}, 
     {'text':'\n\uF160 ','font':'jmmf:cookbook','color':'white'}, 
-    {'translate':'item.jmmf.cookbook.salad','clickEvent':{'action':'change_page','value':'30'},'hoverEvent':{'action':'show_text','contents':[{'translate':'item.jmmf.cookbook.salad.skip'}]}}, 
+    {'translate':'item.jmmf.cookbook.salad','clickEvent':{'action':'change_page','value':'31'},'hoverEvent':{'action':'show_text','contents':[{'translate':'item.jmmf.cookbook.salad.skip'}]}}, 
     {'text':'\n\uF220 ','font':'jmmf:cookbook','color':'white'}, 
-    {'translate':'item.jmmf.cookbook.ice_cream','clickEvent':{'action':'change_page','value':'34'},'hoverEvent':{'action':'show_text','contents':[{'translate':'item.jmmf.cookbook.ice_cream.skip'}]}}, 
+    {'translate':'item.jmmf.cookbook.ice_cream','clickEvent':{'action':'change_page','value':'35'},'hoverEvent':{'action':'show_text','contents':[{'translate':'item.jmmf.cookbook.ice_cream.skip'}]}}, 
     {'text':'\n\uF250 ','font':'jmmf:cookbook','color':'white'}, 
-    {'translate':'item.jmmf.cookbook.other','clickEvent':{'action':'change_page','value':'37'},'hoverEvent':{'action':'show_text','contents':[{'translate':'item.jmmf.cookbook.other.skip'}]}}, 
+    {'translate':'item.jmmf.cookbook.other','clickEvent':{'action':'change_page','value':'38'},'hoverEvent':{'action':'show_text','contents':[{'translate':'item.jmmf.cookbook.other.skip'}]}}, 
     {'text':'\n\uF923 ','font':'jmmf:cookbook','color':'white'}, 
-    {'translate':'item.jmmf.cookbook.nutritionbook','clickEvent':{'action':'change_page','value':'40'},'hoverEvent':{'action':'show_text','contents':[{'translate':'item.jmmf.cookbook.nutritionbook.skip'}]}} 
+    {'translate':'item.jmmf.cookbook.nutritionbook','clickEvent':{'action':'change_page','value':'41'},'hoverEvent':{'action':'show_text','contents':[{'translate':'item.jmmf.cookbook.nutritionbook.skip'}]}} 
 ]",
 
 "['',
@@ -58,15 +58,22 @@
 "['',
     {'text':'\uF900','font':'jmmf:cookbook','color':'white'}, {'text':' | '},
     {'translate':'block.jmmf.cooking_station','underlined':true},
-    {'text':'\n \uE904\n\n\n\n\n\n\n','font':'jmmf:cookbook','color':'white'},
+    {'text':'\n \uE903\n\n\n\n\n','font':'jmmf:cookbook','color':'white'},
     {'translate':'item.jmmf.cookbook.cooking.desc_4','color':'dark_gray'}                       
 ]",
 
 "['',
     {'text':'\uF900','font':'jmmf:cookbook','color':'white'}, {'text':' | '},
     {'translate':'block.jmmf.cooking_station','underlined':true},
-    {'text':'\n \uE903\n\n\n\n\n','font':'jmmf:cookbook','color':'white'},
+    {'text':'\n \uE903\n\n\n\n\n\n\n','font':'jmmf:cookbook','color':'white'},
     {'translate':'item.jmmf.cookbook.cooking.desc_5','color':'dark_gray'}                       
+]",
+
+"['',
+    {'text':'\uF900','font':'jmmf:cookbook','color':'white'}, {'text':' | '},
+    {'translate':'block.jmmf.cooking_station','underlined':true},
+    {'text':'\n \uE904\n\n\n\n\n','font':'jmmf:cookbook','color':'white'},
+    {'translate':'item.jmmf.cookbook.cooking.desc_6','color':'dark_gray'}                       
 ]",
 
 "['',

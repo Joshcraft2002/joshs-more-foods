@@ -21,6 +21,8 @@ scoreboard objectives add jmmf.count.4 dummy
 scoreboard objectives add jmmf.count.5 dummy
 scoreboard objectives add jmmf.count.6 dummy
 scoreboard objectives add jmmf.count.7 dummy
+scoreboard objectives add jmmf.count.8 dummy
+scoreboard objectives add jmmf.count.9 dummy
 
 function jmmf:technical/tick
 function jmmf:technical/tick20t
