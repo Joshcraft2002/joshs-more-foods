@@ -1,7 +1,6 @@
 CMD format: 048XXXX
 (no 0 obviously)
 Recipe ID's take the last 3 numbers.
-
                                                     (Food Only)
 Item                    CMD      Base               Effect  Nutrition/Sat
 

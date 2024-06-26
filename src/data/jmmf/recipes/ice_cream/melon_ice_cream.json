@@ -21,7 +21,7 @@
     }
   ],
   "result": {
-    "id": "minecraft:cookie",
+    "id": "minecraft:suspicious_stew",
     "components": {
       "minecraft:item_name": "{ 'translate': 'item.jmmf.melon_ice_cream', 'italic': false }",
       "minecraft:custom_model_data": 481222,
@@ -40,13 +40,13 @@
           {
             "effect": {
               "id": "minecraft:slowness",
-              "duration": 60
+              "duration": 1200
             }
           },
           {
             "effect": {
               "id": "minecraft:weakness",
-              "duration": 60
+              "duration": 1200
             }
           }
         ]

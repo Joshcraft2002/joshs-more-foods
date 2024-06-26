@@ -14,11 +14,6 @@
         { "predicate": { "custom_model_data": 481101 }, "model": "jmmf:item/cookie/sugar_cookie" },
         { "predicate": { "custom_model_data": 481102 }, "model": "jmmf:item/cookie/sweet_berry_cookie" },
 
-        { "predicate": { "custom_model_data": 481220 }, "model": "jmmf:item/ice_cream/apple_ice_cream" },
-        { "predicate": { "custom_model_data": 481221 }, "model": "jmmf:item/ice_cream/chocolate_ice_cream" },
-        { "predicate": { "custom_model_data": 481222 }, "model": "jmmf:item/ice_cream/melon_ice_cream" },
-        { "predicate": { "custom_model_data": 481223 }, "model": "jmmf:item/ice_cream/pumpkin_ice_cream" },
-
         { "predicate": { "custom_model_data": 481330 }, "model": "jmmf:item/doughnut/black_forest_doughnut" },
         { "predicate": { "custom_model_data": 481331 }, "model": "jmmf:item/doughnut/chocolate_doughnut" },
         { "predicate": { "custom_model_data": 481332 }, "model": "jmmf:item/doughnut/sugar_doughnut" },

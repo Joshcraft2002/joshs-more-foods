@@ -1,20 +1,16 @@
 {
     "pools": [
-        {
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "item",
-                    "weight": 1,
-                    "name": "minecraft:rotten_flesh",
-                    "functions": [
-                        { "function": "set_count", "count": 1 },
-                        { "function": "set_nbt", "tag": "{smithed:{id: 'jmmf:rotten_stew', dict:{food:{}}}, CustomModelData: 481190}" },
-                        { "function": "set_name", "name": [{ "translate": "item.jmmf.rotten_stew", "italic": false }] },
-                        { "function": "set_lore", "lore": [{ "translate": "item.jmmf.rotten_stew.lore", "italic": false , "color":"gray"} ] }
-                    ]
-                }
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "item",
+            "name": "minecraft:rotten_flesh",
+            "functions": [
+              { "function": "reference", "name": "jmmf:rotten_stew" }
             ]
-        }
+          }
+        ]
+      }
     ]
 }

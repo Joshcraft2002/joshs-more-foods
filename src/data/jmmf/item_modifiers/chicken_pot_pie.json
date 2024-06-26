@@ -1,0 +1,11 @@
+[
+  {
+      "function": "minecraft:set_components",
+      "components": {
+          "minecraft:item_name": "{'translate': 'item.jmmf.chicken_pot_pie', 'italic': false }",
+          "minecraft:food": { "nutrition": 10, "saturation": 11}
+      }
+  },
+  { "function": "set_custom_model_data", "value": 481133 },
+  { "function": "set_custom_data", "tag": "{'smithed':{'id':'jmmf:chicken_pot_pie'}}" }
+]

@@ -1,19 +1,16 @@
 {
     "pools": [
-        {
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "item",
-                    "weight": 1,
-                    "name": "minecraft:cookie",
-                    "functions": [
-                        { "function": "set_count", "count": 1 },
-                        { "function": "set_nbt", "tag": "{jmmf:{tea:1b}, smithed:{id: 'jmmf:dandelion_tea', dict:{food:{tea: 1b}}, ignore: {functionality: 1b, crafting:1b}}, CustomModelData: 481362}" },
-                        { "function": "set_name", "name": [{ "translate": "item.jmmf.dandelion_tea", "italic": false }] }
-                    ]
-                }
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "item",
+            "name": "minecraft:cookie",
+            "functions": [
+              { "function": "reference", "name": "jmmf:dandelion_tea" }
             ]
-        }
+          }
+        ]
+      }
     ]
 }

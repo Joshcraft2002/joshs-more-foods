@@ -1,8 +1,8 @@
 #output must not be full
-execute if score @s jmmf.count.7 matches 64.. run scoreboard players set jmmf:temp1 jmmf.data 2
+execute if score @s jmmf.count.7 matches 64.. run return 1
 
 #check if output either empty or the item we're making anyway
-execute if score jmmf:temp1 jmmf.data matches 0 store success score jmmf:temp1 jmmf.data if data storage jmmf:cooking_station {output:{components:{"minecraft:custom_data":{smithed:{id:"jmmf:boiled_egg"}}}}}
-execute if score jmmf:temp1 jmmf.data matches 0 store success score jmmf:temp1 jmmf.data unless data storage jmmf:cooking_station {output:{}}
+execute store success score jmmf:recipe_validation jmmf.data if data storage jmmf:cooking_station {output:{components:{"minecraft:custom_data":{smithed:{id:"jmmf:boiled_egg"}}}}}
+execute if score jmmf:recipe_validation jmmf.data matches 0 if data storage jmmf:cooking_station {output:{}} run return 1
 
-execute if score jmmf:temp1 jmmf.data matches 1 run scoreboard players set @s jmmf.recipeid 6
+scoreboard players set @s jmmf.recipe_id 6

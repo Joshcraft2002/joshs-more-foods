@@ -1,0 +1,25 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:bread",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "minecraft:item_name": "{ 'translate': 'item.jmmf.potato_bread', 'italic': false }",
+                            "minecraft:custom_model_data": 481072,
+                            "minecraft:custom_data": {
+                                "smithed": {
+                                "id": "jmmf:potato_bread"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

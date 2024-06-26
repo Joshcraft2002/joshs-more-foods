@@ -1,0 +1,17 @@
+[
+  {
+      "function": "minecraft:set_components",
+      "components": {
+          "minecraft:item_name": "{'translate': 'item.jmmf.sakura_tea', 'italic': false }",
+          "minecraft:food": { 
+            "nutrition": 1, "saturation": 0.5, "can_always_eat": true,
+            "effects": [
+              {"effect":{"id":"minecraft:regeneration","duration":400}}
+            ]
+          },
+          "minecraft:max_stack_size": 16
+      }
+  },
+  { "function": "set_custom_model_data", "value": 481366 },
+  { "function": "set_custom_data", "tag": "{'smithed':{'id':'jmmf:sakura_tea'},'joshmats':{'tag':['tea']}}" }
+]

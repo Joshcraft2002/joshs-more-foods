@@ -8,8 +8,9 @@ scoreboard objectives add jmmf.update_ui dummy
 #cooking station
 scoreboard objectives add jmmf.active dummy
 scoreboard objectives add jmmf.cook_time dummy
-scoreboard objectives add jmmf.recipeid dummy
+scoreboard objectives add jmmf.recipe_id dummy
 scoreboard objectives add jmmf.water_level dummy
+scoreboard objectives add jmmf.max_stack_size dummy
 
 #slots
 scoreboard objectives add jmmf.count dummy

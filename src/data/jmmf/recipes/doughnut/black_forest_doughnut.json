@@ -31,11 +31,11 @@
         "joshmats": {
           "tag": ["doughnut"]
         }
+      },
+      "minecraft:food": {
+        "nutrition": 3,
+        "saturation": 3
       }
-    },
-    "minecraft:food": {
-      "nutrition": 3,
-      "saturation": 3
     },
     "count": 16
   }
