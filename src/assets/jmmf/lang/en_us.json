@@ -113,6 +113,9 @@
     "item.jmmf.tea_leaves": "Tea Leaves",
     "item.jmmf.boiled_egg": "Boiled Egg",
     "item.jmmf.fried_egg": "Fried Egg",
+    "item.jmmf.red_rice": "Red Rice",
+    "item.jmmf.red_rice_bowl": "Red Rice Bowl",
+    "item.jmmf.black_tea_leaves": "Black Tea Leaves",
 
     "item.jmmf.wooden_knife": "Wooden Knife",
     "item.jmmf.wooden_knife.lore.attack_damage": " 2.5 Attack Damage",
@@ -148,6 +151,8 @@
     "item.jmmf.sweet_berry_pie": "Sweet Berry Pie",
     "item.jmmf.chicken_pot_pie": "Chicken Pot Pie",
     "item.jmmf.shepherds_pie": "Shepherd's Pie",
+    "item.jmmf.pork_pie": "Pork Pie",
+    "item.jmmf.steak_pie": "Steak Pie",
 
     "item.jmmf.coleslaw": "Coleslaw",
     "item.jmmf.potato_salad": "Potato Salad",
@@ -157,6 +162,7 @@
 
     "item.jmmf.rotten_stew": "Rotten Stew",
     "item.jmmf.rotten_stew.lore": "Even the bowl is rotten...",
+    "item.jmmf.egg_drop_soup": "Egg Drop Soup",
 
     "item.jmmf.apple_ice_cream": "Apple Ice Cream",
     "item.jmmf.chocolate_ice_cream": "Chocolate Ice Cream",
@@ -179,5 +185,11 @@
     "item.jmmf.green_tea": "Green Tea",
     "item.jmmf.rose_tea": "Rose Tea",
     "item.jmmf.spruce_tea": "Spruce Tea",
-    "item.jmmf.sakura_tea": "Sakura Tea"
+    "item.jmmf.sakura_tea": "Sakura Tea",
+    "item.jmmf.bamboo_tea": "Bamboo Tea",
+    "item.jmmf.beetroot_tea": "Beetroot Tea",
+    "item.jmmf.birch_tea": "Birch Tea",
+    "item.jmmf.black_tea": "Black Tea",
+    "item.jmmf.chamomile_tea": "Chamomile Tea",
+    "item.jmmf.sunflower_tea": "Sunflower Tea"
 }

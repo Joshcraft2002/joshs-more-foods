@@ -1,5 +1,3 @@
-say rotten stew output
-
 function jmmf:block/cooking_station/cooking/input/deduct_container
 #remove an additional 2 bowls
 execute store result block ~ ~ ~ Items[{Slot:22b}].count int 1 run scoreboard players remove @s jmmf.count.6 2

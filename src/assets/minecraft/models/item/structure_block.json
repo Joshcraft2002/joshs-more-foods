@@ -8,6 +8,7 @@
     {"predicate": {"custom_model_data": 480905}, "model": "jmmf:item/gui/cooking_station/cook_3"},
 
     {"predicate": {"custom_model_data": 481004}, "model": "jmmf:item/teacup"},
-    {"predicate": {"custom_model_data": 481005}, "model": "jmmf:item/tea_leaves"}
+    {"predicate": {"custom_model_data": 481005}, "model": "jmmf:item/tea_leaves"},
+    {"predicate": {"custom_model_data": 481010}, "model": "jmmf:item/black_tea_leaves"}
   ]
 }

@@ -1,0 +1,10 @@
+[
+  {
+      "function": "minecraft:set_components",
+      "components": {
+          "minecraft:item_name": "{'translate': 'item.jmmf.red_rice', 'italic': false }"
+      }
+  },
+  { "function": "set_custom_model_data", "value": 481008 },
+  { "function": "set_custom_data", "tag": "{'smithed':{'id':'jmmf:red_rice'},'joshmats':{'tag':['rice']}}" }
+]

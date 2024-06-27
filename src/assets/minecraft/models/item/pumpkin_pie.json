@@ -9,6 +9,8 @@
         { "predicate": { "custom_model_data": 481132 }, "model": "jmmf:item/pie/sweet_berry_pie" },
         { "predicate": { "custom_model_data": 481133 }, "model": "jmmf:item/pie/chicken_pot_pie" },
         { "predicate": { "custom_model_data": 481134 }, "model": "jmmf:item/pie/shepherds_pie" },
+        { "predicate": { "custom_model_data": 481135 }, "model": "jmmf:item/pie/pork_pie" },
+        { "predicate": { "custom_model_data": 481136 }, "model": "jmmf:item/pie/steak_pie" },
         
         { "predicate": { "custom_model_data": 481251 }, "model": "jmmf:item/leche_flan" }
     ]
