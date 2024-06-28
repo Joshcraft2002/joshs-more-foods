@@ -81,6 +81,27 @@
         },
         {
             "type": "bitmap",
+            "file": "jmmf:item/red_rice.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uF008"]
+        },
+        {
+            "type": "bitmap",
+            "file": "jmmf:item/red_rice_bowl.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uF009"]
+        },
+        {
+            "type": "bitmap",
+            "file": "jmmf:item/black_tea_leaves.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uF010"]
+        },
+        {
+            "type": "bitmap",
             "file": "jmmf:item/knife/iron_knife.png",
             "ascent": 9,
             "height": 9,
@@ -176,6 +197,20 @@
             "ascent": 9,
             "height": 9,
             "chars": ["\uF134"]
+        },
+        {
+            "type": "bitmap",
+            "file": "jmmf:item/pie/pork_pie.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uF135"]
+        },
+        {
+            "type": "bitmap",
+            "file": "jmmf:item/pie/steak_pie.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uF136"]
         },
         {
             "type": "bitmap",
