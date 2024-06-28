@@ -256,6 +256,20 @@
         },
         {
             "type": "bitmap",
+            "file": "jmmf:item/soup/egg_drop_soup.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uF191"]
+        },
+        {
+            "type": "bitmap",
+            "file": "jmmf:item/soup/egg_drop_soup.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uF192"]
+        },
+        {
+            "type": "bitmap",
             "file": "jmmf:item/ice_cream/apple_ice_cream.png",
             "ascent": 9,
             "height": 9,
@@ -380,6 +394,48 @@
             "height": 9,
             "chars": ["\uF366"]
         },
+        {
+            "type": "bitmap",
+            "file": "jmmf:item/tea/bamboo_tea.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uF367"]
+        },
+        {
+            "type": "bitmap",
+            "file": "jmmf:item/tea/beetroot_tea.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uF368"]
+        },
+        {
+            "type": "bitmap",
+            "file": "jmmf:item/tea/birch_tea.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uF369"]
+        },
+        {
+            "type": "bitmap",
+            "file": "jmmf:item/tea/black_tea.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uF370"]
+        },
+        {
+            "type": "bitmap",
+            "file": "jmmf:item/tea/chamomile_tea.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uF371"]
+        },
+        {
+            "type": "bitmap",
+            "file": "jmmf:item/tea/sunflower_tea.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uF372"]
+        },
 
         {
             "type": "bitmap",
@@ -431,6 +487,13 @@
             "height": 86,
             "chars": ["\uE960"]
         },
+        {
+            "type": "bitmap",
+            "file": "jmmf:cookbook/black_teas.png",
+            "ascent": 7,
+            "height": 64,
+            "chars": ["\uE961"]
+        },
 
         {
             "type": "bitmap",
@@ -480,6 +543,27 @@
             "ascent": 7,
             "height": 45,
             "chars": ["\uE007"]
+        },
+        {
+            "type": "bitmap",
+            "file": "jmmf:cookbook/red_rice.png",
+            "ascent": 7,
+            "height": 45,
+            "chars": ["\uE008"]
+        },
+        {
+            "type": "bitmap",
+            "file": "jmmf:cookbook/red_rice_bowl.png",
+            "ascent": 7,
+            "height": 45,
+            "chars": ["\uE009"]
+        },
+        {
+            "type": "bitmap",
+            "file": "jmmf:cookbook/black_tea_leaves.png",
+            "ascent": 6,
+            "height": 49,
+            "chars": ["\uE010"]
         },
         {
             "type": "bitmap",
@@ -581,6 +665,20 @@
         },
         {
             "type": "bitmap",
+            "file": "jmmf:cookbook/pork_pie.png",
+            "ascent": 7,
+            "height": 45,
+            "chars": ["\uE135"]
+        },
+        {
+            "type": "bitmap",
+            "file": "jmmf:cookbook/steak_pie.png",
+            "ascent": 7,
+            "height": 45,
+            "chars": ["\uE136"]
+        },
+        {
+            "type": "bitmap",
             "file": "jmmf:cookbook/coleslaw.png",
             "ascent": 7,
             "height": 45,
@@ -620,6 +718,20 @@
             "ascent": 7,
             "height": 45,
             "chars": ["\uE190"]
+        },
+        {
+            "type": "bitmap",
+            "file": "jmmf:cookbook/rotten_stew.png",
+            "ascent": 7,
+            "height": 45,
+            "chars": ["\uE191"]
+        },
+        {
+            "type": "bitmap",
+            "file": "jmmf:cookbook/rotten_stew.png",
+            "ascent": 7,
+            "height": 45,
+            "chars": ["\uE192"]
         },
         {
             "type": "bitmap",
@@ -746,6 +858,48 @@
             "ascent": 7,
             "height": 45,
             "chars": ["\uE366"]
+        },
+        {
+            "type": "bitmap",
+            "file": "jmmf:cookbook/bamboo_tea.png",
+            "ascent": 7,
+            "height": 45,
+            "chars": ["\uE367"]
+        },
+        {
+            "type": "bitmap",
+            "file": "jmmf:cookbook/beetroot_tea.png",
+            "ascent": 7,
+            "height": 45,
+            "chars": ["\uE368"]
+        },
+        {
+            "type": "bitmap",
+            "file": "jmmf:cookbook/birch_tea.png",
+            "ascent": 7,
+            "height": 45,
+            "chars": ["\uE369\uE969"]
+        },
+        {
+            "type": "bitmap",
+            "file": "jmmf:cookbook/black_tea.png",
+            "ascent": 7,
+            "height": 45,
+            "chars": ["\uE370"]
+        },
+        {
+            "type": "bitmap",
+            "file": "jmmf:cookbook/chamomile_tea.png",
+            "ascent": 7,
+            "height": 45,
+            "chars": ["\uE371"]
+        },
+        {
+            "type": "bitmap",
+            "file": "jmmf:cookbook/sunflower_tea.png",
+            "ascent": 7,
+            "height": 45,
+            "chars": ["\uE372"]
         }
     ]
 }
