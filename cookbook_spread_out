@@ -25,7 +25,7 @@
     {'text':'\n\uF330 ','font':'jmmf:cookbook','color':'white'}, 
     {'translate':'item.jmmf.cookbook.doughnuts','clickEvent':{'action':'change_page','value':'37'},'hoverEvent':{'action':'show_text','contents':[{'translate':'item.jmmf.cookbook.doughnuts.skip'}]}}, 
     {'text':'\n\uF160 ','font':'jmmf:cookbook','color':'white'}, 
-    {'translate':'item.jmmf.cookbook.salad','clickEvent':{'action':'change_page','value':'39'},'hoverEvent':{'action':'show_text','contents':[{'translate':'item.jmmf.cookbook.salad.skip'}]}}, 
+    {'translate':'item.jmmf.cookbook.salads','clickEvent':{'action':'change_page','value':'39'},'hoverEvent':{'action':'show_text','contents':[{'translate':'item.jmmf.cookbook.salads.skip'}]}}, 
     {'text':'\n\uF192 ','font':'jmmf:cookbook','color':'white'}, 
     {'translate':'item.jmmf.cookbook.soups','clickEvent':{'action':'change_page','value':'43'},'hoverEvent':{'action':'show_text','contents':[{'translate':'item.jmmf.cookbook.soups.skip'}]}}, 
     {'text':'\n\uF220 ','font':'jmmf:cookbook','color':'white'}, 
@@ -337,8 +337,8 @@
 
 "['',
     {'text':'\uF160','font':'jmmf:cookbook','color':'white'}, {'text':' | '},
-    {'translate':'item.jmmf.cookbook.salad','underlined':true}, {'text':'\n'},
-    {'translate':'item.jmmf.cookbook.salad.desc','color':'dark_gray'},
+    {'translate':'item.jmmf.cookbook.salads','underlined':true}, {'text':'\n'},
+    {'translate':'item.jmmf.cookbook.salads.desc','color':'dark_gray'},
     {'text':'\n\uF164','font':'jmmf:cookbook','color':'white'}, {'text':' | '},
     {'translate':'item.jmmf.fruit_salad'},
     {'text':'\n   \uE164\n\n\n\n\n','font':'jmmf:cookbook','color':'white'},
@@ -349,7 +349,7 @@
     {'text':'\uF160','font':'jmmf:cookbook','color':'white'}, {'text':' | '},
     {'translate':'item.jmmf.coleslaw'},
     {'text':'\n   \uE160\n\n\n\n\n','font':'jmmf:cookbook','color':'white'},
-    {'translate':'item.jmmf.cookbook.salad.space_1'},
+    {'translate':'item.jmmf.cookbook.salads.space_1'},
     {'text':'\uF161','font':'jmmf:cookbook','color':'white'}, {'text':' | '},
     {'translate':'item.jmmf.potato_salad'},
     {'text':'\n   \uE161','font':'jmmf:cookbook','color':'white'}
