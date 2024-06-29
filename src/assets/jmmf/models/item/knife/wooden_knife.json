@@ -1,0 +1,6 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "jmmf:item/knife/wooden_knife"
+    }
+}

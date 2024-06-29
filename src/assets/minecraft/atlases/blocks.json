@@ -1,0 +1,14 @@
+{
+    "sources": [
+        {
+            "type": "directory",
+            "source": "cookbook",
+			"prefix": "cookbook/"
+        },
+        {
+            "type": "directory",
+            "source": "nutritionbook",
+			"prefix": "nutritionbook/"
+        }
+    ]
+}

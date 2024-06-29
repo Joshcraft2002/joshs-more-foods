@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WPW"
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:wheat"
+    },
+    "P": {
+      "item": "minecraft:potato"
+    }
+  },
+  "result": {
+    "id": "minecraft:bread",
+    "components": {
+      "minecraft:item_name": "{ 'translate': 'item.jmmf.potato_bread', 'italic': false }",
+      "minecraft:custom_model_data": 481072,
+      "minecraft:custom_data": {
+        "smithed": {
+          "id": "jmmf:potato_bread"
+        }
+      }
+    }
+  }
+}

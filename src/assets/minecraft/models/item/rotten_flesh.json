@@ -1,0 +1,10 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/rotten_flesh"
+    },
+    "overrides": [
+        
+        { "predicate": { "custom_model_data": 481190 }, "model": "jmmf:item/soup/rotten_stew" }
+    ]
+}

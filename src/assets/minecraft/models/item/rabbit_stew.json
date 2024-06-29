@@ -1,0 +1,9 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/rabbit_stew"
+    },
+    "overrides": [
+        { "predicate": { "custom_model_data": 481250 }, "model": "jmmf:item/fish_and_chips" }
+    ]
+}

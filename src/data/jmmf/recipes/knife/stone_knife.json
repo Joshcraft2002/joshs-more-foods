@@ -1,0 +1,58 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "C",
+    "S"
+  ],
+  "key": {
+    "C": {
+      "tag": "minecraft:stone_crafting_materials"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "minecraft:stone_sword",
+    "components": {
+      "minecraft:item_name": "{ 'translate': 'item.jmmf.stone_knife', 'italic': false }",
+      "minecraft:custom_model_data": 481051,
+      "minecraft:custom_data": {
+        "smithed": {
+          "id": "jmmf:stone_knife"
+        },
+        "joshmats": {
+          "tag": ["knife"]
+        }
+      },
+      "minecraft:lore": [
+        "{'text': ''}",
+        "{'translate': 'item.modifiers.mainhand', 'color': 'gray', 'italic': false}", 
+        "{'translate': 'item.jmmf.stone_knife.lore.attack_damage', 'color': 'dark_green', 'italic': false}", 
+        "{'translate': 'item.jmmf.stone_knife.lore.attack_speed', 'color': 'dark_green',  'italic': false}"
+      ],
+      "minecraft:attribute_modifiers": {
+        "modifiers": [
+          {
+            "type": "minecraft:generic.attack_damage",
+            "slot": "mainhand",
+            "uuid": [775340172,757221097,-1797219774,2050427100],
+            "name": "generic.attack_damage",
+            "amount": 2.5,
+            "operation": "add_value"
+          },
+          {
+            "type": "minecraft:generic.attack_speed",
+            "slot": "mainhand",
+            "uuid": [725612198,2082882517,-1124182612,-1873377633],
+            "name": "generic.attack_speed",
+            "amount": -2,
+            "operation": "add_value"
+          }
+        ],
+        "show_in_tooltip": false
+      }
+      
+    }
+  }
+}

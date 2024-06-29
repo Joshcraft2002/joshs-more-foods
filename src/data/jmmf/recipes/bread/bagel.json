@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WWW",
+    "W W",
+    "WWW"
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:wheat"
+    }
+  },
+  "result": {
+    "id": "minecraft:bread",
+    "components": {
+      "minecraft:item_name": "{ 'translate': 'item.jmmf.bagel', 'italic': false }",
+      "minecraft:custom_model_data": 481074,
+      "minecraft:custom_data": {
+        "smithed": {
+          "id": "jmmf:bagel"
+        }
+      },
+      "minecraft:food": {
+        "nutrition": 7,
+        "saturation": 8
+      }
+    },
+    "count": 2
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/furnace",
+    "overrides": [
+        { "predicate": { "custom_model_data": 480900 }, "model": "jmmf:block/cooking_station/block" }
+    ]
+  }

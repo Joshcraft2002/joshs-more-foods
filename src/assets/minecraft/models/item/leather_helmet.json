@@ -1,0 +1,26 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/leather_helmet",
+		"layer1": "item/leather_helmet_overlay"
+    },
+    "overrides": [
+		{ "predicate": { "custom_model_data": 480906 }, "model": "jmmf:item/gui/water_tank_0" },
+    { "predicate": { "custom_model_data": 480907 }, "model": "jmmf:item/gui/water_tank_1" },
+    { "predicate": { "custom_model_data": 480908 }, "model": "jmmf:item/gui/water_tank_2" },
+    { "predicate": { "custom_model_data": 480909 }, "model": "jmmf:item/gui/water_tank_3" },
+    { "predicate": { "custom_model_data": 480910 }, "model": "jmmf:item/gui/water_tank_4" },
+    { "predicate": { "custom_model_data": 480911 }, "model": "jmmf:item/gui/water_tank_5" },
+    { "predicate": { "custom_model_data": 480912 }, "model": "jmmf:item/gui/water_tank_6" },
+    { "predicate": { "custom_model_data": 480913 }, "model": "jmmf:item/gui/water_tank_7" },
+    { "predicate": { "custom_model_data": 480914 }, "model": "jmmf:item/gui/water_tank_8" },
+    { "predicate": { "custom_model_data": 480915 }, "model": "jmmf:item/gui/water_tank_9" },
+    { "predicate": { "custom_model_data": 480916 }, "model": "jmmf:item/gui/water_tank_10" },
+    { "predicate": { "custom_model_data": 480917 }, "model": "jmmf:item/gui/water_tank_11" },
+    { "predicate": { "custom_model_data": 480918 }, "model": "jmmf:item/gui/water_tank_12" },
+    { "predicate": { "custom_model_data": 480919 }, "model": "jmmf:item/gui/water_tank_13" },
+    { "predicate": { "custom_model_data": 480920 }, "model": "jmmf:item/gui/water_tank_14" },
+    { "predicate": { "custom_model_data": 480921 }, "model": "jmmf:item/gui/water_tank_15" },
+    { "predicate": { "custom_model_data": 480922 }, "model": "jmmf:item/gui/water_tank_16" }
+	]
+}

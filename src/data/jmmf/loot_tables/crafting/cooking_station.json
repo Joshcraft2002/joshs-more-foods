@@ -1,0 +1,36 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:furnace",
+                    "functions": [
+                        { "function": "minecraft:set_count", "count": 1 },
+                        { 
+                            "function": "minecraft:set_components", 
+                            "components": {
+                                "minecraft:item_name": "{ 'translate': 'block.jmmf.cooking_station', 'italic': false }",
+                                "minecraft:container": [
+                                    {
+                                        "slot": 0,
+                                        "item": {
+                                            "id": "minecraft:stone",
+                                            "components": {
+                                                "minecraft:custom_data": { "joshmats": { "block": { "id": "jmmf:cooking_station" }}}
+                                            }       
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        { "function": "minecraft:set_custom_model_data", "value": 480900 },
+                        { "function": "minecraft:set_custom_data", "tag": "{'smithed':{'id':'jmmf:cooking_station'}}" }
+                    ]
+                }
+            ]
+        }
+    ]
+}

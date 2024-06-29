@@ -1,0 +1,35 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/cookie"
+    },
+    "overrides": [
+        { "predicate": { "custom_model_data": 480924 }, "model": "jmmf:item/gilded_tea" },
+        
+        { "predicate": { "custom_model_data": 481003 }, "model": "jmmf:item/pie_crust" },
+        { "predicate": { "custom_model_data": 481006 }, "model": "jmmf:item/boiled_egg" },
+        { "predicate": { "custom_model_data": 481007 }, "model": "jmmf:item/fried_egg" },
+
+        { "predicate": { "custom_model_data": 481100 }, "model": "jmmf:item/cookie/honey_cookie" },
+        { "predicate": { "custom_model_data": 481101 }, "model": "jmmf:item/cookie/sugar_cookie" },
+        { "predicate": { "custom_model_data": 481102 }, "model": "jmmf:item/cookie/sweet_berry_cookie" },
+
+        { "predicate": { "custom_model_data": 481330 }, "model": "jmmf:item/doughnut/black_forest_doughnut" },
+        { "predicate": { "custom_model_data": 481331 }, "model": "jmmf:item/doughnut/chocolate_doughnut" },
+        { "predicate": { "custom_model_data": 481332 }, "model": "jmmf:item/doughnut/sugar_doughnut" },
+
+        { "predicate": { "custom_model_data": 481360 }, "model": "jmmf:item/tea/sweet_berry_tea" },
+        { "predicate": { "custom_model_data": 481361 }, "model": "jmmf:item/tea/cornflower_tea" },
+        { "predicate": { "custom_model_data": 481362 }, "model": "jmmf:item/tea/dandelion_tea" },
+        { "predicate": { "custom_model_data": 481363 }, "model": "jmmf:item/tea/green_tea" },
+        { "predicate": { "custom_model_data": 481364 }, "model": "jmmf:item/tea/rose_tea" },
+        { "predicate": { "custom_model_data": 481365 }, "model": "jmmf:item/tea/spruce_tea" },
+        { "predicate": { "custom_model_data": 481366 }, "model": "jmmf:item/tea/sakura_tea" },
+        { "predicate": { "custom_model_data": 481367 }, "model": "jmmf:item/tea/bamboo_tea" },
+        { "predicate": { "custom_model_data": 481368 }, "model": "jmmf:item/tea/beetroot_tea" },
+        { "predicate": { "custom_model_data": 481369 }, "model": "jmmf:item/tea/birch_tea" },
+        { "predicate": { "custom_model_data": 481370 }, "model": "jmmf:item/tea/black_tea" },
+        { "predicate": { "custom_model_data": 481371 }, "model": "jmmf:item/tea/chamomile_tea" },
+        { "predicate": { "custom_model_data": 481372 }, "model": "jmmf:item/tea/sunflower_tea" }
+    ]
+}
