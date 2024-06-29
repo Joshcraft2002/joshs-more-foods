@@ -256,7 +256,7 @@
         },
         {
             "type": "bitmap",
-            "file": "jmmf:item/soup/egg_drop_soup.png",
+            "file": "jmmf:item/soup/bone_broth.png",
             "ascent": 9,
             "height": 9,
             "chars": ["\uF191"]
@@ -721,14 +721,14 @@
         },
         {
             "type": "bitmap",
-            "file": "jmmf:cookbook/rotten_stew.png",
+            "file": "jmmf:cookbook/bone_broth.png",
             "ascent": 7,
             "height": 45,
             "chars": ["\uE191"]
         },
         {
             "type": "bitmap",
-            "file": "jmmf:cookbook/rotten_stew.png",
+            "file": "jmmf:cookbook/egg_drop_soup.png",
             "ascent": 7,
             "height": 45,
             "chars": ["\uE192"]

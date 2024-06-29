@@ -13,7 +13,8 @@
         { "predicate": { "custom_model_data": 481163 }, "model": "jmmf:item/salad/fleshy_salad" },
         { "predicate": { "custom_model_data": 481164 }, "model": "jmmf:item/salad/fruit_salad" },
 
-        { "predicate": { "custom_model_data": 481191 }, "model": "jmmf:item/soup/egg_drop_soup" },
+        { "predicate": { "custom_model_data": 481191 }, "model": "jmmf:item/soup/bone_broth" },
+        { "predicate": { "custom_model_data": 481192 }, "model": "jmmf:item/soup/egg_drop_soup" },
 
         { "predicate": { "custom_model_data": 481300 }, "model": "jmmf:item/rice_meal/fried_rice" },
         { "predicate": { "custom_model_data": 481301 }, "model": "jmmf:item/rice_meal/champorado" }

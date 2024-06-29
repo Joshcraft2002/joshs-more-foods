@@ -6,7 +6,7 @@
           "minecraft:food": { 
             "nutrition": 1, "saturation": 0.5, "can_always_eat": true,
             "effects": [
-              {"effect":{"id":"minecraft:regeneration","amplifier":1,"duration":200}}
+              {"effect":{"id":"minecraft:regeneration","amplifier":1,"duration":100}}
             ]
           },
           "minecraft:max_stack_size": 16

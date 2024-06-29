@@ -13,6 +13,8 @@ execute if score @s jmmf.recipe_id matches 135 run function jmmf:block/cooking_s
 execute if score @s jmmf.recipe_id matches 136 run function jmmf:block/cooking_station/cooking/recipes/pie/steak_pie/output
 
 execute if score @s jmmf.recipe_id matches 190 run function jmmf:block/cooking_station/cooking/recipes/rotten_stew/output
+execute if score @s jmmf.recipe_id matches 191 run function jmmf:block/cooking_station/cooking/recipes/bone_broth/output
+execute if score @s jmmf.recipe_id matches 192 run function jmmf:block/cooking_station/cooking/recipes/egg_drop_soup/output
 
 execute if score @s jmmf.recipe_id matches 300 run function jmmf:block/cooking_station/cooking/recipes/fried_rice/output
 execute if score @s jmmf.recipe_id matches 301 run function jmmf:block/cooking_station/cooking/recipes/champorado/output

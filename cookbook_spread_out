@@ -375,7 +375,8 @@
     {'translate':'item.jmmf.cookbook.soups.desc','color':'dark_gray'},
     {'text':'\n\uF191','font':'jmmf:cookbook','color':'white'}, {'text':' | '},
     {'translate':'item.jmmf.bone_broth'},
-    {'text':'\n \uE191','font':'jmmf:cookbook','color':'white'}
+    {'text':'\n \uE191\n\n\n\n\n','font':'jmmf:cookbook','color':'white'},
+    {'translate':'item.jmmf.cookbook.requires_water','color':'#3F76E4'}
 ]",
 
 "['',

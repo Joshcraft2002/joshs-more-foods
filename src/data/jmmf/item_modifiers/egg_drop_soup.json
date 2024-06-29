@@ -1,0 +1,12 @@
+[
+  {
+      "function": "minecraft:set_components",
+      "components": {
+          "minecraft:item_name": "{'translate': 'item.jmmf.egg_drop_soup', 'italic': false }",
+          "minecraft:food": { "nutrition": 7, "saturation": 6},
+          "minecraft:max_stack_size": 16
+      }
+  },
+  { "function": "set_custom_model_data", "value": 481192 },
+  { "function": "set_custom_data", "tag": "{'smithed':{'id':'jmmf:egg_drop_soup'}}" }
+]
