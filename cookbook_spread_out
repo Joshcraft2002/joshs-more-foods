@@ -150,9 +150,9 @@
 ]",
 
 "['',
-    {'text':'\uF005','font':'jmmf:cookbook','color':'white'}, {'text':' | '},
+    {'text':'\uF010','font':'jmmf:cookbook','color':'white'}, {'text':' | '},
     {'translate':'item.jmmf.black_tea_leaves','color':'black'},
-    {'text':'\uE010\n\n\n\n\n\n','font':'jmmf:cookbook','color':'white'},
+    {'text':'\n\uE010\n\n\n\n\n\n','font':'jmmf:cookbook','color':'white'},
     {'translate':'item.jmmf.cookbook.black_tea_leaves.desc','color':'dark_gray'}                       
 ]",
 

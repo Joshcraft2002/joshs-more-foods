@@ -19,9 +19,9 @@
     {'text':'\n\uF192 ','font':'jmmf:cookbook','color':'white'},
     {'translate':'item.jmmf.cookbook.soups','font':'minecraft:default','color':'black','clickEvent':{'action':'change_page','value':'17'},'hoverEvent':{'action':'show_text','contents':[{'translate':'item.jmmf.cookbook.soups.skip'}]}},
     {'text':'\n\uF363 ','font':'jmmf:cookbook','color':'white'},
-    {'translate':'item.jmmf.cookbook.tea','font':'minecraft:default','color':'black','clickEvent':{'action':'change_page','value':'18'},'hoverEvent':{'action':'show_text','contents':[{'translate':'item.jmmf.cookbook.tea.skip'}]}},
+    {'translate':'item.jmmf.cookbook.tea','font':'minecraft:default','color':'black','clickEvent':{'action':'change_page','value':'19'},'hoverEvent':{'action':'show_text','contents':[{'translate':'item.jmmf.cookbook.tea.skip'}]}},
     {'text':'\n\uF250 ','font':'jmmf:cookbook','color':'white'},
-    {'translate':'item.jmmf.cookbook.other','font':'minecraft:default','color':'black','clickEvent':{'action':'change_page','value':'19'},'hoverEvent':{'action':'show_text','contents':[{'translate':'item.jmmf.cookbook.other.skip'}]}}
+    {'translate':'item.jmmf.cookbook.other','font':'minecraft:default','color':'black','clickEvent':{'action':'change_page','value':'20'},'hoverEvent':{'action':'show_text','contents':[{'translate':'item.jmmf.cookbook.other.skip'}]}}
 ]",
 
 
@@ -283,7 +283,11 @@
     {'text':'\uF192','font':'jmmf:cookbook','color':'white'}, {'text':' | '},
     {'translate':'item.jmmf.egg_drop_soup'}, {'text':'\n'},
     {'text':'\uF002\uF001\uF001\uF001','font':'jmmf:nutritionbook','color':'white'}, {'text':'(3.5)\n','color':'dark_gray'},
-    {'text':'\uF003\uF003\uF003','font':'jmmf:nutritionbook','color':'white'}, {'text':'(3)\n\n','color':'dark_gray'},
+    {'text':'\uF003\uF003\uF003','font':'jmmf:nutritionbook','color':'white'}, {'text':'(3)\n\n','color':'dark_gray'}
+]",
+
+"['',
+    {'translate':'item.jmmf.cookbook.soups','underlined':true,'color':'black'}, {'text':'\n\n'},
 
     {'text':'\uF190','font':'jmmf:cookbook','color':'white'}, {'text':' | '},
     {'translate':'item.jmmf.rotten_stew'}, {'text':'\n'},
