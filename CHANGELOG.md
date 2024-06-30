@@ -1,8 +1,6 @@
 # v5.1.0
 ## Added
 - 1.21 support (this version is incompatible with 1.20.6 and below)
-## Changes
-- Tea and Rotten Stew now use the `using_converts_to` field of the food component instead of giving back the container through an advancement
 
 # v5.0.0
 ## Added
