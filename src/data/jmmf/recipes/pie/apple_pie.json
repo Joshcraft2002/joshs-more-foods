@@ -1,0 +1,26 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:egg"
+    },
+    {
+      "item": "minecraft:apple"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "result": {
+    "id": "minecraft:pumpkin_pie",
+    "components": {
+      "minecraft:item_name": "{ 'translate': 'item.jmmf.apple_pie', 'italic': false }",
+      "minecraft:custom_model_data": 481130,
+      "minecraft:custom_data": {
+        "smithed": {
+          "id": "jmmf:apple_pie"
+        }
+      }
+    }
+  }
+}

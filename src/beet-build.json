@@ -5,7 +5,7 @@
     "output": "build",
     "data_pack": {
         "pack_format": 48,
-        "description": "Datapack for Josh's More Foods. v5.1.0",           
+        "description": "Datapack for Josh's More Foods. v5.1.0",
         "load": ["."],
         "zipped": true
     },

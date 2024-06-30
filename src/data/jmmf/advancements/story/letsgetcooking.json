@@ -1,0 +1,27 @@
+{   
+    "parent": "jmmf:story/cookbook",
+    "display": {
+        "icon":{
+            "id": "minecraft:furnace",
+            "components": {"custom_model_data":480900}
+        },
+        "title": {
+          "translate": "advancements.jmmf.letsgetcooking.title"
+        },
+        "description": {
+          "translate": "advancements.jmmf.letsgetcooking.description"
+        },
+        "hidden": false
+    },
+    "criteria": {
+      "get_cooking_station": {
+          "trigger": "minecraft:inventory_changed",
+          "conditions": {
+            "items": [
+              {"predicates":{"minecraft:custom_data":{"smithed":{"id": "jmmf:cooking_station"}}}}
+            ]
+          }
+        }
+      }
+    
+}
