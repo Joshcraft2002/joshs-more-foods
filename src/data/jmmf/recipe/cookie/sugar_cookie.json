@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WS"
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:wheat"
+    },
+    "S": {
+      "item": "minecraft:sugar"
+    }
+  },
+  "result": {
+    "id": "minecraft:cookie",
+    "components": {
+      "minecraft:item_name": "{ 'translate': 'item.jmmf.sugar_cookie', 'italic': false }",
+      "minecraft:custom_model_data": 481101,
+      "minecraft:custom_data": {
+        "smithed": {
+          "id": "jmmf:sugar_cookie"
+        },
+        "joshmats": {
+          "tag": ["cookie"]
+        }
+      }
+    },
+    "count": 3
+  }
+}

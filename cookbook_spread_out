@@ -2,7 +2,7 @@
     {'text':'\n\n\n\n\n\n\n\n\n'}, 
     {'text':'   \uF901\n','font':'jmmf:cookbook','color':'white'}, 
     {'translate':'item.jmmf.cookbook.title'}, 
-    {'text':'\n          v5.0.0\n'}, 
+    {'text':'\n          v5.1.0\n'}, 
     {'translate':'item.jmmf.cookbook.datapackcredits','color':'blue','clickEvent':{'action':'change_page','value':'52'},'hoverEvent':{'action':'show_text','contents':[{'translate':'item.jmmf.cookbook.datapackcredits.hover'}]}} 
 ]",
 

@@ -1,0 +1,35 @@
+{   
+    "parent": "jmmf:story/slicendice",
+    "display": {
+        "icon":{
+            "id": "minecraft:netherite_sword",
+            "components": {"custom_model_data":481055}
+        },
+        "title": {
+          "translate": "advancements.jmmf.knivestomeetyou.title"
+        },
+        "description": {
+          "translate": "advancements.jmmf.knivestomeetyou.description"
+        },
+        "frame": "challenge"
+    },
+    "criteria": {
+      "have_all_knives": {
+          "trigger": "minecraft:inventory_changed",
+          "conditions": {
+            "items": [
+              {"predicates":{"minecraft:custom_data":{"smithed":{"id": "jmmf:wooden_knife"}}}},
+              {"predicates":{"minecraft:custom_data":{"smithed":{"id": "jmmf:stone_knife"}}}},
+              {"predicates":{"minecraft:custom_data":{"smithed":{"id": "jmmf:golden_knife"}}}},
+              {"predicates":{"minecraft:custom_data":{"smithed":{"id": "jmmf:iron_knife"}}}},
+              {"predicates":{"minecraft:custom_data":{"smithed":{"id": "jmmf:diamond_knife"}}}},
+              {"predicates":{"minecraft:custom_data":{"smithed":{"id": "jmmf:netherite_knife"}}}}
+            ]
+          }
+        }
+      },
+      "rewards": {
+        "experience": 50
+    }
+    
+}

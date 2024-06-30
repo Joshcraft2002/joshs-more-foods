@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WBW"
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:wheat"
+    },
+    "B": {
+      "item": "minecraft:beetroot"
+    }
+  },
+  "result": {
+    "id": "minecraft:bread",
+    "components": {
+      "minecraft:item_name": "{ 'translate': 'item.jmmf.beetroot_bread', 'italic': false }",
+      "minecraft:custom_model_data": 481071,
+      "minecraft:custom_data": {
+        "smithed": {
+          "id": "jmmf:beetroot_bread"
+        }
+      }
+    }
+  }
+}

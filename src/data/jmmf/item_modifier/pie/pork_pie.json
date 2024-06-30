@@ -1,0 +1,11 @@
+[
+  {
+      "function": "minecraft:set_components",
+      "components": {
+          "minecraft:item_name": "{'translate': 'item.jmmf.pork_pie', 'italic': false }",
+          "minecraft:food": { "nutrition": 8, "saturation": 10}
+      }
+  },
+  { "function": "set_custom_model_data", "value": 481135 },
+  { "function": "set_custom_data", "tag": "{'smithed':{'id':'jmmf:pork_pie'}}" }
+]
