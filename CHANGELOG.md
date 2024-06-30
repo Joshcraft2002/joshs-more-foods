@@ -1,3 +1,8 @@
+# v4.1.7
+## Fixes
+- Fish and chips not giving the actual nutrition values
+- Leche Flan having the wrong nutrition values in the nutrition book
+
 # v4.1.6
 ## Fixes
 - Fixed issues from Nutrition book not having a proper json file (weld, possibly realms?)
