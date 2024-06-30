@@ -16,16 +16,14 @@
                                     {
                                         "type": "minecraft:generic.attack_damage",
                                         "slot": "mainhand",
-                                        "uuid": [-2021797382,-787526567,-1235892725,804773087],
-                                        "name": "generic.attack_damage",
+                                        "id": "jmmf:netherite_knife.attack_damage",
                                         "amount": 4.5,
                                         "operation": "add_value"
                                     },
                                     {
                                         "type": "minecraft:generic.attack_speed",
                                         "slot": "mainhand",
-                                        "uuid": [171749602,-758231208,-1298769169,23128610],
-                                        "name": "generic.attack_speed",
+                                        "id": "jmmf:netherite_knife.attack_speed",
                                         "amount": -2,
                                         "operation": "add_value"
                                     }

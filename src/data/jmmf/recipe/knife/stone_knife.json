@@ -36,16 +36,14 @@
           {
             "type": "minecraft:generic.attack_damage",
             "slot": "mainhand",
-            "uuid": [775340172,757221097,-1797219774,2050427100],
-            "name": "generic.attack_damage",
+            "id": "jmmf:stone_knife.attack_damage",
             "amount": 2.5,
             "operation": "add_value"
           },
           {
             "type": "minecraft:generic.attack_speed",
             "slot": "mainhand",
-            "uuid": [725612198,2082882517,-1124182612,-1873377633],
-            "name": "generic.attack_speed",
+            "id": "jmmf:stone_knife.attack_speed",
             "amount": -2,
             "operation": "add_value"
           }

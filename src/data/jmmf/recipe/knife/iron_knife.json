@@ -36,16 +36,14 @@
           {
             "type": "minecraft:generic.attack_damage",
             "slot": "mainhand",
-            "uuid": [-811154,-300989125,-1621773114,1051339611],
-            "name": "generic.attack_damage",
+            "id": "jmmf:iron_knife.attack_damage",
             "amount": 3,
             "operation": "add_value"
           },
           {
             "type": "minecraft:generic.attack_speed",
             "slot": "mainhand",
-            "uuid": [-473834410,-1145681222,-2029849396,523337566],
-            "name": "generic.attack_speed",
+            "id": "jmmf:iron_knife.attack_speed",
             "amount": -2,
             "operation": "add_value"
           }

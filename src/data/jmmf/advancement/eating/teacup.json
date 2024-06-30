@@ -5,7 +5,7 @@
         "conditions": {
           "item": {
             "predicates": {
-              "custom_data": { "smithed":{"id":"jmmf:rotten_stew"} }
+              "custom_data": { "joshmats":{"tag":["tea"]} }
             }
           }
         }
@@ -13,9 +13,8 @@
     },
     "rewards": {
         "loot": [
-          "jmmf:eating/bowl"
+          "jmmf:crafting/teacup"
         ],
-	      "function": "jmmf:eating/bowl"
+	      "function": "jmmf:eating/teacup"
       }
   }
-  

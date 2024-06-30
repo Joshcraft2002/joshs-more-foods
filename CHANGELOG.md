@@ -1,6 +1,12 @@
+# v5.1.0
+## Added
+- 1.21 support (this version is incompatible with 1.20.6 and below)
+## Changes
+- Tea and Rotten Stew now use the `using_converts_to` field of the food component instead of giving back the container through an advancement
+
 # v5.0.0
 ## Added
-- 1.20.5/1.20.6 support (no longer works for 1.20.4 and below)
+- 1.20.5/1.20.6 support (this version is incompatible with 1.20.4 and below)
 ### Cookbook/Nutrition Book Updating
 You can now put the cookbook or nutrition book in the cooking station as an input to update it (works for any book made since v4.0.0) instead of having to recraft every time.
 ### Food
