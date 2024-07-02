@@ -1,3 +1,8 @@
+# v4.1.8
+## Added
+- Vietnamese (vi_vn) language support
+ > Note: This is mostly a resourcepack change, you don't need to update the datapack itself (only cookbook cover version is changed via datapack)
+
 # v4.1.7
 ## Fixes
 - Fish and chips not giving the actual nutrition values

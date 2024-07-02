@@ -12,8 +12,6 @@ Many foods rely on the saturation effect to have custom nutrition values. As suc
 ## Recipes and Information
 To view this datapack's recipes and other information in-game, you can craft Josh's Cookbook using bread and a book and quill.
 
-You can also refer to the [wiki](https://github.com/Joshcraft2002/joshs-more-foods/wiki). (currently a WIP for v4+)
-
 You may need to craft a new book depending on updates (refer to the changelog for more information)
 
 ## Installing
@@ -47,6 +45,7 @@ Language Contributions:
 - Brazilian Portuguese (pt_br) by [MeiaQuatru](https://www.planetminecraft.com/member/meiaquatru/)
 - Russian (ru_ru) by [Ll66dar](https://www.planetminecraft.com/member/ll66dar/)
 - Ukrainian (uk_ua) by [MrBaget](https://modrinth.com/user/MrBaget)
+- Vietnamese (vi_vn) by Haisenberger
 
 This datapack uses the Smithed Custom Block library and an adaptation of the Custom Crafter library, both under the MIT License. [License](LICENSE-smithed)
 
