@@ -1,3 +1,9 @@
+# v5.0.1
+## Changed
+- Updated Vietnamese (vi_vn) language support
+## Fixes
+- Crafting Cookbook or Book of Nutrition not giving the updated book
+
 # v5.0.0
 ## Added
 - 1.20.5/1.20.6 support (no longer works for 1.20.4 and below)
@@ -61,6 +67,16 @@ Cooking Station now has two slots for water: an input slot (marked by a bucket s
 ## Removed
 - Gilded Tea (the bug it fixed no longer exists)
 - Brazilian Portuguese (pt_br) language support (may return if the translations get updated for the new content)
+
+# v4.1.8
+## Added
+- Vietnamese (vi_vn) language support
+ > Note: This is mostly a resourcepack change, you don't need to update the datapack itself (only cookbook cover version is changed via datapack)
+
+# v4.1.7
+## Fixes
+- Fish and chips not giving the actual nutrition values
+- Leche Flan having the wrong nutrition values in the nutrition book
 
 # v4.1.6
 ## Fixes
