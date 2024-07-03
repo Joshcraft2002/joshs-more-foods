@@ -33,6 +33,7 @@ Language Contributions:
 - (up to 1.20.4) Brazilian Portuguese (pt_br) by [MeiaQuatru](https://www.planetminecraft.com/member/meiaquatru/)
 - Russian (ru_ru) by [Ll66dar](https://www.planetminecraft.com/member/ll66dar/)
 - Ukrainian (uk_ua) by [MrBaget](https://modrinth.com/user/MrBaget)
+- Vietnamese (vi_vn) by Haisenberger
 
 This datapack uses adaptations of the Smithed Custom Block and Custom Crafter libraries, both under the MIT License. [License](LICENSE-smithed)
 
