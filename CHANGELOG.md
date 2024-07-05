@@ -1,3 +1,7 @@
+# v5.0.2
+## Fixes
+- Pressing Q while hovering over the water bar in the Cooking Station would drop it as an item and not destroy it
+
 # v5.0.1
 ## Changed
 - Updated Vietnamese (vi_vn) language support
@@ -67,6 +71,10 @@ Cooking Station now has two slots for water: an input slot (marked by a bucket s
 ## Removed
 - Gilded Tea (the bug it fixed no longer exists)
 - Brazilian Portuguese (pt_br) language support (may return if the translations get updated for the new content)
+
+# v4.1.9
+## Fixes
+- Pressing Q while hovering over the water bar in the Cooking Station would drop it as an item and not destroy it
 
 # v4.1.8
 ## Added
