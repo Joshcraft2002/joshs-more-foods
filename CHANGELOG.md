@@ -1,7 +1,12 @@
+# v5.1.3
+## Fixes
+- Removed a file from an older version that prevented some people from loading the data pack
+> Note: no resourcepack change was made
+
 # v5.1.2
 ## Fixes
 - Pressing Q while hovering over the water bar in the Cooking Station would drop it as an item and not destroy it
-> Note: no resourcepack change was made; there is no need to update the resourcepack
+> Note: no resourcepack change was made
 
 # v5.1.1
 ## Added
@@ -13,10 +18,15 @@
 ## Added
 - 1.21 support (this version is incompatible with 1.20.6 and below)
 
+# v5.0.3
+## Fixes
+- Removed a file from an older version that prevented some people from loading the data pack
+> Note: no resourcepack change was made
+
 # v5.0.2
 ## Fixes
 - Pressing Q while hovering over the water bar in the Cooking Station would drop it as an item and not destroy it
-> Note: no resourcepack change was made; there is no need to update the resourcepack
+> Note: no resourcepack change was made
 
 # v5.0.1
 ## Changed
