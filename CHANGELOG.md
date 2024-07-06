@@ -1,6 +1,12 @@
+# v5.0.3
+## Fixes
+- Removed a file from an older version that prevented some people from loading the data pack
+> Note: no resourcepack change was made
+
 # v5.0.2
 ## Fixes
 - Pressing Q while hovering over the water bar in the Cooking Station would drop it as an item and not destroy it
+> Note: no resourcepack change was made
 
 # v5.0.1
 ## Changed
@@ -75,6 +81,7 @@ Cooking Station now has two slots for water: an input slot (marked by a bucket s
 # v4.1.9
 ## Fixes
 - Pressing Q while hovering over the water bar in the Cooking Station would drop it as an item and not destroy it
+> Note: no resourcepack change was made
 
 # v4.1.8
 ## Added
