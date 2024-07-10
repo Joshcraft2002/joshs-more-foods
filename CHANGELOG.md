@@ -1,3 +1,7 @@
+# v5.0.4
+## Fixes
+- Breaking Birch or Dark Oak leaves would drop the whole leaf block instead of the normal block drops
+
 # v5.0.3
 ## Fixes
 - Removed a file from an older version that prevented some people from loading the data pack
