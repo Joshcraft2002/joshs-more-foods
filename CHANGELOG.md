@@ -1,3 +1,7 @@
+# v5.1.4
+## Added
+- German (de_de) language support
+
 # v5.1.3
 ## Fixes
 - Removed a file from an older version that prevented some people from loading the data pack
@@ -17,6 +21,14 @@
 # v5.1.0
 ## Added
 - 1.21 support (this version is incompatible with 1.20.6 and below)
+
+# v5.0.5
+## Added
+- German (de_de) language support
+
+# v5.0.4
+## Fixes
+- Breaking Birch or Dark Oak leaves would drop the whole leaf block instead of the normal block drops
 
 # v5.0.3
 ## Fixes
