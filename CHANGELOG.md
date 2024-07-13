@@ -1,3 +1,7 @@
+# v5.0.5
+## Added
+- German (de_de) language support
+
 # v5.0.4
 ## Fixes
 - Breaking Birch or Dark Oak leaves would drop the whole leaf block instead of the normal block drops
@@ -5,12 +9,10 @@
 # v5.0.3
 ## Fixes
 - Removed a file from an older version that prevented some people from loading the data pack
-> Note: no resourcepack change was made
 
 # v5.0.2
 ## Fixes
 - Pressing Q while hovering over the water bar in the Cooking Station would drop it as an item and not destroy it
-> Note: no resourcepack change was made
 
 # v5.0.1
 ## Changed
@@ -85,12 +87,10 @@ Cooking Station now has two slots for water: an input slot (marked by a bucket s
 # v4.1.9
 ## Fixes
 - Pressing Q while hovering over the water bar in the Cooking Station would drop it as an item and not destroy it
-> Note: no resourcepack change was made
 
 # v4.1.8
 ## Added
 - Vietnamese (vi_vn) language support
- > Note: This is mostly a resourcepack change, you don't need to update the datapack itself (only cookbook cover version is changed via datapack)
 
 # v4.1.7
 ## Fixes
@@ -121,7 +121,6 @@ Cooking Station now has two slots for water: an input slot (marked by a bucket s
 - Fixed some loot table files in an attempt to fix realms compatibility
     - split up knife functions to now also use `set_attributes` and `set_lore`
     - merged cookbook `set_nbt` tag to a single line
-> Note: no resourcepack change was made; there is no need to update the resourcepack
 
 # v4.1.2
 ## Added
@@ -136,7 +135,6 @@ Reworked a bit of the formatting behind the cookbook's text
 # v4.1.1
 ## Added
 - Brazilian Portuguese (pt_br) language support
- > Note: This is only a resourcepack change, you don't need to update the datapack itself
 
 # v4.1.0
 ## Added
