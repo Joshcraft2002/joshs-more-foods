@@ -1,6 +1,3 @@
-If you want to easily merge datapacks and resourcepacks together, you can use [weld](https://weld.smithed.dev/) 
-(some packs may not be compatible with others, but Josh's More Foods follows smithed's conventions for better compatibility with other packs)
-
 # Josh's More Foods
 There are currently a bit over 60 recipes added by this pack, with a lot more coming in the future.
 
@@ -9,6 +6,9 @@ To view this datapack's recipes and other information in-game, you can craft Jos
 
 ## Installing
 Open the latest version in the releases tab on the right. Download the resource pack and place it in your `resourcepacks` folder, then download the datapack and place it in the `datapacks` folder of your world or server.
+
+If you want to easily merge datapacks and resourcepacks together, you can use [weld](https://weld.smithed.dev/) 
+(some packs may not be compatible with others, but Josh's More Foods follows smithed's conventions for better compatibility with other packs)
 
 ## Updating
 The Cookbook and Book of Nutrition can be updated with any new content by placing it in the Cooking Station as an input.
@@ -30,6 +30,7 @@ Sprites are made by me, [Bonii](https://twitter.com/ChalkDev), RenTheMan, Sireni
 
 Language Contributions:
 - Chinese (zh_cn) by [Rain_G](https://www.planetminecraft.com/member/rain_g/) & their team
+- German (de_de) by [LimeSculkCraft7](https://www.planetminecraft.com/member/limesculkcraft7/)
 - (up to 1.20.4) Brazilian Portuguese (pt_br) by [MeiaQuatru](https://www.planetminecraft.com/member/meiaquatru/)
 - Russian (ru_ru) by [Ll66dar](https://www.planetminecraft.com/member/ll66dar/)
 - Ukrainian (uk_ua) by [MrBaget](https://modrinth.com/user/MrBaget)
