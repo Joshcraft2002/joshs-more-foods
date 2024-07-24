@@ -1,3 +1,9 @@
+# v5.1.5
+## Added
+- Spanish (es_es) language support
+## Fixes
+- Sweet Berry Cookie recipe in cookbook showing old sprite
+
 # v5.1.4
 ## Added
 - German (de_de) language support
