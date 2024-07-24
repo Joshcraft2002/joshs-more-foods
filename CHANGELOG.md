@@ -1,3 +1,7 @@
+# v5.1.5
+## Added
+- Spanish (es_es) language support
+
 # v5.1.4
 ## Added
 - German (de_de) language support
