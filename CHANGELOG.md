@@ -1,3 +1,8 @@
+# v4.1.10
+## Fixes
+- Fixed issues from Nutrition book not having a proper json file (again)
+> Note: This is only a datapack change, no need to update the resource pack
+
 # v4.1.9
 ## Fixes
 - Pressing Q while hovering over the water bar in the Cooking Station would drop it as an item and not destroy it
