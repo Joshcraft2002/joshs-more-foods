@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "requirements": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "jmmf:salad/fleshy_salad"
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "jmmf:crafting/salad/fleshy_salad"
+        ],
+	    "function": "jmmf:crafting/salad/fleshy_salad"
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+      "LBL",
+      " S ",
+      " C "
+    ],
+    "key": {      
+      "B": {
+        "item": "minecraft:bucket"
+      },
+      "L": {
+        "item": "minecraft:leather"
+      },
+      "S": {
+        "item": "minecraft:smoker"
+      },
+      "C": {
+        "item": "minecraft:campfire"
+      }
+    },
+    "result": {
+      "item": "minecraft:knowledge_book"
+    }
+  }

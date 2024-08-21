@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "requirements": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "jmmf:doughnut/sugar_doughnut"
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "jmmf:crafting/doughnut/sugar_doughnut"
+        ],
+	    "function": "jmmf:crafting/doughnut/sugar_doughnut"
+    }
+}

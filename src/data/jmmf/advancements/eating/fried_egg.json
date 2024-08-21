@@ -1,0 +1,16 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "nbt": "{smithed:{id:'jmmf:fried_egg'}}"
+          }
+        }
+      }
+    },
+    "rewards": {
+        "function": "jmmf:eating/fried_egg"
+      }
+  }
+  

@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "requirements": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "jmmf:pie/shepherds_pie"
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "jmmf:crafting/pie/shepherds_pie"
+        ],
+	    "function": "jmmf:crafting/pie/shepherds_pie"
+    }
+}

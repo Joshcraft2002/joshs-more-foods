@@ -1,0 +1,32 @@
+{   
+    "parent": "jmmf:story/start",
+    "display": {
+        "icon":{
+            "item": "minecraft:written_book",
+            "nbt": "{CustomModelData:480901}"
+        },
+        "title":
+        {
+          "translate": "advancements.jmmf.cookbook.title"
+        },
+        "description": 
+        {
+          "translate": "advancements.jmmf.cookbook.description"
+        },
+        "hidden": false,
+        "frame": "goal"
+    },
+    "criteria": {
+      "get_cookbook": {
+          "trigger": "minecraft:inventory_changed",
+          "conditions": {
+            "items": [
+              {
+                "nbt": "{smithed:{id:'jmmf:cookbook'}}"
+              }
+            ]
+          }
+        }
+      }
+    
+}

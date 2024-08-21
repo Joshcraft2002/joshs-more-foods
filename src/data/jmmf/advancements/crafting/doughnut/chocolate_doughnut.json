@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "requirements": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "jmmf:doughnut/chocolate_doughnut"
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "jmmf:crafting/doughnut/chocolate_doughnut"
+        ],
+	    "function": "jmmf:crafting/doughnut/chocolate_doughnut"
+    }
+}

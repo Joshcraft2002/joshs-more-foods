@@ -1,0 +1,19 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "nbt": "{smithed:{id:'jmmf:coleslaw'}}"
+          }
+        }
+      }
+    },
+    "rewards": {
+        "function": "jmmf:eating/salad/coleslaw",
+        "loot": [
+          "jmmf:eating/bowl"
+        ]
+      }
+  }
+  

@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "requirements": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "jmmf:salad/coleslaw"
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "jmmf:crafting/salad/coleslaw"
+        ],
+	    "function": "jmmf:crafting/salad/coleslaw"
+    }
+}

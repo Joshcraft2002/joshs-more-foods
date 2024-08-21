@@ -1,0 +1,27 @@
+{   
+    "display": {
+        "icon":{
+            "item": "minecraft:bread",
+            "nbt": "{CustomModelData:481070}"
+        },
+        "title": {
+          "translate": "advancements.jmmf.start.title"
+        },
+        "description": {
+          "translate": "advancements.jmmf.start.description"
+        },
+        "background": "minecraft:textures/block/stripped_oak_log.png",
+        "hidden": false,
+        "show_toast": false,
+        "announce_to_chat": false
+    }, 
+    "criteria": {
+        "start": {
+          "trigger": "minecraft:inventory_changed",
+          "conditions": {
+            "items": [
+            ]
+          }
+        }
+      }
+}

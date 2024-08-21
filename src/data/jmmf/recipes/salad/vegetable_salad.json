@@ -1,0 +1,36 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:bowl"
+    },
+    [
+      {
+        "item": "minecraft:carrot"
+      },
+      {
+        "item": "minecraft:potato"
+      },
+      {
+        "item": "minecraft:beetroot"
+      }
+    ],
+    [
+      {
+        "item": "minecraft:carrot"
+      },
+      {
+        "item": "minecraft:potato"
+      },
+      {
+        "item": "minecraft:beetroot"
+      }
+    ],
+    {
+      "tag": "minecraft:leaves"
+    }
+  ],
+  "result": {
+    "item": "minecraft:knowledge_book"
+  }
+}

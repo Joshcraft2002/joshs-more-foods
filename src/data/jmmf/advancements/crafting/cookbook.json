@@ -1,0 +1,16 @@
+{    
+    "criteria": {
+        "requirements": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "jmmf:cookbook"
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "jmmf:crafting/cookbook"
+        ],
+	    "function": "jmmf:crafting/cookbook"
+    }
+}

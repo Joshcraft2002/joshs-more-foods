@@ -1,0 +1,20 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:cookie",
+                    "functions": [
+                        { "function": "set_count", "count": 8 },
+                        { "function": "set_nbt", "tag": "{CustomModelData:481102}" },
+                        { "function": "set_nbt", "tag": "{smithed:{id:'jmmf:sweet_berry_cookie', dict:{food:{cookie:1b}}}}" },
+                        { "function": "set_name", "name": [{ "translate": "item.jmmf.sweet_berry_cookie", "italic": false }] }
+                    ]
+                }
+            ]
+        }
+    ]
+}

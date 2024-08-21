@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "requirements": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "jmmf:pie_crust"
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "jmmf:crafting/pie_crust"
+        ],
+	    "function": "jmmf:crafting/pie_crust"
+    }
+}

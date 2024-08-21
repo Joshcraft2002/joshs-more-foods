@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "requirements": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "jmmf:cookedsalmon/sweet_roll"
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "jmmf:crafting/bread/sweet_roll"
+        ],
+	    "function": "jmmf:crafting/bread/sweet_roll"
+    }
+}

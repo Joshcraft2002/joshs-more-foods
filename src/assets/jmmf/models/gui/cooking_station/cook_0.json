@@ -1,0 +1,44 @@
+{
+    "textures": {
+        "0": "jmmf:gui/cooking_station/cook_0"
+    },
+    "gui_light": "front",
+    "elements": [
+        {
+            "from": [-16, 0, 0], 
+            "to": [0, 16, 16], 
+            "faces": {
+                "south": {
+                    "uv": [0, 0, 5.333, 16], 
+                   "texture": "#0"
+                }
+            }
+        },
+        {
+            "from": [0, 0, 0], 
+            "to": [16, 16, 16], 
+            "faces": {
+                "south": {
+                    "uv": [5.333, 0, 10.666, 16], 
+                   "texture": "#0"
+                }
+            }
+        },
+        {
+            "from": [16, 0, 0], 
+            "to": [32, 16, 16], 
+            "faces": {
+                "south": {
+                    "uv": [10.666, 0, 16, 16], 
+                   "texture": "#0"
+                }
+            }
+        }
+    ],
+    "display": {
+        "gui": {
+            "translation": [ 18, -15, -15],
+            "scale": [ 4, 4, 1 ]
+        }
+    }
+}

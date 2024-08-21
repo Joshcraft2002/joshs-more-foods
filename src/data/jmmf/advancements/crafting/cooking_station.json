@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "requirements": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "jmmf:cooking_station"
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "jmmf:crafting/cooking_station"
+        ],
+	    "function": "jmmf:crafting/cooking_station"
+    }
+}

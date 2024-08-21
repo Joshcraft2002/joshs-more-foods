@@ -1,0 +1,9 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/wheat"
+    },
+    "overrides": [
+        { "predicate": { "custom_model_data": 481001 }, "model": "jmmf:item/rice" }
+    ]
+}

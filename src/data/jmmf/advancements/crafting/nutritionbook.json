@@ -1,0 +1,16 @@
+{    
+    "criteria": {
+        "requirements": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "jmmf:nutritionbook"
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "jmmf:crafting/nutritionbook"
+        ],
+	    "function": "jmmf:crafting/nutritionbook"
+    }
+}

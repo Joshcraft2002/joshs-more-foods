@@ -1,0 +1,13 @@
+{
+  "parent": "minecraft:block/structure_block",
+  "overrides": [
+    {"predicate": {"custom_model_data": 480000}, "model": "joshmats:item/empty"},
+    {"predicate": {"custom_model_data": 480902}, "model": "jmmf:gui/cooking_station/cook_0"},
+    {"predicate": {"custom_model_data": 480903}, "model": "jmmf:gui/cooking_station/cook_1"},
+    {"predicate": {"custom_model_data": 480904}, "model": "jmmf:gui/cooking_station/cook_2"},
+    {"predicate": {"custom_model_data": 480905}, "model": "jmmf:gui/cooking_station/cook_3"},
+
+    {"predicate": {"custom_model_data": 481004}, "model": "jmmf:item/teacup"},
+    {"predicate": {"custom_model_data": 481005}, "model": "jmmf:item/tea_leaves"}
+  ]
+}

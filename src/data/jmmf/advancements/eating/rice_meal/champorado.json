@@ -1,0 +1,19 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "nbt": "{smithed:{id:'jmmf:champorado'}}"
+          }
+        }
+      }
+    },
+    "rewards": {
+        "function": "jmmf:eating/rice_meal/champorado",
+        "loot": [
+          "jmmf:eating/bowl"
+        ]
+      }
+  }
+  
