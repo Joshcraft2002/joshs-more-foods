@@ -6,15 +6,13 @@
     "WWW"
   ],
   "key": {
-    "W": {
-      "item": "minecraft:wheat"
-    }
+    "W": "minecraft:wheat"
   },
   "result": {
     "id": "minecraft:bread",
     "components": {
       "minecraft:item_name": "{ 'translate': 'item.jmmf.bagel', 'italic': false }",
-      "minecraft:custom_model_data": 481074,
+      "minecraft:item_model": "jmmf:bread/bagel",
       "minecraft:custom_data": {
         "smithed": {
           "id": "jmmf:bagel"

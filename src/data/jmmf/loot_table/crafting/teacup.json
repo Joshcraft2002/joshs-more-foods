@@ -12,7 +12,7 @@
                             "components": {
                                 "minecraft:item_name": "{ 'translate': 'item.jmmf.teacup', 'italic': false }",
                                 "minecraft:rarity": "common",
-                                "minecraft:custom_model_data": 481004,
+                                "minecraft:item_model": "jmmf:teacup",
                                 "minecraft:custom_data": {
                                     "smithed": {
                                         "id": "jmmf:teacup"

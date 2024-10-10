@@ -5,18 +5,14 @@
       " W "
     ],
     "key": {
-      "W": {
-        "item": "minecraft:wheat"
-      },
-      "E": {
-        "item": "minecraft:egg"
-      }
+      "W": "minecraft:wheat",
+      "E": "minecraft:egg"
     },
     "result": {
       "id": "minecraft:cookie",
       "components": {
         "minecraft:item_name": "{ 'translate': 'item.jmmf.pie_crust', 'italic': false }",
-        "minecraft:custom_model_data": 481003,
+        "minecraft:item_model": "jmmf:pie_crust",
         "minecraft:custom_data": {
           "smithed": {
             "id": "jmmf:pie_crust"

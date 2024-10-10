@@ -5,16 +5,16 @@
             "entries": [
                 {
                     "type": "item",
-                    "name": "minecraft:netherite_sword",
+                    "name": "minecraft:golden_sword",
                     "functions": [
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_name": "{ 'translate': 'item.jmmf.netherite_knife', 'italic': false }",
-                                "minecraft:item_model": "jmmf:knife/netherite_knife",
+                                "minecraft:item_name": "{ 'translate': 'item.jmmf.golden_knife', 'italic': false }",
+                                "minecraft:item_model": "jmmf:knife/golden_knife",
                                 "minecraft:custom_data": {
                                     "smithed": {
-                                        "id": "jmmf:netherite_knife"
+                                        "id": "jmmf:golden_knife"
                                     },
                                     "joshmats": {
                                         "tag": ["knife"]
@@ -23,22 +23,22 @@
                                 "minecraft:lore": [
                                     "{'text': ''}",
                                     "{'translate': 'item.modifiers.mainhand', 'color': 'gray', 'italic': false}", 
-                                    "{'translate': 'item.jmmf.netherite_knife.lore.attack_damage', 'color': 'dark_green', 'italic': false}", 
-                                    "{'translate': 'item.jmmf.netherite_knife.lore.attack_speed', 'color': 'dark_green',  'italic': false}"
+                                    "{'translate': 'item.jmmf.golden_knife.lore.attack_damage', 'color': 'dark_green', 'italic': false}", 
+                                    "{'translate': 'item.jmmf.golden_knife.lore.attack_speed', 'color': 'dark_green',  'italic': false}"
                                 ],
                                 "minecraft:attribute_modifiers": {
                                     "modifiers": [
                                         {
                                             "type": "minecraft:attack_damage",
                                             "slot": "mainhand",
-                                            "id": "jmmf:netherite_knife.attack_damage",
-                                            "amount": 4.5,
+                                            "id": "jmmf:golden_knife.attack_damage",
+                                            "amount": 2,
                                             "operation": "add_value"
                                         },
                                         {
                                             "type": "minecraft:attack_speed",
                                             "slot": "mainhand",
-                                            "id": "jmmf:netherite_knife.attack_speed",
+                                            "id": "jmmf:golden_knife.attack_speed",
                                             "amount": -2,
                                             "operation": "add_value"
                                         }

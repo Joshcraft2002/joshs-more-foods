@@ -5,18 +5,14 @@
     "S"
   ],
   "key": {
-    "C": {
-      "tag": "minecraft:stone_crafting_materials"
-    },
-    "S": {
-      "item": "minecraft:stick"
-    }
+    "C": "#minecraft:stone_crafting_materials",
+    "S": "minecraft:stick"
   },
   "result": {
     "id": "minecraft:stone_sword",
     "components": {
       "minecraft:item_name": "{ 'translate': 'item.jmmf.stone_knife', 'italic': false }",
-      "minecraft:custom_model_data": 481051,
+      "minecraft:item_model": "jmmf:knife/stone_knife",
       "minecraft:custom_data": {
         "smithed": {
           "id": "jmmf:stone_knife"
@@ -34,14 +30,14 @@
       "minecraft:attribute_modifiers": {
         "modifiers": [
           {
-            "type": "minecraft:generic.attack_damage",
+            "type": "minecraft:attack_damage",
             "slot": "mainhand",
             "id": "jmmf:stone_knife.attack_damage",
             "amount": 2.5,
             "operation": "add_value"
           },
           {
-            "type": "minecraft:generic.attack_speed",
+            "type": "minecraft:attack_speed",
             "slot": "mainhand",
             "id": "jmmf:stone_knife.attack_speed",
             "amount": -2,

@@ -3,7 +3,7 @@
     "display": {
         "icon":{
             "id": "minecraft:netherite_sword",
-            "components": {"custom_model_data":481055}
+            "components": {"item_model":"jmmf:knife/netherite_knife"}
         },
         "title": {
           "translate": "advancements.jmmf.knivestomeetyou.title"

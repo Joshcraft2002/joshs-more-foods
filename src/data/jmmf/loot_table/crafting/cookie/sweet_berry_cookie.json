@@ -11,7 +11,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_name": "{ 'translate': 'item.jmmf.sweet_berry_cookie', 'italic': false }",
-                                "minecraft:custom_model_data": 481102,
+                                "minecraft:item_model": "jmmf:cookie/sweet_berry_cookie",
                                 "minecraft:custom_data": {
                                     "smithed": {
                                     "id": "jmmf:sweet_berry_cookie"

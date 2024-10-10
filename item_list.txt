@@ -1,0 +1,117 @@
+                                                    (Food Only)
+Item                          Base               Effect  Nutrition/Sat
+
+--stuf--                                     
+Cooking Station             Furnace
+Josh's Cookbook             Written Book
+Cooking Station Arrow 0     Structure Block
+Cooking Station Arrow 1     Structure Block
+Cooking Station Arrow 2     Structure Block
+Cooking Station Arrow 3     Structure Block
+Water Tank 0                Leather Helmet               
+Water Tank 1                Leather Helmet
+Water Tank 2                Leather Helmet
+Water Tank 3                Leather Helmet
+Water Tank 4                Leather Helmet
+Water Tank 5                Leather Helmet
+Water Tank 6                Leather Helmet
+Water Tank 7                Leather Helmet
+Water Tank 8                Leather Helmet
+Water Tank 9                Leather Helmet
+Water Tank 10               Leather Helmet
+Water Tank 11               Leather Helmet
+Water Tank 12               Leather Helmet
+Water Tank 13               Leather Helmet
+Water Tank 14               Leather Helmet
+Water Tank 15               Leather Helmet
+Water Tank 16               Leather Helmet
+Josh's Book of Nutrition    Written Book
+Gilded Tea                  Cookie                       
+
+--Ingredients--
+Rice                        Wheat
+Rice Bowl                   Beetroot Soup                5/6
+Pie Crust                   Cookie                       3/3
+Teacup                      Structure Block
+Tea Leaves                  Structure Block
+Boiled Egg                  Cookie                       3/2
+Fried Egg                   Cookie                       3/2
+Red Rice                    Wheat
+Red Rice Bowl               Beetroot Soup                5/6
+Black Tea Leaves            Structure Block
+
+--Tools--
+Wooden Knife                Wooden Sword
+Stone Knife                 Stone Sword
+Golden Knife                Golden Sword
+Iron Knife                  Iron Sword
+Diamond Knife               Diamond Sword
+Netherite Knife             Netherite Sword
+
+--Bread--
+Carrot Bread                Bread                        5/6
+Beetroot Bread              Bread                        5/6
+Potato Bread                Bread                        5/6
+Sweet Roll                  Bread                        7/8
+Bagel                       Bread                        7/8
+
+--Cookie--
+Honey Cookie                Cookie                       2/1
+Sugar Cookie                Cookie                       2/1
+Sweet Berry Cookie          Cookie                       2/1
+
+--Pie--
+Apple Pie                   Pumpkin Pie                  8/5
+Carrot Pie                  Pumpkin Pie                  8/5
+Sweet Berry Pie             Pumpkin Pie                  8/5
+Chicken Pot Pie             Pumpkin Pie                  10/11
+Shepherd's Pie              Pumpkin Pie                  14/17
+Pork Pie                    Pumpkin Pie                  8/10
+Steak Pie                   Pumpkin Pie                  8/10
+
+--Salad--
+Coleslaw                    Beetroot Soup                6/8
+Potato Salad                Beetroot Soup                6/8
+Vegetable Salad             Beetroot Soup                6/7
+Fleshy Salad                Beetroot Soup                6/5
+Fruit Salad                 Beetroot Soup                6/7
+
+--Soup--
+Rotten Stew                 Rotten Flesh
+Bone Broth                  Beetroot Soup                4/4
+Egg Drop Soup               Beetroot Soup                7/6
+
+--Ice Cream--
+Apple Ice Cream             Suspicious Stew              6/6
+Chocolate Ice Cream         Suspicious Stew              6/6
+Melon Ice Cream             Suspicious Stew              6/6
+Pumpkin Ice Cream           Suspicious Stew              6/6
+
+--Other Foods--
+Fish and Chips              Rabbit Stew                  7/10
+Leche Flan                  Pumpkin Pie                  6/7
+
+--Rice Meals--
+Fried Rice                  Beetroot Soup                10/13
+Champorado                  Beetroot Soup                4/4
+
+--Doughnut--
+Black Forest Doughnut       Cookie                       3/3
+Chocolate Doughnut          Cookie                       3/3
+Sugar Doughnut              Cookie                       3/3
+
+--Tea--
+Sweet Berry Tea             Cookie             Regen 1 1/0.5
+Cornflower Tea              Cookie             Regen 1 1/0.5
+Dandelion Tea               Cookie             Regen 1 1/0.5
+Green Tea                   Cookie             Regen 1 1/0.5
+Rose Tea                    Cookie             Regen 1 1/0.5
+Spruce Tea                  Cookie             Regen 1 1/0.5
+Sakura Tea                  Cookie             Regen 1 1/0.5
+Bamboo Tea                  Cookie             Regen 1 1/0.5
+Beetroot Tea                Cookie             Regen 1 1/0.5
+Birch Tea                   Cookie             Regen 1 1/0.5
+Black Tea                   Cookie             Regen 2 1/0.5
+Chamomile Tea               Cookie             Regen 1 1/0.5
+Sunflower Tea               Cookie             Regen 1 1/0.5
+

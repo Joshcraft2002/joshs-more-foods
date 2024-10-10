@@ -11,7 +11,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_name": "{ 'translate': 'item.jmmf.sugar_doughnut', 'italic': false }",
-                                "minecraft:custom_model_data": 481332,
+                                "minecraft:item_model": "jmmf:doughnut/sugar_doughnut",
                                 "minecraft:custom_data": {
                                     "smithed": {
                                         "id": "jmmf:sugar_doughnut"

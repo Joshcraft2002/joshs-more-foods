@@ -1,58 +1,70 @@
-# v5.1.5
+# 5.2.0-pre1 (2024-10-10)
+## Added
+- 1.21.2-pre1 support
+## Changed
+- Items use `item_model` instead of `custom_model_data` component, some items now using `consumable`
+    - **almost everything will have to be recrafted (again)**
+- Tea made to feel more like being drunk rather than eaten
+- Tea and Rotten Stew now give teacups and bowls respectively through the `use_remainder` component instead of advancements
+- Reworked changelog format (github only)
+    - organize by date
+    - support branch changelogs (when updated after this point) will only contain changes in that version series (e.g 5.1.x only, etc.)
+## Removed
+- Old uninstall function from before v4
+
+# 4.1.10 (2024-08-21)
+## Fixes
+- Fixed issues from Nutrition book not having a proper json file (again)
+
+# 5.1.5 (2024-07-24)
 ## Added
 - Spanish (es_es) language support
 ## Fixes
 - Sweet Berry Cookie recipe in cookbook showing old sprite
 
-# v5.1.4
+# 5.1.4, 5.0.5 (2024-07-13)
 ## Added
-- German (de_de) language support
+- German (de_de) language support 
 
-# v5.1.3
-## Fixes
-- Removed a file from an older version that prevented some people from loading the data pack
-> Note: no resourcepack change was made
-
-# v5.1.2
-## Fixes
-- Pressing Q while hovering over the water bar in the Cooking Station would drop it as an item and not destroy it
-> Note: no resourcepack change was made
-
-# v5.1.1
-## Added
-- Brought v5.0.1 changes to 1.21
-## Fixes
-- Removed extra files from pre-1.21
-
-# v5.1.0
-## Added
-- 1.21 support (this version is incompatible with 1.20.6 and below)
-
-# v5.0.5
-## Added
-- German (de_de) language support
-
-# v5.0.4
+# 5.0.4 (2024-07-10)
 ## Fixes
 - Breaking Birch or Dark Oak leaves would drop the whole leaf block instead of the normal block drops
 
-# v5.0.3
+# 5.1.3, 5.0.3 (2024-07-06)
 ## Fixes
 - Removed a file from an older version that prevented some people from loading the data pack
-> Note: no resourcepack change was made
 
-# v5.0.2
+# 5.1.2, 5.0.2, 4.1.9 (2024-07-05)
 ## Fixes
 - Pressing Q while hovering over the water bar in the Cooking Station would drop it as an item and not destroy it
-> Note: no resourcepack change was made
 
-# v5.0.1
-## Changed
-- Updated Vietnamese (vi_vn) language support
+# 5.1.1 (2024-07-03)
+## Added
+- Vietnamese (vi_vn) language support
+## Fixes
+- Crafting Cookbook or Book of Nutrition not giving the updated book
+- Removed extra files from pre-1.21
+
+# 5.0.1 (2024-07-03)
+## Added
+- Vietnamese (vi_vn) language support (shared with v5.1.1)
 ## Fixes
 - Crafting Cookbook or Book of Nutrition not giving the updated book
 
-# v5.0.0
+# 4.1.8 (2024-07-03)
+## Added
+- Vietnamese (vi_vn) language support
+
+# 4.1.7 (2024-06-30)
+## Fixes
+- Fish and chips not giving the actual nutrition values ([#24](https://github.com/Joshcraft2002/joshs-more-foods/issues/24))
+- Leche Flan having the wrong nutrition values in the nutrition book
+
+# 5.1.0 (2024-06-30)
+## Added
+- 1.21 support (this version is incompatible with 1.20.6 and below)
+
+# 5.0.0 (2024-06-30)
 ## Added
 - 1.20.5/1.20.6 support (this version is incompatible with 1.20.4 and below)
 ### Cookbook/Nutrition Book Updating
@@ -116,32 +128,17 @@ Cooking Station now has two slots for water: an input slot (marked by a bucket s
 - Gilded Tea (the bug it fixed no longer exists)
 - Brazilian Portuguese (pt_br) language support (may return if the translations get updated for the new content)
 
-# v4.1.9
-## Fixes
-- Pressing Q while hovering over the water bar in the Cooking Station would drop it as an item and not destroy it
-> Note: no resourcepack change was made; there is no need to update the resourcepack
-
-# v4.1.8
-## Added
-- Vietnamese (vi_vn) language support
- > Note: This is mostly a resourcepack change, you don't need to update the datapack itself (only cookbook cover version is changed via datapack)
-
-# v4.1.7
-## Fixes
-- Fish and chips not giving the actual nutrition values
-- Leche Flan having the wrong nutrition values in the nutrition book
-
-# v4.1.6
+# 4.1.6 (2024-06-12)
 ## Fixes
 - Fixed issues from Nutrition book not having a proper json file (weld, possibly realms?)
 - Updated max inclusive version of resource pack (should no longer say outdated on versions up to 1.20.4)
 
-# v4.1.5
+# 4.1.5 (2024-06-05)
 ## Fixes
 - Cookbook & Nutrition book now properly display on 1.20.3+
 > credits to carloshgv for the quick fix
 
-# v4.1.4
+# 4.1.4 (2023-11-02)
 ## Added
 - Ukrainian (uk_ua) language support
 ## Fixes
@@ -150,29 +147,26 @@ Cooking Station now has two slots for water: an input slot (marked by a bucket s
     - Ice Cream Page icon showing Sweet Berry Pie instead of Apple Ice Cream
 > Note: cookbook fixes only apply to newly crafted books, don't bother if the issues don't bother you
 
-# v4.1.3
+# 4.1.3 (2023-10-19)
 ## Fixes
 - Fixed some loot table files in an attempt to fix realms compatibility
     - split up knife functions to now also use `set_attributes` and `set_lore`
     - merged cookbook `set_nbt` tag to a single line
-> Note: no resourcepack change was made; there is no need to update the resourcepack
 
-# v4.1.2
+# 4.1.2 (2023-10-15)
 ## Added
 - Russian (ru_ru) language support
 ## Changed
 Reworked a bit of the formatting behind the cookbook's text
 - Some images were resized, text spacing altered, and "spacer" texts between crafting recipes were added to accomodate certain languages taking up more space per word
-> this *does* mean the cookbook has to be recrafted if you get this update. Sorry!
 ## Fixes
 - Pumpkin Ice Cream name not showing in cookbook
 
-# v4.1.1
+# 4.1.1 (2023-10-26)
 ## Added
 - Brazilian Portuguese (pt_br) language support
- > Note: This is only a resourcepack change, you don't need to update the datapack itself
 
-# v4.1.0
+# 4.1.0 (2023-09-24)
 ## Added
 Gilded Tea is an item obtainable only through commands that, when consumed, fixes bugs not easily patched through updates. Currently, drinking it fixes the doughnut crafting bug from v4.0.3 and below for any player that crafted them in those versions
  > to obtain, run the command "/loot give @s loot jmmf:gilded tea" (@s can be substituted for any player name)
@@ -180,21 +174,21 @@ Gilded Tea is an item obtainable only through commands that, when consumed, fixe
 - Doughnuts only being craftable once
 - Spruce Tea Typo in the Chinese translation
 
-# v4.0.3
+# 4.0.3 (2023-09-18)
 ## Fixes
 - Removed Sushi recipe (it was supposed to be removed in v4 but I forgot about it)
 
-# v4.0.2
+# 4.0.2 (2023-09-14)
 ## Fixes
 - Fried & Boiled egg not giving extra saturation
 - Nutrition Book not showing correct nutrition information for Fried & Boiled Egg
 - README links being on the same line
 
-# v4.0.1
+# 4.0.1 (2023-09-12)
 ## Added
 - Chinese (zh_cn) language support
 
-# v4.0.0
+# 4.0.0 (2023-09-10)
 Lots of stuff were changed behind the scenes, and more content was added.
 More details about each are detailed in the Cookbook (which you'll have to craft again but I promise it's the last time... a feature is coming soon to fix that)
 ## Added

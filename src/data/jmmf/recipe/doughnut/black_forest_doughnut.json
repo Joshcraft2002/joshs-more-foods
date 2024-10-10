@@ -6,24 +6,16 @@
     "CWC"
   ],
   "key": {
-    "W": {
-      "item": "minecraft:wheat"
-    },
-    "B": {
-      "item": "minecraft:sweet_berries"
-    },
-    "C": {
-      "item": "minecraft:cocoa_beans"
-    },
-    "M": {
-      "item": "minecraft:milk_bucket"
-    }
+    "W": "minecraft:wheat",
+    "B": "minecraft:sweet_berries",
+    "C": "minecraft:cocoa_beans",
+    "M": "minecraft:milk_bucket"
   },
   "result": {
     "id": "minecraft:cookie",
     "components": {
       "minecraft:item_name": "{ 'translate': 'item.jmmf.black_forest_doughnut', 'italic': false }",
-      "minecraft:custom_model_data": 481330,
+      "minecraft:item_model": "jmmf:doughnut/black_forest_doughnut",
       "minecraft:custom_data": {
         "smithed": {
           "id": "jmmf:black_forest_doughnut"

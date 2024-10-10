@@ -1,24 +1,16 @@
 {
   "type": "crafting_shapeless",
   "ingredients": [
-    {
-      "item": "minecraft:bowl"
-    },
-    {
-      "item": "minecraft:bowl"
-    },
-    {
-      "item": "minecraft:baked_potato"
-    },
-    {
-      "item": "minecraft:cooked_cod"
-    }
+    "minecraft:bowl",
+    "minecraft:bowl",
+    "minecraft:baked_potato",
+    "minecraft:cooked_cod"
   ],
   "result": {
     "id": "minecraft:rabbit_stew",
     "components": {
       "minecraft:item_name": "{ 'translate': 'item.jmmf.fish_and_chips', 'italic': false }",
-      "minecraft:custom_model_data": 481250,
+      "minecraft:item_model": "jmmf:fish_and_chips",
       "minecraft:custom_data": {
         "smithed": {
           "id": "jmmf:fish_and_chips"

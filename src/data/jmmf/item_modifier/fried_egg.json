@@ -3,9 +3,9 @@
       "function": "minecraft:set_components",
       "components": {
           "minecraft:item_name": "{'translate': 'item.jmmf.fried_egg', 'italic': false }",
+          "minecraft:item_model": "jmmf:fried_egg",
           "minecraft:food": { "nutrition": 3, "saturation": 2} 
       }
   },
-  { "function": "set_custom_model_data", "value": 481007 },
   { "function": "set_custom_data", "tag": "{'smithed':{'id':'jmmf:fried_egg'}}" }
 ]

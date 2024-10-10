@@ -6,18 +6,14 @@
     " W "
   ],
   "key": {
-    "W": {
-      "item": "minecraft:wheat"
-    },
-    "C": {
-      "item": "minecraft:cocoa_beans"
-    }
+    "W": "minecraft:wheat",
+    "C": "minecraft:cocoa_beans"
   },
   "result": {
     "id": "minecraft:cookie",
     "components": {
       "minecraft:item_name": "{ 'translate': 'item.jmmf.chocolate_doughnut', 'italic': false }",
-      "minecraft:custom_model_data": 481331,
+      "minecraft:item_model": "jmmf:doughnut/chocolate_doughnut",
       "minecraft:custom_data": {
         "smithed": {
           "id": "jmmf:chocolate_doughnut"

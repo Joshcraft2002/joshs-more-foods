@@ -11,7 +11,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_name": "{ 'translate': 'item.jmmf.coleslaw', 'italic': false }",
-                                "minecraft:custom_model_data": 481160,
+                                "minecraft:item_model": "jmmf:salad/coleslaw",
                                 "minecraft:custom_data": {
                                     "smithed": {
                                         "id": "jmmf:coleslaw"

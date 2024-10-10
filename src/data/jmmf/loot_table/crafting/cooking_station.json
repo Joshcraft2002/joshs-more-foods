@@ -13,6 +13,7 @@
                             "function": "minecraft:set_components", 
                             "components": {
                                 "minecraft:item_name": "{ 'translate': 'block.jmmf.cooking_station', 'italic': false }",
+                                "minecraft:item_model": "jmmf:block/cooking_station",
                                 "minecraft:container": [
                                     {
                                         "slot": 0,
@@ -26,7 +27,6 @@
                                 ]
                             }
                         },
-                        { "function": "minecraft:set_custom_model_data", "value": 480900 },
                         { "function": "minecraft:set_custom_data", "tag": "{'smithed':{'id':'jmmf:cooking_station'}}" }
                     ]
                 }

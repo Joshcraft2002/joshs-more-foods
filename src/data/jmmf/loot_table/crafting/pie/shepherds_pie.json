@@ -11,7 +11,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_name": "{ 'translate': 'item.jmmf.shepherds_pie', 'italic': false }",
-                                "minecraft:custom_model_data": 481134,
+                                "minecraft:item_model": "jmmf:pie/shepherds_pie",
                                 "minecraft:custom_data": {
                                     "smithed": {
                                         "id": "jmmf:shepherds_pie"

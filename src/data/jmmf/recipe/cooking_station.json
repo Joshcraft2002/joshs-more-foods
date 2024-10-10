@@ -6,24 +6,16 @@
       " C "
     ],
     "key": {      
-      "B": {
-        "item": "minecraft:bucket"
-      },
-      "L": {
-        "item": "minecraft:leather"
-      },
-      "S": {
-        "item": "minecraft:smoker"
-      },
-      "C": {
-        "item": "minecraft:campfire"
-      }
+      "B": "minecraft:bucket",
+      "L": "minecraft:leather",
+      "S": "minecraft:smoker",
+      "C": "minecraft:campfire"
     },
     "result": {
       "id": "minecraft:furnace",
       "components": {
         "minecraft:item_name": "{ 'translate': 'block.jmmf.cooking_station', 'italic': false }",
-        "minecraft:custom_model_data": 480900,
+        "minecraft:item_model": "jmmf:block/cooking_station",
         "minecraft:custom_data": {
           "smithed": {
             "id": "jmmf:cooking_station"

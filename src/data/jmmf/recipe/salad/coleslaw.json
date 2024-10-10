@@ -1,24 +1,16 @@
 {
   "type": "crafting_shapeless",
   "ingredients": [
-    {
-      "item": "minecraft:bowl"
-    },
-    {
-      "item": "minecraft:carrot"
-    },
-    {
-      "item": "minecraft:milk_bucket"
-    },
-    {
-      "tag": "minecraft:leaves"
-    }
+    "minecraft:bowl",
+    "minecraft:carrot",
+    "minecraft:milk_bucket",
+    "#minecraft:leaves"
   ],
   "result": {
     "id": "minecraft:beetroot_soup",
     "components": {
       "minecraft:item_name": "{ 'translate': 'item.jmmf.coleslaw', 'italic': false }",
-      "minecraft:custom_model_data": 481160,
+      "minecraft:item_model": "jmmf:salad/coleslaw",
       "minecraft:custom_data": {
         "smithed": {
           "id": "jmmf:coleslaw"

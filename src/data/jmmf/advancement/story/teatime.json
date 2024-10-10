@@ -3,7 +3,7 @@
     "display": {
         "icon":{
             "id": "minecraft:cookie",
-            "components": {"minecraft:custom_model_data":481363}
+            "components": {"item_model":"jmmf:tea/green_tea"}
         },
         "title": {
           "translate": "advancements.jmmf.teatime.title"

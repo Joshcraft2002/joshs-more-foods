@@ -3,9 +3,9 @@
       "function": "minecraft:set_components",
       "components": {
           "minecraft:item_name": "{'translate': 'item.jmmf.steak_pie', 'italic': false }",
+          "minecraft:item_model": "jmmf:pie/steak_pie",
           "minecraft:food": { "nutrition": 8, "saturation": 10}
       }
   },
-  { "function": "set_custom_model_data", "value": 481136 },
   { "function": "set_custom_data", "tag": "{'smithed':{'id':'jmmf:steak_pie'}}" }
 ]

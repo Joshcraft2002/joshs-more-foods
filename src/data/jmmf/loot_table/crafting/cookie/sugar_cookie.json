@@ -11,7 +11,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_name": "{ 'translate': 'item.jmmf.sugar_cookie', 'italic': false }",
-                                "minecraft:custom_model_data": 481101,
+                                "minecraft:item_model": "jmmf:cookie/sugar_cookie",
                                 "minecraft:custom_data": {
                                     "smithed": {
                                         "id": "jmmf:sugar_cookie"

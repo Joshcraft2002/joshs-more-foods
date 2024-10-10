@@ -3,7 +3,7 @@
     "display": {
         "icon":{
             "id": "minecraft:furnace",
-            "components": {"custom_model_data":480900}
+            "components": {"item_model":"jmmf:block/cooking_station"}
         },
         "title": {
           "translate": "advancements.jmmf.letsgetcooking.title"

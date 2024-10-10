@@ -3,7 +3,7 @@
     "display": {
         "icon":{
             "id": "minecraft:wheat",
-            "components": {"custom_model_data":481001}
+            "components": {"item_model":"jmmf:rice"}
         },
         "title": {
           "translate": "advancements.jmmf.ricemaking.title"

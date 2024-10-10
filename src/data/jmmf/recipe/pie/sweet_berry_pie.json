@@ -1,24 +1,16 @@
 {
   "type": "crafting_shapeless",
   "ingredients": [
-    {
-      "item": "minecraft:egg"
-    },
-    {
-      "item": "minecraft:sweet_berries"
-    },
-    {
-      "item": "minecraft:sweet_berries"
-    },
-    {
-      "item": "minecraft:sugar"
-    }
+    "minecraft:egg",
+    "minecraft:sweet_berries",
+    "minecraft:sweet_berries",
+    "minecraft:sugar"
   ],
   "result": {
     "id": "minecraft:pumpkin_pie",
     "components": {
       "minecraft:item_name": "{ 'translate': 'item.jmmf.sweet_berry_pie', 'italic': false }",
-      "minecraft:custom_model_data": 481132,
+      "minecraft:item_model": "jmmf:pie/sweet_berry_pie",
       "minecraft:custom_data": {
         "smithed": {
           "id": "jmmf:sweet_berry_pie"

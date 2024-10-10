@@ -4,18 +4,14 @@
     "WBW"
   ],
   "key": {
-    "W": {
-      "item": "minecraft:wheat"
-    },
-    "B": {
-      "item": "minecraft:sweet_berries"
-    }
+    "W": "minecraft:wheat",
+    "B": "minecraft:sweet_berries"
   },
   "result": {
     "id": "minecraft:cookie",
     "components": {
       "minecraft:item_name": "{ 'translate': 'item.jmmf.sweet_berry_cookie', 'italic': false }",
-      "minecraft:custom_model_data": 481102,
+      "minecraft:item_model": "jmmf:cookie/sweet_berry_cookie",
       "minecraft:custom_data": {
         "smithed": {
           "id": "jmmf:sweet_berry_cookie"

@@ -11,10 +11,10 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_name": "{ 'translate': 'item.jmmf.potato_salad', 'italic': false }",
-                                "minecraft:custom_model_data": 481161,
+                                "minecraft:item_model": "jmmf:salad/potato_salad",
                                 "minecraft:custom_data": {
                                     "smithed": {
-                                    "id": "jmmf:potato_salad"
+                                        "id": "jmmf:potato_salad"
                                     }
                                 },
                                 "minecraft:food": {

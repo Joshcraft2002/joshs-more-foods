@@ -11,7 +11,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_name": "{ 'translate': 'item.jmmf.potato_bread', 'italic': false }",
-                                "minecraft:custom_model_data": 481072,
+                                "minecraft:item_model": "jmmf:bread/potato_bread",
                                 "minecraft:custom_data": {
                                     "smithed": {
                                     "id": "jmmf:potato_bread"

@@ -12,11 +12,8 @@ If you want to easily merge datapacks and resourcepacks together, you can use [w
 
 ## Updating
 The Cookbook and Book of Nutrition can be updated with any new content by placing it in the Cooking Station as an input.
-### From v4.x.x to v5.x.x
-Nothing too major breaks moving to this version, but there are things to note:
-- Most old food will have the wrong texture and/or nutrition value (best to recraft)
-- Cooking Station items that already exist will not work, these are best discarded and recrafted
-    - Cooking Stations already placed should be fine to use
+### Updating to v5.2.x from older versions
+All items now use a new way of displaying texture (`item_model` instead of `custom_model_data`) and so **will have to be recrafted**. Existing Cooking Station blocks are usable, but may need to be broken and replaced to refresh the models.
 
 ## Links
 [Modrinth](https://modrinth.com/datapack/joshs-more-foods)
@@ -40,6 +37,6 @@ Language Contributions:
 This datapack uses adaptations of the Smithed Custom Block and Custom Crafter libraries, both under the MIT License. [License](LICENSE-smithed)
 
 ## Contributing
-If you want to help with translations, submit a pull request, message me on PlanetMinecraft, or hit me up on discord: joshmats
-- You can base off of the US English file [here](src/assets/jmmf/lang/en_us.json)
+If you want to help with translations, submit a pull request, message (mail) me on PlanetMinecraft, or DM me up on discord: joshmats
+- Base off of the US English file [here](src/assets/jmmf/lang/en_us.json)
 - For the cookbook, tweak your phrasing and use of newlines (\n) to better fit the text, though I can handle the newline part. Either way, it would be good to coordinate via messages/discord in case of any issues.

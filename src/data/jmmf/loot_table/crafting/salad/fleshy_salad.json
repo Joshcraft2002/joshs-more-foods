@@ -11,7 +11,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_name": "{ 'translate': 'item.jmmf.fleshy_salad', 'italic': false }",
-                                "minecraft:custom_model_data": 481163,
+                                "minecraft:item_model": "jmmf:salad/fleshy_salad",
                                 "minecraft:custom_data": {
                                     "smithed": {
                                         "id": "jmmf:fleshy_salad"
@@ -19,23 +19,30 @@
                                 },
                                 "minecraft:food": {
                                     "nutrition": 6,
-                                    "saturation": 5,
-                                    "effects": [
-                                    {
-                                        "effect": {
-                                        "id": "minecraft:hunger",
-                                        "duration": 200
+                                    "saturation": 5
+                                },
+                                "minecraft:consumable": {
+                                    "on_consume_effects": [
+                                        {
+                                            "type": "apply_effects",
+                                            "effects": [
+                                            {
+                                                "id": "minecraft:hunger",
+                                                "duration": 200
+                                            }
+                                            ],
+                                            "probability": 0.5
                                         },
-                                        "probability": 0.5
-                                    },
-                                    {
-                                        "effect": {
-                                        "id": "minecraft:poison",
-                                        "duration": 40
+                                        {
+                                            "type": "apply_effects",
+                                            "effects": [
+                                            {
+                                                "id": "minecraft:poison",
+                                                "duration": 40
+                                            }
+                                            ],
+                                            "probability": 0.1
                                         }
-                                        ,
-                                        "probability": 0.1
-                                    }
                                     ]
                                 },
                                 "minecraft:max_stack_size": 16

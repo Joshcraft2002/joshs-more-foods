@@ -2,54 +2,28 @@
   "type": "crafting_shapeless",
   "ingredients": [
     [
-      {
-        "item": "minecraft:apple"
-      },
-      {
-        "item": "minecraft:sweet_berries"
-      },
-      {
-        "item": "minecraft:melon_slice"
-      },
-      {
-        "item": "minecraft:glow_berries"
-      },
-      {
-        "item": "minecraft:chorus_fruit"
-      },
-      {
-        "item": "minecraft:golden_apple"
-      }
+      "minecraft:apple",
+      "minecraft:sweet_berries",
+      "minecraft:melon_slice",
+      "minecraft:glow_berries",
+      "minecraft:chorus_fruit",
+      "minecraft:golden_apple"
     ],
     [
-      {
-        "item": "minecraft:apple"
-      },
-      {
-        "item": "minecraft:sweet_berries"
-      },
-      {
-        "item": "minecraft:melon_slice"
-      },
-      {
-        "item": "minecraft:glow_berries"
-      },
-      {
-        "item": "minecraft:chorus_fruit"
-      },
-      {
-        "item": "minecraft:golden_apple"
-      }
+      "minecraft:apple",
+      "minecraft:sweet_berries",
+      "minecraft:melon_slice",
+      "minecraft:glow_berries",
+      "minecraft:chorus_fruit",
+      "minecraft:golden_apple"
     ],
-    {
-      "item": "minecraft:bowl"
-    }
+    "minecraft:bowl"
   ],
   "result": {
     "id": "minecraft:beetroot_soup",
     "components": {
       "minecraft:item_name": "{ 'translate': 'item.jmmf.fruit_salad', 'italic': false }",
-      "minecraft:custom_model_data": 481164,
+      "minecraft:item_model": "jmmf:salad/fruit_salad",
       "minecraft:custom_data": {
         "smithed": {
           "id": "jmmf:fruit_salad"

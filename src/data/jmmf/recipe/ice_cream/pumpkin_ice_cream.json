@@ -1,27 +1,17 @@
 {
   "type": "crafting_shapeless",
   "ingredients": [
-    {
-      "item": "minecraft:bowl"
-    },
-    {
-      "item": "minecraft:snowball"
-    },
-    {
-      "item": "minecraft:snowball"
-    },
-    {
-      "item": "minecraft:pumpkin"
-    },
-    {
-      "item": "minecraft:milk_bucket"
-    }
+    "minecraft:bowl",
+    "minecraft:snowball",
+    "minecraft:snowball",
+    "minecraft:pumpkin",
+    "minecraft:milk_bucket"
   ],
   "result": {
     "id": "minecraft:suspicious_stew",
     "components": {
       "minecraft:item_name": "{ 'translate': 'item.jmmf.pumpkin_ice_cream', 'italic': false }",
-      "minecraft:custom_model_data": 481223,
+      "minecraft:item_model": "jmmf:ice_cream/pumpkin_ice_cream",
       "minecraft:custom_data": {
         "smithed": {
           "id": "jmmf:pumpkin_ice_cream"
@@ -32,19 +22,22 @@
       },
       "minecraft:food": {
         "nutrition": 6,
-        "saturation": 6,
-        "effects": [
+        "saturation": 6
+      },
+      "minecraft:consumable": {
+        "on_consume_effects": [
           {
-            "effect": {
-              "id": "minecraft:slowness",
-              "duration": 1200
-            }
-          },
-          {
-            "effect": {
-              "id": "minecraft:weakness",
-              "duration": 1200
-            }
+            "type": "apply_effects",
+            "effects": [
+              {
+                "id": "minecraft:slowness",
+                  "duration": 1200
+              },
+              {
+                "id": "minecraft:weakness",
+                "duration": 1200
+              }
+            ]
           }
         ]
       },

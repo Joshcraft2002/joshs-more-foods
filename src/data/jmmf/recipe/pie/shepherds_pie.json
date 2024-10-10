@@ -6,27 +6,17 @@
     " L "
   ],
   "key": {
-    "P": {
-      "item": "minecraft:baked_potato"
-    },
-    "E": {
-      "item": "minecraft:egg"
-    },
-    "M": {
-      "item": "minecraft:milk_bucket"
-    },
-    "C": {
-      "item": "minecraft:carrot"
-    },
-    "L": {
-      "item": "minecraft:cooked_mutton"
-    }
+    "P": "minecraft:baked_potato",
+    "E": "minecraft:egg",
+    "M": "minecraft:milk_bucket",
+    "C": "minecraft:carrot",
+    "L": "minecraft:cooked_mutton"
   },
   "result": {
     "id": "minecraft:pumpkin_pie",
     "components": {
       "minecraft:item_name": "{ 'translate': 'item.jmmf.shepherds_pie', 'italic': false }",
-      "minecraft:custom_model_data": 481134,
+      "minecraft:item_model": "jmmf:pie/shepherds_pie",
       "minecraft:custom_data": {
         "smithed": {
           "id": "jmmf:shepherds_pie"

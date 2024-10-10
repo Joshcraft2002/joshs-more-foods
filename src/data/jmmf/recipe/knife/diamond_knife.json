@@ -5,18 +5,14 @@
     "S"
   ],
   "key": {
-    "D": {
-      "item": "minecraft:diamond"
-    },
-    "S": {
-      "item": "minecraft:stick"
-    }
+    "D": "minecraft:diamond",
+    "S": "minecraft:stick"
   },
   "result": {
     "id": "minecraft:diamond_sword",
     "components": {
       "minecraft:item_name": "{ 'translate': 'item.jmmf.diamond_knife', 'italic': false }",
-      "minecraft:custom_model_data": 481054,
+      "minecraft:item_model": "jmmf:knife/diamond_knife",
       "minecraft:custom_data": {
         "smithed": {
           "id": "jmmf:diamond_knife"
@@ -34,14 +30,14 @@
       "minecraft:attribute_modifiers": {
         "modifiers": [
           {
-            "type": "minecraft:generic.attack_damage",
+            "type": "minecraft:attack_damage",
             "slot": "mainhand",
             "id": "jmmf:diamond_knife.attack_damage",
             "amount": 4,
             "operation": "add_value"
           },
           {
-            "type": "minecraft:generic.attack_speed",
+            "type": "minecraft:attack_speed",
             "slot": "mainhand",
             "id": "jmmf:diamond_knife.attack_speed",
             "amount": -2,
@@ -50,7 +46,6 @@
         ],
         "show_in_tooltip": false
       }
-      
     }
   }
 }

@@ -1,21 +1,15 @@
 {
   "type": "crafting_shapeless",
   "ingredients": [
-    {
-      "item": "minecraft:egg"
-    },
-    {
-      "item": "minecraft:carrot"
-    },
-    {
-      "item": "minecraft:sugar"
-    }
+    "minecraft:egg",
+    "minecraft:carrot",
+    "minecraft:sugar"
   ],
   "result": {
     "id": "minecraft:pumpkin_pie",
     "components": {
       "minecraft:item_name": "{ 'translate': 'item.jmmf.carrot_pie', 'italic': false }",
-      "minecraft:custom_model_data": 481131,
+      "minecraft:item_model": "jmmf:pie/carrot_pie",
       "minecraft:custom_data": {
         "smithed": {
           "id": "jmmf:carrot_pie"

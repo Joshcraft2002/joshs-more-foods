@@ -1,24 +1,16 @@
 {
   "type": "crafting_shapeless",
   "ingredients": [
-    {
-      "item": "minecraft:bowl"
-    },
-    {
-      "item": "minecraft:potato"
-    },
-    {
-      "item": "minecraft:milk_bucket"
-    },
-    {
-      "tag": "minecraft:leaves"
-    }
+    "minecraft:bowl",
+    "minecraft:potato",
+    "minecraft:milk_bucket",
+    "#minecraft:leaves"
   ],
   "result": {
     "id": "minecraft:beetroot_soup",
     "components": {
       "minecraft:item_name": "{ 'translate': 'item.jmmf.potato_salad', 'italic': false }",
-      "minecraft:custom_model_data": 481161,
+      "minecraft:item_model": "jmmf:salad/potato_salad",
       "minecraft:custom_data": {
         "smithed": {
           "id": "jmmf:potato_salad"
