@@ -1,6 +1,6 @@
-# 5.2.0-pre1 (2024-10-10)
+# 5.2.0 (2024-10-23)
 ## Added
-- 1.21.2-pre1 support
+- 1.21.2 support (this version is incompatible with 1.21.1 and below)
 ## Changed
 - Items use `item_model` instead of `custom_model_data` component, some items now using `consumable`
     - **almost everything will have to be recrafted (again)**

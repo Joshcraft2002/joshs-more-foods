@@ -7,13 +7,13 @@ To view this datapack's recipes and other information in-game, you can craft Jos
 ## Installing
 Open the latest version in the releases tab on the right. Download the resource pack and place it in your `resourcepacks` folder, then download the datapack and place it in the `datapacks` folder of your world or server.
 
-If you want to easily merge datapacks and resourcepacks together, you can use [weld](https://weld.smithed.dev/) 
-(some packs may not be compatible with others, but Josh's More Foods follows smithed's conventions for better compatibility with other packs)
+If you want to easily merge datapacks or resourcepacks together, you can use [weld](https://weld.smithed.dev/). This may also help with compatibility issues between packs. 
+>Some packs may not be compatible with others even with weld, but Josh's More Foods follows smithed's conventions for better compatibility with other packs
 
 ## Updating
 The Cookbook and Book of Nutrition can be updated with any new content by placing it in the Cooking Station as an input.
-### Updating to v5.2.x from older versions
-All items now use a new way of displaying texture (`item_model` instead of `custom_model_data`) and so **will have to be recrafted**. Existing Cooking Station blocks are usable, but may need to be broken and replaced to refresh the models.
+### Updating to v5.2.x from v5.x.x
+All items **will have to be recrafted**. Existing Cooking Station blocks are usable, but may need to be broken and replaced to refresh the models. See the [changelog](CHANGELOG.md) for more information.
 
 ## Links
 [Modrinth](https://modrinth.com/datapack/joshs-more-foods)
@@ -37,6 +37,6 @@ Language Contributions:
 This datapack uses adaptations of the Smithed Custom Block and Custom Crafter libraries, both under the MIT License. [License](LICENSE-smithed)
 
 ## Contributing
-If you want to help with translations, submit a pull request, message (mail) me on PlanetMinecraft, or DM me up on discord: joshmats
+If you want to help with translations, you can message me on discord (joshmats) or PlanetMinecraft, or submit a pull request.
 - Base off of the US English file [here](src/assets/jmmf/lang/en_us.json)
 - For the cookbook, tweak your phrasing and use of newlines (\n) to better fit the text, though I can handle the newline part. Either way, it would be good to coordinate via messages/discord in case of any issues.
