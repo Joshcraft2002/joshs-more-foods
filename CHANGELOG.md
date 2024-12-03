@@ -1,3 +1,11 @@
+# 5.2.1, 5.1.6, 5.0.6 (2024-12-03)
+## Added
+- French (fr_fr) language support
+## Changes
+### Cookbook
+- Version line now handled by lang file instead of being hardcoded (and requiring a recraft/update to show the change)
+- Black Tea no longer has an underline
+
 # 5.2.0 (2024-10-23)
 ## Added
 - 1.21.2 support (this version is incompatible with 1.21.1 and below)
