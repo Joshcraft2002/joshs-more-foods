@@ -12,7 +12,7 @@ If you want to easily merge datapacks or resourcepacks together, you can use [we
 
 ## Updating
 The Cookbook and Book of Nutrition can be updated with any new content by placing it in the Cooking Station as an input.
-### Updating to v5.2.x from v5.x.x
+### Updating to v5.2.x and above from v5.x.x
 All items **will have to be recrafted**. Existing Cooking Station blocks are usable, but may need to be broken and replaced to refresh the models. See the [changelog](CHANGELOG.md) for more information.
 
 ## Links

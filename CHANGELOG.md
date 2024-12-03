@@ -1,7 +1,15 @@
+# 5.3.0 (2024-12-03)
+## Added
+- 1.21.4 support
+    - Resource pack is incompatible with 1.21.3 and below, and must be updated
+    - Data pack is compatible with (and identical to) 1.21.2+ (no need for recrafts, yay!)
+## Fixes
+- Missing `/loot` command for Vegetable Salad
+
 # 5.2.1, 5.1.6, 5.0.6 (2024-12-03)
 ## Added
 - French (fr_fr) language support
-## Changes
+## Changed
 ### Cookbook
 - Version line now handled by lang file instead of being hardcoded (and requiring a recraft/update to show the change)
 - Black Tea no longer has an underline
