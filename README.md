@@ -29,16 +29,17 @@ Nothing too major breaks moving to this version, but there are things to note:
 Sprites are made by me, [Bonii](https://twitter.com/ChalkDev), RenTheMan, Sirenity, VidiTerraNovum
 
 Language Contributions:
-- Chinese (zh_cn) by [Rain_G](https://www.planetminecraft.com/member/rain_g/) & their team
 - German (de_de) by [LimeSculkCraft7](https://www.planetminecraft.com/member/limesculkcraft7/)
+- French (fr_fr) by [patapon888](https://github.com/patapon888)
 - (up to 1.20.4) Brazilian Portuguese (pt_br) by [MeiaQuatru](https://www.planetminecraft.com/member/meiaquatru/)
 - Russian (ru_ru) by [Ll66dar](https://www.planetminecraft.com/member/ll66dar/)
 - Ukrainian (uk_ua) by [MrBaget](https://modrinth.com/user/MrBaget)
 - Vietnamese (vi_vn) by Haisenberger
+- Chinese (zh_cn) by [Rain_G](https://www.planetminecraft.com/member/rain_g/) & their team
 
 This datapack uses adaptations of the Smithed Custom Block and Custom Crafter libraries, both under the MIT License. [License](LICENSE-smithed)
 
 ## Contributing
-If you want to help with translations, submit a pull request, message me on PlanetMinecraft, or hit me up on discord: joshmats
+If you want to help with translations, submit a pull request, message me on PlanetMinecraft, or DM me on Discord: joshmats
 - You can base off of the US English file [here](src/assets/jmmf/lang/en_us.json)
-- For the cookbook, tweak your phrasing and use of newlines (\n) to better fit the text, though I can handle the newline part. Either way, it would be good to coordinate via messages/discord in case of any issues.
+- For the cookbook, the text may not fit the pages very well. Tweak your phrasing and use of newlines (\n) to better fit the text, though I can handle the newline part. Either way, it would be good to coordinate via messages/discord in case of any issues.
