@@ -30,6 +30,7 @@ Sprites are made by me, [Bonii](https://twitter.com/ChalkDev), RenTheMan, Sireni
 
 Language Contributions:
 - German (de_de) by [LimeSculkCraft7](https://www.planetminecraft.com/member/limesculkcraft7/)
+- Spanish (es_es) by [ElGeroIngles](https://github.com/ElGeroIngles)
 - French (fr_fr) by [patapon888](https://github.com/patapon888)
 - (up to 1.20.4) Brazilian Portuguese (pt_br) by [MeiaQuatru](https://www.planetminecraft.com/member/meiaquatru/)
 - Russian (ru_ru) by [Ll66dar](https://www.planetminecraft.com/member/ll66dar/)
