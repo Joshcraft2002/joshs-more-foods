@@ -3,9 +3,9 @@
 - Cooking station using an invalid png, causing issues with Nexo
 
 # 5.1.7, 5.0.7, 4.1.11 (2025-02-04)
-# Fixes
+## Fixes
 - Cooking station using an invalid png, causing issues with Nexo
-# Removed
+## Removed
 - Unused cooking station model files
 
 # 5.3.0 (2024-12-03)
