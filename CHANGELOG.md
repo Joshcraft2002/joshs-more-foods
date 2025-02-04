@@ -1,10 +1,10 @@
 # 5.3.1, 5.2.2 (2025-02-04)
 ## Fixes
-- Cooking station using an invalid png, causing issues with Nexo
+- Cooking station using an invalid png, causing some issues with resource merging (such as via Nexo)
 
 # 5.1.7, 5.0.7, 4.1.11 (2025-02-04)
 ## Fixes
-- Cooking station using an invalid png, causing issues with Nexo
+- Cooking station using an invalid png, causing some issues with resource merging (such as via Nexo)
 ## Removed
 - Unused cooking station model files
 
