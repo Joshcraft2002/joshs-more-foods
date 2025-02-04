@@ -1,3 +1,9 @@
+# v4.1.11
+## Fixes
+- Cooking station using an invalid png, causing some issues with resource merging (such as via Nexo)
+## Removed
+- Unused cooking station model files
+
 # v4.1.10
 ## Fixes
 - Fixed issues from Nutrition book not having a proper json file (again)
