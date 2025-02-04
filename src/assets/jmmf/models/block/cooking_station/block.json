@@ -11,8 +11,7 @@
 		"6": "jmmf:block/cooking_station/cooking_pot_top",
 		"7": "jmmf:block/cooking_station/lid_handle",
 		"8": "jmmf:block/cooking_station/arm_handle",
-		"1_4": "block/basalt_top",
-		"particle": "stone"
+		"1_4": "block/basalt_top"
 	},
 	"elements": [
 		{
