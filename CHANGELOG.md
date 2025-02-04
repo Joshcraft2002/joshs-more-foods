@@ -1,3 +1,9 @@
+# 5.1.7 (2025-02-04)
+## Fixes
+- Cooking station using an invalid png, causing some issues with resource merging (such as via Nexo)
+## Removed
+- Unused cooking station model files
+
 # 5.1.6 (2024-12-03)
 ## Added
 - French (fr_fr) language support
