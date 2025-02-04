@@ -1,4 +1,4 @@
-# 5.2.2 (2025-02-03)
+# 5.2.2 (2025-02-04)
 ## Fixes
 - Cooking station using an invalid png, causing some issues with resource merging (such as via Nexo)
 
