@@ -1,3 +1,7 @@
+# 5.3.2 (2025-02-26)
+## Fixes
+- Tea not giving back their teacups
+
 # 5.3.1, 5.2.2 (2025-02-04)
 ## Fixes
 - Cooking station using an invalid png, causing some issues with resource merging (such as via Nexo)

@@ -19,6 +19,19 @@
               }
             ]
           },
+          "minecraft:use_remainder": {
+            "id": "minecraft:structure_block",
+            "components": {
+              "minecraft:item_name": "{ 'translate': 'item.jmmf.teacup', 'italic': false }",
+              "minecraft:rarity": "common",
+              "minecraft:item_model": "jmmf:teacup",
+              "minecraft:custom_data": {
+                "smithed": {
+                  "id": "jmmf:teacup"
+                }
+              }
+            }
+          },
           "minecraft:max_stack_size": 16
       }
   },
