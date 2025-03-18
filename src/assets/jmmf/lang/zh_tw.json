@@ -49,7 +49,7 @@
     "item.jmmf.cookbook.tea.desc_3": "紅茶的效果將會更強，但持續時間只有一半。\n",
     "item.jmmf.cookbook.tea.desc_4": "[生命恢復 II (0:10)]",
     "item.jmmf.cookbook.tea.skip": "點選重新導向至茶食譜介紹頁面",
-    "item.jmmf.cookbook.tea_leaves.desc": "茶需要用到茶葉來烹煮。\n茶葉可在橡樹、深色橡樹和白樺樹的樹葉中獲取。\n\n您也可以使用幸運來提升獲取的機率。",
+    "item.jmmf.cookbook.tea_leaves.desc": "茶需要用到茶葉來烹煮。\n茶葉可在橡木樹、黑橡木樹和白樺樹的樹葉中獲取。\n\n您也可以使用幸運來提升獲取的機率。",
     "item.jmmf.cookbook.black_tea_leaves.desc": "製作紅茶需要有紅茶葉。",
     "item.jmmf.cookbook.tea.space_1": "\n",
     "item.jmmf.cookbook.tea.space_2": "\n",
@@ -109,7 +109,7 @@
     "item.jmmf.cookbook.credits.follow_twitter": "在推特上跟隨!",
 
     "item.jmmf.nutritionbook": "Josh's的營養書",
-    "item.jmmf.nutritionbook.allteas": "所有茶",
+    "item.jmmf.nutritionbook.allteas": "所有的茶",
     "item.jmmf.nutritionbook.fleshy_salad.effect_1": "[飢餓 I (0:10)] (50%)",
     "item.jmmf.nutritionbook.fleshy_salad.effect_2": "[中毒 I (0:02)] (10%)",
     "item.jmmf.nutritionbook.rotten_stew.effect_1": "[飢餓 I (0:30)] (80%)",
@@ -145,7 +145,7 @@
     "item.jmmf.diamond_knife": "鑽石刀",
     "item.jmmf.diamond_knife.lore.attack_damage": " 5 攻擊傷害",
     "item.jmmf.diamond_knife.lore.attack_speed": " 2 攻擊速度",
-    "item.jmmf.netherite_knife": "下界合金刀",
+    "item.jmmf.netherite_knife": "獄髓刀",
     "item.jmmf.netherite_knife.lore.attack_damage": " 5.5 攻擊傷害",
     "item.jmmf.netherite_knife.lore.attack_speed": " 2 攻擊速度",
 
@@ -189,7 +189,7 @@
     "item.jmmf.fried_rice": "炒飯",
     "item.jmmf.champorado": "巧克力粥",
 
-    "item.jmmf.black_forest_doughnut": "漿果黑巧甜甜圈",
+    "item.jmmf.black_forest_doughnut": "黑森林甜甜圈",
     "item.jmmf.chocolate_doughnut": "巧克力甜甜圈",
     "item.jmmf.sugar_doughnut": "甜甜圈",
 
