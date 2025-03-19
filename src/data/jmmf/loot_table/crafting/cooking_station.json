@@ -12,7 +12,7 @@
                         { 
                             "function": "minecraft:set_components", 
                             "components": {
-                                "minecraft:item_name": "{ 'translate': 'block.jmmf.cooking_station', 'italic': false }",
+                                "minecraft:item_name": { "translate": "block.jmmf.cooking_station"},
                                 "minecraft:item_model": "jmmf:block/cooking_station",
                                 "minecraft:container": [
                                     {
@@ -20,14 +20,19 @@
                                         "item": {
                                             "id": "minecraft:stone",
                                             "components": {
-                                                "minecraft:custom_data": { "joshmats": { "block": { "id": "jmmf:cooking_station" }}}
+                                                "minecraft:custom_data": { 
+                                                    "joshmats": { "block": { "id": "jmmf:cooking_station" }}
+                                                }
                                             }       
                                         }
                                     }
-                                ]
+                                ],
+                                "minecraft:tooltip_display": { "hidden_components": ["minecraft:container"] },
+                                "minecraft:custom_data": {
+                                    "smithed": { "id": "jmmf:cooking_station" }
+                                }
                             }
-                        },
-                        { "function": "minecraft:set_custom_data", "tag": "{'smithed':{'id':'jmmf:cooking_station'}}" }
+                        }
                     ]
                 }
             ]

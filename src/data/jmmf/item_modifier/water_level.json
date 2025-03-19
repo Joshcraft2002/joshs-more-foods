@@ -1,18 +1,18 @@
 [
-    {
-      "function": "minecraft:set_name",
-      "name": [
-        { "translate": "block.minecraft.water", "italic": false , "color": "white"},
-        ": ",
-        {
-          "score": {
-            "name": "@s",
-            "objective": "jmmf.water_level"
-          },
-          "color": "gold"
+  {
+    "function": "minecraft:set_name",
+    "name": [
+      { "translate": "block.minecraft.water", "color": "white", "italic": false},
+      ": ",
+      {
+        "score": {
+          "name": "@s",
+          "objective": "jmmf.water_level"
         },
-        { "text": "/16", "color": "gold"}
-      ],
-      "entity": "this"
-    }
-  ]
+        "color": "gold"
+      },
+      { "text": "/16", "color": "gold"}
+    ],
+    "entity": "this"
+  }
+]

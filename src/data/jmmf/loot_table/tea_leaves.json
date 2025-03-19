@@ -12,12 +12,14 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_name": "{'translate': 'item.jmmf.tea_leaves', 'italic': false }",
+                                "minecraft:item_name": { "translate": "item.jmmf.tea_leaves" },
                                 "minecraft:item_model": "jmmf:tea_leaves",
-                                "minecraft:rarity": "common"
+                                "minecraft:rarity": "common",
+                                "minecraft:custom_data": {
+                                    "smithed": { "id": "jmmf:tea_leaves" }
+                                }
                             }
-                        },
-                        { "function": "set_custom_data", "tag": "{'smithed':{'id':'jmmf:tea_leaves'}}" }
+                        }
                     ]
                 }
             ]

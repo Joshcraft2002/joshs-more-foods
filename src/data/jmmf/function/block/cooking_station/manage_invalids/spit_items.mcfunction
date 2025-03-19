@@ -28,7 +28,7 @@ data remove block ~ ~ ~ Items[{Slot: 22b}]
 # clear our ui elements if they weren't removed
 execute store success score jmmf:temp jmmf.data as @a[distance=..6] run clear @s structure_block[minecraft:custom_data~{joshmats:{gui:{id:"jmmf:cooking_station_cook_time"}}}]
 execute if score jmmf:temp jmmf.data matches 0 run data remove block ~ ~ ~ Items[{Slot: 3b}]
-execute store success score jmmf:temp1 jmmf.data as @a[distance=..6] run clear @s leather_helmet[minecraft:custom_data~{joshmats:{gui:{id:"jmmf:cooking_station_water_level"}}}]
+execute store success score jmmf:temp1 jmmf.data as @a[distance=..6] run clear @s structure_block[minecraft:custom_data~{joshmats:{gui:{id:"jmmf:cooking_station_water_level"}}}]
 execute if score jmmf:temp1 jmmf.data matches 0 run data remove block ~ ~ ~ Items[{Slot: 12b}]
 execute store success score jmmf:temp2 jmmf.data as @a[distance=..6] run clear @s structure_block[minecraft:custom_data~{joshmats:{gui:{id:"joshmats:generic"}}}]
 execute if score jmmf:temp2 jmmf.data matches 0 run data remove block ~ ~ ~ Items[{Slot: 21b}]

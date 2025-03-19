@@ -1,3 +1,14 @@
+# 5.4.0 (2025-)
+## Added
+- 1.21.5 support (this version is incompatible with 1.21.4 and below)
+## Changed
+- Cooking Station GUI text is no longer centered, but now shows its language translations
+- Water Level GUI no longer uses leather helmets as the base item
+- Italicization is no longer specified on custom items
+    - May cause old items to not stack with newer ones, but they should be compatible in recipes
+## Removed
+- Bowl eating loot table leftover from earlier versions
+
 # 5.3.2 (2025-02-26)
 ## Fixes
 - Tea not giving back their teacups

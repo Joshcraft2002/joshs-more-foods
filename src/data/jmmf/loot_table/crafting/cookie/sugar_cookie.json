@@ -10,15 +10,11 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_name": "{ 'translate': 'item.jmmf.sugar_cookie', 'italic': false }",
+                                "minecraft:item_name": { "translate": "item.jmmf.sugar_cookie"},
                                 "minecraft:item_model": "jmmf:cookie/sugar_cookie",
                                 "minecraft:custom_data": {
-                                    "smithed": {
-                                        "id": "jmmf:sugar_cookie"
-                                    },
-                                    "joshmats": {
-                                        "tag": ["cookie"]
-                                    }
+                                    "smithed": { "id": "jmmf:sugar_cookie" },
+                                    "joshmats": { "tag": ["cookie"] }
                                 }
                             }
                         }

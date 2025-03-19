@@ -10,13 +10,11 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_name": "{ 'translate': 'item.jmmf.teacup', 'italic': false }",
+                                "minecraft:item_name": { "translate": "item.jmmf.teacup"},
                                 "minecraft:rarity": "common",
                                 "minecraft:item_model": "jmmf:teacup",
                                 "minecraft:custom_data": {
-                                    "smithed": {
-                                        "id": "jmmf:teacup"
-                                    }
+                                    "smithed": { "id": "jmmf:teacup" }
                                 }
                             }
                         }

@@ -1,11 +1,11 @@
-[
-  {
-      "function": "minecraft:set_components",
-      "components": {
-          "minecraft:item_name": "{'translate': 'item.jmmf.black_tea_leaves', 'italic': false }",
-          "minecraft:item_model": "jmmf:black_tea_leaves",
-          "minecraft:rarity": "common"
+{
+  "function": "minecraft:set_components",
+  "components": {
+      "minecraft:item_name": {"translate": "item.jmmf.black_tea_leaves"},
+      "minecraft:item_model": "jmmf:black_tea_leaves",
+      "minecraft:rarity": "common",
+      "minecraft:custom_data": {
+        "smithed": { "id": "jmmf:black_tea_leaves" }
       }
-  },
-  { "function": "set_custom_data", "tag": "{'smithed':{'id':'jmmf:black_tea_leaves'}}" }
-]
+  }
+}

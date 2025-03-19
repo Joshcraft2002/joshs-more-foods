@@ -10,16 +10,13 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_name": "{ 'translate': 'item.jmmf.sweet_roll', 'italic': false }",
+                                "minecraft:item_name": { "translate": "item.jmmf.sweet_roll"},
                                 "minecraft:item_model": "jmmf:bread/sweet_roll",
                                 "minecraft:custom_data": {
-                                    "smithed": {
-                                    "id": "jmmf:sweet_roll"
-                                    }
+                                    "smithed": { "id": "jmmf:sweet_roll" }
                                 },
                                 "minecraft:food": {
-                                    "nutrition": 7,
-                                    "saturation": 8
+                                    "nutrition": 7, "saturation": 8
                                 }
                             }
                         }

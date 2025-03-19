@@ -10,12 +10,10 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_name": "{ 'translate': 'item.jmmf.fruit_salad', 'italic': false }",
+                                "minecraft:item_name": { "translate": "item.jmmf.fruit_salad"},
                                 "minecraft:item_model": "jmmf:salad/fruit_salad",
                                 "minecraft:custom_data": {
-                                    "smithed": {
-                                        "id": "jmmf:fruit_salad"
-                                    }
+                                    "smithed": { "id": "jmmf:fruit_salad" }
                                 },
                                 "minecraft:max_stack_size": 16
                             }

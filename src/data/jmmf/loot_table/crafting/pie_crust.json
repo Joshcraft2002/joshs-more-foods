@@ -10,16 +10,13 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_name": "{ 'translate': 'item.jmmf.pie_crust', 'italic': false }",
+                                "minecraft:item_name": { "translate": "item.jmmf.pie_crust"},
                                 "minecraft:item_model": "jmmf:pie_crust",
                                 "minecraft:custom_data": {
-                                    "smithed": {
-                                        "id": "jmmf:pie_crust"
-                                    }
+                                    "smithed": { "id": "jmmf:pie_crust" }
                                 },
                                 "minecraft:food": {
-                                    "nutrition": 3,
-                                    "saturation": 3
+                                    "nutrition": 3, "saturation": 3
                                 }
                             }
                         }

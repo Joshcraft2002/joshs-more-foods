@@ -10,7 +10,7 @@
     "description": {
       "translate": "advancements.jmmf.start.description"
     },
-    "background": "minecraft:textures/block/stripped_oak_log.png",
+    "background": "minecraft:block/stripped_oak_log",
     "hidden": false,
     "show_toast": false,
     "announce_to_chat": false

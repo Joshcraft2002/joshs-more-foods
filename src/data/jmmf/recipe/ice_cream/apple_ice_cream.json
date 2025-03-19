@@ -10,7 +10,7 @@
   "result": {
     "id": "minecraft:suspicious_stew",
     "components": {
-      "minecraft:item_name": "{ 'translate': 'item.jmmf.apple_ice_cream', 'italic': false }",
+      "minecraft:item_name": { "translate": "item.jmmf.apple_ice_cream"},
       "minecraft:item_model": "jmmf:ice_cream/apple_ice_cream",
       "minecraft:custom_data": {
         "smithed": {
@@ -21,22 +21,15 @@
         }
       },
       "minecraft:food": {
-        "nutrition": 6,
-        "saturation": 6
+        "nutrition": 6, "saturation": 6
       },
       "minecraft:consumable": {
         "on_consume_effects": [
           {
             "type": "apply_effects",
             "effects": [
-              {
-                "id": "minecraft:slowness",
-                "duration": 1200
-              },
-              {
-                "id": "minecraft:weakness",
-                "duration": 1200
-              }
+              { "id": "minecraft:slowness", "duration": 1200 },
+              { "id": "minecraft:weakness", "duration": 1200 }
             ]
           }
         ]

@@ -9,16 +9,13 @@
   "result": {
     "id": "minecraft:beetroot_soup",
     "components": {
-      "minecraft:item_name": "{ 'translate': 'item.jmmf.potato_salad', 'italic': false }",
+      "minecraft:item_name": { "translate": "item.jmmf.potato_salad"},
       "minecraft:item_model": "jmmf:salad/potato_salad",
       "minecraft:custom_data": {
-        "smithed": {
-          "id": "jmmf:potato_salad"
-        }
+        "smithed": { "id": "jmmf:potato_salad" }
       },
       "minecraft:food": {
-        "nutrition": 6,
-        "saturation": 8
+        "nutrition": 6, "saturation": 8
       },
       "minecraft:max_stack_size": 16
     }

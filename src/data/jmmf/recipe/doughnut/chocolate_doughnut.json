@@ -12,7 +12,7 @@
   "result": {
     "id": "minecraft:cookie",
     "components": {
-      "minecraft:item_name": "{ 'translate': 'item.jmmf.chocolate_doughnut', 'italic': false }",
+      "minecraft:item_name": { "translate": "item.jmmf.chocolate_doughnut"},
       "minecraft:item_model": "jmmf:doughnut/chocolate_doughnut",
       "minecraft:custom_data": {
         "smithed": {
@@ -23,8 +23,7 @@
         }
       },
       "minecraft:food": {
-        "nutrition": 3,
-        "saturation": 3
+        "nutrition": 3, "saturation": 3
       }
     },
     "count": 12

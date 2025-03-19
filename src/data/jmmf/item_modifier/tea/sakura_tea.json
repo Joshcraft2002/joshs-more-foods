@@ -1,39 +1,38 @@
-[
-  {
-      "function": "minecraft:set_components",
+{
+  "function": "minecraft:set_components",
+  "components": {
+    "minecraft:item_name": {"translate": "item.jmmf.sakura_tea"},
+    "minecraft:item_model": "jmmf:tea/sakura_tea",
+    "minecraft:custom_data": {
+      "smithed": { "id": "jmmf:sakura_tea" },
+      "joshmats": { "tag": ["tea"] }
+    },
+    "minecraft:food": { 
+      "nutrition": 1, "saturation": 0.5, "can_always_eat": true
+    },
+    "minecraft:consumable": {
+      "sound": "minecraft:entity.generic.drink",
+      "has_consume_particles": false,
+      "on_consume_effects": [
+        {
+          "type": "apply_effects",
+          "effects": [
+            {"id":"minecraft:regeneration","duration":200}
+          ] 
+        }
+      ]
+    },
+    "minecraft:use_remainder": {
+      "id": "minecraft:structure_block",
       "components": {
-          "minecraft:item_name": "{'translate': 'item.jmmf.sakura_tea', 'italic': false }",
-          "minecraft:item_model": "jmmf:tea/sakura_tea",
-          "minecraft:food": { 
-            "nutrition": 1, "saturation": 0.5, "can_always_eat": true
-          },
-          "minecraft:consumable": {
-            "sound": "minecraft:entity.generic.drink",
-            "has_consume_particles": false,
-            "on_consume_effects": [
-              {
-                "type": "apply_effects",
-                "effects": [
-                  {"id":"minecraft:regeneration","duration":200}
-                ] 
-              }
-            ]
-          },
-          "minecraft:use_remainder": {
-            "id": "minecraft:structure_block",
-            "components": {
-              "minecraft:item_name": "{ 'translate': 'item.jmmf.teacup', 'italic': false }",
-              "minecraft:rarity": "common",
-              "minecraft:item_model": "jmmf:teacup",
-              "minecraft:custom_data": {
-                "smithed": {
-                  "id": "jmmf:teacup"
-                }
-              }
-            }
-          },
-          "minecraft:max_stack_size": 16
+        "minecraft:item_name": { "translate": "item.jmmf.teacup"},
+        "minecraft:rarity": "common",
+        "minecraft:item_model": "jmmf:teacup",
+        "minecraft:custom_data": {
+          "smithed": { "id": "jmmf:teacup" }
+        }
       }
-  },
-  { "function": "set_custom_data", "tag": "{'smithed':{'id':'jmmf:sakura_tea'},'joshmats':{'tag':['tea']}}" }
-]
+    },
+    "minecraft:max_stack_size": 16
+  }
+}

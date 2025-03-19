@@ -1,12 +1,15 @@
-[
-  {
-      "function": "minecraft:set_components",
-      "components": {
-          "minecraft:item_name": "{'translate': 'item.jmmf.rice_bowl', 'italic': false }",
-          "minecraft:item_model": "jmmf:rice_bowl",
-          "minecraft:food": { "nutrition": 5, "saturation": 6},
-          "minecraft:max_stack_size": 16
-      }
-  },
-  { "function": "set_custom_data", "tag": "{'smithed':{'id':'jmmf:rice_bowl'},'joshmats':{'tag':['rice_bowl']}}" }
-]
+{
+  "function": "minecraft:set_components",
+  "components": {
+    "minecraft:item_name": {"translate": "item.jmmf.rice_bowl"},
+    "minecraft:item_model": "jmmf:rice_bowl",
+    "minecraft:custom_data": {
+      "smithed": { "id": "jmmf:rice_bowl" },
+      "joshmats":{"tag":["rice_bowl"]}
+    },
+    "minecraft:food": { 
+      "nutrition": 5, "saturation": 6
+    },
+    "minecraft:max_stack_size": 16
+  }
+}

@@ -1,10 +1,11 @@
-[
-  {
-      "function": "minecraft:set_components",
-      "components": {
-        "minecraft:item_name": "{'translate': 'item.jmmf.red_rice', 'italic': false }",
-        "minecraft:item_model": "jmmf:red_rice"
-      }
-  },
-  { "function": "set_custom_data", "tag": "{'smithed':{'id':'jmmf:red_rice'},'joshmats':{'tag':['rice']}}" }
-]
+{
+  "function": "minecraft:set_components",
+  "components": {
+    "minecraft:item_name": {"translate": "item.jmmf.red_rice"},
+    "minecraft:item_model": "jmmf:red_rice",
+    "minecraft:custom_data": {
+      "smithed": { "id": "jmmf:red_rice" },
+      "joshmats":{"tag":["rice"]}
+    }
+  }
+}

@@ -10,7 +10,7 @@
   "result": {
     "id": "minecraft:cookie",
     "components": {
-      "minecraft:item_name": "{ 'translate': 'item.jmmf.sugar_cookie', 'italic': false }",
+      "minecraft:item_name": { "translate": "item.jmmf.sugar_cookie"},
       "minecraft:item_model": "jmmf:cookie/sugar_cookie",
       "minecraft:custom_data": {
         "smithed": {

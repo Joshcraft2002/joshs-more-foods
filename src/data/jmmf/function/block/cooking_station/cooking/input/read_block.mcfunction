@@ -3,7 +3,7 @@ data remove storage jmmf:cooking_station liquid
 data remove storage jmmf:cooking_station output
 
 #read inputs then store to temp input
-data modify storage jmmf:cooking_station Items set from entity @s ArmorItems[3].components."minecraft:custom_data".jmmf.stored_station_data
+data modify storage jmmf:cooking_station Items set from entity @s equipment.head.components."minecraft:custom_data".jmmf.stored_station_data
 execute if data storage jmmf:cooking_station Items[{Slot: 1b}] run data modify storage jmmf:cooking_station temp.input append from storage jmmf:cooking_station Items[{Slot: 1b}]
 execute if data storage jmmf:cooking_station Items[{Slot: 2b}] run data modify storage jmmf:cooking_station temp.input append from storage jmmf:cooking_station Items[{Slot: 2b}]
 execute if data storage jmmf:cooking_station Items[{Slot: 10b}] run data modify storage jmmf:cooking_station temp.input append from storage jmmf:cooking_station Items[{Slot: 10b}]

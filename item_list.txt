@@ -8,23 +8,23 @@ Cooking Station Arrow 0     Structure Block
 Cooking Station Arrow 1     Structure Block
 Cooking Station Arrow 2     Structure Block
 Cooking Station Arrow 3     Structure Block
-Water Tank 0                Leather Helmet               
-Water Tank 1                Leather Helmet
-Water Tank 2                Leather Helmet
-Water Tank 3                Leather Helmet
-Water Tank 4                Leather Helmet
-Water Tank 5                Leather Helmet
-Water Tank 6                Leather Helmet
-Water Tank 7                Leather Helmet
-Water Tank 8                Leather Helmet
-Water Tank 9                Leather Helmet
-Water Tank 10               Leather Helmet
-Water Tank 11               Leather Helmet
-Water Tank 12               Leather Helmet
-Water Tank 13               Leather Helmet
-Water Tank 14               Leather Helmet
-Water Tank 15               Leather Helmet
-Water Tank 16               Leather Helmet
+Water Tank 0                Structure Block               
+Water Tank 1                Structure Block
+Water Tank 2                Structure Block
+Water Tank 3                Structure Block
+Water Tank 4                Structure Block
+Water Tank 5                Structure Block
+Water Tank 6                Structure Block
+Water Tank 7                Structure Block
+Water Tank 8                Structure Block
+Water Tank 9                Structure Block
+Water Tank 10               Structure Block
+Water Tank 11               Structure Block
+Water Tank 12               Structure Block
+Water Tank 13               Structure Block
+Water Tank 14               Structure Block
+Water Tank 15               Structure Block
+Water Tank 16               Structure Block
 Josh's Book of Nutrition    Written Book
 Gilded Tea                  Cookie                       
 

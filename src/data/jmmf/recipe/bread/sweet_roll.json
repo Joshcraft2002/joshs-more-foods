@@ -8,7 +8,7 @@
   "result": {
     "id": "minecraft:bread",
     "components": {
-      "minecraft:item_name": "{ 'translate': 'item.jmmf.sweet_roll', 'italic': false }",
+      "minecraft:item_name": { "translate": "item.jmmf.sweet_roll"},
       "minecraft:item_model": "jmmf:bread/sweet_roll",
       "minecraft:custom_data": {
         "smithed": {
@@ -16,8 +16,7 @@
         }
       },
       "minecraft:food": {
-        "nutrition": 7,
-        "saturation": 8
+        "nutrition": 7, "saturation": 8
       }
     }
   }

@@ -8,12 +8,10 @@
   "result": {
     "id": "minecraft:pumpkin_pie",
     "components": {
-      "minecraft:item_name": "{ 'translate': 'item.jmmf.apple_pie', 'italic': false }",
+      "minecraft:item_name": { "translate": "item.jmmf.apple_pie"},
       "minecraft:item_model": "jmmf:pie/apple_pie",
       "minecraft:custom_data": {
-        "smithed": {
-          "id": "jmmf:apple_pie"
-        }
+        "smithed": { "id": "jmmf:apple_pie" }
       }
     }
   }

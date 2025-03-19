@@ -10,19 +10,14 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_name": "{ 'translate': 'item.jmmf.sugar_doughnut', 'italic': false }",
+                                "minecraft:item_name": { "translate": "item.jmmf.sugar_doughnut"},
                                 "minecraft:item_model": "jmmf:doughnut/sugar_doughnut",
                                 "minecraft:custom_data": {
-                                    "smithed": {
-                                        "id": "jmmf:sugar_doughnut"
-                                    },
-                                    "joshmats": {
-                                        "tag": ["doughnut"]
-                                    }
+                                    "smithed": { "id": "jmmf:sugar_doughnut" },
+                                    "joshmats": { "tag": ["doughnut"] }
                                 },
                                 "minecraft:food": {
-                                    "nutrition": 3,
-                                    "saturation": 3
+                                    "nutrition": 3, "saturation": 3
                                 }
                             }
                         }

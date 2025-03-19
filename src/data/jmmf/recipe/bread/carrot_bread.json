@@ -10,7 +10,7 @@
   "result": {
     "id": "minecraft:bread",
     "components": {
-      "minecraft:item_name": "{ 'translate': 'item.jmmf.carrot_bread', 'italic': false }",
+      "minecraft:item_name": { "translate": "item.jmmf.carrot_bread"},
       "minecraft:item_model": "jmmf:bread/carrot_bread",
       "minecraft:custom_data": {
         "smithed": {

@@ -10,12 +10,10 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_name": "{ 'translate': 'item.jmmf.sweet_berry_pie', 'italic': false }",
+                                "minecraft:item_name": { "translate": "item.jmmf.sweet_berry_pie"},
                                 "minecraft:item_model": "jmmf:pie/sweet_berry_pie",
                                 "minecraft:custom_data": {
-                                    "smithed": {
-                                        "id": "jmmf:sweet_berry_pie"
-                                    }
+                                    "smithed": { "id": "jmmf:sweet_berry_pie" }
                                 }
                             }
                         }

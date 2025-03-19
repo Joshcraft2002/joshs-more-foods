@@ -15,12 +15,10 @@
   "result": {
     "id": "minecraft:pumpkin_pie",
     "components": {
-      "minecraft:item_name": "{ 'translate': 'item.jmmf.shepherds_pie', 'italic': false }",
+      "minecraft:item_name": { "translate": "item.jmmf.shepherds_pie"},
       "minecraft:item_model": "jmmf:pie/shepherds_pie",
       "minecraft:custom_data": {
-        "smithed": {
-          "id": "jmmf:shepherds_pie"
-        }
+        "smithed": { "id": "jmmf:shepherds_pie" }
       },
       "minecraft:food": {
         "nutrition": 14,
