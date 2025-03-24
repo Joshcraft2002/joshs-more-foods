@@ -1,15 +1,15 @@
 {
     "id": "joshs-more-foods",
     "name": "Josh's More Foods",
-    "version": "5.3.2",
+    "version": "5.3.3",
     "data_pack": {
         "pack_format": 61,
-        "description": "Datapack for Josh's More Foods. v5.3.2",            
+        "description": "Datapack for Josh's More Foods. v5.3.3",            
         "load": ["."]
     },
     "resource_pack": {
         "pack_format": 46,
-        "description":"Resource Pack for Josh's More Foods. v5.3.2",
+        "description":"Resource Pack for Josh's More Foods. v5.3.3",
         "load": ["."]
     }
 }
