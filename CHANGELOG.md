@@ -9,6 +9,10 @@
 ## Removed
 - Bowl eating loot table leftover from earlier versions
 
+# 5.3.3, 5.2.3, 5.1.8, 5.0.8 (2025-03-24)
+  ## Added
+  - Traditional Chinese (Taiwan) (zh_tw) language support
+
 # 5.3.2 (2025-02-26)
 ## Fixes
 - Tea not giving back their teacups
