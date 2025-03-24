@@ -1,4 +1,4 @@
-# 5.4.0 (2025-)
+# 5.4.0 (2025-03-25)
 ## Added
 - 1.21.5 support (this version is incompatible with 1.21.4 and below)
 ## Changed
