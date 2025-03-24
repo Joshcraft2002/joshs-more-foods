@@ -1,3 +1,7 @@
+# 5.2.3 (2025-03-24)
+  ## Added
+  - Traditional Chinese (Taiwan) (zh_tw) language support
+
 # 5.2.2 (2025-02-04)
 ## Fixes
 - Cooking station using an invalid png, causing some issues with resource merging (such as via Nexo)
