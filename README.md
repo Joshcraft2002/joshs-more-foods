@@ -43,4 +43,4 @@ This datapack uses adaptations of the Smithed Custom Block and Custom Crafter li
 ## Contributing
 If you want to help with translations, submit a pull request, message me on PlanetMinecraft, or DM me on Discord: joshmats
 - You can base off of the US English file [here](src/assets/jmmf/lang/en_us.json)
-- For the cookbook, the text may not fit the pages very well. Tweak your phrasing and use of newlines (\n) to better fit the text, though I can handle the newline part. Either way, it would be good to coordinate via messages/discord in case of any issues.
+- For the cookbook, the text may not fit the pages very well. Tweak your phrasing and use of newlines (\n) to better fit the text, though I can handle further text formatting if needed. Either way, it would be good to coordinate via messages/discord in case of any issues.
