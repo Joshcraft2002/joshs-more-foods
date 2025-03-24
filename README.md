@@ -36,11 +36,12 @@ Language Contributions:
 - Russian (ru_ru) by [Ll66dar](https://www.planetminecraft.com/member/ll66dar/)
 - Ukrainian (uk_ua) by [MrBaget](https://modrinth.com/user/MrBaget)
 - Vietnamese (vi_vn) by Haisenberger
-- Chinese (zh_cn) by [Rain_G](https://www.planetminecraft.com/member/rain_g/) & their team
+- Simplified Chinese (zh_cn) by [Rain_G](https://www.planetminecraft.com/member/rain_g/) & their team
+- Traditional Chinese (Taiwan) (zh_tw) by [KoukeNeko](https://github.com/KoukeNeko)
 
 This datapack uses adaptations of the Smithed Custom Block and Custom Crafter libraries, both under the MIT License. [License](LICENSE-smithed)
 
 ## Contributing
 If you want to help with translations, submit a pull request, message me on PlanetMinecraft, or hit me up on discord: joshmats
 - You can base off of the US English file [here](src/assets/jmmf/lang/en_us.json)
-- For the cookbook, the text may not fit the pages very well. Tweak your phrasing and use of newlines (\n) to better fit the text, though I can handle the newline part. Either way, it would be good to coordinate via messages/discord in case of any issues.
+- For the cookbook, the text may not fit the pages very well. Tweak your phrasing and use of newlines (\n) to better fit the text, though I can handle further text formatting if needed. Either way, it would be good to coordinate via messages/discord in case of any issues.
