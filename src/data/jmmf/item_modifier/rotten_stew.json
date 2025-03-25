@@ -1,16 +1,17 @@
-[
-  {
-      "function": "minecraft:set_components",
-      "components": {
-          "minecraft:item_name": {"translate": "item.jmmf.rotten_stew"},
-          "minecraft:item_model": "jmmf:soup/rotten_stew",
-          "minecraft:custom_data": {
-            "smithed": { "id": "jmmf:rotten_stew" }
-          },
-          "minecraft:use_remainder": {
-            "id": "minecraft:bowl"
-          }
+{
+  "function": "minecraft:set_components",
+  "components": {
+      "minecraft:item_name": {"translate": "item.jmmf.rotten_stew"},
+      "minecraft:item_model": "jmmf:soup/rotten_stew",
+      "minecraft:custom_data": {
+        "smithed": { "id": "jmmf:rotten_stew" }
+      },
+      "minecraft:lore": [
+        {"translate": "item.jmmf.rotten_stew.lore", "color": "gray", "italic": false}
+      ],
+      "minecraft:use_remainder": {
+        "id": "minecraft:bowl"
       }
-  },
-  { "function": "set_lore", "mode": "replace_all", "lore": [{ "italic": false, "translate": "item.jmmf.rotten_stew.lore", "color":"gray" }] }
-]
+  }
+}
+  

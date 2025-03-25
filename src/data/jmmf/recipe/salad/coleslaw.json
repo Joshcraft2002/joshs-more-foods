@@ -14,6 +14,9 @@
       "minecraft:custom_data": {
         "smithed": { "id": "jmmf:coleslaw" }
       },
+      "minecraft:food": {
+          "nutrition": 6, "saturation": 8
+      },
       "minecraft:max_stack_size": 16
     }
   }
