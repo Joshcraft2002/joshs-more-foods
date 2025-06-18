@@ -9,6 +9,13 @@ Updated for Minecraft 1.21.6
 - Fixed water tank GUI colors
 - Fixed console spam from cooking station recipes
 
+# 5.4.1 (2025-06-18)
+- Fixed console spam from cooking station recipes
+
+# 5.3.4 (2025-06-18)
+- Define tint for water tank model definition so as not to be discolored
+- Fixed console spam from cooking station recipes
+
 # 5.4.0 (2025-03-25)
 Updated for Minecraft 1.21.5
 ## Changed
