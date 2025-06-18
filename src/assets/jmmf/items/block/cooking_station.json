@@ -1,6 +1,7 @@
 {
-    "model": {
-      "type": "minecraft:model",
-      "model": "jmmf:block/cooking_station"
-    }
-  }
+  "model": {
+    "type": "minecraft:model",
+    "model": "jmmf:block/cooking_station"
+  },
+  "oversized_in_gui": true
+}

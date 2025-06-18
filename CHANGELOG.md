@@ -1,12 +1,21 @@
+# 5.5.0 (2025-)
+Updated for Minecraft 1.21.6 
+## Changed
+- Knife tooltips now use `attribute_modifiers` override type to display attack damage and speed
+	- Existing knives will work normally, but only newly crafted knives will show the proper text
+## Fixed
+- Slightly cleaned up Cooking Station model file
+	- fixed not rendering mirrored when in the left hand
+- Fixed water tank GUI colors
+
 # 5.4.0 (2025-03-25)
-## Added
-- 1.21.5 support (this version is incompatible with 1.21.4 and below)
+Updated for Minecraft 1.21.5
 ## Changed
 - Cooking Station GUI text is no longer centered, but now shows its language translations
-    - Existing stations may need to be broken and replaced to show the text
+	- Existing stations may need to be broken and replaced to show the text
 - Water Level GUI no longer uses leather helmets as the base item
 - Italicization is no longer specified on custom items
-    - May cause old items to not stack with newer ones, but they should be compatible in recipes
+	- May cause old items to not stack with newer ones, but they should be compatible in recipes
 ## Removed
 - Bowl eating loot table leftover from earlier versions
 
@@ -29,10 +38,9 @@
 - Unused cooking station model files
 
 # 5.3.0 (2024-12-03)
-## Added
-- 1.21.4 support
-    - Resource pack is incompatible with 1.21.3 and below, and must be updated
-    - Data pack is compatible with (and identical to) 1.21.2+ (no need for recrafts, yay!)
+Updated for Minecraft 1.21.4
+	- Resource pack is incompatible with 1.21.3 and below, and must be updated
+	- Data pack is compatible with (and identical to) 1.21.2+ (no need for recrafts)
 ## Fixes
 - Missing `/loot` command for Vegetable Salad
 
@@ -45,16 +53,15 @@
 - Black Tea no longer has an underline
 
 # 5.2.0 (2024-10-23)
-## Added
-- 1.21.2 support (this version is incompatible with 1.21.1 and below)
+Updated for Minecraft 1.21.2 (and compatible with 1.21.3)
 ## Changed
 - Items use `item_model` instead of `custom_model_data` component, some items now using `consumable`
-    - **almost everything will have to be recrafted (again)**
+	- **almost everything will have to be recrafted (again)**
 - Tea made to feel more like being drunk rather than eaten
 - Tea and Rotten Stew now give teacups and bowls respectively through the `use_remainder` component instead of advancements
 - Reworked changelog format (github only)
-    - organize by date
-    - support branch changelogs (when updated after this point) will only contain changes in that version series (e.g 5.1.x only, etc.)
+	- organize by date
+	- support branch changelogs (when updated after this point) will only contain changes in that version series (e.g 5.1.x only, etc.)
 ## Removed
 - Old uninstall function from before v4
 
@@ -107,12 +114,11 @@
 - Leche Flan having the wrong nutrition values in the nutrition book
 
 # 5.1.0 (2024-06-30)
-## Added
-- 1.21 support (this version is incompatible with 1.20.6 and below)
+Updated for Minecraft 1.21
 
 # 5.0.0 (2024-06-30)
+Updated for Minecraft 1.20.5 (and compatible with 1.20.6)
 ## Added
-- 1.20.5/1.20.6 support (this version is incompatible with 1.20.4 and below)
 ### Cookbook/Nutrition Book Updating
 You can now put the cookbook or nutrition book in the cooking station as an input to update it (works for any book made since v4.0.0) instead of having to recraft every time.
 ### Food
@@ -127,28 +133,28 @@ More foods were added bring the total recipes to a bit over 60.
 - Chamomile Tea
 - Sunflower Tea
 - Black Tea
-    - double the effect but half the duration
+	- double the effect but half the duration
 #### Soups
 - Bone Broth
-    - to be used as a soup base for some recipes
+	- to be used as a soup base for some recipes
 - Egg Drop Soup
 #### Other
 - Red Rice
-    - alternative to Rice with the exact same use
+	- alternative to Rice with the exact same use
 - Red Rice Bowl
-    - Rice Bowl specifically needs regular Rice, using Red Rice instead makes this
+	- Rice Bowl specifically needs regular Rice, using Red Rice instead makes this
 - Black Tea Leaves
 ## Changed
 ### Items
 - All items now use the data component system of 1.20.5
 - All recipes can now be directly crafted instead of having to use the knowledge book method
-    - this should mean anything that makes you learn all recipes is safe now
+	- this should mean anything that makes you learn all recipes is safe now
 ### Food
 - Food now uses the food component instead of saturation effect (Appleskin can now also see the actual nutrition value). 
 - Some food items had their base items changed:
-    - fish and chips > rabbit stew
-    - ice cream > suspicious stew
-    - rice bowl, fried rice, champorado, salads > beetroup soup
+	- fish and chips > rabbit stew
+	- ice cream > suspicious stew
+	- rice bowl, fried rice, champorado, salads > beetroup soup
 - Anything in a bowl now has a max stack size of 16
 - Sweet Berry Cookie texture now more cookie-shaped
 > Food will have to be recrafted to reflect these changes (some old food will have the wrong texture and/or nutrition value)
@@ -160,12 +166,12 @@ Cooking Station now has two slots for water: an input slot (marked by a bucket s
 ### Other
 - Salad in the books is now plural "Salads"
 - Updated translations for the new content:
-    - Chinese (zh_cn): thanks [Rain_G](https://www.planetminecraft.com/member/rain_g/)!
-    - Russian (ru_ru): thanks [Ll66dar](https://www.planetminecraft.com/member/ll66dar/)!
-    - Ukrainian (uk_ua): thanks [MrBaget](https://modrinth.com/user/MrBaget)!
+	- Chinese (zh_cn): thanks [Rain_G](https://www.planetminecraft.com/member/rain_g/)!
+	- Russian (ru_ru): thanks [Ll66dar](https://www.planetminecraft.com/member/ll66dar/)!
+	- Ukrainian (uk_ua): thanks [MrBaget](https://modrinth.com/user/MrBaget)!
 ### Technical
 - Previous smithed dict system for tags like rice changed to a tag under the joshmats namespace (effective for just my packs but gets what I need done)
-    - includes `rice`, `rice_bowl`, `cookie`, `doughnut`, `ice_cream`, `soup_base`, `tea`
+	- includes `rice`, `rice_bowl`, `cookie`, `doughnut`, `ice_cream`, `soup_base`, `tea`
 - Adapted smithed custom block library (before it was used as is)
 ## Fixes
 - All textures (except for regular items) now have a power of 2, and are at least 64px to better accomodate mipmapping
@@ -189,15 +195,15 @@ Cooking Station now has two slots for water: an input slot (marked by a bucket s
 - Ukrainian (uk_ua) language support
 ## Fixes
 - Cookbook Fixes
-    - Datapack Credits linking to Nutrition Book Page
-    - Ice Cream Page icon showing Sweet Berry Pie instead of Apple Ice Cream
+	- Datapack Credits linking to Nutrition Book Page
+	- Ice Cream Page icon showing Sweet Berry Pie instead of Apple Ice Cream
 > Note: cookbook fixes only apply to newly crafted books, don't bother if the issues don't bother you
 
 # 4.1.3 (2023-10-19)
 ## Fixes
 - Fixed some loot table files in an attempt to fix realms compatibility
-    - split up knife functions to now also use `set_attributes` and `set_lore`
-    - merged cookbook `set_nbt` tag to a single line
+	- split up knife functions to now also use `set_attributes` and `set_lore`
+	- merged cookbook `set_nbt` tag to a single line
 
 # 4.1.2 (2023-10-15)
 ## Added

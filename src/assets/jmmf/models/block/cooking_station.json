@@ -1,6 +1,6 @@
 {
 	"credit": "Made with Blockbench",
-	"parent": "minecraft:block/dropper",
+	"parent": "minecraft:block/orientable",
 	"textures": {
 		"0": "block/smoker_side",
 		"1": "block/smoker_top",
@@ -204,39 +204,14 @@
 		}
 	],
 	"display": {
-		"thirdperson_righthand": {
-			"rotation": [75, 45, 0],
-			"translation": [0, 2.5, 0],
-			"scale": [0.37, 0.37, 0.37]
-		},
-		"thirdperson_lefthand": {
-			"rotation": [75, 225, 0],
-			"translation": [0, 2.5, 0],
-			"scale": [0.37, 0.37, 0.37]
-		},
-		"firstperson_righthand": {
-			"rotation": [0, 135, 0],
-			"scale": [0.37, 0.37, 0.37]
-		},
-		"firstperson_lefthand": {
-			"rotation": [0, 315, 0],
-			"scale": [0.37, 0.37, 0.37]
-		},
-		"ground": {
-			"translation": [0, 2, 0],
-			"scale": [0.25, 0.25, 0.25]
+		"head": {
+			"translation": [0, -43.22, 0],
+			"scale": [1.602, 1.602, 1.602]
 		},
 		"gui": {
 			"rotation": [30, -135, 0],
 			"translation": [0, 0.5, 0],
 			"scale": [0.63, 0.63, 0.63]
-		},
-		"head": {
-			"translation": [0, -43.22, 0],
-			"scale": [1.602, 1.602, 1.602]
-		},
-		"fixed": {
-			"scale": [0.4, 0.4, 0.4]
 		}
 	},
 	"groups": [

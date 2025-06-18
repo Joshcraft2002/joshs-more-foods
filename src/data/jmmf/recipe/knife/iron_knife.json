@@ -21,30 +21,30 @@
           "tag": ["knife"]
         }
       },
-      "minecraft:lore": [
-        {"text": ""},
-        {"translate": "item.modifiers.mainhand", "color": "gray", "italic": false}, 
-        {"translate": "item.jmmf.iron_knife.lore.attack_damage", "color": "dark_green", "italic": false}, 
-        {"translate": "item.jmmf.iron_knife.lore.attack_speed", "color": "dark_green",  "italic": false}
-      ],
       "minecraft:attribute_modifiers": [
         {
           "type": "minecraft:attack_damage",
           "slot": "mainhand",
           "id": "jmmf:iron_knife.attack_damage",
           "amount": 3,
-          "operation": "add_value"
+          "operation": "add_value",
+          "display": {
+            "type": "override",
+            "value": {"translate": "item.jmmf.iron_knife.attack_damage", "color": "dark_green"}
+          }
         },
         {
           "type": "minecraft:attack_speed",
           "slot": "mainhand",
           "id": "jmmf:iron_knife.attack_speed",
           "amount": -2,
-          "operation": "add_value"
+          "operation": "add_value",
+          "display": {
+            "type": "override",
+            "value": {"translate": "item.jmmf.iron_knife.attack_speed", "color": "dark_green"}
+          }
         }
-      ],
-      "minecraft:tooltip_display": { "hidden_components": ["minecraft:attribute_modifiers"] }
-      
+      ]
     }
   }
 }

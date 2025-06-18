@@ -1,49 +1,50 @@
 {
-    "pools": [
-        {
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "item",
-                    "name": "minecraft:golden_sword",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_components",
-                            "components": {
-                                "minecraft:item_name": { "translate": "item.jmmf.golden_knife"},
-                                "minecraft:item_model": "jmmf:knife/golden_knife",
-                                "minecraft:custom_data": {
-                                    "smithed": { "id": "jmmf:golden_knife" },
-                                    "joshmats": { "tag": ["knife"] }
-                                },
-                                "minecraft:lore": [
-                                    {"text": ""},
-                                    {"translate": "item.modifiers.mainhand", "color": "gray", "italic": false}, 
-                                    {"translate": "item.jmmf.golden_knife.lore.attack_damage", "color": "dark_green", "italic": false}, 
-                                    {"translate": "item.jmmf.golden_knife.lore.attack_speed", "color": "dark_green", "italic": false}
-                                ],
-                                "minecraft:attribute_modifiers": [
-                                    {
-                                        "type": "minecraft:attack_damage",
-                                        "slot": "mainhand",
-                                        "id": "jmmf:golden_knife.attack_damage",
-                                        "amount": 2,
-                                        "operation": "add_value"
-                                    },
-                                    {
-                                        "type": "minecraft:attack_speed",
-                                        "slot": "mainhand",
-                                        "id": "jmmf:golden_knife.attack_speed",
-                                        "amount": -2,
-                                        "operation": "add_value"
-                                    }
-                                ],
-                                "minecraft:tooltip_display": { "hidden_components": ["minecraft:attribute_modifiers"] }
-                            }
-                        }
-                    ]
-                }
-            ]
-        }
-    ]
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "minecraft:golden_sword",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:item_name": { "translate": "item.jmmf.golden_knife"},
+								"minecraft:item_model": "jmmf:knife/golden_knife",
+								"minecraft:custom_data": {
+									"smithed": { "id": "jmmf:golden_knife" },
+									"joshmats": { "tag": ["knife"] }
+								},
+								"minecraft:attribute_modifiers": [
+									{
+										"type": "minecraft:attack_damage",
+										"slot": "mainhand",
+										"id": "jmmf:golden_knife.attack_damage",
+										"amount": 2,
+										"operation": "add_value",
+										"display": {
+											"type": "override",
+											"value": {"translate": "item.jmmf.golden_knife.attack_damage", "color": "dark_green"}
+										}
+									},
+									{
+										"type": "minecraft:attack_speed",
+										"slot": "mainhand",
+										"id": "jmmf:golden_knife.attack_speed",
+										"amount": -2,
+										"operation": "add_value",
+										"display": {
+											"type": "override",
+											"value": {"translate": "item.jmmf.golden_knife.attack_speed", "color": "dark_green"}
+										}
+									}
+								]
+							}
+						}
+					]
+				}
+			]
+		}
+	]
 }
