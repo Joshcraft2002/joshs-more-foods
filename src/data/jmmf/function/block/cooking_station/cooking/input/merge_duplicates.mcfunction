@@ -18,6 +18,6 @@ execute if score jmmf:temp1 jmmf.data matches 5.. if score jmmf:temp2 jmmf.data 
 execute if score jmmf:temp1 jmmf.data matches 6.. if score jmmf:temp2 jmmf.data matches 1 run function jmmf:block/cooking_station/cooking/input/checks/5
 
 #if no duplicate found and last input not empty, just add it to ingredients list with count of 1
-execute if score jmmf:temp2 jmmf.data matches 1 unless data storage jmmf:cooking_station temp.1{id: "minecraft:air"} run function jmmf:block/cooking_station/cooking/input/append
+execute if score jmmf:temp2 jmmf.data matches 1 run function jmmf:block/cooking_station/cooking/input/append
 
 execute if data storage jmmf:cooking_station temp.input[] run function jmmf:block/cooking_station/cooking/input/merge_duplicates
