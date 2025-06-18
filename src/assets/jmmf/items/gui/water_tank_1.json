@@ -1,6 +1,12 @@
 {
     "model": {
       "type": "minecraft:model",
-      "model": "jmmf:item/gui/water_tank_1"
+      "model": "jmmf:item/gui/water_tank_1",
+      "tints":[
+        {
+          "type": "minecraft:dye",
+          "default": 4159204
+        }
+      ]
     }
 }
