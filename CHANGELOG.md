@@ -1,12 +1,13 @@
-# 5.5.0 (2025-)
+# 5.5.0 (2025-06-18)
 Updated for Minecraft 1.21.6 
 ## Changed
 - Knife tooltips now use `attribute_modifiers` override type to display attack damage and speed
 	- Existing knives will work normally, but only newly crafted knives will show the proper text
-## Fixed
+## Fixes
 - Slightly cleaned up Cooking Station model file
 	- fixed not rendering mirrored when in the left hand
 - Fixed water tank GUI colors
+- Fixed console spam from cooking station recipes
 
 # 5.4.0 (2025-03-25)
 Updated for Minecraft 1.21.5
