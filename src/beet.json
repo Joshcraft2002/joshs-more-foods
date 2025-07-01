@@ -1,15 +1,17 @@
 {
     "id": "joshs-more-foods",
     "name": "Josh's More Foods",
-    "version": "5.5.0",
-    "data_pack": {
-        "pack_format": 80,
-        "description": "Datapack for Josh's More Foods. v5.5.0",            
-        "load": ["."]
-    },
+    "version": "5.5.1",
     "resource_pack": {
         "pack_format": 63,
-        "description":"Resource Pack for Josh's More Foods. v5.5.0",
+        "supported_formats": {"min_inclusive": 63, "max_inclusive": 64},
+        "description":"Resource Pack for Josh's More Foods. v5.5.1",
+        "load": ["."]
+    },
+    "data_pack": {
+        "pack_format": 80,
+        "supported_formats": {"min_inclusive": 80, "max_inclusive": 81},
+        "description": "Datapack for Josh's More Foods. v5.5.1",            
         "load": ["."]
     }
 }

@@ -1,3 +1,6 @@
+# 5.5.1 (2025-07-01)
+Updated pack format for Minecraft 1.21.7
+
 # 5.5.0 (2025-06-18)
 Updated for Minecraft 1.21.6 
 ## Changed
