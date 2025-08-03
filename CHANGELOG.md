@@ -1,3 +1,6 @@
+# 5.5.2 (2025-08-)
+- Added Polish (pl_pl) language support
+
 # 5.5.1 (2025-07-01)
 Updated pack format for Minecraft 1.21.7
 

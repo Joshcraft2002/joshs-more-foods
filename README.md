@@ -30,6 +30,7 @@ Language Contributions:
 - Spanish (es_es) by [ElGeroIngles](https://github.com/ElGeroIngles)
 - French (fr_fr) by [patapon888](https://github.com/patapon888)
 - (up to 1.20.4) Brazilian Portuguese (pt_br) by [MeiaQuatru](https://www.planetminecraft.com/member/meiaquatru/)
+- Polish (pl_pl) by [malpkakefirek](https://github.com/malpkakefirek)
 - Russian (ru_ru) by [Ll66dar](https://www.planetminecraft.com/member/ll66dar/)
 - Ukrainian (uk_ua) by [MrBaget](https://modrinth.com/user/MrBaget)
 - Vietnamese (vi_vn) by Haisenberger
