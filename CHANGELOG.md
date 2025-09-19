@@ -1,3 +1,7 @@
+# 5.4.2 (2025-09-19)
+- Recipes that use eggs now take blue and brown eggs
+- Fixed an issue where egg drop soup could not be cooked in batches properly
+
 # 5.4.1 (2025-06-18)
 - Fixed console spam from cooking station recipes
 
