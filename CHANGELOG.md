@@ -1,6 +1,7 @@
 # 5.4.2 (2025-09-19)
 - Recipes that use eggs now take blue and brown eggs
-- Fixed an issue where egg drop soup could not be cooked in batches properly
+- Egg drop soup no longer requires (and consumes) a bowl to craft
+> The bowl of the soup base counts as the bowl for this recipe
 
 # 5.4.1 (2025-06-18)
 - Fixed console spam from cooking station recipes
