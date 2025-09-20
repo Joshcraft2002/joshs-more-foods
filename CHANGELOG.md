@@ -1,4 +1,9 @@
-# 5.5.2 (2025-08-)
+# 5.5.3 (2025-09-20)
+- Recipes that use eggs now take blue and brown eggs
+- Egg drop soup no longer requires (and consumes) a bowl to craft
+> The bowl of the soup base counts as the bowl for this recipe
+
+# 5.5.2 (2025-08-04)
 - Added Polish (pl_pl) language support
 
 # 5.5.1 (2025-07-01)

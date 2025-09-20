@@ -7,7 +7,7 @@
   ],
   "key": {
     "P": "minecraft:baked_potato",
-    "E": "minecraft:egg",
+    "E": "#minecraft:eggs",
     "M": "minecraft:milk_bucket",
     "C": "minecraft:carrot",
     "L": "minecraft:cooked_mutton"

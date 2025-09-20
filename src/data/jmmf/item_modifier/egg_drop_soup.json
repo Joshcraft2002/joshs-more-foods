@@ -4,7 +4,7 @@
       "minecraft:item_name": {"translate": "item.jmmf.egg_drop_soup"},
       "minecraft:item_model": "jmmf:soup/egg_drop_soup",
       "minecraft:custom_data": {
-        "smithed": { "id": "jmmf:boiled_egg" }
+        "smithed": { "id": "jmmf:egg_drop_soup" }
       },
       "minecraft:food": { 
         "nutrition": 7, "saturation": 6
