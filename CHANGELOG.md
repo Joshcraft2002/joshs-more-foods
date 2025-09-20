@@ -1,3 +1,7 @@
+# 5.3.5 (2025-09-20)
+- Egg drop soup no longer requires (and consumes) a bowl to craft
+> The bowl of the soup base counts as the bowl for this recipe
+
 # 5.3.4 (2025-06-18)
 - Define tint for water tank model definition so as not to be discolored
 - Fixed console spam from cooking station recipes
