@@ -1,6 +1,10 @@
+# 5.2.4 (2025-09-20)
+Egg drop soup no longer requires (and consumes) a bowl to craft
+- The bowl of the soup base counts as the bowl for this recipe
+
 # 5.2.3 (2025-03-24)
-  ## Added
-  - Traditional Chinese (Taiwan) (zh_tw) language support
+## Added
+- Traditional Chinese (Taiwan) (zh_tw) language support
 
 # 5.2.2 (2025-02-04)
 ## Fixes

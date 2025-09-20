@@ -1,4 +1,4 @@
-function jmmf:block/cooking_station/cooking/input/deduct_container
+function jmmf:block/cooking_station/cooking/input/deduct
 
 #set output if empty, otherwise change count
 execute if score @s jmmf.count.7 matches 0 run item replace block ~ ~ ~ container.16 with beetroot_soup
