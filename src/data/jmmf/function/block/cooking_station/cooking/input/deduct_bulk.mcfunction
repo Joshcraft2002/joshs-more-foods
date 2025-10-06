@@ -1,6 +1,6 @@
 #get smallest bulk number
 execute store result score @s jmmf.count run scoreboard players get @s jmmf.max_stack_size
-scoreboard players operation @s jmmf.count -= @s jmmf.count.7
+scoreboard players operation @s jmmf.count -= @s jmmf.count.output
 execute unless score @s jmmf.count.0 matches 0 run scoreboard players operation @s jmmf.count < @s jmmf.count.0
 execute unless score @s jmmf.count.1 matches 0 run scoreboard players operation @s jmmf.count < @s jmmf.count.1
 execute unless score @s jmmf.count.2 matches 0 run scoreboard players operation @s jmmf.count < @s jmmf.count.2

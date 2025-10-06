@@ -21,23 +21,11 @@ scoreboard objectives add jmmf.count.3 dummy
 scoreboard objectives add jmmf.count.4 dummy
 scoreboard objectives add jmmf.count.5 dummy
 scoreboard objectives add jmmf.count.6 dummy
-scoreboard objectives add jmmf.count.7 dummy
+scoreboard objectives add jmmf.count.output dummy
 scoreboard objectives add jmmf.count.8 dummy
 scoreboard objectives add jmmf.count.9 dummy
 
 function jmmf:technical/tick
 function jmmf:technical/tick20t
-
-#backwards compat, removing my old scoreboards
-scoreboard objectives remove jm.mf.0Count 
-scoreboard objectives remove jm.mf.1Count 
-scoreboard objectives remove jm.mf.2Count 
-scoreboard objectives remove jm.mf.3Count 
-scoreboard objectives remove jm.mf.4Count 
-scoreboard objectives remove jm.mf.5Count 
-scoreboard objectives remove jm.mf.6Count 
-scoreboard objectives remove jm.mf.7Count 
-scoreboard objectives remove jm.mf.8Count 
-scoreboard objectives remove jm.mf.valid 
 
 #say jmmf loaded

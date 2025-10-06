@@ -1,3 +1,6 @@
+# 5.6.0
+- Removed compat functions (for very old versions of the datapack)
+
 # 5.5.3 (2025-09-20)
 - Recipes that use eggs now take blue and brown eggs
 - Egg drop soup no longer requires (and consumes) a bowl to craft
