@@ -4,15 +4,16 @@ data remove storage jmmf:cooking_station output
 
 # For each item slot, copy the item and handle tags
 data modify storage jmmf:cooking_station Items set from entity @s equipment.head.components."minecraft:custom_data".jmmf.stored_station_data
-function jmmf:block/cooking_station/cooking/input/handle_tags
+function jmmf:block/cooking_station/cooking/input/handle_id_tags
 
 # Combine all input items into one temp list
-execute if data storage jmmf:cooking_station Items[{Slot: 1b}] run data modify storage jmmf:cooking_station temp.input append from storage jmmf:cooking_station Items[{Slot: 1b}]
-execute if data storage jmmf:cooking_station Items[{Slot: 2b}] run data modify storage jmmf:cooking_station temp.input append from storage jmmf:cooking_station Items[{Slot: 2b}]
-execute if data storage jmmf:cooking_station Items[{Slot: 10b}] run data modify storage jmmf:cooking_station temp.input append from storage jmmf:cooking_station Items[{Slot: 10b}]
-execute if data storage jmmf:cooking_station Items[{Slot: 11b}] run data modify storage jmmf:cooking_station temp.input append from storage jmmf:cooking_station Items[{Slot: 11b}]
-execute if data storage jmmf:cooking_station Items[{Slot: 19b}] run data modify storage jmmf:cooking_station temp.input append from storage jmmf:cooking_station Items[{Slot: 19b}]
-execute if data storage jmmf:cooking_station Items[{Slot: 20b}] run data modify storage jmmf:cooking_station temp.input append from storage jmmf:cooking_station Items[{Slot: 20b}]
+# - checking using id as the function above leaves empty items in this list
+execute if data storage jmmf:cooking_station Items[{Slot: 1b}].id run data modify storage jmmf:cooking_station temp.input append from storage jmmf:cooking_station Items[{Slot: 1b}]
+execute if data storage jmmf:cooking_station Items[{Slot: 2b}].id run data modify storage jmmf:cooking_station temp.input append from storage jmmf:cooking_station Items[{Slot: 2b}]
+execute if data storage jmmf:cooking_station Items[{Slot: 10b}].id run data modify storage jmmf:cooking_station temp.input append from storage jmmf:cooking_station Items[{Slot: 10b}]
+execute if data storage jmmf:cooking_station Items[{Slot: 11b}].id run data modify storage jmmf:cooking_station temp.input append from storage jmmf:cooking_station Items[{Slot: 11b}]
+execute if data storage jmmf:cooking_station Items[{Slot: 19b}].id run data modify storage jmmf:cooking_station temp.input append from storage jmmf:cooking_station Items[{Slot: 19b}]
+execute if data storage jmmf:cooking_station Items[{Slot: 20b}].id run data modify storage jmmf:cooking_station temp.input append from storage jmmf:cooking_station Items[{Slot: 20b}]
 
 # Process inputs and get number of types of ingredients
 function jmmf:block/cooking_station/cooking/input/merge_duplicates

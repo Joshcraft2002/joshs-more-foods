@@ -1,4 +1,4 @@
-## Returning will stop this recipe from being checked and move on to the next one
+## Returning fail will stop this recipe from being checked and move on to the next one
 
 # Return if ingredient layout does not match
 #  - Function path can be changed to that of your ingredient check function
@@ -10,7 +10,7 @@ execute unless function jmmf:block/cooking_station/cooking/recipes/black_tea_lea
 #   - Change the number after "matches" to (max_stack_size - (items_per_craft - 1))
 execute if score @s jmmf.count.output matches 64.. run return fail
 
-# Temporarily store the desired output to read for output validation
+# Temporarily store the desired output to compare against the current output
 #   - First set the base item (minecraft:structure_block), then apply our item modifier (jmmf:black_tea_leaves) to get the final item
 #   - Change the following:
 #       - item in "item replace" to the recipe's base item
@@ -18,7 +18,7 @@ execute if score @s jmmf.count.output matches 64.. run return fail
 item replace entity @s weapon.mainhand with minecraft:structure_block 
 item modify entity @s weapon.mainhand jmmf:black_tea_leaves
 
-# Check if recipe can output, do not touch
+# Check if recipe can output, do not touch this line
 execute if function jmmf:block/cooking_station/cooking/recipes/is_output_occupied run return fail
 
 # Set recipe ID (change number to your recipe's ID number)
