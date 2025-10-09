@@ -1,7 +1,30 @@
 {
   "model": {
-    "type": "minecraft:model",
-    "model": "jmmf:block/cooking_station"
-  },
-  "oversized_in_gui": true
+    "type": "minecraft:composite",
+    "models": [
+      {
+        "type": "minecraft:model",
+        "model": "jmmf:block/cooking_station"
+      },
+      {
+        "type": "minecraft:select",
+        "property": "minecraft:custom_model_data",
+        "cases": [
+          {
+            "when": "jmmf:cookware_empty",
+            "model": { "type": "minecraft:empty" }
+          },
+          {
+            "when": "jmmf:cookware_pot",
+            "model": {
+              "type": "minecraft:model",
+              "model": "jmmf:block/cooking_pot"
+            }
+          }
+        ],
+        "fallback": { "type": "minecraft:empty" }
+      }
+    ],
+    "oversized_in_gui": true
+  }
 }
