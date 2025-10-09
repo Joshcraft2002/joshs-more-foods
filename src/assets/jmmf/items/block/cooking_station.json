@@ -20,6 +20,13 @@
               "type": "minecraft:model",
               "model": "jmmf:block/cooking_pot"
             }
+          },
+          {
+            "when": "jmmf:cookware_pan",
+            "model": {
+              "type": "minecraft:model",
+              "model": "jmmf:block/frying_pan"
+            }
           }
         ],
         "fallback": { "type": "minecraft:empty" }

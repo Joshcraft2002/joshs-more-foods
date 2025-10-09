@@ -2,15 +2,6 @@
   "condition": "minecraft:any_of",
   "terms": [
     {
-      "condition": "minecraft:location_check",
-      "predicate": {
-        "block": {
-          "blocks": ["minecraft:barrel"],
-          "nbt": "{Items:[{Slot:0b}]}"
-        }
-      }
-    },
-    {
       "condition": "minecraft:inverted",
       "term":
       {

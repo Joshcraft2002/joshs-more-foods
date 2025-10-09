@@ -1,0 +1,24 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+      "LIL",
+      "I I",
+      "III"
+    ],
+    "key": {      
+      "I": "minecraft:iron_ingot",
+      "L": "minecraft:leather"
+    },
+    "result": {
+      "id": "minecraft:iron_helmet",
+      "components": {
+        "minecraft:item_name": { "translate": "item.jmmf.cooking_pot"},
+        "minecraft:item_model": "jmmf:cooking_pot",
+        "minecraft:equippable": { "slot": "head", "equip_sound": "minecraft:block.heavy_core.place" },
+        "minecraft:custom_data": {
+          "smithed": { "id": "jmmf:cooking_pot" },
+          "joshmats": { "tag": ["cookware"] }
+        }
+      }
+    }
+  }
