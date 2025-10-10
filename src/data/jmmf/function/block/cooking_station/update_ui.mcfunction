@@ -22,7 +22,8 @@ execute if score @s jmmf.water_level matches 14 run item replace block ~ ~ ~ con
 execute if score @s jmmf.water_level matches 15 run item replace block ~ ~ ~ container.12 with structure_block[item_model="jmmf:gui/water_tank_15",custom_data={joshmats:{gui:{id:"jmmf:cooking_station_water_level"}}}]
 execute if score @s jmmf.water_level matches 16 run item replace block ~ ~ ~ container.12 with structure_block[item_model="jmmf:gui/water_tank_16",custom_data={joshmats:{gui:{id:"jmmf:cooking_station_water_level"}}}]
 
-item replace block ~ ~ ~ container.21 with structure_block[item_model="joshmats:empty",custom_data={joshmats:{gui:{id:"joshmats:generic"}}}]
+execute if score @s jmmf.cook_mode matches 0 run item replace block ~ ~ ~ container.21 with structure_block[item_model="jmmf:gui/cooking_station/cookware_placeholder",custom_data={joshmats:{gui:{id:"jmmf:cooking_station_cookware_placeholder"}}}]
+execute if score @s jmmf.cook_mode matches 1.. run item replace block ~ ~ ~ container.21 with structure_block[item_model="joshmats:empty",custom_data={joshmats:{gui:{id:"jmmf:cooking_station_cookware_placeholder"}}}]
 
 item modify block ~ ~ ~ container.3 jmmf:water_level
 item modify block ~ ~ ~ container.12 jmmf:water_level

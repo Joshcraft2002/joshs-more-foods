@@ -12,6 +12,11 @@ scoreboard objectives add jmmf.recipe_id dummy
 scoreboard objectives add jmmf.water_level dummy
 scoreboard objectives add jmmf.max_stack_size dummy
 
+# 0 - no cookware
+# 1 - pot
+# 2 - pan
+scoreboard objectives add jmmf.cook_mode dummy
+
 #slots
 scoreboard objectives add jmmf.count dummy
 scoreboard objectives add jmmf.count.0 dummy
@@ -21,9 +26,9 @@ scoreboard objectives add jmmf.count.3 dummy
 scoreboard objectives add jmmf.count.4 dummy
 scoreboard objectives add jmmf.count.5 dummy
 scoreboard objectives add jmmf.count.6 dummy
-scoreboard objectives add jmmf.count.output dummy
 scoreboard objectives add jmmf.count.8 dummy
 scoreboard objectives add jmmf.count.9 dummy
+scoreboard objectives add jmmf.count.output dummy
 
 function jmmf:technical/tick
 function jmmf:technical/tick20t

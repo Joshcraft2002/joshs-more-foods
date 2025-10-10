@@ -2,6 +2,24 @@
   "condition": "minecraft:any_of",
   "terms": [
     {
+      "condition": "minecraft:all_of",
+      "terms": [
+        {
+          "condition": "minecraft:location_check",
+          "predicate": {
+            "block": {
+              "blocks": ["minecraft:barrel"],
+              "nbt": "{Items:[{Slot:0b}]}"
+            }
+          }
+        },
+        {
+          "condition": "minecraft:reference",
+          "name": "jmmf:block/cooking_station/cookware_empty"
+        }
+      ]
+    },
+    {
       "condition": "minecraft:inverted",
       "term":
       {
@@ -116,7 +134,7 @@
         "predicate": {
           "block": {
             "blocks": ["minecraft:barrel"],
-            "nbt": "{Items:[{Slot:21b, components:{'minecraft:custom_data':{joshmats:{gui:{id:'joshmats:generic'}}}}}]}"
+            "nbt": "{Items:[{Slot:21b, components:{'minecraft:custom_data':{joshmats:{gui:{id:'jmmf:cooking_station_cookware_placeholder'}}}}}]}"
           }
        }
      }

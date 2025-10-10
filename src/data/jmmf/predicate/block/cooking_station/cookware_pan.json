@@ -3,7 +3,7 @@
   "predicate": {
     "block": {
       "blocks": ["minecraft:barrel"],
-      "nbt": "{Items:[{Slot:0b, components:{'minecraft:custom_data':{smithed:{id:'jmmf:cooking_pot'}}}}]}"
+      "nbt": "{Items:[{Slot:0b, components:{'minecraft:custom_data':{smithed:{id:'jmmf:frying_pan'}}}}]}"
     }
   }
 }

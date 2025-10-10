@@ -16,8 +16,8 @@
                                 "minecraft:item_model": "jmmf:cooking_pot",
                                 "minecraft:equippable": { "slot": "head", "equip_sound": "minecraft:block.heavy_core.place" },
                                 "minecraft:custom_data": {
-                                "smithed": { "id": "jmmf:cooking_pot" },
-                                "joshmats": { "tag": ["cookware"] }
+                                    "smithed": { "id": "jmmf:cooking_pot" },
+                                    "joshmats": { "tag": ["cookware"] }
                                 }
                             }
                         }

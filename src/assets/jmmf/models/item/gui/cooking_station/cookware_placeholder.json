@@ -1,0 +1,34 @@
+{
+    "textures": {
+        "0": "jmmf:item/gui/cooking_station/cookware_placeholder"
+    },
+    "gui_light": "front",
+    "elements": [
+        {
+            "from": [-16, 0, 0], 
+            "to": [0, 16, 16], 
+            "faces": {
+                "south": {
+                    "uv": [0, 0, 8, 16], 
+                   "texture": "#0"
+                }
+            }
+        },
+        {
+            "from": [0, 0, 0], 
+            "to": [16, 16, 16], 
+            "faces": {
+                "south": {
+                    "uv": [8, 0, 16, 16], 
+                   "texture": "#0"
+                }
+            }
+        }
+    ],
+    "display": {
+        "gui": {
+            "translation": [ 18, 21, -15],
+            "scale": [ 4, 4, 1 ]
+        }
+    }
+}

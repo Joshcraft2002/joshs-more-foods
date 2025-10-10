@@ -2,6 +2,7 @@ data remove storage jmmf:cooking_station temp
 data modify storage jmmf:cooking_station temp.Items set value []
 
 # store items in valid slots
+data modify storage jmmf:cooking_station temp.Items append from block ~ ~ ~ Items[{Slot: 0b}]
 data modify storage jmmf:cooking_station temp.Items append from block ~ ~ ~ Items[{Slot: 1b}]
 data modify storage jmmf:cooking_station temp.Items append from block ~ ~ ~ Items[{Slot: 2b}]
 data modify storage jmmf:cooking_station temp.Items append from block ~ ~ ~ Items[{Slot: 4b}]
@@ -14,6 +15,7 @@ data modify storage jmmf:cooking_station temp.Items append from block ~ ~ ~ Item
 data modify storage jmmf:cooking_station temp.Items append from block ~ ~ ~ Items[{Slot: 22b}]
 
 # remove items in valid slots in block
+data remove block ~ ~ ~ Items[{Slot: 0b}]
 data remove block ~ ~ ~ Items[{Slot: 1b}]
 data remove block ~ ~ ~ Items[{Slot: 2b}]
 data remove block ~ ~ ~ Items[{Slot: 4b}]
@@ -30,7 +32,7 @@ execute store success score jmmf:temp jmmf.data as @a[distance=..6] run clear @s
 execute if score jmmf:temp jmmf.data matches 0 run data remove block ~ ~ ~ Items[{Slot: 3b}]
 execute store success score jmmf:temp1 jmmf.data as @a[distance=..6] run clear @s structure_block[minecraft:custom_data~{joshmats:{gui:{id:"jmmf:cooking_station_water_level"}}}]
 execute if score jmmf:temp1 jmmf.data matches 0 run data remove block ~ ~ ~ Items[{Slot: 12b}]
-execute store success score jmmf:temp2 jmmf.data as @a[distance=..6] run clear @s structure_block[minecraft:custom_data~{joshmats:{gui:{id:"joshmats:generic"}}}]
+execute store success score jmmf:temp2 jmmf.data as @a[distance=..6] run clear @s structure_block[minecraft:custom_data~{joshmats:{gui:{id:"jmmf:cooking_station_cookware_placeholder"}}}]
 execute if score jmmf:temp2 jmmf.data matches 0 run data remove block ~ ~ ~ Items[{Slot: 21b}]
 
 # clear out any items dropped from inventory ui

@@ -1,9 +1,13 @@
 {
-  "condition": "minecraft:location_check",
-  "predicate": {
-    "block": {
-      "blocks": ["minecraft:barrel"],
-      "nbt": "{Items:[{Slot:0b, components:{'minecraft:custom_data':{joshmats:{tag:['cookware']}}}}]}"
+  "condition": "minecraft:inverted",
+  "term":
+  {
+    "condition": "minecraft:location_check",
+    "predicate": {
+      "block": {
+        "blocks": ["minecraft:barrel"],
+        "nbt": "{Items:[{Slot:0b, components:{'minecraft:custom_data':{joshmats:{tag:['cookware']}}}}]}"
+      }
     }
   }
 }

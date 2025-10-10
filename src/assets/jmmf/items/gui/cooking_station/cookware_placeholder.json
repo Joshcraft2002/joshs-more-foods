@@ -1,0 +1,7 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "jmmf:item/gui/cooking_station/cookware_placeholder"
+  },
+  "oversized_in_gui": true
+}

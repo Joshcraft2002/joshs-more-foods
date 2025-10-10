@@ -6,18 +6,17 @@
                 {
                     "type": "item",
                     "weight": 1,
-                    "name": "minecraft:iron_helmet",
+                    "name": "minecraft:iron_sword",
                     "functions": [
                         { "function": "minecraft:set_count", "count": 1 },
                         { 
                             "function": "minecraft:set_components", 
                             "components": {
-                                "minecraft:item_name": { "translate": "item.jmmf.cooking_pot"},
-                                "minecraft:item_model": "jmmf:cooking_pot",
-                                "minecraft:equippable": { "slot": "head", "equip_sound": "minecraft:block.heavy_core.place" },
+                                "minecraft:item_name": { "translate": "item.jmmf.frying_pan"},
+                                "minecraft:item_model": "jmmf:frying_pan",
                                 "minecraft:custom_data": {
-                                "smithed": { "id": "jmmf:cooking_pot" },
-                                "joshmats": { "tag": ["cookware"] }
+                                    "smithed": { "id": "jmmf:frying_pan" },
+                                    "joshmats": { "tag": ["cookware"] }
                                 }
                             }
                         }
