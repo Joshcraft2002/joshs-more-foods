@@ -1,3 +1,5 @@
+execute if score @s jmmf.is_water_recipe matches 1 run scoreboard players remove @s jmmf.water_level 1
+
 execute if score @s jmmf.recipe_id matches 1 run function jmmf:recipe/cooking_station/cooking_pot/rice/output
 execute if score @s jmmf.recipe_id matches 6 run function jmmf:recipe/cooking_station/cooking_pot/boiled_egg/output
 execute if score @s jmmf.recipe_id matches 7 run function jmmf:recipe/cooking_station/frying_pan/fried_egg/output

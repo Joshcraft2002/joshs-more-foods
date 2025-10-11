@@ -1,6 +1,26 @@
-execute if score @s jmmf.count.7 matches 64.. run return 1
+## Returning fail will stop this recipe from being checked and move on to the next one
 
-execute store success score jmmf:recipe_validation jmmf.data if data storage jmmf:cooking_station {output:{components:{"minecraft:custom_data":{smithed:{id:"jmmf:fried_egg"}}}}}
-execute if score jmmf:recipe_validation jmmf.data matches 0 if data storage jmmf:cooking_station {output:{}} run return 1
+# Return if ingredient layout does not match
+#  - Function path can be changed to that of your ingredient check function
+execute unless function jmmf:recipe/cooking_station/frying_pan/fried_egg/ingredients run return fail
 
+# Return if there is not enough space in Slot 7 (output) for one craft of this item
+#   - In this case, the recipe creates 1 item per craft and stacks to 64. If more than 63 items are already present, it's already full.
+#   - An empty output is an item count of 0, so it's an automatic pass
+#   - Change the number after "matches" to (max_stack_size - (items_per_craft - 1))
+execute if score @s jmmf.count.output matches 16.. run return fail
+
+# Temporarily store what to craft, for checking against the current output
+#   - First set the base item (minecraft:structure_block), then apply our item modifier (jmmf:black_tea_leaves) to get the final item
+#   - Change the following:
+#       - item in "item replace" to the recipe's base item
+#       - item modifier in "item modify" to the recipe's item modifier
+item replace entity @s weapon.mainhand with minecraft:cookie 
+item modify entity @s weapon.mainhand jmmf:fried_egg
+
+# Check if recipe can output, do not touch this line
+execute if function jmmf:block/cooking_station/cooking/is_output_occupied run return fail
+
+# Set recipe ID (change number to your recipe's ID number)
+#  - Josh's More Foods recipe IDs take precedence, values 1-9999 are reserved
 scoreboard players set @s jmmf.recipe_id 7
