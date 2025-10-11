@@ -9,7 +9,7 @@ execute store success score @s jmmf.data run data modify entity @s equipment.hea
 execute if entity @s[scores={jmmf.data=1..}] if data block ~ ~ ~ Items run function jmmf:block/cooking_station/cooking/input/on_changed
 
 #update cook data
-execute unless score @s jmmf.cook_time matches 1.. run function jmmf:block/cooking_station/cooking/result
+execute unless score @s jmmf.cook_time matches 1.. run function jmmf:block/cooking_station/cooking/on_cooking_finished
 execute if score @s jmmf.active matches 1 run scoreboard players remove @s jmmf.cook_time 1
 
 execute if score @s jmmf.open matches 1 run scoreboard players set @s jmmf.update_ui 1

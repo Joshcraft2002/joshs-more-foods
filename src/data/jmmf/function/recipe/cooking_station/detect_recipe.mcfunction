@@ -25,7 +25,7 @@
 # execute unless score @s jmmf.data matches 1 store success score @s jmmf.data if score @s jmmf.count matches 2 if data storage jmmf:cooking_station {input:{ingredients:[{components:{"minecraft:custom_data":{joshmats:{tag:["soup_base"]}}}, count:1}, {id:"minecraft:blue_egg", count:1}]}} run function jmmf:block/cooking_station/cooking/recipes/egg_drop_soup/check
 # execute unless score @s jmmf.data matches 1 store success score @s jmmf.data if score @s jmmf.count matches 2 if data storage jmmf:cooking_station {input:{ingredients:[{components:{"minecraft:custom_data":{joshmats:{tag:["soup_base"]}}}, count:1}, {id:"minecraft:brown_egg", count:1}]}} run function jmmf:block/cooking_station/cooking/recipes/egg_drop_soup/check
 # black tea leaves
-execute if function jmmf:block/cooking_station/cooking/recipes/black_tea_leaves/check run return 1
+execute if function jmmf:recipe/cooking_station/black_tea_leaves/check run return 1
 
 # # bowl recipes
 # execute unless score @s jmmf.data matches 1 if data storage jmmf:cooking_station {input:{container:{id:"minecraft:bowl"}}} run function jmmf:block/cooking_station/cooking/recipes/bowl_check
