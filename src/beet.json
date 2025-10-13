@@ -11,5 +11,6 @@
         "pack_format": 88,
         "description": "Datapack for Josh's More Foods. v5.6.0",            
         "load": ["."]
-    }
+    },
+    "pipeline": ["temp-1219-adapter"]
 }

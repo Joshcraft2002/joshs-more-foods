@@ -5,7 +5,7 @@ scoreboard objectives add jmmf.data dummy
 scoreboard objectives add jmmf.open dummy
 scoreboard objectives add jmmf.update_ui dummy
 
-#cooking station
+# Cooking station
 scoreboard objectives add jmmf.active dummy
 scoreboard objectives add jmmf.cook_time dummy
 scoreboard objectives add jmmf.recipe_id dummy
@@ -13,6 +13,9 @@ scoreboard objectives add jmmf.water_level dummy
 scoreboard objectives add jmmf.is_water_recipe dummy
 scoreboard objectives add jmmf.max_stack_size dummy
 scoreboard objectives add jmmf.craft_count dummy
+scoreboard objectives add jmmf.is_bulk dummy
+scoreboard objectives add jmmf.needs_container dummy
+scoreboard objectives add jmmf.is_instant dummy
 
 # 0 - no cookware
 # 1 - pot

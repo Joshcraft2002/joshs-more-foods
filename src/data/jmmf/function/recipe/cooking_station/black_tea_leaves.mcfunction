@@ -4,20 +4,20 @@
 # Recipe Parameters
 
 # Unique ID for this recipe
-#   - Josh's More Foods recipe IDs take precedence, values 1-9999 are reserved
-scoreboard players set jmmf:cooking_station jmmf.recipe_id 2
+#   - Josh's More Foods recipe IDs take precedence, values 1-999 are reserved
+scoreboard players set jmmf:cooking_station jmmf.recipe_id 10
 
 # How many items are made per single craft of this recipe
 scoreboard players set jmmf:cooking_station jmmf.craft_count 1
 
 # Whether this recipe crafts as many of the output as possible in one go (1 for yes, 0 for no)
-scoreboard players set jmmf:cooking_station jmmf.is_bulk 1
+scoreboard players set jmmf:cooking_station jmmf.is_bulk 0
 
 # Whether this recipe needs a container (e.g. a minecraft:bowl) to hold the output (1 for yes, 0 for no)
-scoreboard players set jmmf:cooking_station jmmf.needs_container 1
+scoreboard players set jmmf:cooking_station jmmf.needs_container 0
 
 # Whether this recipe is crafted instantly (1 for yes, 0 for no)
-scoreboard players set jmmf:cooking_station jmmf.is_instant 1
+scoreboard players set jmmf:cooking_station jmmf.is_instant 0
 
 # Ingredients Check
 # - jmmf.count here is the number of different ingredient types
@@ -40,15 +40,15 @@ scoreboard players set jmmf:cooking_station jmmf.is_instant 1
 #       {tag:["fruit"], count:2}
 #
 #     However both are valid, as components can still be used to differentiate items
-execute unless score @s jmmf.count matches 1 unless data storage jmmf:cooking_station {input:{ingredients:[{id:"jmmf:rice", count:2}], container:{id:"minecraft:bowl"}}} run return fail
+execute unless score @s jmmf.count matches 1 unless data storage jmmf:cooking_station {input:{ingredients:[{id:"jmmf:tea_leaves", count:1}]}} run return fail
 
 # Temporarily store what to craft, for checking against the current output
 #   - First set the base item (minecraft:structure_block), then apply our item modifier (jmmf:black_tea_leaves) to get the final item
 #   - Change the following:
 #       - item in "item replace" to the recipe's base item
 #       - item modifier in "item modify" to the recipe's item modifier (optional, can be removed if output is a vanilla item)
-item replace entity @s weapon.mainhand with minecraft:beetroot_soup 
-item modify entity @s weapon.mainhand jmmf:rice_bowl
+item replace entity @s weapon.mainhand with minecraft:structure_block 
+item modify entity @s weapon.mainhand jmmf:black_tea_leaves
 
 # Other checks are handled internally
 return 1
