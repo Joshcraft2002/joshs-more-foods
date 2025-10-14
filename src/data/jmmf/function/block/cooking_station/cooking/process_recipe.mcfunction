@@ -1,3 +1,6 @@
+## Process a detected Recipe
+# Return 1 if recipe is ready, 0 if not
+
 # Check if recipe can output
 execute store result score jmmf:temp jmmf.data run function jmmf:block/cooking_station/cooking/is_output_occupied
 
@@ -12,10 +15,8 @@ item replace entity @s weapon.mainhand with air
 execute if score jmmf:temp jmmf.data matches 1 run return fail
 
 # Copy temp values for proper use
-scoreboard players operation @s jmmf.recipe_id = jmmf:cooking_station jmmf.recipe_id
 scoreboard players operation @s jmmf.craft_count = jmmf:cooking_station jmmf.craft_count
 scoreboard players operation @s jmmf.is_bulk = jmmf:cooking_station jmmf.is_bulk
 scoreboard players operation @s jmmf.needs_container = jmmf:cooking_station jmmf.needs_container
 
-# Check if recipe is instant, if so, finish cooking immediately
-execute if score jmmf:cooking_station jmmf.is_instant matches 1 run function jmmf:block/cooking_station/cooking/on_cooking_finished
+return 1

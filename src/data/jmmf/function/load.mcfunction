@@ -8,7 +8,6 @@ scoreboard objectives add jmmf.update_ui dummy
 # Cooking station
 scoreboard objectives add jmmf.active dummy
 scoreboard objectives add jmmf.cook_time dummy
-scoreboard objectives add jmmf.recipe_id dummy
 scoreboard objectives add jmmf.water_level dummy
 scoreboard objectives add jmmf.is_water_recipe dummy
 scoreboard objectives add jmmf.max_stack_size dummy
@@ -30,12 +29,10 @@ scoreboard objectives add jmmf.count.2 dummy
 scoreboard objectives add jmmf.count.3 dummy
 scoreboard objectives add jmmf.count.4 dummy
 scoreboard objectives add jmmf.count.5 dummy
-scoreboard objectives add jmmf.count.6 dummy
+scoreboard objectives add jmmf.count.6 dummy # cooking station - container
+scoreboard objectives add jmmf.count.7 dummy # cooking station - output
 scoreboard objectives add jmmf.count.8 dummy
 scoreboard objectives add jmmf.count.9 dummy
-
-# Slots to use in place of the above for custom recipes
-scoreboard objectives add jmmf.count.output dummy
 
 function jmmf:technical/tick
 function jmmf:technical/tick20t

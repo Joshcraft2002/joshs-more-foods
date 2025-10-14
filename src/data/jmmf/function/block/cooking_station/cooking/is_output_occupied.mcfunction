@@ -33,19 +33,20 @@ loot replace entity @s weapon.offhand fish \
     } \
     ~ ~ ~ mainhand
 
-execute store result score jmmf:temp jmmf.max_stack_size run data get entity @s equipment.offhand.components."minecraft:max_stack_size"
-execute if items entity @s weapon.offhand *[max_stack_size=64] run scoreboard players set jmmf:temp jmmf.max_stack_size 64
+execute store result score @s jmmf.max_stack_size run data get entity @s equipment.offhand.components."minecraft:max_stack_size"
+execute if items entity @s weapon.offhand *[max_stack_size=64] run scoreboard players set @s jmmf.max_stack_size 64
 
-# tellraw @a ["max stack size: ",{type:"score",score:{name:"jmmf:temp1",objective:"jmmf.count.output"}}]
+tellraw @a ["max stack size: ",{type:"score",score:{name:"@s",objective:"jmmf.max_stack_size"}}]
 
 # Get available space, then compare against how many items this recipe crafts
 #  - Success if there is enough space (fail cannot distinguish between different items)
-scoreboard players operation jmmf:temp jmmf.count.output = jmmf:temp jmmf.max_stack_size
-scoreboard players operation jmmf:temp jmmf.count.output -= @s jmmf.count.output
+scoreboard players operation jmmf:temp jmmf.count.7 = @s jmmf.max_stack_size
+scoreboard players operation jmmf:temp jmmf.count.7 -= @s jmmf.count.7
 
-# tellraw @a ["free output: ",{type:"score",score:{name:"jmmf:temp",objective:"jmmf.count.output"}}]
-# tellraw @a ["craft count: ",{type:"score",score:{name:"@s",objective:"jmmf.craft_count"}}]
-execute if score jmmf:cooking_station jmmf.craft_count > jmmf:temp jmmf.count.output run return 1
+tellraw @a ["current output: ",{type:"score",score:{name:"@s",objective:"jmmf.count.7"}}]
+tellraw @a ["free output: ",{type:"score",score:{name:"jmmf:temp",objective:"jmmf.count.7"}}]
+tellraw @a ["craft count: ",{type:"score",score:{name:"jmmf:cooking_station",objective:"jmmf.craft_count"}}]
+execute if score jmmf:cooking_station jmmf.craft_count > jmmf:temp jmmf.count.7 run return 1
 
 # If there is no current item in output slot, fail
 execute unless data storage jmmf:cooking_station {output:{}} run return fail
@@ -60,8 +61,6 @@ data remove storage jmmf:cooking_station temp.output.current.Slot
 
 # Check whether the items match, return fail if they do
 return run data modify storage jmmf:cooking_station temp.output.current set from storage jmmf:cooking_station temp.output.desired
-
-
 
 # All checks passed, output is occupied or cannot fit, so success
 return 1

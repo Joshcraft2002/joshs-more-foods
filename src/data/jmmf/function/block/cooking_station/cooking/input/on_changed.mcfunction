@@ -1,19 +1,16 @@
-# reset flags(?)
-scoreboard players set @s jmmf.active 1
-scoreboard players set @s jmmf.recipe_id 0
+# Reset recipe flags
 scoreboard players set @s jmmf.is_water_recipe 0
 scoreboard players set @s jmmf.craft_count 0
 
-# read input
-execute store result score @s jmmf.count.output run data get block ~ ~ ~ Items[{Slot:16b}].count
+# Read input
+execute store result score @s jmmf.count.7 run data get block ~ ~ ~ Items[{Slot:16b}].count
 function jmmf:block/cooking_station/cooking/input/read_block
 
-# Check recipes
-execute if function jmmf:recipe/cooking_station/detect_recipe run function jmmf:block/cooking_station/cooking/process_recipe
-execute if score @s jmmf.recipe_id matches 0 if score @s jmmf.cook_mode matches 1 if score @s jmmf.water_level matches 1.. if function jmmf:recipe/cooking_station/cooking_pot/detect_water_recipe run function jmmf:block/cooking_station/cooking/process_recipe
-execute if score @s jmmf.recipe_id matches 0 if score @s jmmf.cook_mode matches 1 unless score @s jmmf.water_level matches 1.. if function jmmf:recipe/cooking_station/cooking_pot/detect_recipe run function jmmf:block/cooking_station/cooking/process_recipe
-execute if score @s jmmf.recipe_id matches 0 if score @s jmmf.cook_mode matches 2 if score @s jmmf.water_level matches 1.. if function jmmf:recipe/cooking_station/frying_pan/detect_water_recipe run function jmmf:block/cooking_station/cooking/process_recipe
-execute if score @s jmmf.recipe_id matches 0 if score @s jmmf.cook_mode matches 2 unless score @s jmmf.water_level matches 1.. if function jmmf:recipe/cooking_station/frying_pan/detect_recipe run function jmmf:block/cooking_station/cooking/process_recipe
+# Try to detect a recipe, reset and return if none found
+execute unless function jmmf:block/cooking_station/cooking/recipe_check run return run function jmmf:block/cooking_station/cooking/reset
 
-# If no recipe found, just reset
-execute if score @s jmmf.recipe_id matches 0 run function jmmf:block/cooking_station/cooking/reset
+# Check if recipe is instant, if so, finish cooking immediately
+execute if score jmmf:cooking_station jmmf.is_instant matches 1 run return run function jmmf:block/cooking_station/cooking/on_cooking_finished
+
+# Otherwise, start cooking
+scoreboard players set @s jmmf.active 1

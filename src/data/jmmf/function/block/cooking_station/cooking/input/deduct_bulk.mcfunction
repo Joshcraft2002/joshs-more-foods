@@ -1,6 +1,6 @@
 # Get remaining available space in output slot
 scoreboard players operation @s jmmf.count = @s jmmf.max_stack_size
-scoreboard players operation @s jmmf.count -= @s jmmf.count.output
+scoreboard players operation @s jmmf.count -= @s jmmf.count.7
 
 # How many crafts
 scoreboard players operation @s jmmf.count /= @s jmmf.craft_count

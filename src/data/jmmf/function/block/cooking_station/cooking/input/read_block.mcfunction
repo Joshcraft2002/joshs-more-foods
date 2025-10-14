@@ -33,4 +33,4 @@ execute store result score @s jmmf.count.2 run data get storage jmmf:cooking_sta
 execute store result score @s jmmf.count.3 run data get storage jmmf:cooking_station Items[{Slot: 11b}].count
 execute store result score @s jmmf.count.4 run data get storage jmmf:cooking_station Items[{Slot: 19b}].count
 execute store result score @s jmmf.count.5 run data get storage jmmf:cooking_station Items[{Slot: 20b}].count
-execute store result score @s jmmf.count.container run data get storage jmmf:cooking_station input.container.count
+execute store result score @s jmmf.count.6 run data get storage jmmf:cooking_station input.container.count

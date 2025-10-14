@@ -10,5 +10,3 @@ execute if function jmmf:recipe/cooking_station/cooking_pot/rice/check run retur
 
 # bone broth
 execute if function jmmf:recipe/cooking_station/cooking_pot/bone_broth/check run return 1
-
-return 0
