@@ -39,7 +39,7 @@ scoreboard players set jmmf:cooking_station jmmf.is_bulk 1
 scoreboard players set jmmf:cooking_station jmmf.needs_container 1
 
 # Whether this recipe is crafted instantly (1 for yes, 0 for no)
-scoreboard players set jmmf:cooking_station jmmf.is_instant 0
+scoreboard players set jmmf:cooking_station jmmf.is_instant 1
 
 # Temporarily store what to craft, for checking against the current output
 #   - First set the base item (minecraft:structure_block), then apply our item modifier (jmmf:black_tea_leaves) to get the final item

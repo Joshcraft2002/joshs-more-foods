@@ -19,6 +19,7 @@ scoreboard objectives add jmmf.is_instant dummy
 # 0 - no cookware
 # 1 - pot
 # 2 - pan
+# 3 - tea kettle
 scoreboard objectives add jmmf.cook_mode dummy
 
 # Slots
