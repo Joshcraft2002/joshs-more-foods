@@ -7,7 +7,7 @@ data modify storage jmmf:cooking_station Items set from entity @s equipment.head
 function jmmf:block/cooking_station/cooking/input/handle_id_tags
 
 # Combine all input items into one temp list
-# - checking using id as the function above leaves empty items in this list
+# - checking using id as the function above leaves empty items (with no id) in this list
 execute if data storage jmmf:cooking_station Items[{Slot: 1b}].id run data modify storage jmmf:cooking_station temp.input append from storage jmmf:cooking_station Items[{Slot: 1b}]
 execute if data storage jmmf:cooking_station Items[{Slot: 2b}].id run data modify storage jmmf:cooking_station temp.input append from storage jmmf:cooking_station Items[{Slot: 2b}]
 execute if data storage jmmf:cooking_station Items[{Slot: 10b}].id run data modify storage jmmf:cooking_station temp.input append from storage jmmf:cooking_station Items[{Slot: 10b}]

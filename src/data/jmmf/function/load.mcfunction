@@ -1,7 +1,7 @@
-#generic data
+# Generic data
 scoreboard objectives add jmmf.data dummy
 
-#generic crafter data
+# Generic crafter data
 scoreboard objectives add jmmf.open dummy
 scoreboard objectives add jmmf.update_ui dummy
 
@@ -23,6 +23,8 @@ scoreboard objectives add jmmf.is_instant dummy
 scoreboard objectives add jmmf.cook_mode dummy
 
 # Slots
+# 6 - cooking station container
+# 7 - cooking station output
 scoreboard objectives add jmmf.count dummy
 scoreboard objectives add jmmf.count.0 dummy
 scoreboard objectives add jmmf.count.1 dummy
@@ -30,8 +32,8 @@ scoreboard objectives add jmmf.count.2 dummy
 scoreboard objectives add jmmf.count.3 dummy
 scoreboard objectives add jmmf.count.4 dummy
 scoreboard objectives add jmmf.count.5 dummy
-scoreboard objectives add jmmf.count.6 dummy # cooking station - container
-scoreboard objectives add jmmf.count.7 dummy # cooking station - output
+scoreboard objectives add jmmf.count.6 dummy 
+scoreboard objectives add jmmf.count.7 dummy 
 scoreboard objectives add jmmf.count.8 dummy
 scoreboard objectives add jmmf.count.9 dummy
 

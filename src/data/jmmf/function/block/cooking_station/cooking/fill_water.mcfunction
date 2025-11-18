@@ -1,6 +1,4 @@
-say filling water
-
-#stop if too much bucket output
+# Stop if too much bucket output
 execute store result score @s jmmf.count.9 run data get block ~ ~ ~ Items[{Slot:5b}].count
 execute if score @s jmmf.count.9 matches 16.. run return 1
 

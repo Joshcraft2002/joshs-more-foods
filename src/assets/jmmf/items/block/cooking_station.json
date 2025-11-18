@@ -15,17 +15,24 @@
             "model": { "type": "minecraft:empty" }
           },
           {
-            "when": "jmmf:cookware_pot",
+            "when": "jmmf:cookware_cooking_pot",
             "model": {
               "type": "minecraft:model",
               "model": "jmmf:block/cooking_pot"
             }
           },
           {
-            "when": "jmmf:cookware_pan",
+            "when": "jmmf:cookware_frying_pan",
             "model": {
               "type": "minecraft:model",
               "model": "jmmf:block/frying_pan"
+            }
+          },
+          {
+            "when": "jmmf:cookware_tea_kettle",
+            "model": {
+              "type": "minecraft:model",
+              "model": "jmmf:block/tea_kettle"
             }
           }
         ],
