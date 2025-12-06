@@ -4,7 +4,7 @@
 scoreboard players set @s jmmf.data 0
 
 # If the cookware slot is not cookware, move it to an open input slot
-execute if entity @s[scores={jmmf.data=0}] unless block ~ ~ ~ barrel{Items: [{Slot: 1b, components:{"minecraft:custom_data":{joshmats:{tag:["cookware"]}}}}]} run data modify block ~ ~ ~ Items[{Slot: 0b}].Slot set value 6b
+execute if entity @s[scores={jmmf.data=0}] unless block ~ ~ ~ barrel{Items: [{Slot: 0b, components:{"minecraft:custom_data":{joshmats:{tag:["cookware"]}}}}]} run data modify block ~ ~ ~ Items[{Slot: 0b}].Slot set value 6b
 
 # From the likely shift-click slot, try to move to an open input slot
 execute store result score @s jmmf.data if entity @s[scores={jmmf.data=0}] unless block ~ ~ ~ barrel{Items: [{Slot: 1b}]} run data modify block ~ ~ ~ Items[{Slot: 6b}].Slot set value 1b
@@ -19,4 +19,4 @@ execute store result score @s jmmf.data if entity @s[scores={jmmf.data=0}] unles
 execute store result score @s jmmf.data if entity @s[scores={jmmf.data=0}] unless block ~ ~ ~ barrel{Items: [{Slot: 22b}]} run data modify block ~ ~ ~ Items[{Slot: 6b}].Slot set value 22b
 
 # If things are still invalid (likely from no space left), just throw them out instead
-execute if entity @s[predicate=jmmf:block/cooking_station/invalid_items] run function jmmf:block/cooking_station/manage_invalids/spit_items
+execute if entity @s[predicate=jmmf:block/cooking_station/invalid_items] run function jmmf:block/cooking_station/manage_invalid_slots/prepare_spit
