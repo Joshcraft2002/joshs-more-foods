@@ -8,6 +8,6 @@ scoreboard players set jmmf:cooking_station jmmf.needs_container 0
 scoreboard players set jmmf:cooking_station jmmf.is_instant 0
 
 item replace entity @s weapon.mainhand with minecraft:cookie 
-item modify entity @s weapon.mainhand jmmf:boiled_egg
+item modify entity @s weapon.mainhand jmmf:item/boiled_egg
 
 return 1

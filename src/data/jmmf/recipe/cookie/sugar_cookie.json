@@ -14,7 +14,8 @@
       "minecraft:item_model": "jmmf:cookie/sugar_cookie",
       "minecraft:custom_data": {
         "smithed": {
-          "id": "jmmf:sugar_cookie"
+          "id": "jmmf:sugar_cookie",
+          "ignore": { "functionality": 1 } 
         },
         "joshmats": {
           "tag": ["cookie"]

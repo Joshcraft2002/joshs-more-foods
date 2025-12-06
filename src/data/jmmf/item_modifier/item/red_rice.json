@@ -4,7 +4,10 @@
     "minecraft:item_name": {"translate": "item.jmmf.red_rice"},
     "minecraft:item_model": "jmmf:red_rice",
     "minecraft:custom_data": {
-      "smithed": { "id": "jmmf:red_rice", "tag": ["rice"] }
+      "smithed": { 
+        "id": "jmmf:red_rice", "item_tag": ["smithed:rice"],
+        "tag": ["rice"] 
+      }
     }
   }
 }

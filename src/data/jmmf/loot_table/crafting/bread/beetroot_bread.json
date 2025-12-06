@@ -13,7 +13,10 @@
                                 "minecraft:item_name": { "translate": "item.jmmf.beetroot_bread"},
                                 "minecraft:item_model": "jmmf:bread/beetroot_bread",
                                 "minecraft:custom_data": {
-                                    "smithed": { "id": "jmmf:beetroot_bread" } 
+                                    "smithed": { 
+                                        "id": "jmmf:beetroot_bread",
+                                        "ignore": { "functionality": 1 } 
+                                    } 
                                 }
                             }
                         }

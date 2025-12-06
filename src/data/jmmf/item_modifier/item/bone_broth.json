@@ -4,7 +4,10 @@
       "minecraft:item_name": {"translate": "item.jmmf.bone_broth"},
       "minecraft:item_model": "jmmf:soup/bone_broth",
       "minecraft:custom_data": {
-        "smithed": { "id": "jmmf:bone_broth" },
+        "smithed": { 
+          "id": "jmmf:bone_broth",
+          "ignore": { "crafting": 1, "functionality": 1 } 
+        },
         "joshmats":{ "tag": ["soup_base"]}
       },
       "minecraft:food": { 

@@ -13,7 +13,10 @@
                                 "minecraft:item_name": { "translate": "item.jmmf.black_forest_doughnut"},
                                 "minecraft:item_model": "jmmf:doughnut/black_forest_doughnut",
                                 "minecraft:custom_data": {
-                                    "smithed": { "id": "jmmf:black_forest_doughnut" },
+                                    "smithed": { 
+                                        "id": "jmmf:black_forest_doughnut",
+                                        "ignore": { "crafting": 1, "functionality": 1 } 
+                                    },
                                     "joshmats": { "tag": ["doughnut"] }
                                 },
                                 "minecraft:food": {

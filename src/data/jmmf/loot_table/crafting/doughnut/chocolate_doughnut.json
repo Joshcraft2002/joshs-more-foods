@@ -13,7 +13,10 @@
                                 "minecraft:item_name": { "translate": "item.jmmf.chocolate_doughnut"},
                                 "minecraft:item_model": "jmmf:doughnut/chocolate_doughnut",
                                 "minecraft:custom_data": {
-                                    "smithed": { "id": "jmmf:chocolate_doughnut" },
+                                    "smithed": { 
+                                        "id": "jmmf:chocolate_doughnut",
+                                        "ignore": { "crafting": 1, "functionality": 1 } 
+                                    },
                                     "joshmats": { "tag": ["doughnut"] }
                                 },
                                 "minecraft:food": {

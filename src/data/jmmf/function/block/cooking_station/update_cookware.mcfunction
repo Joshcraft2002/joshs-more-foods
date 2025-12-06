@@ -1,5 +1,3 @@
-say updating cookware
-
 # Determine cookware type and set cook_mode accordingly
 execute if entity @s[predicate=jmmf:block/cooking_station/cookware_empty] run scoreboard players set @s jmmf.cook_mode 0
 execute if entity @s[predicate=jmmf:block/cooking_station/cookware_cooking_pot] run scoreboard players set @s jmmf.cook_mode 1

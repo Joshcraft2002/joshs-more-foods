@@ -8,6 +8,6 @@ scoreboard players set jmmf:cooking_station jmmf.needs_container 1
 scoreboard players set jmmf:cooking_station jmmf.is_instant 1
 
 item replace entity @s weapon.mainhand with minecraft:beetroot_soup 
-item modify entity @s weapon.mainhand jmmf:red_rice_bowl
+item modify entity @s weapon.mainhand jmmf:item/red_rice_bowl
 
 return 1

@@ -13,7 +13,10 @@
                                 "minecraft:item_name": { "translate": "item.jmmf.pumpkin_ice_cream"},
                                 "minecraft:item_model": "jmmf:ice_cream/pumpkin_ice_cream",
                                 "minecraft:custom_data": {
-                                    "smithed": { "id": "jmmf:pumpkin_ice_cream" },
+                                    "smithed": { 
+                                        "id": "jmmf:pumpkin_ice_cream",
+                                        "ignore": { "crafting": 1, "functionality": 1 } 
+                                    },
                                     "joshmats": { "tag": ["ice_cream"] }
                                 },
                                 "minecraft:food": {

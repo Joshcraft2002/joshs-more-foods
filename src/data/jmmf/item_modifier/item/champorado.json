@@ -4,7 +4,10 @@
     "minecraft:item_name": {"translate": "item.jmmf.champorado"},
     "minecraft:item_model": "jmmf:rice_meal/champorado",
     "minecraft:custom_data": {
-      "smithed": { "id": "jmmf:champorado" }
+      "smithed": { 
+        "id": "jmmf:champorado",
+        "ignore": { "crafting": 1, "functionality": 1 } 
+      }
     },
     "minecraft:food": { 
       "nutrition": 4, "saturation": 4

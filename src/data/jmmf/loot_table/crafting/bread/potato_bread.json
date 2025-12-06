@@ -13,7 +13,10 @@
                                 "minecraft:item_name": { "translate": "item.jmmf.potato_bread"},
                                 "minecraft:item_model": "jmmf:bread/potato_bread",
                                 "minecraft:custom_data": {
-                                    "smithed": { "id": "jmmf:potato_bread" }
+                                    "smithed": { 
+                                        "id": "jmmf:potato_bread",
+                                        "ignore": { "functionality": 1 }  
+                                    }
                                 }
                             }
                         }

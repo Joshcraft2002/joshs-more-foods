@@ -13,7 +13,10 @@
                                 "minecraft:item_name": { "translate": "item.jmmf.sweet_berry_cookie"},
                                 "minecraft:item_model": "jmmf:cookie/sweet_berry_cookie",
                                 "minecraft:custom_data": {
-                                    "smithed": { "id": "jmmf:sweet_berry_cookie" },
+                                    "smithed": { 
+                                        "id": "jmmf:sweet_berry_cookie",
+                                        "ignore": { "functionality": 1 }  
+                                    },
                                     "joshmats": { "tag": ["cookie"] }
                                 }
                             }

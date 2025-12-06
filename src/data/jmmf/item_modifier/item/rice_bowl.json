@@ -1,10 +1,13 @@
 {
   "function": "minecraft:set_components",
   "components": {
-    "minecraft:item_name": {"translate": "item.jmmf.red_rice_bowl"},
-    "minecraft:item_model": "jmmf:red_rice_bowl",
+    "minecraft:item_name": {"translate": "item.jmmf.rice_bowl"},
+    "minecraft:item_model": "jmmf:rice_bowl",
     "minecraft:custom_data": {
-      "smithed": { "id": "jmmf:red_rice_bowl" },
+      "smithed": { 
+        "id": "jmmf:rice_bowl",
+        "ignore": { "crafting": 1, "functionality": 1 } 
+      },
       "joshmats":{"tag":["rice_bowl"]}
     },
     "minecraft:food": { 

@@ -15,7 +15,8 @@
       "minecraft:item_model": "jmmf:ice_cream/chocolate_ice_cream",
       "minecraft:custom_data": {
         "smithed": {
-          "id": "jmmf:chocolate_ice_cream"
+          "id": "jmmf:chocolate_ice_cream",
+          "ignore": { "crafting": 1, "functionality": 1 } 
         },
         "joshmats": {
           "tag": ["ice_cream"]

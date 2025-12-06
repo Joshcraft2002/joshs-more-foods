@@ -8,6 +8,6 @@ scoreboard players set jmmf:cooking_station jmmf.needs_container 1
 scoreboard players set jmmf:cooking_station jmmf.is_instant 0
 
 item replace entity @s weapon.mainhand with minecraft:rotten_flesh 
-item modify entity @s weapon.mainhand jmmf:rotten_stew
+item modify entity @s weapon.mainhand jmmf:item/rotten_stew
 
 return 1

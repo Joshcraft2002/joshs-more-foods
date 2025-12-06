@@ -4,7 +4,10 @@
     "minecraft:item_name": {"translate": "item.jmmf.fried_egg"},
     "minecraft:item_model": "jmmf:fried_egg",
     "minecraft:custom_data": {
-      "smithed": { "id": "jmmf:fried_egg" }
+      "smithed": { 
+        "id": "jmmf:fried_egg",
+        "ignore": { "crafting": 1, "functionality": 1 } 
+      }
     },
     "minecraft:food": { 
       "nutrition": 3, "saturation": 2

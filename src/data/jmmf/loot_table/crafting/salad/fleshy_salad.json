@@ -13,7 +13,10 @@
                                 "minecraft:item_name": { "translate": "item.jmmf.fleshy_salad"},
                                 "minecraft:item_model": "jmmf:salad/fleshy_salad",
                                 "minecraft:custom_data": {
-                                    "smithed": { "id": "jmmf:fleshy_salad" }
+                                    "smithed": { 
+                                        "id": "jmmf:fleshy_salad",
+                                        "ignore": { "crafting": 1, "functionality": 1 } 
+                                    }
                                 },
                                 "minecraft:food": {
                                     "nutrition": 6, "saturation": 5

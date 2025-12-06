@@ -4,7 +4,10 @@
     "minecraft:item_name": {"translate": "item.jmmf.egg_drop_soup"},
     "minecraft:item_model": "jmmf:soup/egg_drop_soup",
     "minecraft:custom_data": {
-      "smithed": { "id": "jmmf:egg_drop_soup" }
+      "smithed": { 
+        "id": "jmmf:egg_drop_soup",
+        "ignore": { "crafting": 1, "functionality": 1 } 
+      }
     },
     "minecraft:food": { 
       "nutrition": 7, "saturation": 6

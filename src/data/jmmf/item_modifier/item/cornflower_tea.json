@@ -1,10 +1,13 @@
 {
   "function": "minecraft:set_components",
   "components": {
-      "minecraft:item_name": {"translate": "item.jmmf.black_tea"},
-      "minecraft:item_model": "jmmf:tea/black_tea",
+      "minecraft:item_name": {"translate": "item.jmmf.cornflower_tea"},
+      "minecraft:item_model": "jmmf:tea/cornflower_tea",
       "minecraft:custom_data": {
-        "smithed": { "id": "jmmf:black_tea" },
+        "smithed": { 
+          "id": "jmmf:cornflower_tea",
+          "ignore": { "crafting": 1, "functionality": 1 } 
+        },
         "joshmats": { "tag": ["tea"] }
       },
       "minecraft:food": { 
@@ -17,7 +20,7 @@
           {
             "type": "apply_effects",
             "effects": [
-              {"id":"minecraft:regeneration","amplifier":1,"duration":100}
+              {"id":"minecraft:regeneration","duration":200}
             ] 
           }
         ]
@@ -29,7 +32,10 @@
           "minecraft:rarity": "common",
           "minecraft:item_model": "jmmf:teacup",
           "minecraft:custom_data": {
-            "smithed": { "id": "jmmf:teacup" }
+            "smithed": { 
+              "id": "jmmf:teacup",
+              "ignore": { "crafting": 1 } 
+            }
           }
         }
       },

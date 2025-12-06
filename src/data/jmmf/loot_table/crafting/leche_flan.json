@@ -13,7 +13,10 @@
                                 "minecraft:item_name": { "translate": "item.jmmf.leche_flan"},
                                 "minecraft:item_model": "jmmf:leche_flan",
                                 "minecraft:custom_data": {
-                                    "smithed": { "id": "jmmf:leche_flan" }
+                                    "smithed": { 
+                                        "id": "jmmf:leche_flan",
+                                        "ignore": { "crafting": 1, "functionality": 1 } 
+                                    }
                                 },
                                 "minecraft:food": {
                                     "nutrition": 6, "saturation": 7

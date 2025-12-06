@@ -1,10 +1,13 @@
 {
   "function": "minecraft:set_components",
   "components": {
-    "minecraft:item_name": {"translate": "item.jmmf.dandelion_tea"},
-    "minecraft:item_model": "jmmf:tea/dandelion_tea",
+    "minecraft:item_name": {"translate": "item.jmmf.rose_tea"},
+    "minecraft:item_model": "jmmf:tea/rose_tea",
     "minecraft:custom_data": {
-      "smithed": { "id": "jmmf:dandelion_tea" },
+      "smithed": { 
+        "id": "jmmf:rose_tea",
+        "ignore": { "crafting": 1, "functionality": 1 } 
+      },
       "joshmats": { "tag": ["tea"] }
     },
     "minecraft:food": { 
@@ -29,7 +32,10 @@
         "minecraft:rarity": "common",
         "minecraft:item_model": "jmmf:teacup",
         "minecraft:custom_data": {
-          "smithed": { "id": "jmmf:teacup" }
+          "smithed": { 
+            "id": "jmmf:teacup",
+            "ignore": { "crafting": 1 } 
+          }
         }
       }
     },

@@ -11,7 +11,10 @@
       "minecraft:item_name": { "translate": "item.jmmf.apple_pie"},
       "minecraft:item_model": "jmmf:pie/apple_pie",
       "minecraft:custom_data": {
-        "smithed": { "id": "jmmf:apple_pie" }
+        "smithed": { 
+          "id": "jmmf:apple_pie",
+          "ignore": { "crafting": 1, "functionality": 1 }  
+        }
       }
     }
   }

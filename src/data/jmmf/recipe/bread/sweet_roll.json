@@ -12,7 +12,8 @@
       "minecraft:item_model": "jmmf:bread/sweet_roll",
       "minecraft:custom_data": {
         "smithed": {
-          "id": "jmmf:sweet_roll"
+          "id": "jmmf:sweet_roll",
+          "ignore": { "crafting": 1, "functionality": 1 }
         }
       },
       "minecraft:food": {

@@ -13,7 +13,10 @@
                                 "minecraft:item_name": { "translate": "item.jmmf.honey_cookie"},
                                 "minecraft:item_model": "jmmf:cookie/honey_cookie",
                                 "minecraft:custom_data": {
-                                    "smithed": { "id": "jmmf:honey_cookie" },
+                                    "smithed": { 
+                                        "id": "jmmf:honey_cookie",
+                                        "ignore": { "functionality": 1 } 
+                                    },
                                     "joshmats": { "tag": ["cookie"] }
                                 }
                             }

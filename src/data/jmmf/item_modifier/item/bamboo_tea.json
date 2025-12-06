@@ -1,10 +1,13 @@
 {
   "function": "minecraft:set_components",
   "components": {
-      "minecraft:item_name": {"translate": "item.jmmf.beetroot_tea"},
-      "minecraft:item_model": "jmmf:tea/beetroot_tea",
+      "minecraft:item_name": {"translate": "item.jmmf.bamboo_tea"},
+      "minecraft:item_model": "jmmf:tea/bamboo_tea",
       "minecraft:custom_data": {
-        "smithed": { "id": "jmmf:beetroot_tea" },
+        "smithed": { 
+          "id": "jmmf:bamboo_tea",
+          "ignore": { "crafting": 1, "functionality": 1 } 
+        },
         "joshmats": { "tag": ["tea"] }
       },
       "minecraft:food": { 
@@ -16,9 +19,7 @@
         "on_consume_effects": [
           {
             "type": "apply_effects",
-            "effects": [
-              {"id":"minecraft:regeneration","duration":200}
-            ] 
+            "effects": [ {"id":"minecraft:regeneration","duration":200} ] 
           }
         ]
       },
@@ -29,7 +30,10 @@
           "minecraft:rarity": "common",
           "minecraft:item_model": "jmmf:teacup",
           "minecraft:custom_data": {
-            "smithed": { "id": "jmmf:teacup" }
+            "smithed": { 
+              "id": "jmmf:teacup",
+              "ignore": { "crafting": 1 }
+            }
           }
         }
       },

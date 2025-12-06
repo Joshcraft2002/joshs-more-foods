@@ -16,7 +16,8 @@
       "minecraft:item_model": "jmmf:doughnut/chocolate_doughnut",
       "minecraft:custom_data": {
         "smithed": {
-          "id": "jmmf:chocolate_doughnut"
+          "id": "jmmf:chocolate_doughnut",
+          "ignore": { "crafting": 1, "functionality": 1 } 
         },
         "joshmats": {
           "tag": ["doughnut"]

@@ -13,7 +13,11 @@
                                 "minecraft:item_name": { "translate": "item.jmmf.bagel"},
                                 "minecraft:item_model": "jmmf:bread/bagel",
                                 "minecraft:custom_data": {
-                                    "smithed": { "id": "jmmf:bagel" }
+                                    "smithed": { 
+                                        "id": "jmmf:bagel",
+                                        "ignore": { "functionality": 1 } 
+
+                                    }
                                 },
                                 "minecraft:food": {
                                     "nutrition": 7, "saturation": 8

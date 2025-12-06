@@ -8,6 +8,6 @@ scoreboard players set jmmf:cooking_station jmmf.needs_container 1
 scoreboard players set jmmf:cooking_station jmmf.is_instant 0
 
 item replace entity @s weapon.mainhand with minecraft:pumpkin_pie 
-item modify entity @s weapon.mainhand jmmf:pie/chicken_pot_pie
+item modify entity @s weapon.mainhand jmmf:item/chicken_pot_pie
 
 return 1

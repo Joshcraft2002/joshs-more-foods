@@ -15,7 +15,10 @@
                                 "minecraft:item_name": { "translate": "item.jmmf.frying_pan"},
                                 "minecraft:item_model": "jmmf:frying_pan",
                                 "minecraft:custom_data": {
-                                    "smithed": { "id": "jmmf:frying_pan" },
+                                    "smithed": { 
+                                        "id": "jmmf:frying_pan",
+                                        "ignore": { "crafting": 1, "functionality": 1 } 
+                                    },
                                     "joshmats": { "tag": ["cookware"] }
                                 }
                             }

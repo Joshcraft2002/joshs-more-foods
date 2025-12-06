@@ -13,7 +13,10 @@
                                 "minecraft:item_name": { "translate": "item.jmmf.fish_and_chips"},
                                 "minecraft:item_model": "jmmf:fish_and_chips",
                                 "minecraft:custom_data": {
-                                    "smithed": { "id": "jmmf:fish_and_chips" }
+                                    "smithed": { 
+                                        "id": "jmmf:fish_and_chips",
+                                        "ignore": { "crafting": 1, "functionality": 1 } 
+                                    }
                                 },
                                 "minecraft:food": {
                                     "nutrition": 7, "saturation": 10

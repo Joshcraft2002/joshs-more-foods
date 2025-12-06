@@ -13,7 +13,10 @@
                                 "minecraft:item_name": { "translate": "item.jmmf.carrot_bread"},
                                 "minecraft:item_model": "jmmf:bread/carrot_bread",
                                 "minecraft:custom_data": {
-                                    "smithed": { "id": "jmmf:carrot_bread" }
+                                    "smithed": { 
+                                        "id": "jmmf:carrot_bread",
+                                        "ignore": { "functionality": 1 }
+                                    }
                                 }
                             }
                         }

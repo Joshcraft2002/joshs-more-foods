@@ -47,7 +47,7 @@ scoreboard players set jmmf:cooking_station jmmf.is_instant 1
 #       - item in "item replace" to the recipe's base item
 #       - item modifier in "item modify" to the recipe's item modifier (optional, can be removed if output is a vanilla item)
 item replace entity @s weapon.mainhand with minecraft:beetroot_soup 
-item modify entity @s weapon.mainhand jmmf:rice_bowl
+item modify entity @s weapon.mainhand jmmf:item/rice_bowl
 
 # Other checks are handled internally, do not touch this line
 return 1

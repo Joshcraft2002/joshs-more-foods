@@ -4,7 +4,10 @@
     "minecraft:item_name": {"translate": "item.jmmf.fried_rice"},
     "minecraft:item_model": "jmmf:rice_meal/fried_rice",
     "minecraft:custom_data": {
-      "smithed": { "id": "jmmf:fried_rice" }
+      "smithed": { 
+        "id": "jmmf:fried_rice",
+        "ignore": { "crafting": 1, "functionality": 1 } 
+      }
     },
     "minecraft:food": { 
       "nutrition": 10, "saturation": 13

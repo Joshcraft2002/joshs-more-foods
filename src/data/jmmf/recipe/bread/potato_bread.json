@@ -14,7 +14,8 @@
       "minecraft:item_model": "jmmf:bread/potato_bread",
       "minecraft:custom_data": {
         "smithed": {
-          "id": "jmmf:potato_bread"
+          "id": "jmmf:potato_bread",
+          "ignore": { "functionality": 1 } 
         }
       }
     }

@@ -5,7 +5,10 @@
       "minecraft:item_model": "jmmf:black_tea_leaves",
       "minecraft:rarity": "common",
       "minecraft:custom_data": {
-        "smithed": { "id": "jmmf:black_tea_leaves" }
+        "smithed": { 
+          "id": "jmmf:black_tea_leaves",
+          "ignore": { "crafting": 1 } 
+      }
       }
   }
 }

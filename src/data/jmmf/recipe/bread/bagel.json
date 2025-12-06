@@ -15,7 +15,8 @@
       "minecraft:item_model": "jmmf:bread/bagel",
       "minecraft:custom_data": {
         "smithed": {
-          "id": "jmmf:bagel"
+          "id": "jmmf:bagel",
+          "ignore": { "functionality": 1 } 
         }
       },
       "minecraft:food": {

@@ -5,7 +5,10 @@
           "minecraft:item_name": {"translate": "item.jmmf.pork_pie"},
           "minecraft:item_model": "jmmf:pie/pork_pie",
           "minecraft:custom_data": {
-            "smithed": { "id": "jmmf:pork_pie" }
+            "smithed": { 
+              "id": "jmmf:pork_pie",
+              "ignore": { "crafting": 1, "functionality": 1 } 
+            }
           },
           "minecraft:food": { "nutrition": 8, "saturation": 10}
       }

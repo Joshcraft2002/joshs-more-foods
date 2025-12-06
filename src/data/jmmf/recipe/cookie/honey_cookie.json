@@ -14,7 +14,8 @@
       "minecraft:item_model": "jmmf:cookie/honey_cookie",
       "minecraft:custom_data": {
         "smithed": {
-          "id": "jmmf:honey_cookie"
+          "id": "jmmf:honey_cookie",
+          "ignore": { "functionality": 1 } 
         },
         "joshmats": {
           "tag": ["cookie"]

@@ -20,7 +20,10 @@
       "minecraft:item_name": { "translate": "item.jmmf.vegetable_salad"},
       "minecraft:item_model": "jmmf:salad/vegetable_salad",
       "minecraft:custom_data": {
-        "smithed": { "id": "jmmf:vegetable_salad" }
+        "smithed": { 
+          "id": "jmmf:vegetable_salad",
+          "ignore": { "crafting": 1, "functionality": 1 }
+        }
       },
       "minecraft:food": {
         "nutrition": 7, "saturation": 10

@@ -18,7 +18,10 @@
       "minecraft:item_name": { "translate": "item.jmmf.shepherds_pie"},
       "minecraft:item_model": "jmmf:pie/shepherds_pie",
       "minecraft:custom_data": {
-        "smithed": { "id": "jmmf:shepherds_pie" }
+        "smithed": { 
+          "id": "jmmf:shepherds_pie",
+          "ignore": { "crafting": 1, "functionality": 1 } 
+        }
       },
       "minecraft:food": {
         "nutrition": 14,

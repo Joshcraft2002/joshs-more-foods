@@ -8,6 +8,6 @@ scoreboard players set jmmf:cooking_station jmmf.needs_container 0
 scoreboard players set jmmf:cooking_station jmmf.is_instant 1
 
 item replace entity @s weapon.mainhand with minecraft:written_book
-item modify entity @s weapon.mainhand jmmf:nutritionbook
+item modify entity @s weapon.mainhand jmmf:item/nutritionbook
 
 return 1

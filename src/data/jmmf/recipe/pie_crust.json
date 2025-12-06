@@ -14,7 +14,10 @@
         "minecraft:item_name": { "translate": "item.jmmf.pie_crust"},
         "minecraft:item_model": "jmmf:pie_crust",
         "minecraft:custom_data": {
-          "smithed": { "id": "jmmf:pie_crust" }
+          "smithed": { 
+            "id": "jmmf:pie_crust",
+            "ignore": { "crafting": 1, "functionality": 1 } 
+          }
         },
         "minecraft:food": {
           "nutrition": 3, "saturation": 3

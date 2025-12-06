@@ -8,6 +8,6 @@ scoreboard players set jmmf:cooking_station jmmf.needs_container 0
 scoreboard players set jmmf:cooking_station jmmf.is_instant 0
 
 item replace entity @s weapon.mainhand with minecraft:wheat 
-item modify entity @s weapon.mainhand jmmf:red_rice
+item modify entity @s weapon.mainhand jmmf:item/red_rice
 
 return 1
