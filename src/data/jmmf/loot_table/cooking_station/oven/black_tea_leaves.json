@@ -5,9 +5,9 @@
         "entries": [
           {
             "type": "item",
-            "name": "minecraft:written_book",
+            "name": "minecraft:structure_block",
             "functions": [
-              { "function": "reference", "name": "jmmf:item/cookbook" }
+              { "function": "reference", "name": "jmmf:item/black_tea_leaves" }
             ]
           }
         ]

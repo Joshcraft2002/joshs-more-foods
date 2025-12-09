@@ -5,9 +5,9 @@
         "entries": [
           {
             "type": "item",
-            "name": "minecraft:written_book",
+            "name": "minecraft:pumpkin_pie",
             "functions": [
-              { "function": "reference", "name": "jmmf:item/cookbook" }
+              { "function": "reference", "name": "jmmf:item/pork_pie" }
             ]
           }
         ]

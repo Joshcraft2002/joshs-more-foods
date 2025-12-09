@@ -5,9 +5,9 @@
         "entries": [
           {
             "type": "item",
-            "name": "minecraft:written_book",
+            "name": "minecraft:cookie",
             "functions": [
-              { "function": "reference", "name": "jmmf:item/cookbook" }
+              { "function": "reference", "name": "jmmf:item/spruce_tea" }
             ]
           }
         ]

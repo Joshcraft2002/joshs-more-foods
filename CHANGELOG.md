@@ -1,5 +1,18 @@
-# 5.6.0
-- Removed compat functions (for very old versions of the datapack)
+# 6.0.0	(2025-)
+## Added
+### Cooking Station
+- Now can use different cookware for different recipes
+  - Cooking Pot (doubles as a helmet)
+  - Frying Pan (doubles as a weapon)
+  - Tea Kettle
+- Recipes now read item tags
+- recipes can read custom item id and tags, using the smithed namespace
+- reworked recipe system 
+## Changed
+- crafting recipe and loot tables no longer grouped by food type
+- recipe loot tables reorganized by cookware
+## Removed
+- Compat functions (for very old versions of the datapack)
 
 # 5.5.3 (2025-09-20)
 - Recipes that use eggs now take blue and brown eggs

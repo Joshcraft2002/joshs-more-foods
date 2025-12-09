@@ -7,7 +7,7 @@
             "type": "item",
             "name": "written_book",
             "functions": [
-              { "function": "reference", "name": "jmmf:nutritionbook" }
+              { "function": "reference", "name": "jmmf:item/nutritionbook" }
             ]
           }
         ]
