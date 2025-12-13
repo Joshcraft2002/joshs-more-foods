@@ -11,11 +11,11 @@
   "result": {
     "id": "minecraft:stone_sword",
     "components": {
-      "minecraft:item_name": { "translate": "item.jmmf.stone_knife"},
+      "minecraft:item_name": { "translate": "item.jmmf.stone_knife" },
       "minecraft:item_model": "jmmf:knife/stone_knife",
       "minecraft:custom_data": {
         "smithed": { "id": "jmmf:stone_knife" },
-        "joshmats": { "tag": ["knife"] }
+        "joshmats": { "tag": [ "knife" ] }
       },
       "minecraft:attribute_modifiers": [
         {
@@ -26,7 +26,11 @@
           "operation": "add_value",
           "display": {
             "type": "override",
-            "value": {"translate": "item.jmmf.stone_knife.attack_damage", "color": "dark_green"}
+            "value": [ " ", {
+              "translate": "attribute.modifier.equals.0", 
+              "with": [ "3.5", { "translate": "attribute.name.attack_damage" }], 
+              "color": "dark_green"
+            }]
           }
         },
         {
@@ -37,7 +41,11 @@
           "operation": "add_value",
           "display": {
             "type": "override",
-            "value": {"translate": "item.jmmf.stone_knife.attack_speed", "color": "dark_green"}
+            "value": [ " ", {
+              "translate": "attribute.modifier.equals.0", 
+              "with": [ "2", { "translate": "attribute.name.attack_speed" }], 
+              "color": "dark_green"
+            }]
           }
         }
       ]

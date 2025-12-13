@@ -5,29 +5,29 @@
 			"entries": [
 				{
 					"type": "item",
-					"name": "minecraft:iron_sword",
+					"name": "minecraft:copper_sword",
 					"functions": [
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:item_name": { "translate": "item.jmmf.iron_knife" },
-								"minecraft:item_model": "jmmf:knife/iron_knife",
+								"minecraft:item_name": { "translate": "item.jmmf.copper_knife" },
+								"minecraft:item_model": "jmmf:knife/copper_knife",
 								"minecraft:custom_data": {
-									"smithed": { "id": "jmmf:iron_knife" },
+									"smithed": { "id": "jmmf:copper_knife" },
 									"joshmats": { "tag": [ "knife" ] }
 								},
 								"minecraft:attribute_modifiers": [
 									{
 										"type": "minecraft:attack_damage",
 										"slot": "mainhand",
-										"id": "jmmf:iron_knife.attack_damage",
-										"amount": 3,
+										"id": "jmmf:copper_knife.attack_damage",
+										"amount": 2.5,
 										"operation": "add_value",
 										"display": {
 											"type": "override",
 											"value": [ " ", {
 												"translate": "attribute.modifier.equals.0", 
-												"with": [ "4", { "translate": "attribute.name.attack_damage" }], 
+												"with": [ "3.5", { "translate": "attribute.name.attack_damage" }], 
 												"color": "dark_green"
 											}]
 										}
@@ -35,7 +35,7 @@
 									{
 										"type": "minecraft:attack_speed",
 										"slot": "mainhand",
-										"id": "jmmf:iron_knife.attack_speed",
+										"id": "jmmf:copper_knife.attack_speed",
 										"amount": -2,
 										"operation": "add_value",
 										"display": {

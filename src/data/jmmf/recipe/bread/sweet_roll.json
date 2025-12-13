@@ -13,7 +13,7 @@
       "minecraft:custom_data": {
         "smithed": {
           "id": "jmmf:sweet_roll",
-          "ignore": { "crafting": 1, "functionality": 1 }
+          "ignore": { "functionality": 1 }
         }
       },
       "minecraft:food": {

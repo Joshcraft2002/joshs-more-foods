@@ -134,21 +134,23 @@
     "item.jmmf.black_tea_leaves": "Black Tea Leaves",
 
     "item.jmmf.wooden_knife": "Wooden Knife",
+    "item.jmmf.stone_knife": "Stone Knife",
+    "item.jmmf.copper_knife": "Copper Knife",
+    "item.jmmf.golden_knife": "Golden Knife",
+    "item.jmmf.iron_knife": "Iron Knife",
+    "item.jmmf.diamond_knife": "Diamond Knife",
+    "item.jmmf.netherite_knife": "Netherite Knife",
+
     "item.jmmf.wooden_knife.attack_damage": " 2.5 Attack Damage",
     "item.jmmf.wooden_knife.attack_speed": " 2 Attack Speed",
-    "item.jmmf.stone_knife": "Stone Knife",
     "item.jmmf.stone_knife.attack_damage": " 3.5 Attack Damage",
     "item.jmmf.stone_knife.attack_speed": " 2 Attack Speed",
-    "item.jmmf.golden_knife": "Golden Knife",
     "item.jmmf.golden_knife.attack_damage": " 3 Attack Damage",
     "item.jmmf.golden_knife.attack_speed": " 2 Attack Speed",
-    "item.jmmf.iron_knife": "Iron Knife",
     "item.jmmf.iron_knife.attack_damage": " 4 Attack Damage",
     "item.jmmf.iron_knife.attack_speed": " 2 Attack Speed",
-    "item.jmmf.diamond_knife": "Diamond Knife",
     "item.jmmf.diamond_knife.attack_damage": " 5 Attack Damage",
     "item.jmmf.diamond_knife.attack_speed": " 2 Attack Speed",
-    "item.jmmf.netherite_knife": "Netherite Knife",
     "item.jmmf.netherite_knife.attack_damage": " 5.5 Attack Damage",
     "item.jmmf.netherite_knife.attack_speed": " 2 Attack Speed",
 
@@ -160,7 +162,7 @@
 
     "item.jmmf.honey_cookie": "Honey Cookie",
     "item.jmmf.sugar_cookie": "Sugar Cookie",
-    "item.jmmf.sweet_berry_cookie": "Sweet Berry Cookies",
+    "item.jmmf.sweet_berry_cookie": "Sweet Berry Cookie",
 
     "item.jmmf.apple_pie": "Apple Pie",
     "item.jmmf.carrot_pie": "Carrot Pie",

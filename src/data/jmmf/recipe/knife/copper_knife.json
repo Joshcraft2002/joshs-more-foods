@@ -1,34 +1,34 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "W",
+    "C",
     "S"
   ],
   "key": {
-    "W": "#minecraft:planks",
+    "C": "minecraft:copper_ingot",
     "S": "minecraft:stick"
   },
   "result": {
-    "id": "minecraft:wooden_sword",
+    "id": "minecraft:copper_sword",
     "components": {
-      "minecraft:item_name": { "translate": "item.jmmf.wooden_knife" },
-      "minecraft:item_model": "jmmf:knife/wooden_knife",
+      "minecraft:item_name": { "translate": "item.jmmf.copper_knife" },
+      "minecraft:item_model": "jmmf:knife/copper_knife",
       "minecraft:custom_data": {
-        "smithed": { "id": "jmmf:wooden_knife" },
+        "smithed": { "id": "jmmf:copper_knife" },
         "joshmats": { "tag": [ "knife" ] }
       },
       "minecraft:attribute_modifiers": [
         {
           "type": "minecraft:attack_damage",
           "slot": "mainhand",
-          "id": "jmmf:wooden_knife.attack_damage",
-          "amount": 1.5,
+          "id": "jmmf:copper_knife.attack_damage",
+          "amount": 2.5,
           "operation": "add_value",
           "display": {
             "type": "override",
             "value": [ " ", {
               "translate": "attribute.modifier.equals.0", 
-              "with": [ "2.5", { "translate": "attribute.name.attack_damage" } ],
+              "with": [ "3.5", { "translate": "attribute.name.attack_damage" }], 
               "color": "dark_green"
             }]
           }
@@ -36,7 +36,7 @@
         {
           "type": "minecraft:attack_speed",
           "slot": "mainhand",
-          "id": "jmmf:wooden_knife.attack_speed",
+          "id": "jmmf:copper_knife.attack_speed",
           "amount": -2,
           "operation": "add_value",
           "display": {
