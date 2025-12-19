@@ -9,6 +9,7 @@ Updated for Minecraft 1.21.9-1.21.10
 - Recipes now read item tags
 - recipes can read custom item id and tags, using the smithed namespace
 - reworked recipe system 
+> A guide for making custom recipes will be written in the future
 ### Equipment
 - Some cookware can double as equipment
   - Cooking Pot can be worn on the head with stats identical to an iron helmet
@@ -17,6 +18,8 @@ Updated for Minecraft 1.21.9-1.21.10
 - Added Copper Knife
   - Also now required for the "Knives to Meet You" advancement
 ## Changed
+- Many items now have a custom item tag under smithed for recipes
+> Only applies to newly crafted items, some older items may not work with some recipes
 - Crafting recipe and loot tables no longer grouped by food type
 - Cooking station recipe loot tables reorganized by cookware
 - Knife translation keys are no longer hardcoded

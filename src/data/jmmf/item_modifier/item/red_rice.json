@@ -5,8 +5,7 @@
     "minecraft:item_model": "jmmf:red_rice",
     "minecraft:custom_data": {
       "smithed": { 
-        "id": "jmmf:red_rice", "item_tag": ["smithed:rice"],
-        "tag": ["rice"] 
+        "id": "jmmf:red_rice", "item_tag": ["smithed:rice"]
       }
     }
   }

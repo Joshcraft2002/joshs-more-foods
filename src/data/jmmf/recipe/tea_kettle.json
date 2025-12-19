@@ -1,0 +1,25 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+      "SLS",
+      "C C",
+      "CC "
+    ],
+    "key": {      
+      "S": "minecraft:stick",
+      "L": "minecraft:leather",
+      "C": "minecraft:copper_ingot"
+    },
+    "result": {
+      "id": "minecraft:structure_block",
+      "components": {
+        "minecraft:item_name": { "translate": "item.jmmf.tea_kettle"},
+        "minecraft:item_model": "jmmf:tea_kettle",
+        "minecraft:custom_data": {
+          "smithed": { "id": "jmmf:tea_kettle" },
+          "joshmats": { "tag": ["cookware"] }
+        },
+        "minecraft:max_stack_size": 1
+      }
+    }
+  }
