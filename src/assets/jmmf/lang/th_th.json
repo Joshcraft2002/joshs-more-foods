@@ -114,13 +114,13 @@
     "item.jmmf.nutritionbook.fleshy_salad.effect_2": "[Poison I (0:02)] (10%)",
     "item.jmmf.nutritionbook.rotten_stew.effect_1": "[Hunger I (0:30)] (80%)",
     
-    "item.jmmf.cooking_pot": "Cooking Pot",
-    "item.jmmf.frying_pan": "Frying Pan",
+    "item.jmmf.cooking_pot": "หม้อทำอาหาร",
+    "item.jmmf.frying_pan": "กระทะทอด",
 
-    "item.jmmf.gilded_tea": "Gilded Tea",
-    "item.jmmf.gilded_tea.lore_1": "A soothing brew to clear the mind...",
-    "item.jmmf.gilded_tea.lore_2": "(not to be confused with \"golden\" tea)",
-    "item.jmmf.gilded_tea.drink_text": "Serenity steeps with every sip...",
+    "item.jmmf.gilded_tea": "ชาเคลือบทอง",
+    "item.jmmf.gilded_tea.lore_1": "เครื่องดื่มที่ช่วยให้จิตใจสงบและผ่อนคลาย...",
+    "item.jmmf.gilded_tea.lore_2": "(อย่าสับสนกับชา \"ทอง\")",
+    "item.jmmf.gilded_tea.drink_text": "ความสงบสุขซึมซาบในทุกจิบ...",
 
     "item.jmmf.rice": "ข้าว",
     "item.jmmf.rice_bowl": "ข้าวหนึ่งชาม",
