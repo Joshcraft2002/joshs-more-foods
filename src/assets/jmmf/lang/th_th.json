@@ -172,11 +172,11 @@
     "item.jmmf.pork_pie": "Pork Pie",
     "item.jmmf.steak_pie": "Steak Pie",
 
-    "item.jmmf.coleslaw": "Coleslaw",
-    "item.jmmf.potato_salad": "Potato Salad",
-    "item.jmmf.vegetable_salad": "Vegetable Salad",
-    "item.jmmf.fleshy_salad": "Fleshy Salad",
-    "item.jmmf.fruit_salad": "Fruit Salad",
+    "item.jmmf.coleslaw": "โคลสลอว์",
+    "item.jmmf.potato_salad": "สลัดมันฝรั่ง",
+    "item.jmmf.vegetable_salad": "สลัดผัก",
+    "item.jmmf.fleshy_salad": "ลาบเนื้อ",
+    "item.jmmf.fruit_salad": "สลัดผลไม้",
 
     "item.jmmf.rotten_stew": "ซุปเนื้อเน่า",
     "item.jmmf.rotten_stew.lore": "ขนาดถ้วยยังเน่าเลยด้วยซ้ำ...",
