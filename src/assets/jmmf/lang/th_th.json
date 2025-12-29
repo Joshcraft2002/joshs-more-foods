@@ -178,18 +178,18 @@
     "item.jmmf.fleshy_salad": "Fleshy Salad",
     "item.jmmf.fruit_salad": "Fruit Salad",
 
-    "item.jmmf.rotten_stew": "Rotten Stew",
-    "item.jmmf.rotten_stew.lore": "Even the bowl is rotten...",
-    "item.jmmf.bone_broth": "Bone Broth",
-    "item.jmmf.egg_drop_soup": "Egg Drop Soup",
+    "item.jmmf.rotten_stew": "ซุปเนื้อเน่า",
+    "item.jmmf.rotten_stew.lore": "ขนาดถ้วยยังเน่าเลยด้วยซ้ำ...",
+    "item.jmmf.bone_broth": "ซุปกระดูกตุ๋น",
+    "item.jmmf.egg_drop_soup": "ซุปไข่",
 
-    "item.jmmf.apple_ice_cream": "Apple Ice Cream",
-    "item.jmmf.chocolate_ice_cream": "Chocolate Ice Cream",
-    "item.jmmf.melon_ice_cream": "Melon Ice Cream",
-    "item.jmmf.pumpkin_ice_cream": "Pumpkin Ice Cream",
+    "item.jmmf.apple_ice_cream": "ไอศกรีมแอปเปิล",
+    "item.jmmf.chocolate_ice_cream": "ไอศกรีมช็อกโกแลต",
+    "item.jmmf.melon_ice_cream": "ไอศกรีมแตงโม",
+    "item.jmmf.pumpkin_ice_cream": "ไอศกรีมฟักทอง",
 
-    "item.jmmf.fish_and_chips": "Fish And Chips",
-    "item.jmmf.leche_flan": "Leche Flan",
+    "item.jmmf.fish_and_chips": "ฟิชแอนด์ชิปส์",
+    "item.jmmf.leche_flan": "เลเช่ฟลาน",
 
     "item.jmmf.fried_rice": "ข้าวผัด",
     "item.jmmf.champorado": "ชัมโปราโด",
