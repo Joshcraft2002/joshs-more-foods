@@ -49,7 +49,7 @@
     "item.jmmf.cookbook.tea.desc_3": "ชาดำมีฤทธิ์แรงกว่า แต่มีอยู่ได้น้อยกว่าครึ่งหนึ่ง\n",
     "item.jmmf.cookbook.tea.desc_4": "[ฟื้นฟูเลือด II (0:05)]",
     "item.jmmf.cookbook.tea.skip": "ข้ามไปชา",
-    "item.jmmf.cookbook.tea_leaves.desc": "การชงชาต้องใช้ใบชา ซึ่งได้จากการเก็บจากใบโอ๊ก ใบโอ๊กดำ และใบเบิร์ช\n\nค่า Fortune จะเพิ่มอัตราการดรอปของใบชา",
+    "item.jmmf.cookbook.tea_leaves.desc": "การชงชาต้องใช้ใบชา ซึ่งได้จากการเก็บจากใบโอ๊ก ใบโอ๊กดำ และใบเบิร์ช\n\nค่าโชคลาภจะเพิ่มอัตราการดรอปของใบชา",
     "item.jmmf.cookbook.black_tea_leaves.desc": "ชาดำนั้นต้องใช้ใบชาดำแทน",
     "item.jmmf.cookbook.tea.space_1": "\n",
     "item.jmmf.cookbook.tea.space_2": "\n",
