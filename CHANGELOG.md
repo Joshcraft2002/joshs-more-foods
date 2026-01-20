@@ -1,3 +1,12 @@
+# 5.6.0 (2026-01-20)
+Updated for Minecraft 1.21.9 (up to 1.21.11)
+- Added Copper Knife
+  - Also now required for the "Knives to Meet You" advancement
+- Sweet Berry Cookie is now singular (previously referred to as "Sweet Berry Cookies")
+- Knife tooltips & cookbook version no longer specified in lang file
+  - Old translations are kept in the lang file for compatibility with old items, but will be removed in the next major update
+- Added Thai (th_th) language support
+
 # 5.5.3 (2025-09-20)
 - Recipes that use eggs now take blue and brown eggs
 - Egg drop soup no longer requires (and consumes) a bowl to craft

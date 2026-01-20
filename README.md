@@ -14,6 +14,8 @@ If you want to easily merge datapacks or resourcepacks together, you can use [we
 The Cookbook and Book of Nutrition can be updated with any new content by placing it in the Cooking Station as an input.
 ### Updating to v5.2.x and above from v5.x.x
 All items **will have to be recrafted**. Existing Cooking Station blocks are usable, but may need to be broken and replaced to refresh the models. See the [changelog](CHANGELOG.md) for more information.
+### A Note on Translations
+All languages (outside of the English default) are purely community contributions. Updates may add or change content not covered by translations. If you would like to help with updating or adding translations, do contribute!
 
 ## Links
 [Modrinth](https://modrinth.com/datapack/joshs-more-foods)
@@ -32,6 +34,7 @@ Language Contributions:
 - (up to 1.20.4) Brazilian Portuguese (pt_br) by [MeiaQuatru](https://www.planetminecraft.com/member/meiaquatru/)
 - Polish (pl_pl) by [malpkakefirek](https://github.com/malpkakefirek)
 - Russian (ru_ru) by [Ll66dar](https://www.planetminecraft.com/member/ll66dar/)
+- Thai (th_th) by [PBMINE](https://github.com/PBMINE)
 - Ukrainian (uk_ua) by [MrBaget](https://modrinth.com/user/MrBaget)
 - Vietnamese (vi_vn) by Haisenberger
 - Simplified Chinese (zh_cn) by [Rain_G](https://www.planetminecraft.com/member/rain_g/) & their team
