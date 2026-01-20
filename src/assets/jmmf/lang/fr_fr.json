@@ -130,21 +130,22 @@
     "item.jmmf.black_tea_leaves": "Feuilles de Thé Noir",
 
     "item.jmmf.wooden_knife": "Couteau en Bois",
+    "item.jmmf.stone_knife": "Couteau en Pierre",
+    "item.jmmf.golden_knife": "Couteau en Or",
+    "item.jmmf.iron_knife": "Couteau en Fer",
+    "item.jmmf.diamond_knife": "Couteau en Diamant",
+    "item.jmmf.netherite_knife": "Couteau en Netherite",
+
     "item.jmmf.wooden_knife.attack_damage": " 2.5 en points d'attaque",
     "item.jmmf.wooden_knife.attack_speed": " 2 en vitesse d'attaque",
-    "item.jmmf.stone_knife": "Couteau en Pierre",
     "item.jmmf.stone_knife.attack_damage": " 3.5 en points d'attaque",
     "item.jmmf.stone_knife.attack_speed": " 2 en vitesse d'attaque",
-    "item.jmmf.golden_knife": "Couteau en Or",
     "item.jmmf.golden_knife.attack_damage": " 3 en points d'attaque",
     "item.jmmf.golden_knife.attack_speed": " 2 en vitesse d'attaque",
-    "item.jmmf.iron_knife": "Couteau en Fer",
     "item.jmmf.iron_knife.attack_damage": " 4 en points d'attaque",
     "item.jmmf.iron_knife.attack_speed": " 2 en vitesse d'attaque",
-    "item.jmmf.diamond_knife": "Couteau en Diamant",
     "item.jmmf.diamond_knife.attack_damage": " 5 en points d'attaque",
     "item.jmmf.diamond_knife.attack_speed": " 2 en vitesse d'attaque",
-    "item.jmmf.netherite_knife": "Couteau en Netherite",
     "item.jmmf.netherite_knife.attack_damage": " 5.5 en points d'attaque",
     "item.jmmf.netherite_knife.attack_speed": " 2 en vitesse d'attaque",
 
@@ -156,7 +157,7 @@
 
     "item.jmmf.honey_cookie": "Biscuit au Miel",
     "item.jmmf.sugar_cookie": "Biscuit au Sucre",
-    "item.jmmf.sweet_berry_cookie": "Biscuits aux Baies Sucrées",
+    "item.jmmf.sweet_berry_cookie": "Biscuit aux Baies Sucrées",
 
     "item.jmmf.apple_pie": "Tarte aux Pommes",
     "item.jmmf.carrot_pie": "Tarte aux Carottes",
