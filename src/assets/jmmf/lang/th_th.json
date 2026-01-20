@@ -19,8 +19,8 @@
     "block.jmmf.cooking_station": "ที่ทำอาหาร",
 
     "item.jmmf.cookbook": "ตำราอาหารของจอช",
-    "item.jmmf.cookbook.title": "        ตำราอาหารของจอช",
-    "item.jmmf.cookbook.datapackcredits": "\n          เครดิตดาต้าแพ็ค",
+    "item.jmmf.cookbook.title": "       ตำราอาหารของจอช",
+    "item.jmmf.cookbook.datapackcredits": "\n       เครดิตดาต้าแพ็ค",
     "item.jmmf.cookbook.datapackcredits.hover": "ข้ามไปเครดิต",
     "item.jmmf.cookbook.contents": "สารบัญ:\n",
     "item.jmmf.cookbook.cooking.skip": "ข้ามไปที่ทำอาหาร",
@@ -140,19 +140,6 @@
     "item.jmmf.diamond_knife": "มีดเพชร",
     "item.jmmf.netherite_knife": "มีดเนเธอไรต์",
 
-    "item.jmmf.wooden_knife.attack_damage": " ความเสียหายจากการโจมตี 2.5",
-    "item.jmmf.wooden_knife.attack_speed": " ความเร็วในการโจมตี 2",
-    "item.jmmf.stone_knife.attack_damage": " ความเสียหายจากการโจมตี 3.5",
-    "item.jmmf.stone_knife.attack_speed": " ความเร็วในการโจมตี 2",
-    "item.jmmf.golden_knife.attack_damage": " ความเสียหายจากการโจมตี 3",
-    "item.jmmf.golden_knife.attack_speed": " ความเร็วในการโจมตี 2",
-    "item.jmmf.iron_knife.attack_damage": " ความเสียหายจากการโจมตี 4",
-    "item.jmmf.iron_knife.attack_speed": " ความเร็วในการโจมตี 2",
-    "item.jmmf.diamond_knife.attack_damage": " ความเสียหายจากการโจมตี 5",
-    "item.jmmf.diamond_knife.attack_speed": " ความเร็วในการโจมตี 2",
-    "item.jmmf.netherite_knife.attack_damage": " ความเสียหายจากการโจมตี 5.5",
-    "item.jmmf.netherite_knife.attack_speed": " ความเร็วในการโจมตี 2",
-
     "item.jmmf.carrot_bread": "ขนมปังแครอท",
     "item.jmmf.beetroot_bread": "ขนมปังบีทรูท",
     "item.jmmf.potato_bread": "ขนมปังมันฝรั่ง",
@@ -209,5 +196,19 @@
     "item.jmmf.birch_tea": "ชาใบเบิร์ช",
     "item.jmmf.black_tea": "ชาดำ",
     "item.jmmf.chamomile_tea": "ชาดอกคาโมมายล์",
-    "item.jmmf.sunflower_tea": "ชาดอกทานตะวัน"
+    "item.jmmf.sunflower_tea": "ชาดอกทานตะวัน",
+
+    "item.jmmf.cookbook.version": "\n          v5.5.3\n",
+    "item.jmmf.wooden_knife.attack_damage": " ความเสียหายจากการโจมตี 2.5",
+    "item.jmmf.wooden_knife.attack_speed": " ความเร็วในการโจมตี 2",
+    "item.jmmf.stone_knife.attack_damage": " ความเสียหายจากการโจมตี 3.5",
+    "item.jmmf.stone_knife.attack_speed": " ความเร็วในการโจมตี 2",
+    "item.jmmf.golden_knife.attack_damage": " ความเสียหายจากการโจมตี 3",
+    "item.jmmf.golden_knife.attack_speed": " ความเร็วในการโจมตี 2",
+    "item.jmmf.iron_knife.attack_damage": " ความเสียหายจากการโจมตี 4",
+    "item.jmmf.iron_knife.attack_speed": " ความเร็วในการโจมตี 2",
+    "item.jmmf.diamond_knife.attack_damage": " ความเสียหายจากการโจมตี 5",
+    "item.jmmf.diamond_knife.attack_speed": " ความเร็วในการโจมตี 2",
+    "item.jmmf.netherite_knife.attack_damage": " ความเสียหายจากการโจมตี 5.5",
+    "item.jmmf.netherite_knife.attack_speed": " ความเร็วในการโจมตี 2"
 }

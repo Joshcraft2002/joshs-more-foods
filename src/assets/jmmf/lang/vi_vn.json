@@ -132,19 +132,6 @@
     "item.jmmf.iron_knife": "Dao sắt",
     "item.jmmf.diamond_knife": "Dao kim cương",
     "item.jmmf.netherite_knife": "Dao Netherit",
-
-    "item.jmmf.wooden_knife.attack_damage": " 2.5 Sát Thương",
-    "item.jmmf.wooden_knife.attack_speed": " 2 Tốc Độ Tấn Công",
-    "item.jmmf.stone_knife.attack_damage": " 3.5 Sát Thương",
-    "item.jmmf.stone_knife.attack_speed": " 2 Tốc Độ Tấn Công",
-    "item.jmmf.golden_knife.attack_damage": " 3 Sát Thương",
-    "item.jmmf.golden_knife.attack_speed": " 2 Tốc Độ Tấn Công",
-    "item.jmmf.iron_knife.attack_damage": " 4 Sát Thương",
-    "item.jmmf.iron_knife.attack_speed": " 2 Tốc Độ Tấn Công",
-    "item.jmmf.diamond_knife.attack_damage": " 5 Sát Thương",
-    "item.jmmf.diamond_knife.attack_speed": " 2 Tốc Độ Tấn Công",
-    "item.jmmf.netherite_knife.attack_damage": " 5.5 Sát Thương",
-    "item.jmmf.netherite_knife.attack_speed": " 2 Tốc Độ Tấn Công",
  
     "item.jmmf.carrot_bread": "Bánh Mì Cà Rốt",
     "item.jmmf.beetroot_bread": "Bánh Mì Củ Dền",
@@ -202,5 +189,19 @@
     "item.jmmf.birch_tea": "Trà Bạch Dương",
     "item.jmmf.black_tea": "Trà Đen",
     "item.jmmf.chamomile_tea": "Trà Cúc La Mã",
-    "item.jmmf.sunflower_tea": "Trà Hướng Dương"
+    "item.jmmf.sunflower_tea": "Trà Hướng Dương",
+
+    "item.jmmf.cookbook.version": "\n          v5.5.3\n",
+    "item.jmmf.wooden_knife.attack_damage": " 2.5 Sát Thương",
+    "item.jmmf.wooden_knife.attack_speed": " 2 Tốc Độ Tấn Công",
+    "item.jmmf.stone_knife.attack_damage": " 3.5 Sát Thương",
+    "item.jmmf.stone_knife.attack_speed": " 2 Tốc Độ Tấn Công",
+    "item.jmmf.golden_knife.attack_damage": " 3 Sát Thương",
+    "item.jmmf.golden_knife.attack_speed": " 2 Tốc Độ Tấn Công",
+    "item.jmmf.iron_knife.attack_damage": " 4 Sát Thương",
+    "item.jmmf.iron_knife.attack_speed": " 2 Tốc Độ Tấn Công",
+    "item.jmmf.diamond_knife.attack_damage": " 5 Sát Thương",
+    "item.jmmf.diamond_knife.attack_speed": " 2 Tốc Độ Tấn Công",
+    "item.jmmf.netherite_knife.attack_damage": " 5.5 Sát Thương",
+    "item.jmmf.netherite_knife.attack_speed": " 2 Tốc Độ Tấn Công"
 }

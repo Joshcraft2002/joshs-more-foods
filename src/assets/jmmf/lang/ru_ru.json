@@ -134,19 +134,6 @@
 	"item.jmmf.iron_knife": "Железный нож",
 	"item.jmmf.diamond_knife": "Алмазный нож",
 	"item.jmmf.netherite_knife": "Незеритовый нож",
-
-	"item.jmmf.wooden_knife.attack_damage": "Урон 2.5",
-	"item.jmmf.wooden_knife.attack_speed": "Скорость атаки 2",
-	"item.jmmf.stone_knife.attack_damage": "Урон 3.5",
-	"item.jmmf.stone_knife.attack_speed": "Скорость атаки 2",
-	"item.jmmf.golden_knife.attack_damage": "Урон 3",
-	"item.jmmf.golden_knife.attack_speed": "Скорость атаки 2",
-	"item.jmmf.iron_knife.attack_damage": "Урон 4",
-	"item.jmmf.iron_knife.attack_speed": "Скорость атаки 2",
-	"item.jmmf.diamond_knife.attack_damage": "Урон 5",
-	"item.jmmf.diamond_knife.attack_speed": "Скорость атаки 2",
-	"item.jmmf.netherite_knife.attack_damage": "Урон 5.5",
-	"item.jmmf.netherite_knife.attack_speed": "Скорость атаки 2",
 	
 	"item.jmmf.carrot_bread": "Морковный хлеб",
 	"item.jmmf.beetroot_bread": "Свекольный хлеб",
@@ -204,5 +191,19 @@
     "item.jmmf.birch_tea": "Березовый чай",
     "item.jmmf.black_tea": "Черный Чай",
     "item.jmmf.chamomile_tea": "Ромашковый Чай",
-    "item.jmmf.sunflower_tea": "Чай из Подсолнуха"
+    "item.jmmf.sunflower_tea": "Чай из Подсолнуха",
+
+	"item.jmmf.cookbook.version": "\n          v5.5.3\n",
+	"item.jmmf.wooden_knife.attack_damage": "Урон 2.5",
+	"item.jmmf.wooden_knife.attack_speed": "Скорость атаки 2",
+	"item.jmmf.stone_knife.attack_damage": "Урон 3.5",
+	"item.jmmf.stone_knife.attack_speed": "Скорость атаки 2",
+	"item.jmmf.golden_knife.attack_damage": "Урон 3",
+	"item.jmmf.golden_knife.attack_speed": "Скорость атаки 2",
+	"item.jmmf.iron_knife.attack_damage": "Урон 4",
+	"item.jmmf.iron_knife.attack_speed": "Скорость атаки 2",
+	"item.jmmf.diamond_knife.attack_damage": "Урон 5",
+	"item.jmmf.diamond_knife.attack_speed": "Скорость атаки 2",
+	"item.jmmf.netherite_knife.attack_damage": "Урон 5.5",
+	"item.jmmf.netherite_knife.attack_speed": "Скорость атаки 2"
 }

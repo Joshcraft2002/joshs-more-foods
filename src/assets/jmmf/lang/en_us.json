@@ -137,19 +137,6 @@
     "item.jmmf.diamond_knife": "Diamond Knife",
     "item.jmmf.netherite_knife": "Netherite Knife",
 
-    "item.jmmf.wooden_knife.attack_damage": " 2.5 Attack Damage",
-    "item.jmmf.wooden_knife.attack_speed": " 2 Attack Speed",
-    "item.jmmf.stone_knife.attack_damage": " 3.5 Attack Damage",
-    "item.jmmf.stone_knife.attack_speed": " 2 Attack Speed",
-    "item.jmmf.golden_knife.attack_damage": " 3 Attack Damage",
-    "item.jmmf.golden_knife.attack_speed": " 2 Attack Speed",
-    "item.jmmf.iron_knife.attack_damage": " 4 Attack Damage",
-    "item.jmmf.iron_knife.attack_speed": " 2 Attack Speed",
-    "item.jmmf.diamond_knife.attack_damage": " 5 Attack Damage",
-    "item.jmmf.diamond_knife.attack_speed": " 2 Attack Speed",
-    "item.jmmf.netherite_knife.attack_damage": " 5.5 Attack Damage",
-    "item.jmmf.netherite_knife.attack_speed": " 2 Attack Speed",
-
     "item.jmmf.carrot_bread": "Carrot Bread",
     "item.jmmf.beetroot_bread": "Beetroot Bread",
     "item.jmmf.potato_bread": "Potato Bread",
@@ -206,5 +193,19 @@
     "item.jmmf.birch_tea": "Birch Tea",
     "item.jmmf.black_tea": "Black Tea",
     "item.jmmf.chamomile_tea": "Chamomile Tea",
-    "item.jmmf.sunflower_tea": "Sunflower Tea"
+    "item.jmmf.sunflower_tea": "Sunflower Tea",
+
+    "item.jmmf.cookbook.version": "\n          v5.5.3\n",
+    "item.jmmf.wooden_knife.attack_damage": " 2.5 Attack Damage",
+    "item.jmmf.wooden_knife.attack_speed": " 2 Attack Speed",
+    "item.jmmf.stone_knife.attack_damage": " 3.5 Attack Damage",
+    "item.jmmf.stone_knife.attack_speed": " 2 Attack Speed",
+    "item.jmmf.golden_knife.attack_damage": " 3 Attack Damage",
+    "item.jmmf.golden_knife.attack_speed": " 2 Attack Speed",
+    "item.jmmf.iron_knife.attack_damage": " 4 Attack Damage",
+    "item.jmmf.iron_knife.attack_speed": " 2 Attack Speed",
+    "item.jmmf.diamond_knife.attack_damage": " 5 Attack Damage",
+    "item.jmmf.diamond_knife.attack_speed": " 2 Attack Speed",
+    "item.jmmf.netherite_knife.attack_damage": " 5.5 Attack Damage",
+    "item.jmmf.netherite_knife.attack_speed": " 2 Attack Speed"
 }
