@@ -17,7 +17,7 @@
             {"text":"\n\n\n\n\n\n\n\n\n"}, 
             {"text":"   \uF901\n","font":"jmmf:cookbook","color":"white"}, 
             {"translate":"item.jmmf.cookbook.title"}, 
-            {"translate":"item.jmmf.cookbook.version"}, 
+            {"text":"\n          v5.5.3\n"}, 
             {"translate":"item.jmmf.cookbook.datapackcredits","color":"blue","click_event":{"action":"change_page","page":52},"hover_event":{"action":"show_text","value":{"translate":"item.jmmf.cookbook.datapackcredits.hover"}}} 
           ],
 
