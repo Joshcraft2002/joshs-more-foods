@@ -20,6 +20,7 @@
             "items": [
               {"predicates":{"minecraft:custom_data":{"smithed":{"id": "jmmf:wooden_knife"}}}},
               {"predicates":{"minecraft:custom_data":{"smithed":{"id": "jmmf:stone_knife"}}}},
+              {"predicates":{"minecraft:custom_data":{"smithed":{"id": "jmmf:copper_knife"}}}},
               {"predicates":{"minecraft:custom_data":{"smithed":{"id": "jmmf:golden_knife"}}}},
               {"predicates":{"minecraft:custom_data":{"smithed":{"id": "jmmf:iron_knife"}}}},
               {"predicates":{"minecraft:custom_data":{"smithed":{"id": "jmmf:diamond_knife"}}}},
