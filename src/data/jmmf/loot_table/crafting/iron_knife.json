@@ -29,7 +29,7 @@
 												"translate": "attribute.modifier.equals.0", 
 												"with": [ "4", { "translate": "attribute.name.attack_damage" }], 
 												"color": "dark_green"
-											}]
+											}]	
 										}
 									},
 									{
