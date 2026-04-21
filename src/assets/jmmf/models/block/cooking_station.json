@@ -1,116 +1,15 @@
 {
-	"credit": "Made with Blockbench",
-	"parent": "minecraft:block/orientable",
-	"textures": {
-		"0": "block/smoker_side",
-		"1": "block/smoker_top",
-		"2": "block/smoker_bottom",
-		"3": "block/smoker_front",
-		"1_4": "block/basalt_top"
-	},
-	"elements": [
-		{
-			"name": "smoker",
-			"from": [0, 0, 0],
-			"to": [16, 16, 16],
-			"faces": {
-				"north": {"uv": [0, 0, 16, 16], "texture": "#3"},
-				"east": {"uv": [0, 0, 16, 16], "texture": "#0"},
-				"south": {"uv": [0, 0, 16, 16], "texture": "#0"},
-				"west": {"uv": [0, 0, 16, 16], "texture": "#0"},
-				"up": {"uv": [0, 0, 16, 16], "texture": "#1"},
-				"down": {"uv": [0, 0, 16, 16], "texture": "#2"}
-			}
-		},
-		{
-			"name": "main",
-			"from": [4, 16, 6],
-			"to": [12, 17, 10],
-			"faces": {
-				"north": {"uv": [4, 2, 8, 6], "texture": "#1_4"},
-				"east": {"uv": [4, 1, 8, 5], "texture": "#1_4"},
-				"south": {"uv": [4, 2, 8, 6], "texture": "#1_4"},
-				"west": {"uv": [4, 1, 12, 3], "texture": "#1_4"},
-				"up": {"uv": [0, 9, 6, 15], "texture": "#1_4"},
-				"down": {"uv": [0, 0, 0, 0], "texture": "#1_4"}
-			}
-		},
-		{
-			"from": [5, 16, 10],
-			"to": [11, 17, 11],
-			"faces": {
-				"north": {"uv": [4, 2, 8, 6], "texture": "#1_4"},
-				"east": {"uv": [4, 0, 8, 4], "texture": "#1_4"},
-				"south": {"uv": [4, 0, 8, 4], "texture": "#1_4"},
-				"west": {"uv": [4, 0, 6, 2], "texture": "#1_4"},
-				"up": {"uv": [4, 5, 8, 7], "texture": "#1_4"},
-				"down": {"uv": [0, 0, 0, 0], "texture": "#1_4"}
-			}
-		},
-		{
-			"from": [5, 16, 5],
-			"to": [11, 17, 6],
-			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 16]},
-			"faces": {
-				"north": {"uv": [8, 0, 4, 4], "texture": "#1_4"},
-				"east": {"uv": [8, 0, 4, 4], "texture": "#1_4"},
-				"south": {"uv": [8, 2, 4, 6], "texture": "#1_4"},
-				"west": {"uv": [6, 0, 4, 2], "texture": "#1_4"},
-				"up": {"uv": [4, 7, 8, 5], "texture": "#1_4"},
-				"down": {"uv": [0, 0, 0, 0], "texture": "#1_4"}
-			}
-		},
-		{
-			"from": [6, 16, 11],
-			"to": [10, 17, 12],
-			"faces": {
-				"north": {"uv": [4, 2, 8, 6], "texture": "#1_4"},
-				"east": {"uv": [4, 0, 8, 4], "texture": "#1_4"},
-				"south": {"uv": [4, 0, 8, 4], "texture": "#1_4"},
-				"west": {"uv": [4, 0, 6, 2], "texture": "#1_4"},
-				"up": {"uv": [4, 6, 8, 8], "texture": "#1_4"},
-				"down": {"uv": [0, 0, 0, 0], "texture": "#1_4"}
-			}
-		},
-		{
-			"from": [6, 16, 4],
-			"to": [10, 17, 5],
-			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 16]},
-			"faces": {
-				"north": {"uv": [8, 0, 4, 4], "texture": "#1_4"},
-				"east": {"uv": [8, 0, 4, 4], "texture": "#1_4"},
-				"south": {"uv": [8, 2, 4, 6], "texture": "#1_4"},
-				"west": {"uv": [6, 0, 4, 2], "texture": "#1_4"},
-				"up": {"uv": [4, 8, 8, 6], "texture": "#1_4"},
-				"down": {"uv": [0, 0, 0, 0], "texture": "#1_4"}
-			}
-		}
-	],
+  "parent": "minecraft:block/orientable_with_bottom",
+  "textures": {
+    "bottom": "jmmf:block/cooking_station_bottom",
+    "front": "jmmf:block/cooking_station_front",
+    "side": "jmmf:block/cooking_station_side",
+    "top": "jmmf:block/cooking_station_top"
+  },
 	"display": {
 		"head": {
 			"translation": [0, -43.22, 0],
 			"scale": [1.602, 1.602, 1.602]
-		},
-		"gui": {
-			"rotation": [30, -135, 0],
-			"translation": [0, 0.5, 0],
-			"scale": [0.63, 0.63, 0.63]
 		}
-	},
-	"groups": [
-		{
-			"name": "base",
-			"origin": [8, 8, 8],
-			"color": 0,
-			"children": [
-				0,
-				{
-					"name": "stove_top",
-					"origin": [0, 0, 0],
-					"color": 0,
-					"children": [1, 2, 3, 4, 5]
-				}
-			]
-		}
-	]
+	}
 }

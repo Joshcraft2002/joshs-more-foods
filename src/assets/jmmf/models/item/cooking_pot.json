@@ -3,11 +3,11 @@
 	"credit": "Made with Blockbench",
 	"parent": "minecraft:block/orientable",
 	"textures": {
-		"4": "jmmf:block/cooking_station/cooking_pot_bottom",
-		"5": "jmmf:block/cooking_station/cooking_pot_side",
-		"6": "jmmf:block/cooking_station/cooking_pot_top",
-		"7": "jmmf:block/cooking_station/lid_handle",
-		"8": "jmmf:block/cooking_station/arm_handle"
+		"4": "jmmf:block/cooking_pot_bottom",
+		"5": "jmmf:block/cooking_pot_side",
+		"6": "jmmf:block/cooking_pot_top",
+		"7": "jmmf:block/cooking_pot_lid_handle",
+		"8": "jmmf:block/cooking_pot_arm_handle"
 	},
 	"elements": [
 		{

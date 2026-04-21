@@ -1,5 +1,5 @@
-# 6.0.0	(2025-)
-Updated for Minecraft 1.21.9-1.21.10
+# 6.0.0	(2026-)
+Updated for Minecraft 26.1.2
 ## Added
 ### Cooking Station
 - Now can use different cookware for different recipes
@@ -7,27 +7,23 @@ Updated for Minecraft 1.21.9-1.21.10
   - Frying Pan
   - Tea Kettle
 - Recipes now read item tags
-- recipes can read custom item id and tags, using the smithed namespace
-- reworked recipe system 
+- Recipes can read custom item id and tags, using the smithed namespace
+> I haven't seen an official item id system like in forge or fabric that I want, so I went with this approach
+- Reworked recipe system 
 > A guide for making custom recipes will be written in the future
 ### Equipment
 - Some cookware can double as equipment
   - Cooking Pot can be worn on the head with stats identical to an iron helmet
   - Frying Pan can be swung with the combat stats between an iron sword and axe, but characteristics of a shovel
-> Though the pot can be given a trim, there is no aesthetic change
-- Added Copper Knife
-  - Also now required for the "Knives to Meet You" advancement
+> Though the pot *can* be given a trim, there is no aesthetic change
 ## Changed
 - Many items now have a custom item tag under smithed for recipes
 > Only applies to newly crafted items, some older items may not work with some recipes
 - Crafting recipe and loot tables no longer grouped by food type
 - Cooking station recipe loot tables reorganized by cookware
-- Knife translation keys are no longer hardcoded
-> Old keys are kept in the lang file for compatibility with old knives, but will be removed in the future
-
-## Fixed
-- `Sweet Berry Cookies` > `Sweet Berry Cookie` (en_us)
 ## Removed
+- Old knife tooltip translation keys
+> Though the knives should still be usable, their tooltips will not have normal content. It is recommended to recraft them.
 - Compat functions (for very old versions of the datapack)
 
 # 5.6.0 (2026-01-20)
