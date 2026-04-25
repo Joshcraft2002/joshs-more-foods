@@ -1,4 +1,3 @@
-say check rice
 execute unless score @s jmmf.count matches 1 run return fail
 
 execute unless data storage jmmf:cooking_station {input:{ingredients:[{id:"minecraft:wheat_seeds", count:6}]}} run return fail
